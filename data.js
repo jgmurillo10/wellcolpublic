@@ -40,5 +40,37 @@ module.exports = {
     'region': 'Oriental',
       'field' : 'Llanos orientales'
   }
+  ],
+  'sensors':[
+  {
+    'id': 1,
+    'wellid': 1,
+    'type': 'Caudal',
+    'rate': 10 // in min
+  },
+  {
+    'id': 2,
+    'wellid': 2,
+    'type': 'Energia',
+    'rate': 5 // in min
+  },
+  {
+    'id': 3,
+    'wellid': 2,
+    'type': 'Temperatura',
+    'rate': 1 // in secs
+  },
+  {
+    'id': 4,
+    'wellid': 3,
+    'type': 'Energia',
+    'rate': 15 // in min
+  },
+  {
+    'id': 5,
+    'wellid': 4,
+    'type': 'Emergencia',
+    'rate': -1 // every time there is an emergency
+  }
   ]
 };
