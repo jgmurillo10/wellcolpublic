@@ -28,7 +28,9 @@ router.route('/')
 
 		'name': req.body.name,
         'status': req.body.status,
-        'id': req.body.id
+        'id': req.body.id,
+        'region': req.body.region,
+        'field': req.body.field
 
 		});
 		res.json('Well created. ');
@@ -79,6 +81,12 @@ router.route('/:well_id')
       }
       if(req.body.status) {
         wells[i].status = req.body.status;
+      }
+      if(req.body.field) {
+        wells[i].field = req.body.field;
+      }
+      if(req.body.region) {
+        wells[i].region  = req.body.region;
       }
 
       res.json('Well updated.');
