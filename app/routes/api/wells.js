@@ -44,18 +44,24 @@ router.route('/:well_id')
 //get well by id
 
 .get(function(req,res){
-	var id= req.params.tran_id;
+	var id= req.params.well_id;
 	var i=-1;
-	for (var i = 0; i < wells.length; i++) {
-      if(wells[i].id === id) {
-        break;
-      };
+	console.log(wells.length);
+	for ( i++; i < wells.length; i++) {
+      if(wells[i].id == id) {
+       	break;
+      }
+      else if(i==wells.length-1){
+      	i=-1;
+      	break;
+      }
     }
+    if(i!=-1)
+    	res.json(wells[i]);
+    else{
 
-    if(i !== -1) {
-      res.json(wells[i]);
-    } else {
-      res.json('There is not a well with that id.');
+    res.json('There is not a well with that id.');
+    	
     }
 })
 
@@ -64,13 +70,17 @@ router.route('/:well_id')
 
 .put(function(req,res){
 
-	var id = req.params.tran_id;
+	var id = req.params.well_id;
     var i = -1;
 
-    for (var i = 0; i < wells.length; i++) {
-      if(wells[i].id === id) {
-        break;
-      };
+    for (i++; i < wells.length; i++) {
+      if(wells[i].id == id) {
+       	break;
+      }
+      else if(i==wells.length-1){
+      	i=-1;
+      	break;
+      }
     }
     
     if(i !== -1) {
@@ -98,17 +108,21 @@ router.route('/:well_id')
 
 
   .delete(function(req, res) {
-  	var id = req.params.tran_id;
+  	var id = req.params.well_id;
     var i = -1;
 
-    for (var i = 0; i < wells.length; i++) {
-      if(wells[i].id === id) {
-        break;
-      };
+    for (i++; i < wells.length; i++) {
+      if(wells[i].id == id) {
+       	break;
+      }
+      else if(i==wells.length-1){
+      	i=-1;
+      	break;
+      }
     }
     
     if(i !== -1) {
-      someArray.splice(i,1);
+      wells.splice(i,1);
 
       res.json('Well deleted.');
     } else {
