@@ -43,16 +43,18 @@ router.route('/:user_id')
   // get all users
   .get(function(req, res) {
     
-    var id = req.params.tran_id;
-    var i = -1;
+    var id = req.params.user_id;
+    var found = false;
 
-    for (var i = 0; i < users.length; i++) {
+    var i = 0;
+    for (; i < users.length; i++) {
       if(users[i].id === id) {
+        found = true;
         break;
-      };
+      }
     }
 
-    if(i !== -1) {
+    if(found) {
       res.json(users[i]);
     } else {
       res.json('There is not an user with that id.');
@@ -63,16 +65,18 @@ router.route('/:user_id')
   // create new user
   .put(function(req, res) {
 
-    var id = req.params.tran_id;
-    var i = -1;
+    var id = req.params.user_id;
+    var found = false;
 
-    for (var i = 0; i < users.length; i++) {
+    var i = 0;
+    for (; i < users.length; i++) {
       if(users[i].id === id) {
+        found = true;
         break;
       };
     }
     
-    if(i !== -1) {
+    if(found) {
 
       // update user data
       if(req.body.name) {
@@ -90,17 +94,19 @@ router.route('/:user_id')
 
   .delete(function(req, res) {
 
-    var id = req.params.tran_id;
-    var i = -1;
+    var id = req.params.user_id;
+    var found = false;
 
-    for (var i = 0; i < users.length; i++) {
+    var i = 0;
+    for (; i < users.length; i++) {
       if(users[i].id === id) {
+        found = true;
         break;
       };
     }
     
-    if(i !== -1) {
-      someArray.splice(i,1);
+    if(found) {
+      users.splice(i,1);
 
       res.json('User deleted.');
     } else {
