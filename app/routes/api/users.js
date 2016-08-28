@@ -29,7 +29,8 @@ router.route('/')
       // add user into users array
       users.push({
         'name': req.body.name,
-        'status': req.body.status
+        'status': req.body.status,
+        'id': req.body.id
       });
 
       res.json('User created.');
