@@ -77,9 +77,9 @@ API
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
-| GET  |  /api/reports/regions/:id_region/:report_type |   |
-| GET  |  /api/reports/fields/:id_field/:report_type  |   |
-| GET  |  /api/reports/wells/:id_well/:report_type |   |
+| GET  |  /api/reports/regions/:id_region/:report_type/:from-:to |   |
+| GET  |  /api/reports/fields/:id_field/:report_type./:from-:to  |   |
+| GET  |  /api/reports/wells/:id_well/:report_type/:from-:to |   |
 | POST  | /api/reports/wells/:id_well/:report_type  |   |
 
 
