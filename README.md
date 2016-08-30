@@ -63,6 +63,8 @@ API
 
 ##Emergencies
 
+This entity is very important and it should be managed differently from the others, as we have to notify the chiefs.
+
 |HTTP Method   |  URI |  description |
 |---|---|---|
 | GET |  /api/emergencies |   |
@@ -75,11 +77,17 @@ API
 
 ##Reports
 
+This API allows both mobile and desktop clients to ask for data to make reports from certain wells, fields or regions. (All the GET )
+It also allows sensors to report their data to our central system. (The POST)
+
+:report_type can only be of two types: consumo_energetico || produccion_fluido
+
+
 |HTTP Method   |  URI |  description |
 |---|---|---|
-| GET  |  /api/reports/regions/:id_region/:report_type/:from-:to |   |
-| GET  |  /api/reports/fields/:id_field/:report_type./:from-:to  |   |
-| GET  |  /api/reports/wells/:id_well/:report_type/:from-:to |   |
-| POST  | /api/reports/wells/:id_well/:report_type  |   |
+| GET  |  /api/reports/regions/:id_region/:report_type/:from-:to | Asks for a report of a certain type from certain region in the specified interval of time   |
+| GET  |  /api/reports/fields/:id_field/:report_type./:from-:to  | Asks for a report of a certain type from certain field in the specified interval of time  |
+| GET  |  /api/reports/wells/:id_well/:report_type/:from-:to |  Asks for a report of a certain type from certain well in the specified interval of time |
+| POST  | /api/reports/wells/:id_well/:report_type  |  Report sent by a sensor located somewhere in the country |
 
 
