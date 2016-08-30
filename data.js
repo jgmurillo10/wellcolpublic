@@ -72,5 +72,38 @@ module.exports = {
     'type': 'Emergencia',
     'rate': -1 // every time there is an emergency
   }
+  ],
+  'emergencies':[
+  {
+    'id': 1,
+    'wellid': 1,
+    'type': 'incendio',
+    'state': 'active'
+  },
+  {
+    'id': 2,
+    'wellid': 1,
+    'type': 'bloqueo',
+    'state': 'active'
+  },
+  {
+    'id': 3,
+    'wellid': 2,
+    'type': 'incendio',
+    'state': 'inactive'
+  },
+  {
+    'id': 4,
+    'wellid': 1,
+    'type': 'danio_electrico',
+    'state': 'inactive'
+  },
+  {
+    'id': 5,
+    'wellid': 1,
+    'type': 'bloqueo',
+    'state': 'active'
+  },
+
   ]
 };

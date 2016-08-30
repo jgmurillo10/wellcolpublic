@@ -51,7 +51,6 @@
     // get a sensor
     .get(function(req, res){
       var id = Number(req.params.sensor_id);
-      console.log(typeof(id));
       var exists = false;
       var i = -1;
       for(var i = 0; i < sensors.length; i++) {

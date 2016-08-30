@@ -8,7 +8,7 @@ What is well-col?
 well-col is an application build using NodeJS to allow OilCol S.A (fake company) to recieve data and store it from 
 its sensors located at its multiple wells in Colombia.
 
-Where is the projects website?
+Where is the project website?
 -------------------------------
 https://sistemasacademico.uniandes.edu.co/~isis2503/dokuwiki/doku.php?id=proyectos:201620
 
