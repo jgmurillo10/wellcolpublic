@@ -21,6 +21,70 @@ Javascript, NodeJS, Express.
 API
 ---------------------
 
+
+
 Users
 
-/api/wells
+|HTTP Method   |  URI |  description |
+|---|---|---|
+| GET |  /api/sensors |   |
+| GET |   |   |
+| POST  |   |   |
+| PUT  |   |   |
+| DELETE  |   |   |
+
+Fields
+
+|HTTP Method   |  URI |  description |
+|---|---|---|
+| GET |  /api/sensors |   |
+| GET |   |   |
+| POST  |   |   |
+| PUT  |   |   |
+| DELETE  |   |   |
+
+Wells
+
+|HTTP Method   |  URI |  description |
+|---|---|---|
+| GET |  /api/sensors |   |
+| GET |   |   |
+| POST  |   |   |
+| PUT  |   |   |
+| DELETE  |   |   |
+
+Sensors
+
+|HTTP Method   |  URI |  description |
+|---|---|---|
+| GET |  /api/sensors |   |
+| GET |  /api/sensors/:sensor_id |   |
+| POST  | /api/sensors  |   |
+| PUT  |  /api/sensors/:sensor_id |   |
+| DELETE  |  /api/sensors/:sensor_id |   |
+
+
+
+Reports
+
+|HTTP Method   |  URI |  description |
+|---|---|---|
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+
+
+GET		/api/reports/region/:id_region/:report_type 
+
+GET		/api/reports/field/:id_field
+
+GET 	/api/reports/:id_region
+
+POST 	/api/reports
+
