@@ -1,5 +1,5 @@
 var express = require('express');
-var reports    = require('../../../data').reports;
+var reports    = require('../../../reports_data').reports;
 
 var fields = require('../../../data').fields;
 var wells = require('../../../data').wells;
@@ -7,7 +7,7 @@ var router = express.Router();
 
 
 
-// fucntions for validation
+// functions for validation
 var tools = require('../../../tools');
 
 
@@ -31,6 +31,10 @@ router.route('/regions/:region/:report_type/:from-:to')
       if(tools.validReportType(reportType)){
 
         //code to make the report and return a JSON
+
+
+
+
         console.log("logic for this function correct");
         
         res.json("logic for region report GET");
@@ -76,6 +80,13 @@ router.route('/wells/:well_id/:report_type/:from-:to')
     
     if(tools.existsWell(wellId)){
       if(tools.validReportType(reportType)){
+
+        // extract the timestamps from :from and :to
+        var from = tools.getTimestamp(req.params.from);
+        var to = tools.getTimestamp(req.params.to);
+
+        // searches through the data arrays
+
 
         res.json('logic for well report GET')
 

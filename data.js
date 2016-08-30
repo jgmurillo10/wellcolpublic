@@ -105,9 +105,4 @@ module.exports = {
     'state': 'active'
   },
   ],
-  'reports':[
-  {
-    
-  }
-  ]
 };
