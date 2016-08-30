@@ -21,7 +21,7 @@ API
 
 
 
-Users
+##Users
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
@@ -31,7 +31,7 @@ Users
 | PUT  |   |   |
 | DELETE  |   |   |
 
-Fields
+##Fields
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
@@ -41,7 +41,7 @@ Fields
 | PUT  |   |   |
 | DELETE  |   |   |
 
-Wells
+##Wells
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
@@ -51,7 +51,7 @@ Wells
 | PUT  |   |   |
 | DELETE  |   |   |
 
-Sensors
+##Sensors
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
@@ -61,7 +61,7 @@ Sensors
 | PUT  |  /api/sensors/:sensor_id |   |
 | DELETE  |  /api/sensors/:sensor_id |   |
 
-Emergencies
+##Emergencies
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
@@ -73,7 +73,7 @@ Emergencies
 
 
 
-Reports
+##Reports
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
