@@ -104,6 +104,10 @@ module.exports = {
     'type': 'bloqueo',
     'state': 'active'
   },
-
+  ],
+  'reports':[
+  {
+    
+  }
   ]
 };
