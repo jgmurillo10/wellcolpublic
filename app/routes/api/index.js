@@ -15,5 +15,6 @@ apiRouter.use('/wells', require('./wells'));
 apiRouter.use('/sensors', require('./sensors'));
 apiRouter.use('/users', require('./users'));
 apiRouter.use('/emergencies', require('./emergencies'));
+apiRouter.use('/reports', require('./reports'));
 
 module.exports = apiRouter;
