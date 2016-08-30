@@ -15,10 +15,10 @@ router.route('/')
 //create new sensor
 .post(function(req, res) {
 
-  var wellid = req.body.wellid;
+  var wellId = req.body.wellid;
   var wellExists = false;
   for (var j = 0; j < wells.length; j++) {
-    if(wells[j].id === wellid){
+    if(wells[j].id === wellId){
       wellExists = true;
       break;
     }
