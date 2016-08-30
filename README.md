@@ -45,11 +45,11 @@ API
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
-| GET |  |   |
-| GET |   |   |
-| POST  |   |   |
-| PUT  |   |   |
-| DELETE  |   |   |
+| GET |/api/wells  |   |
+| GET |/api/wells/:well_id   |   |
+| POST  |/api/wells   |   |
+| PUT  |/api/wells/:well_id   |   |
+| DELETE  |/api/wells/:well_id   |   |
 
 ##Sensors
 
