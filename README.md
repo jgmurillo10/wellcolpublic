@@ -85,9 +85,9 @@ It also allows sensors to report their data to our central system. (The POST)
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
-| GET  |  /api/reports/regions/:id_region/:report_type/:from-:to | Asks for a report of a certain type from certain region in the specified interval of time   |
-| GET  |  /api/reports/fields/:id_field/:report_type./:from-:to  | Asks for a report of a certain type from certain field in the specified interval of time  |
-| GET  |  /api/reports/wells/:id_well/:report_type/:from-:to |  Asks for a report of a certain type from certain well in the specified interval of time |
-| POST  | /api/reports/wells/:id_well/:report_type  |  Report sent by a sensor located somewhere in the country |
+| GET  |  /api/reports/regions/:region_id/:report_type/:from-:to | Asks for a report of a certain type from certain region in the specified interval of time   |
+| GET  |  /api/reports/fields/:field_id/:report_type./:from-:to  | Asks for a report of a certain type from certain field in the specified interval of time  |
+| GET  |  /api/reports/wells/:well_id/:report_type/:from-:to |  Asks for a report of a certain type from certain well in the specified interval of time |
+| POST  | /api/reports/wells/:well_id/:report_type  |  Report sent by a sensor located somewhere in the country |
 
 
