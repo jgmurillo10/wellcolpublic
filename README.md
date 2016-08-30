@@ -6,7 +6,7 @@ version: 1.0
 well-col is an application build using NodeJS to allow OilCol S.A (fake company) to recieve data and store it from 
 its sensors at the multiple wells in Colombia.
 
-What is OpenBook?
+What is well-col?
 ------------------
 OpenBook is a Jazz real book constructed with free software. A real book simply means a big book with lots of Jazz tunes or standards as they are more widely known.
 
