@@ -6,7 +6,7 @@ version: 1.0
 What is well-col?
 ------------------
 well-col is an application build using NodeJS to allow OilCol S.A (fake company) to recieve data and store it from 
-its sensors at the multiple wells in Colombia.
+its sensors located at its multiple wells in Colombia.
 
 Where is the projects website?
 -------------------------------
@@ -61,28 +61,25 @@ Sensors
 | PUT  |  /api/sensors/:sensor_id |   |
 | DELETE  |  /api/sensors/:sensor_id |   |
 
+Emergencies
+
+|HTTP Method   |  URI |  description |
+|---|---|---|
+| GET |  /api/emergencies |   |
+| GET |  /api/emergencies/:emergency_id |   |
+| POST  | /api/emergencies  |   |
+| PUT  |  /api/emergencies/:emergency_id |   |
+| DELETE  |  /api/emergencies/:emergency_id |   |
+
 
 
 Reports
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+| GET  |  /api/reports/regions/:id_region/:report_type |   |
+| GET  |  /api/reports/fields/:id_field/:report_type  |   |
+| GET  |  /api/reports/wells/:id_well/:report_type |   |
+| POST  | /api/reports/wells/:id_well/:report_type  |   |
 
-
-GET		/api/reports/region/:id_region/:report_type 
-
-GET		/api/reports/field/:id_field
-
-GET 	/api/reports/:id_region
-
-POST 	/api/reports
 
