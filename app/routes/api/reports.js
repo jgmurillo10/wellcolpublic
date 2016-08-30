@@ -5,34 +5,10 @@ var fields = require('../../../data').fields;
 var wells = require('../../../data').wells;
 var router = express.Router();
 
-// arrays for validation
-var regions = require('../../../types').regions;
-var report_types = require('../../../types').report_types;
 
-// functions for validation
-function parseDate(input) {
-  var parts = input.split('-');
-  // new Date(year, month [, day [, hours[, minutes[, seconds[, ms]]]]])
-  return new Date(parts[0], parts[1]-1, parts[2]); // Note: months are 0-based
-}
 
-function validRegion(region) {
-  for(var i  = 0; i < regions.length; i++ ){
-    if(regions[i] === region){
-      return true;
-    }
-  }
-  return false;
-}
-
-function validReportType(reportType){
-  for(var i  = 0; i < report_types.length; i++ ){
-    if(report_types[i] === reportType){
-      return true;
-    }
-  }
-  return false;
-}
+// fucntions for validation
+var tools = require('../../../tools');
 
 
 
@@ -50,9 +26,9 @@ router.route('/regions/:region/:report_type/:from-:to')
     var to = req.params.to;
 
     // check if the region exists
-    if(validRegion(region)){
+    if(tools.validRegion(region)){
 
-      if(validReportType(reportType)){
+      if(tools.validReportType(reportType)){
 
         //code to make the report and return a JSON
         console.log("logic for this function correct");
