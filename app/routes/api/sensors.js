@@ -4,7 +4,7 @@ var wells = require('../../../data').wells;
 var router = express.Router();
 
 //funcions for existence validaton
-var tools = require('../../../tools');
+var tools = require('../../modules/Validator');
 
 
 // on routes that end in /sensors

@@ -12,131 +12,131 @@ module.exports = {
     },
   ],
   'fields':[
-  {
-    'name':'field 1',
-    'id': 1,
-    'region': 'caribe',
-    'wells':[
     {
-      'status': 'abierto',
+      'name':'field 1',
       'id': 1,
-      'latitude': 4.603185,  // decimal coordinates
-      'longitude': -74.065210,
-      'sensors':[
-      {
-        'id': 1,
-        'wellid': 1,
-        'type': 'caudal',
-        'rate': 10, // in min
-        'reports':[
-            {
-                'id': 1,
-                'timestamp': 1472591219719,
-                'value': 10
-            },
-            {
-                'id': 2,
-                'timestamp': 1472591400333,
-                'value': 180 
-            },
-            {
-                'id': 3,
-                'timestamp': 1472591400333,
-                'value': 180 
-            }
-        ]
-      },
-      {
-        'id': 2,
-        'wellid': 1,
-        'type': 'energia',
-        'rate': 5, // in min
-        'reports':[
-            {
-                'id': 1,
-                'timestamp': 1472591219719,
-                'value': 10
-            },
-            {
-                'id': 2,
-                'timestamp': 1472591400333,
-                'value': 180 
-            },
-            {
-                'id': 3,
-                'timestamp': 1472591400333,
-                'value': 180 
-            }
-        ]
-      },
-      {
-        'id': 3,
-        'wellid': 1,
-        'type': 'temperatura',
-        'rate': 1 // in secs
-      },
-      {
-        'id': 4,
-        'wellid': 1,
-        'type': 'energia',
-        'rate': 15 // in min
-      },
-      {
-        'id': 5,
-        'wellid': 1,
-        'type': 'emergencia',
-        'rate': -1 // every time there is an emergency
-      }
+      'region': 1,
+      'wells':[
+        {
+          'status': 'abierto',
+          'id': 1,
+          'latitude': 4.603185,  // decimal coordinates
+          'longitude': -74.065210,
+          'sensors':[
+          {
+            'id': 1,
+            'wellid': 1,
+            'type': 'caudal',
+            'rate': 10, // in min
+            'records':[
+                {
+                    'id': 1,
+                    'timestamp': 1472591219719,
+                    'value': 10
+                },
+                {
+                    'id': 2,
+                    'timestamp': 1472591400333,
+                    'value': 180 
+                },
+                {
+                    'id': 3,
+                    'timestamp': 1472591400333,
+                    'value': 180 
+                }
+            ]
+          },
+          {
+            'id': 2,
+            'wellid': 1,
+            'type': 'energia',
+            'rate': 5, // in min
+            'records':[
+                {
+                    'id': 1,
+                    'timestamp': 1472591219719,
+                    'value': 10
+                },
+                {
+                    'id': 2,
+                    'timestamp': 1472591400333,
+                    'value': 180 
+                },
+                {
+                    'id': 3,
+                    'timestamp': 1472591400333,
+                    'value': 180 
+                }
+            ]
+          },
+          {
+            'id': 3,
+            'wellid': 1,
+            'type': 'temperatura',
+            'rate': 1 // in secs
+          },
+          {
+            'id': 4,
+            'wellid': 1,
+            'type': 'energia',
+            'rate': 15 // in min
+          },
+          {
+            'id': 5,
+            'wellid': 1,
+            'type': 'emergencia',
+            'rate': -1 // every time there is an emergency
+          }
+          ]
+        },
+        {
+          'status': 'parado',
+          'id': 2,
+          'sensors':[]
+        },
+        {
+          'status': 'produccion',
+          'id': 3,
+          'sensors':[]
+        },
+        {
+          'status': 'clausurado',
+          'id': 4,
+          'sensors':[]
+        }
       ]
-    },
-    {
-      'status': 'parado',
-      'id': 2,
-      'sensors':[]
-    },
-    {
-      'status': 'produccion',
-      'id': 3,
-      'sensors':[]
-    },
-    {
-      'status': 'clausurado',
-      'id': 4,
-      'sensors':[]
     }
-    ]
-  }
   ],
   'emergencies':[
-  {
-    'id': 1,
-    'wellid': 1,
-    'type': 'incendio',
-    'state': 'active'
-  },
-  {
-    'id': 2,
-    'wellid': 1,
-    'type': 'bloqueo',
-    'state': 'active'
-  },
-  {
-    'id': 3,
-    'wellid': 2,
-    'type': 'incendio',
-    'state': 'inactive'
-  },
-  {
-    'id': 4,
-    'wellid': 1,
-    'type': 'danio_electrico',
-    'state': 'inactive'
-  },
-  {
-    'id': 5,
-    'wellid': 1,
-    'type': 'bloqueo',
-    'state': 'active'
-  },
+    {
+      'id': 1,
+      'wellid': 1,
+      'type': 'incendio',
+      'state': 'active'
+    },
+    {
+      'id': 2,
+      'wellid': 1,
+      'type': 'bloqueo',
+      'state': 'active'
+    },
+    {
+      'id': 3,
+      'wellid': 2,
+      'type': 'incendio',
+      'state': 'inactive'
+    },
+    {
+      'id': 4,
+      'wellid': 1,
+      'type': 'danio_electrico',
+      'state': 'inactive'
+    },
+    {
+      'id': 5,
+      'wellid': 1,
+      'type': 'bloqueo',
+      'state': 'active'
+    },
   ],
 };

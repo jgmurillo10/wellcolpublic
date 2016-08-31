@@ -1,16 +1,12 @@
 var express = require('express');
-var reports    = require('../../../reports_data').reports;
+// var reports    = require('../../../reports_data').reports;
 
 var fields = require('../../../data').fields;
 var wells = require('../../../data').wells;
 var router = express.Router();
 
-
-
 // functions for validation
-var tools = require('../../../tools');
-
-
+var tools = require('../../modules/Validator');
 
 // on routes that end in /reports
 // ----------------------------------------------------

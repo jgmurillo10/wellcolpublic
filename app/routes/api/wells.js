@@ -1,7 +1,7 @@
 var express = require('express');
 var fields = require('../../../data').fields;
 var router = express.Router();
-var tools = require('../../../tools');
+var tools = require('../../modules/Validator');
 
 // on routes that end in /wells
 // ----------------------------------------------------
