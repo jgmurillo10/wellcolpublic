@@ -15,7 +15,7 @@ module.exports = {
     {
       'name':'field 1',
       'id': 1,
-      'region': 'caribe',
+      'region': 1,
       'wells':[
         {
           'status': 'abierto',
