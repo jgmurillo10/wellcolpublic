@@ -13,12 +13,21 @@ router.route('/:field_id/wells')
     var fieldId = Number(req.params.field_id);
     console.log(fieldId);
     var fieldIndex = tools.getIndexField(fieldId);
-    res.json(fields[fieldIndex].wells);
+    if( fieldIndex !== -1){
+      res.json(fields[fieldIndex].wells);
+    } else {
+      res.json('There is no field with that id');
+    }
+    
   })
 
 // creater new well
 .post(function(req, res){
-	var id = req.body.id;
+	
+
+
+
+  var id = req.body.id;
 	var exists=false;
 	for (var i = 0; i < wells.length; i++) {
 		if(wells[i].id==id){
