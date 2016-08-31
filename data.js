@@ -27,13 +27,47 @@ module.exports = {
         'id': 1,
         'wellid': 1,
         'type': 'caudal',
-        'rate': 10 // in min
+        'rate': 10, // in min
+        'reports':[
+            {
+                'id': 1,
+                'timestamp': 1472591219719,
+                'value': 10
+            },
+            {
+                'id': 2,
+                'timestamp': 1472591400333,
+                'value': 180 
+            },
+            {
+                'id': 3,
+                'timestamp': 1472591400333,
+                'value': 180 
+            }
+        ]
       },
       {
         'id': 2,
         'wellid': 1,
         'type': 'energia',
-        'rate': 5 // in min
+        'rate': 5, // in min
+        'reports':[
+            {
+                'id': 1,
+                'timestamp': 1472591219719,
+                'value': 10
+            },
+            {
+                'id': 2,
+                'timestamp': 1472591400333,
+                'value': 180 
+            },
+            {
+                'id': 3,
+                'timestamp': 1472591400333,
+                'value': 180 
+            }
+        ]
       },
       {
         'id': 3,
@@ -71,73 +105,6 @@ module.exports = {
       'sensors':[]
     }
     ]
-  }
-  ],
-
-  'wells':[
-  {
-    'name': 'Pozo petrolifero 1',
-    'status': 'Abierto',
-    'id': 1,
-    'region': 'Andina',
-    'field' : 'Altiplano cundiboyacense',
-    'sensors':[]
-  },
-  {
-    'name': 'Pozo petrolifero 2',
-    'status': 'Produccion',
-    'id': 2,
-    'region': 'Andina',
-    'field' : 'Altiplano cundiboyacense',
-    'sensors':[]
-  },
-  {
-    'name': 'Pozo petrolifero 3',
-    'status': 'Parado',
-    'id': 3,
-    'region': 'Oriental',
-    'field' : 'Llanos orientales',
-    'sensors':[]
-  },
-  {
-    'name': 'Pozo petrolifero 4',
-    'status': 'Clausurado',
-    'id': 4,
-    'region': 'Oriental',
-    'field' : 'Llanos orientales',
-    'sensors':[]
-  }
-  ],
-  'sensors':[
-  {
-    'id': 1,
-    'wellid': 1,
-    'type': 'Caudal',
-    'rate': 10 // in min
-  },
-  {
-    'id': 2,
-    'wellid': 2,
-    'type': 'Energia',
-    'rate': 5 // in min
-  },
-  {
-    'id': 3,
-    'wellid': 2,
-    'type': 'Temperatura',
-    'rate': 1 // in secs
-  },
-  {
-    'id': 4,
-    'wellid': 3,
-    'type': 'Energia',
-    'rate': 15 // in min
-  },
-  {
-    'id': 5,
-    'wellid': 4,
-    'type': 'Emergencia',
-    'rate': -1 // every time there is an emergency
   }
   ],
   'emergencies':[
