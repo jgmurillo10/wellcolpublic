@@ -15,11 +15,12 @@ router.route('/')
 .get(function(req, res) {
   res.json(sensors);
 })
+    
 
 //create new sensor
 .post(function(req, res) {
 
-  var wellIndex = tools.existsWell(req.body.wellid);
+  var wellIndex = tools.getIndexWell(req.body.wellid);
   if(wellIndex !== -1){
     var bigId = -1;
     for (var i = 0; i < sensors.length; i++) {
@@ -77,28 +78,38 @@ router.route('/:sensor_id')
 //update a sensor
 .put(function(req, res) {
   var id = Number(req.params.sensor_id);
-  var exists = false;
-  var i = -1;
-
-  for(var i = 0; i < sensors.length; i++) {
-    if(sensors[i].id === id){
-      exists = true;
-      break;
-    }
-  }
+  var sensorIndex = tools.getIndexSensor(id);
   
-  if(exists) {
+  if(sensorIndex !== -1){
+    var wellIndex = tools.getIndexWell(req.body.wellid);
+    var localSensors = wells[wellIndex].sensors;
+    for(var i  = 0; i < localSensors.length; i++){
+      if(localSensors[i].id === id){
+        // update sensor data both in well parent object and in sensor array
+        if(req.body.type) {
+          sensors[sensorIndex].type = req.body.type;
+          localSensors[i].type = req.body.type;
+        }
+        if(req.body.rate) {
+          sensors[sensorIndex].rate = req.body.rate;
+          localSensors[i].rate = req.body.rate;
+        }
+      }
+    }
+    res.json('Sensor Updated');
+  } else {
+    res.json('There is not a a sensor with that id');
+  }
 
-    // update sensor data
-    if(req.body.name) {
-      sensors[i].wellid = req.body.wellid;
-    }
-    if(req.body.type) {
-      sensors[i].type = req.body.type;
-    }
-    if(req.body.rate) {
-      sensors[i].rate = req.body.rate;
-    }
+  
+
+  
+  if(wellIndex  !== -1) {
+
+
+
+
+    
 
     res.json('Sensor updated.');
   } else {

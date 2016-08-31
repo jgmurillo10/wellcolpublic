@@ -25,21 +25,24 @@ module.exports = {
     'status': 'Produccion',
     'id': 2,
     'region': 'Andina',
-    'field' : 'Altiplano cundiboyacense'
+    'field' : 'Altiplano cundiboyacense',
+    'sensors':[]
   },
   {
     'name': 'Pozo petrolifero 3',
     'status': 'Parado',
     'id': 3,
     'region': 'Oriental',
-    'field' : 'Llanos orientales'
+    'field' : 'Llanos orientales',
+    'sensors':[]
   },
   {
     'name': 'Pozo petrolifero 4',
     'status': 'Clausurado',
     'id': 4,
     'region': 'Oriental',
-    'field' : 'Llanos orientales'
+    'field' : 'Llanos orientales',
+    'sensors':[]
   }
   ],
   'sensors':[
