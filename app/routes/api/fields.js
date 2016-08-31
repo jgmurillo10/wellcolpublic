@@ -22,7 +22,9 @@
         //add sensor into sensors array
         fields.push({
           'id': bigId + 1,
-          'name': req.body.name
+          'name': req.body.name,
+          'region': req.body.region,
+          'wells': []
         });
       res.json('Field created.'); 
     })
@@ -36,7 +38,7 @@
 
     var i = 0;
     for (; i < fields.length; i++) {
-      if(fields[i].id === id) {
+      if(fields[i].id == id) {
         found = true;
         break;
       }
@@ -57,7 +59,7 @@
 
     var i = 0;
     for (; i < fields.length; i++) {
-      if(fields[i].id === id) {
+      if(fields[i].id == id) {
         found = true;
         break;
       };
@@ -80,7 +82,7 @@
 
     var i = 0;
     for (; i < fields.length; i++) {
-      if(fields[i].id === id) {
+      if(fields[i].id == id) {
         found = true;
         break;
       };
