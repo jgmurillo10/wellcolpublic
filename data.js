@@ -13,14 +13,15 @@ module.exports = {
   ],
   'fields':[
   {
+    'name':'field 1',
     'id': 1,
     'region': 'caribe',
-    'latitude': 4.603185,  // decimal coordinates
-    'longitude': -74.065210,
     'wells':[
     {
       'status': 'abierto',
       'id': 1,
+      'latitude': 4.603185,  // decimal coordinates
+      'longitude': -74.065210,
       'sensors':[
       {
         'id': 1,
