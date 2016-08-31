@@ -93,9 +93,11 @@ module.exports = {
     return -1;
   },
 
-  getIndexSensor: function(sensorId){
-    for(var i  = 0; i < sensors.length; i++ ){
-      if(sensors[i].id === sensorId){
+  getIndexSensor: function(fieldId, wellId, sensorId){
+      var indexField=getIndexField(fieldId);
+      var indexWell = getIndexWell(fieldId, wellId);
+      for(var i  = 0; i < fields[indexField].wells[indexWell].sensors.length; i++ ){
+      if( fields[indexField].wells[indexWell].sensors[i].id=== sensorId){
         return i;
       }
     }
@@ -104,9 +106,12 @@ module.exports = {
   },
 
   
-  getIndexWell: function(wellId){
-    for(var i  = 0; i < wells.length; i++ ){
-      if(wells[i].id === wellId){
+  getIndexWell: function(fieldId, wellId){
+      var indexFied= getIndexField(fieldId);
+      
+      
+    for(var i  = 0; i < fields[indexField].wells.length; i++ ){
+      if(fields[indexField].wells[i].id === wellId){
         return i;
       }
     }
