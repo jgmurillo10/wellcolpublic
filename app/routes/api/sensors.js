@@ -3,6 +3,10 @@ var sensors    = require('../../../data').sensors;
 var wells = require('../../../data').wells;
 var router = express.Router();
 
+//funcions for existence validaton
+var tools = require('../../../tools');
+
+
 // on routes that end in /sensors
 // ----------------------------------------------------
 router.route('/')
@@ -15,22 +19,24 @@ router.route('/')
 //create new sensor
 .post(function(req, res) {
 
-  var wellId = req.body.wellid;
-  var wellExists = false;
-  for (var j = 0; j < wells.length; j++) {
-    if(wells[j].id === wellId){
-      wellExists = true;
-      break;
-    }
-  }
-
-  if(wellExists){
+  var wellIndex = tools.existsWell(req.body.wellid);
+  if(wellIndex !== -1){
     var bigId = -1;
     for (var i = 0; i < sensors.length; i++) {
       if(sensors[i].id > bigId){
         bigId = sensors[i].id;
       }
     }
+
+
+  //add sensor to the well with id=wellid
+  wells[wellIndex].sensors.push({
+    'id': bigId + 1,
+    'wellid': req.body.wellid,
+    'type': req.body.type,
+    'rate': req.body.rate
+  })
+
   //add sensor into sensors array
   sensors.push({
     'id': bigId + 1,

@@ -78,7 +78,7 @@ router.route('/wells/:well_id/:report_type/:from-:to')
     var wellId = Number(req.params.well_id);
     var reportType = req.params.report_type;
     
-    if(tools.existsWell(wellId)){
+    if(tools.existsWell(wellId) !== -1){
       if(tools.validReportType(reportType)){
 
         // extract the timestamps from :from and :to
@@ -106,7 +106,7 @@ router.route('/wells/:well_id/:report_type')
     var wellId = Number(req.params.well_id);
     var reportType = req.params.report_type;
     
-    if(tools.existsWell(wellId)){
+    if(tools.existsWell(wellId) !== -1){
       if(tools.validReportType(reportType)){
 
         res.json('logic for well report POST')

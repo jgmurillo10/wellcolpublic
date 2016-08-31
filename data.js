@@ -17,7 +17,8 @@ module.exports = {
     'status': 'Abierto',
     'id': 1,
     'region': 'Andina',
-    'field' : 'Altiplano cundiboyacense'
+    'field' : 'Altiplano cundiboyacense',
+    'sensors':[]
   },
   {
     'name': 'Pozo petrolifero 2',
@@ -38,7 +39,7 @@ module.exports = {
     'status': 'Clausurado',
     'id': 4,
     'region': 'Oriental',
-      'field' : 'Llanos orientales'
+    'field' : 'Llanos orientales'
   }
   ],
   'sensors':[

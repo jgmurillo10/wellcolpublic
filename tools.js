@@ -9,6 +9,7 @@ var wells = require('./data').wells;
 module.exports = {
 
   // functions for date parsing
+
   parseDate : function (input) {
     var parts = input.split('-');
     // new Date(year, month [, day [, hours[, minutes[, seconds[, ms]]]]])
@@ -21,6 +22,7 @@ module.exports = {
   },
 
   // functions for existance
+
   existsRegion: function (region) {
     for(var i  = 0; i < regions.length; i++ ){
       if(regions[i] === region){
@@ -58,13 +60,15 @@ module.exports = {
     return false;
 
   },
+
+  // returns the index wehere the well is, -1 if it does not exists
   existsWell: function(wellId){
     for(var i  = 0; i < wells.length; i++ ){
       if(wells[i].id === wellId){
-        return true;
+        return i;
       }
     }
-    return false;
+    return -1;
 
   },
 
@@ -75,6 +79,49 @@ module.exports = {
       }
     }
     return false;
+  },
+
+  // functions for finding the index in the data arrrays
+  // returns the index wehere the well is, -1 if it does not exists
+
+  getIndexUser: function(userId){
+    for(var i  = 0; i < users.length; i++ ){
+      if(users[i].id === userId){
+        return i;
+      }
+    }
+    return -1;
+  },
+
+  getIndexSensor: function(sensorId){
+    for(var i  = 0; i < sensors.length; i++ ){
+      if(sensors[i].id === sensorId){
+        return i;
+      }
+    }
+    return -1;
+
+  },
+
+  
+  getIndexWell: function(wellId){
+    for(var i  = 0; i < wells.length; i++ ){
+      if(wells[i].id === wellId){
+        return i;
+      }
+    }
+    return -1;
+
+  },
+
+  getIndexField: function (fieldId) {
+    for(var i  = 0; i < fields.length; i++ ){
+      if(fields[i].id === fieldId){
+        return i;
+      }
+    }
+    return -1;
   }
+
 
 }
