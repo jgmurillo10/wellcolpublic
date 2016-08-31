@@ -28,7 +28,7 @@ module.exports = {
             'wellid': 1,
             'type': 'caudal',
             'rate': 10, // in min
-            'reports':[
+            'records':[
                 {
                     'id': 1,
                     'timestamp': 1472591219719,
@@ -51,7 +51,7 @@ module.exports = {
             'wellid': 1,
             'type': 'energia',
             'rate': 5, // in min
-            'reports':[
+            'records':[
                 {
                     'id': 1,
                     'timestamp': 1472591219719,
