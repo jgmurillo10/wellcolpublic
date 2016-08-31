@@ -1,15 +1,19 @@
 var express = require('express');
-var wells = require('../../../data').wells;
+var fields = require('../../../data').fields;
 var router = express.Router();
+var tools = require('../../../tools');
 
 // on routes that end in /wells
 // ----------------------------------------------------
-router.route('/')
 
+router.route('/:field_id/wells')
+// get all wells from a field
 
-// get all wells
   .get(function(req, res) {
-    res.json(wells);
+    var fieldId = Number(req.params.field_id);
+    console.log(fieldId);
+    var fieldIndex = tools.getIndexField(fieldId);
+    res.json(fields[fieldIndex].wells);
   })
 
 // creater new well
