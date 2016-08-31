@@ -55,11 +55,11 @@ API
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
-| GET |  /api/sensors |   |
-| GET |  /api/sensors/:sensor_id |   |
-| POST  | /api/sensors  |   |
-| PUT  |  /api/sensors/:sensor_id |   |
-| DELETE  |  /api/sensors/:sensor_id |   |
+| GET |  /api/fields/:field_id/wells/:well_id/sensors | Gets all the sensors of an specific well in an specific field  |
+| GET |  /api/fields/:field_id/wells/:well_id/sensors/:sensor_id |Gets a particular sensor of an specific well in an specific field   |
+| POST  | /api/fields/:field_id/wells/:well_id/sensors  | Adds a sensor to an specific well in an specific field  |
+| PUT  |  /api/fields/:field_id/wells/:well_id/sensors/:sensor_id | Updates an specific sensor of an specific well in an specific field  |
+| DELETE  | /api/fields/:field_id/wells/:well_id/sensors/:sensor_id | Deletes a sensor of an specific well in an specific field  |
 
 ##Emergencies
 

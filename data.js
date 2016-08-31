@@ -11,6 +11,66 @@ module.exports = {
       'id': 12345679
     },
   ],
+  'fields':[
+  {
+    'id': 1,
+    'region': 'caribe',
+    'wells':[
+    {
+      'status': 'abierto',
+      'id': 1,
+      'sensors':[
+      {
+        'id': 1,
+        'wellid': 1,
+        'type': 'caudal',
+        'rate': 10 // in min
+      },
+      {
+        'id': 2,
+        'wellid': 1,
+        'type': 'energia',
+        'rate': 5 // in min
+      },
+      {
+        'id': 3,
+        'wellid': 1,
+        'type': 'temperatura',
+        'rate': 1 // in secs
+      },
+      {
+        'id': 4,
+        'wellid': 1,
+        'type': 'energia',
+        'rate': 15 // in min
+      },
+      {
+        'id': 5,
+        'wellid': 1,
+        'type': 'emergencia',
+        'rate': -1 // every time there is an emergency
+      }
+      ]
+    },
+    {
+      'status': 'parado',
+      'id': 2,
+      'sensors':[]
+    },
+    {
+      'status': 'produccion',
+      'id': 3,
+      'sensors':[]
+    },
+    {
+      'status': 'clausurado',
+      'id': 4,
+      'sensors':[]
+    }
+    ]
+  }
+  ],
+
   'wells':[
   {
     'name': 'Pozo petrolifero 1',
