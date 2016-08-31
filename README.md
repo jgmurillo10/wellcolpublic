@@ -35,11 +35,11 @@ API
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
-| GET |   |   |
-| GET |   |   |
-| POST  |   |   |
-| PUT  |   |   |
-| DELETE  |   |   |
+| GET | /api/fields  |   |
+| GET | /api/fields/field_id  |   |
+| POST  | /api/fields  |   |
+| PUT  | /api/fields/field_id  |   |
+| DELETE  |  /api/fields/field_id |   |
 
 ##Wells
 
@@ -50,6 +50,14 @@ API
 | POST  |/api/wells   |   |
 | PUT  |/api/wells/:well_id   |   |
 | DELETE  |/api/wells/:well_id   |   |
+
+|HTTP Method   |  URI |  description |
+|---|---|---|
+| GET |api/fields/:field_id/wells/|   |
+| GET |api/fields/:field_id/wells/:well_id | |
+| POST  |api/fields/:field_id/wells/   |   |
+| PUT  |/api/fields/:field_id/wells/:well_id   |   |
+| DELETE  |api/fields/:field_id/wells/:well_id   |   |
 
 ##Sensors
 
