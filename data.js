@@ -15,6 +15,8 @@ module.exports = {
   {
     'id': 1,
     'region': 'caribe',
+    'latitude': 4.603185,  // decimal coordinates
+    'longitude': -74.065210,
     'wells':[
     {
       'status': 'abierto',

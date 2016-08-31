@@ -5,6 +5,7 @@ var fields = require('../../data').fields;
 var users = require('../../data').users;
 var sensors = require('../../data').sensors;
 var wells = require('../../data').wells;
+var emergencies = require('../../data').emergencies;
 module.exports = {
   
   
