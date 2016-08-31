@@ -6,7 +6,7 @@
   // ----------------------------------------------------
   router.route('/')
   
-  //get all fieldss
+  //get all fields
     .get(function(req, res) {
       res.json(fields);
     })
