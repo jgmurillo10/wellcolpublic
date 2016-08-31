@@ -22,71 +22,72 @@ module.exports = {
           'id': 1,
           'latitude': 4.603185,  // decimal coordinates
           'longitude': -74.065210,
-          'sensors':[
-          {
-            'id': 1,
-            'wellid': 1,
-            'type': 'caudal',
-            'rate': 10, // in min
-            'records':[
-                {
+          'sensors':
+          [
+            {
+              'id': 1,
+              'wellid': 1,
+              'type': 'caudal',
+              'rate': 10, // in min
+              'records':[
+                  {
                     'id': 1,
-                    'timestamp': 1472591219719,
+                    'timestamp': '2016-08-31T18:07:47-05:00',
                     'value': 10
-                },
-                {
+                  },
+                  {
                     'id': 2,
-                    'timestamp': 1472591400333,
+                    'timestamp': '2016-08-31T18:07:47-05:00',
                     'value': 180 
-                },
-                {
+                  },
+                  {
                     'id': 3,
-                    'timestamp': 1472591400333,
+                    'timestamp': '2016-08-31T18:07:47-05:00',
                     'value': 180 
-                }
-            ]
-          },
-          {
-            'id': 2,
-            'wellid': 1,
-            'type': 'energia',
-            'rate': 5, // in min
-            'records':[
+                  }
+              ]
+            },
+            {
+              'id': 2,
+              'wellid': 1,
+              'type': 'energia',
+              'rate': 5, // in min
+              'records':[
                 {
-                    'id': 1,
-                    'timestamp': 1472591219719,
-                    'value': 10
+                  'id': 1,
+                  'timestamp': '2016-08-31T18:07:47-05:00',
+                  'value': 10
                 },
                 {
-                    'id': 2,
-                    'timestamp': 1472591400333,
-                    'value': 180 
+                  'id': 2,
+                  'timestamp': '2016-08-31T18:07:47-05:00',
+                  'value': 180 
                 },
                 {
-                    'id': 3,
-                    'timestamp': 1472591400333,
-                    'value': 180 
+                  'id': 3,
+                  'timestamp': '2016-08-31T18:07:47-05:00',
+                  'value': 180 
                 }
-            ]
-          },
-          {
-            'id': 3,
-            'wellid': 1,
-            'type': 'temperatura',
-            'rate': 1 // in secs
-          },
-          {
-            'id': 4,
-            'wellid': 1,
-            'type': 'energia',
-            'rate': 15 // in min
-          },
-          {
-            'id': 5,
-            'wellid': 1,
-            'type': 'emergencia',
-            'rate': -1 // every time there is an emergency
-          }
+              ]
+            },
+            {
+              'id': 3,
+              'wellid': 1,
+              'type': 'temperatura',
+              'rate': 1 // in secs
+            },
+            {
+              'id': 4,
+              'wellid': 1,
+              'type': 'energia',
+              'rate': 15 // in min
+            },
+            {
+              'id': 5,
+              'wellid': 1,
+              'type': 'emergencia',
+              'rate': -1 // every time there is an emergency
+            }
           ]
         },
         {
