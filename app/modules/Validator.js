@@ -115,7 +115,7 @@ module.exports = {
   
   getWellIndex: function(fieldId, wellId){
     var indexField= this.getFieldIndex(fieldId);
-   
+    
     for(var j  = 0; j < fields[indexField].wells.length; j++ ){
       if(fields[indexField].wells[j].id === wellId){
         console.log(j);
