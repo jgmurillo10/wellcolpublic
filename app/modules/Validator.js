@@ -22,8 +22,8 @@ module.exports = {
   // functions for existance
 
   existsRegion: function (region) {
-    for(var i  = 0; i < regions.length; i++ ){
-      if(regions[i] === region){
+    for(var reg in regions){
+      if(reg === region){
         return true;
       }
     }
@@ -32,8 +32,8 @@ module.exports = {
 
 
   validReportType: function (reportType){
-    for(var i  = 0; i < report_types.length; i++ ){
-      if(report_types[i] === reportType){
+    for(var type in report_types){
+      if(type === reportType){
         return true;
       }
     }

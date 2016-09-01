@@ -1,10 +1,10 @@
 // arrays for validation
 
-var regions = require('constants').regions;
-var report_types = require('constants').report_types;
-var sensor_types = require('constants').sensor_types;
-var well_status = require('constants').well_status;
-var report_to_sensor = require('constants').report_to_sensor;
+var regions = require('./constants').regions;
+var report_types = require('./constants').report_types;
+var sensor_types = require('./constants').sensor_types;
+var well_status = require('./constants').well_status;
+var report_to_sensor = require('./constants').report_to_sensor;
 // var report_types = require('../../constants').report_entities;
 
 var fields = require('../../data').fields;
@@ -36,10 +36,10 @@ ReportMaker.getFieldFlowReport = function(field_id, type, fromStr, toStr) {
           for (var k = well.sensors.length - 1; k >= 0; k--) {
 
             var sensor = well.sensors[k];
-            if (sensor.type === sensor_type['FLOW']) {
+            if (sensor.type === sensor_types['FLOW']) {
               for (var l = sensor.records.length - 1; l >= 0; l--) {
 
-                if(from < sensor.records[l].date && sensor.records[l].date < to) {
+                if(from <= Date.parse(sensor.records[l].date) && Date.parse(sensor.records[l].date) <= to) {
                   report.data += sensor.records[l].value;
                 }
               }
@@ -85,7 +85,7 @@ ReportMaker.getFieldEnergyReport = function(field_id, type, fromStr, toStr) {
             if (sensor.type === sensor_types['ENERGY']) {
               for (var l = sensor.records.length - 1; l >= 0; l--) {
 
-                if(from < sensor.records[l].date && sensor.records[l].date < to) {
+                if(from <= Date.parse(sensor.records[l].date) && Date.parse(sensor.records[l].date) <= to) {
                   report.data += sensor.records[l].value;
                   num++;
                 }
@@ -95,7 +95,7 @@ ReportMaker.getFieldEnergyReport = function(field_id, type, fromStr, toStr) {
         }
       }
 
-      report.data /= num;
+      report.data /= (num == 0 ? 1 : num);
       break;
     }
   }
@@ -134,7 +134,7 @@ ReportMaker.getFieldTempReport = function(field_id, type, fromStr, toStr) {
             if (sensor.type === sensor_types['TEMPERATURE']) {
               for (var l = sensor.records.length - 1; l >= 0; l--) {
 
-                if(from < sensor.records[l].date && sensor.records[l].date < to) {
+                if(from <= Date.parse(sensor.records[l].date) && Date.parse(sensor.records[l].date) <= to) {
                   report.data += sensor.records[l].value;
                   num++;
                 }
@@ -144,7 +144,7 @@ ReportMaker.getFieldTempReport = function(field_id, type, fromStr, toStr) {
         }
       }
 
-      report.data /= num;
+      report.data /= (num == 0 ? 1 : num);
       break;
     }
   }
@@ -182,10 +182,10 @@ ReportMaker.getWellFlowReport = function(well_id, field_id, type, fromStr, toStr
             for (var k = well.sensors.length - 1; k >= 0; k--) {
 
               var sensor = well.sensors[k];
-              if (sensor.type === sensor_type['FLOW']) {
+              if (sensor.type === sensor_types['FLOW']) {
                 for (var l = sensor.records.length - 1; l >= 0; l--) {
 
-                  if(from < sensor.records[l].date && sensor.records[l].date < to) {
+                  if(from <= Date.parse(sensor.records[l].date) && Date.parse(sensor.records[l].date) <= to) {
                     report.data += sensor.records[l].value;
                   }
                 }
@@ -238,10 +238,10 @@ ReportMaker.getWellEnergyReport = function(well_id, field_id, type, fromStr, toS
             for (var k = well.sensors.length - 1; k >= 0; k--) {
 
               var sensor = well.sensors[k];
-              if (sensor.type === sensor_type['ENERGY']) {
+              if (sensor.type === sensor_types['ENERGY']) {
                 for (var l = sensor.records.length - 1; l >= 0; l--) {
 
-                  if(from < sensor.records[l].date && sensor.records[l].date < to) {
+                  if(from <= Date.parse(sensor.records[l].date) && Date.parse(sensor.records[l].date) <= to) {
                     report.data += sensor.records[l].value;
                     num++;
                   }
@@ -250,7 +250,7 @@ ReportMaker.getWellEnergyReport = function(well_id, field_id, type, fromStr, toS
             }
           }
 
-          report.data /= num;
+          report.data /= (num == 0 ? 1 : num);
           break;
         }
       }
@@ -297,10 +297,10 @@ ReportMaker.getWellTempReport = function(well_id, field_id, type, fromStr, toStr
             for (var k = well.sensors.length - 1; k >= 0; k--) {
 
               var sensor = well.sensors[k];
-              if (sensor.type === sensor_type['TEMPERATURE']) {
+              if (sensor.type === sensor_types['TEMPERATURE']) {
                 for (var l = sensor.records.length - 1; l >= 0; l--) {
 
-                  if(from < sensor.records[l].date && sensor.records[l].date < to) {
+                  if(from <= Date.parse(sensor.records[l].date) && Date.parse(sensor.records[l].date) <= to) {
                     report.data += sensor.records[l].value;
                     num++;
                   }
@@ -309,7 +309,7 @@ ReportMaker.getWellTempReport = function(well_id, field_id, type, fromStr, toStr
             }
           }
 
-          report.data /= num;
+          report.data /= (num == 0 ? 1 : num);
           break;
         }
       }
@@ -346,16 +346,16 @@ ReportMaker.getRegionFlowReport = function(region_name, type, fromStr, toStr) {
       var field = fields[i];
 
       for (var j = field.wells.length - 1; j >= 0; j--) {
-
+console.log('c');
         var well = field.wells[j];
         if (well.status === well_status['PRODUCTION']) {
           for (var k = well.sensors.length - 1; k >= 0; k--) {
-
+console.log('b');
             var sensor = well.sensors[k];
-            if (sensor.type === sensor_type['FLOW']) {
+            if (sensor.type === sensor_types['FLOW']) {
               for (var l = sensor.records.length - 1; l >= 0; l--) {
-
-                if(from < sensor.records[l].date && sensor.records[l].date < to) {
+                console.log('a');
+                if(from <= Date.parse(sensor.records[l].date) && Date.parse(sensor.records[l].date) <= to) {
                   report.data += sensor.records[l].value;
                 }
               }
@@ -383,6 +383,7 @@ ReportMaker.getRegionEnergyReport = function(region_name, type, fromStr, toStr) 
   var found = false;
 
   for (var i = fields.length - 1; i >= 0; i--) {
+    console.log(fields[i].region);
     if (fields[i].region === regions[region_name]) {
       found = true;
 
@@ -392,16 +393,20 @@ ReportMaker.getRegionEnergyReport = function(region_name, type, fromStr, toStr) 
       var field = fields[i];
 
       for (var j = field.wells.length - 1; j >= 0; j--) {
-
+        console.log('.');
+        console.log(report.data);
         var well = field.wells[j];
         if (well.status === well_status['PRODUCTION']) {
           for (var k = well.sensors.length - 1; k >= 0; k--) {
+            console.log('a');
 
             var sensor = well.sensors[k];
             if (sensor.type === sensor_types['ENERGY']) {
               for (var l = sensor.records.length - 1; l >= 0; l--) {
+                console.log('b');
 
-                if(from < sensor.records[l].date && sensor.records[l].date < to) {
+                if(from <= Date.parse(sensor.records[l].date) && Date.parse(sensor.records[l].date) <= to) {
+                  console.log('c');
                   report.data += sensor.records[l].value;
                   num++;
                 }
@@ -411,13 +416,13 @@ ReportMaker.getRegionEnergyReport = function(region_name, type, fromStr, toStr) 
         }
       }
 
-      report.data /= num;
+      report.data /= (num == 0 ? 1 : num);
       break;
     }
   }
 
   if(!found) {
-    report.message = 'ERORR: No field has been found with this id.';
+    report.message = 'No fields match.';
   }
 
   return report;
@@ -450,7 +455,7 @@ ReportMaker.getRegionTempReport = function(region_name, type, fromStr, toStr) {
             if (sensor.type === sensor_types['TEMPERATURE']) {
               for (var l = sensor.records.length - 1; l >= 0; l--) {
 
-                if(from < sensor.records[l].date && sensor.records[l].date < to) {
+                if(from <= Date.parse(sensor.records[l].date) && Date.parse(sensor.records[l].date) <= to) {
                   report.data += sensor.records[l].value;
                   num++;
                 }
@@ -460,7 +465,7 @@ ReportMaker.getRegionTempReport = function(region_name, type, fromStr, toStr) {
         }
       }
 
-      report.data /= num;
+      report.data /= (num == 0 ? 1 : num);
       break;
     }
   }

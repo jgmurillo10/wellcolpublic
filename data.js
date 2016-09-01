@@ -18,7 +18,7 @@ module.exports = {
       'region': 1,
       'wells':[
         {
-          'status': 1,
+          'status': 4,
           'id': 1,
           'latitude': 4.603185,  // decimal coordinates
           'longitude': -74.065210,
@@ -27,7 +27,7 @@ module.exports = {
             {
               'id': 1,
               'wellid': 1,
-              'type': 1,
+              'type': 3,
               'rate': 600, // in sec
               'records':[
                   {
@@ -37,12 +37,12 @@ module.exports = {
                   },
                   {
                     'id': 2,
-                    'date': '2016-08-31T18:07:47-05:00',
+                    'date': '2016-08-31T15:07:47-05:00',
                     'value': 180 
                   },
                   {
                     'id': 3,
-                    'date': '2016-08-31T18:07:47-05:00',
+                    'date': '2016-08-31T19:07:47-05:00',
                     'value': 180 
                   }
               ]
@@ -50,7 +50,7 @@ module.exports = {
             {
               'id': 2,
               'wellid': 1,
-              'type': 2,
+              'type': 1,
               'rate': 5, 
               'records':[
                 {
@@ -73,20 +73,23 @@ module.exports = {
             {
               'id': 3,
               'wellid': 1,
-              'type': 3,
-              'rate': 1
+              'type': 2,
+              'rate': 1,
+              'records':[]
             },
             {
               'id': 4,
               'wellid': 1,
               'type': 2,
-              'rate': 15
+              'rate': 15,
+              'records':[]
             },
             {
               'id': 5,
               'wellid': 1,
               'type': 4,
-              'rate': -1 // every time there is an emergency
+              'rate': -1, // every time there is an emergency,
+              'records':[]
             }
           ]
         },

@@ -97,29 +97,25 @@ router.route('/fields/:field_id/wells/:well_id/:report_type/')
     var from = req.query.from;
     var to = req.query.to;
     
-    if(tools.existsWell(wellId) !== -1){
+    
       if(tools.validReportType(reportType)){
 
         var report = {};
 
         if (reportType === 'consumo_energetico') {
-          report = reporter.getWellFlowReport(wellId, fieldId, reportType, from, to);
+          report = reporter.getWellEnergyReport(wellId, fieldId, reportType, from, to);
         }
         else if (reportType === 'produccion_fluido') {
           report = reporter.getWellFlowReport(wellId, fieldId, reportType, from, to);
         }
         else if (reportType === 'temperatura') {
-          report = reporter.getWellFlowReport(wellId, fieldId, reportType, from, to);
+          report = reporter.getWellTempReport(wellId, fieldId, reportType, from, to);
         }
         
         res.json(report);
 
       } else {
         res.json({'message': 'This is not a valid report tyye'});
-      }
- 
-    } else {
-      res.json({'message': 'There is no well with that id. You can only request a report frmo an existing well'});
       }
   })
 

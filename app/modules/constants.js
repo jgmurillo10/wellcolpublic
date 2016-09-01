@@ -21,7 +21,7 @@ var constants = {
     'SENSOR': 4,
   },
 
-  'sensor_type': {
+  'sensor_types': {
     'FLOW': 1,
     'ENERGY': 2,
     'TEMPERATURE': 3,
