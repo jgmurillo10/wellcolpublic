@@ -128,6 +128,37 @@ router.route('/:field_id/wells/:well_id/sensors/:sensor_id')
     }
 
   })
+
+  // delete a sensor
+
+  .delete(function(req, res){
+    var fieldId = Number(req.params.field_id);
+    var fieldIndex = tools.getFieldIndex(fieldId);
+    if( fieldIndex !== -1){
+      var wellId = Number(req.params.well_id);
+      var wellIndex = tools.getWellIndex(fieldId, wellId);
+      if(wellIndex !== -1){
+        var sensorId = Number(req.params.sensor_id);
+        var sensorIndex = tools.getSensorIndex(fieldId, wellId, sensorId);
+        if(sensorIndex !== -1){
+          
+          fields[fieldIndex].wells[wellIndex].sensors.splice(sensorIndex, 1);
+          res.json('Sensor deleted');
+        } else {
+          res.json('There is no sensor with that id');
+        }
+
+
+      }else {
+        res.json('There is no well with that id');
+      }
+      
+
+    } else {
+      res.json('There is no field with that id');
+    }
+
+  })
     
 
 

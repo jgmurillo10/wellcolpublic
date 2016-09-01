@@ -90,7 +90,7 @@ router.route('/:field_id/wells/:well_id')
       var wellId = Number(req.params.well_id);
       var wellIndex = tools.getWellIndex(fieldId, wellId);
       if(wellIndex !== -1){
-        var currentWell = fields[fieldIndex].wells.splice(wellIndex, 1);
+        fields[fieldIndex].wells.splice(wellIndex, 1);
         res.json('Well deleted');
       } else {
         res.json('there is no well with that id');
