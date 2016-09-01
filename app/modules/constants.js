@@ -1,11 +1,11 @@
 var constants = {
 
 	'regions': {
-    'CARIBE': 1,
-    'ANDINA': 2,
-    'PACIFICA': 3,
-    'ORINOQUIA': 4,
-    'AMAZONAS': 5 
+    'caribe': 1,
+    'andina': 2,
+    'pacifica': 3,
+    'orinoquia': 4,
+    'amazonas': 5 
   },
 
   'report_types': {

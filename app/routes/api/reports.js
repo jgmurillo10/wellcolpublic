@@ -5,93 +5,121 @@ var fields = require('../../../data').fields;
 var wells = require('../../../data').wells;
 var router = express.Router();
 
-// functions for validation
+var report_types = require('../../modules/constants').report_types;
 var tools = require('../../modules/Validator');
+var reporter = require('../../modules/Reporter');
 
 // on routes that end in /reports
 // ----------------------------------------------------
 
-router.route('/regions/:region/:report_type/:from-:to')
+router.route('/regions/:region/:report_type/')
   
 
   // get report from a region in an specified interval
   .get(function(req, res){
     var region = req.params.region;
     var reportType = req.params.report_type;
-    var from = req.params.from;
-    var to = req.params.to;
+    var from = req.query.from;
+    var to = req.query.to;
 
     // check if the region exists
     if(tools.existsRegion(region)){
 
       if(tools.validReportType(reportType)){
 
-        //code to make the report and return a JSON
+        var report = {};
 
-
-
-
-        console.log("logic for this function correct");
+        if (reportType === 'consumo_energetico') {
+          report = reporter.getRegionEnergyReport(region, reportType, from, to);
+        }
+        else if (reportType === 'produccion_fluido') {
+          report = reporter.getRegionFlowReport(region, reportType, from, to);
+        }
+        else if (reportType === 'temperatura') {
+          report = reporter.getRegionTempReport(region, reportType, from, to);
+        }
         
-        res.json("logic for region report GET");
+        res.json(report);
 
       } else {
-        res.json('That is not valid report type');
+        res.json({'message': 'That is not valid report type'});
       }
 
     } else {
-      res.json('There is no region with that name');
+      res.json({'message': 'There is no region with that name'});
     }
 
   })
 
 
-router.route('/fields/:field_id/:report_type/:from-:to')
+router.route('/fields/:field_id/:report_type/')
 
   // get report from a field in an specified interval
   .get(function(req, res){
     var fieldId = Number(req.params.field_id);
     var reportType = req.params.report_type;
+    var from = req.query.from;
+    var to = req.query.to;
     
     if(tools.existsField(fieldId)){
       if(tools.validReportType(reportType)){
 
-        res.json('logic for field report GET')
+        var report = {};
+
+        if (reportType === 'consumo_energetico') {
+          report = reporter.getFieldEnergyReport(fieldId, reportType, from, to);
+        }
+        else if (reportType === 'produccion_fluido') {
+          report = reporter.getFieldFlowReport(fieldId, reportType, from, to);
+        }
+        else if (reportType === 'temperatura') {
+          report = reporter.getFieldTempReport(fieldId, reportType, from, to);
+        }
+        
+        res.json(report);
 
       } else {
-        res.json('This is not a valid report type')
+        res.json({'message': 'This is not a valid report type'})
       }
  
     } else {
-      res.json('There is no field with that id. You can only request a report frmo an existing field');
+      res.json({'message': 'There is no field with that id. You can only request a report frmo an existing field'});
       }
   })
 
-router.route('/wells/:well_id/:report_type/:from-:to')
+router.route('/fields/:field_id/wells/:well_id/:report_type/')
 
   // get report from a well in an specified interval
   .get(function(req, res){
     var wellId = Number(req.params.well_id);
+    var fieldId = Number(req.params.field_id);
     var reportType = req.params.report_type;
+    var from = req.query.from;
+    var to = req.query.to;
     
     if(tools.existsWell(wellId) !== -1){
       if(tools.validReportType(reportType)){
 
-        // extract the timestamps from :from and :to
-        var from = tools.getTimestamp(req.params.from);
-        var to = tools.getTimestamp(req.params.to);
+        var report = {};
 
-        // searches through the data arrays
-
-
-        res.json('logic for well report GET')
+        if (reportType === 'consumo_energetico') {
+          report = reporter.getWellFlowReport(wellId, fieldId, reportType, from, to);
+        }
+        else if (reportType === 'produccion_fluido') {
+          report = reporter.getWellFlowReport(wellId, fieldId, reportType, from, to);
+        }
+        else if (reportType === 'temperatura') {
+          report = reporter.getWellFlowReport(wellId, fieldId, reportType, from, to);
+        }
+        
+        res.json(report);
 
       } else {
-        res.json('This is not a valid report tyye')
+        res.json({'message': 'This is not a valid report tyye'});
       }
  
     } else {
-      res.json('There is no well with that id. You can only request a report frmo an existing well');
+      res.json({'message': 'There is no well with that id. You can only request a report frmo an existing well'});
       }
   })
 
@@ -105,14 +133,14 @@ router.route('/wells/:well_id/:report_type')
     if(tools.existsWell(wellId) !== -1){
       if(tools.validReportType(reportType)){
 
-        res.json('logic for well report POST')
+        res.json({'message': 'logic for well report POST'})
 
       } else {
-        res.json('This is not a valid report tyye')
+        res.json({'message': 'This is not a valid report tyye'})
       }
  
     } else {
-      res.json('There is no well with that id. You can only request a report frmo an existing well');
+      res.json({'message': 'There is no well with that id. You can only request a report frmo an existing well'});
       }
   })
 

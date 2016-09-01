@@ -1,10 +1,10 @@
 // arrays for validation
 
-var regions = require('../../constants').regions;
-var report_types = require('../../constants').report_types;
-var sensor_types = require('../../constants').sensor_types;
-var well_status = require('../../constants').well_status;
-var report_to_sensor = require('../../constants').report_to_sensor;
+var regions = require('constants').regions;
+var report_types = require('constants').report_types;
+var sensor_types = require('constants').sensor_types;
+var well_status = require('constants').well_status;
+var report_to_sensor = require('constants').report_to_sensor;
 // var report_types = require('../../constants').report_entities;
 
 var fields = require('../../data').fields;
@@ -13,7 +13,10 @@ var emergencies = require('../../data').emergencies;
 
 var ReportMaker = {}
 
-ReportMaker.getFieldFlowReport = function(field_id, type, from, to) {
+ReportMaker.getFieldFlowReport = function(field_id, type, fromStr, toStr) {
+
+  var from = Date.parse(fromStr || '1969-12-31T19:00:00-05:00');
+  var to = (toStr ? Date.parse(toStr) : new Date());
 
   var report = {};
   var found = false;
@@ -55,7 +58,10 @@ ReportMaker.getFieldFlowReport = function(field_id, type, from, to) {
   return report;
 }
 
-ReportMaker.getFieldEnergyReport = function(field_id, type, from, to) {
+ReportMaker.getFieldEnergyReport = function(field_id, type, fromStr, toStr) {
+
+  var from = Date.parse(fromStr || '1969-12-31T19:00:00-05:00');
+  var to = (toStr ? Date.parse(toStr) : new Date());
 
   var report = {};
   var found = false;
@@ -101,7 +107,10 @@ ReportMaker.getFieldEnergyReport = function(field_id, type, from, to) {
   return report;
 }
 
-ReportMaker.getFieldTempReport = function(field_id, type, from, to) {
+ReportMaker.getFieldTempReport = function(field_id, type, fromStr, toStr) {
+
+  var from = Date.parse(fromStr || '1969-12-31T19:00:00-05:00');
+  var to = (toStr ? Date.parse(toStr) : new Date());
 
   var report = {};
   var found = false;
@@ -147,7 +156,10 @@ ReportMaker.getFieldTempReport = function(field_id, type, from, to) {
   return report;
 }
 
-ReportMaker.getWellFlowReport = function(well_id, field_id, type, from, to) {
+ReportMaker.getWellFlowReport = function(well_id, field_id, type, fromStr, toStr) {
+
+  var from = Date.parse(fromStr || '1969-12-31T19:00:00-05:00');
+  var to = (toStr ? Date.parse(toStr) : new Date());
 
   var report = {};
   var found_field = false;
@@ -199,7 +211,10 @@ ReportMaker.getWellFlowReport = function(well_id, field_id, type, from, to) {
   return report;
 }
 
-ReportMaker.getWellEnergyReport = function(well_id, field_id, type, from, to) {
+ReportMaker.getWellEnergyReport = function(well_id, field_id, type, fromStr, toStr) {
+
+  var from = Date.parse(fromStr || '1969-12-31T19:00:00-05:00');
+  var to = (toStr ? Date.parse(toStr) : new Date());
 
   var report = {};
   var found_field = false;
@@ -255,7 +270,10 @@ ReportMaker.getWellEnergyReport = function(well_id, field_id, type, from, to) {
   return report;
 }
 
-ReportMaker.getWellTempReport = function(well_id, field_id, type, from, to) {
+ReportMaker.getWellTempReport = function(well_id, field_id, type, fromStr, toStr) {
+
+  var from = Date.parse(fromStr || '1969-12-31T19:00:00-05:00');
+  var to = (toStr ? Date.parse(toStr) : new Date());
 
   var report = {};
   var found_field = false;
@@ -311,7 +329,10 @@ ReportMaker.getWellTempReport = function(well_id, field_id, type, from, to) {
   return report;
 }
 
-ReportMaker.getRegionFlowReport = function(region_name, type, from, to) {
+ReportMaker.getRegionFlowReport = function(region_name, type, fromStr, toStr) {
+
+  var from = Date.parse(fromStr || '1969-12-31T19:00:00-05:00');
+  var to = (toStr ? Date.parse(toStr) : new Date());
 
   var report = {};
   var found = false;
@@ -353,7 +374,10 @@ ReportMaker.getRegionFlowReport = function(region_name, type, from, to) {
   return report;
 }
 
-ReportMaker.getRegionEnergyReport = function(region_name, type, from, to) {
+ReportMaker.getRegionEnergyReport = function(region_name, type, fromStr, toStr) {
+
+  var from = Date.parse(fromStr || '1969-12-31T19:00:00-05:00');
+  var to = (toStr ? Date.parse(toStr) : new Date());
 
   var report = {};
   var found = false;
@@ -399,7 +423,10 @@ ReportMaker.getRegionEnergyReport = function(region_name, type, from, to) {
   return report;
 }
 
-ReportMaker.getRegionTempReport = function(region_name, type, from, to) {
+ReportMaker.getRegionTempReport = function(region_name, type, fromStr, toStr) {
+
+  var from = Date.parse(fromStr || '1969-12-31T19:00:00-05:00');
+  var to = (toStr ? Date.parse(toStr) : new Date());
 
   var report = {};
   var found = false;
