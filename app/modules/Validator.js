@@ -3,8 +3,6 @@ var regions = require('./types').regions;
 var report_types = require('./types').report_types;
 var fields = require('../../data').fields;
 var users = require('../../data').users;
-var sensors = require('../../data').sensors;
-var wells = require('../../data').wells;
 
 module.exports = {
 
@@ -84,7 +82,7 @@ module.exports = {
   // functions for finding the index in the data arrrays
   // returns the index wehere the well is, -1 if it does not exists
 
-  getIndexUser: function(userId){
+  getUserIndex: function(userId){
     for(var i  = 0; i < users.length; i++ ){
       if(users[i].id === userId){
         return i;
@@ -93,9 +91,9 @@ module.exports = {
     return -1;
   },
 
-  getIndexSensor: function(fieldId, wellId, sensorId){
-      var indexField=getIndexField(fieldId);
-      var indexWell = getIndexWell(fieldId, wellId);
+  getSensorIndex: function(fieldId, wellId, sensorId){
+      var indexField=getFieldIndex(fieldId);
+      var indexWell = getWellIndex(fieldId, wellId);
       for(var i  = 0; i < fields[indexField].wells[indexWell].sensors.length; i++ ){
       if( fields[indexField].wells[indexWell].sensors[i].id=== sensorId){
         return i;
@@ -105,11 +103,19 @@ module.exports = {
 
   },
 
+  getFieldIndex: function (fieldId) {
+    for(var i  = 0; i < fields.length; i++ ){
+      if(fields[i].id === fieldId){
+        return i;
+      }
+    }
+    return -1;
+  },
+
   
-  getIndexWell: function(fieldId, wellId){
-      var indexFied= getIndexField(fieldId);
-      
-      
+  getWellIndex: function(fieldId, wellId){
+    var indexField= this.getFieldIndex(fieldId);
+   
     for(var i  = 0; i < fields[indexField].wells.length; i++ ){
       if(fields[indexField].wells[i].id === wellId){
         return i;
@@ -117,16 +123,8 @@ module.exports = {
     }
     return -1;
 
-  },
-
-  getIndexField: function (fieldId) {
-    for(var i  = 0; i < fields.length; i++ ){
-      if(fields[i].id === fieldId){
-        return i;
-      }
-    }
-    return -1;
   }
 
+  
 
 }

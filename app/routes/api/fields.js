@@ -18,7 +18,7 @@
       if(fields[i].id > bigId){
         bigId = fields[i].id;
       }
-        }
+    }
         //add sensor into sensors array
         fields.push({
           'id': bigId + 1,
