@@ -92,8 +92,8 @@ module.exports = {
   },
 
   getSensorIndex: function(fieldId, wellId, sensorId){
-      var indexField=getFieldIndex(fieldId);
-      var indexWell = getWellIndex(fieldId, wellId);
+      var indexField=this.getFieldIndex(fieldId);
+      var indexWell = this.getWellIndex(fieldId, wellId);
       for(var i  = 0; i < fields[indexField].wells[indexWell].sensors.length; i++ ){
       if( fields[indexField].wells[indexWell].sensors[i].id=== sensorId){
         return i;
