@@ -17,5 +17,5 @@ apiRouter.use('/fields', require('./sensors'));
 apiRouter.use('/users', require('./users'));
 apiRouter.use('/emergencies', require('./emergencies'));
 apiRouter.use('/reports', require('./reports'));
-
+apiRouter.use('/zones', require('./zones'));
 module.exports = apiRouter;

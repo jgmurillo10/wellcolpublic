@@ -11,6 +11,33 @@ module.exports = {
       'id': 12345679
     },
   ],
+  'zones': [
+    {
+      'id': 1,
+      'name': 'Andina'
+    },
+    {
+
+      'id': 2,
+      'name': 'Oriental'
+    },
+    {
+
+      'id': 3,
+      'name': 'Caribe'
+    },
+    {
+
+      'id': 4,
+      'name': 'Pacifica'
+    },
+    {
+
+      'id': 5,
+      'name': 'Insular'
+    }
+
+  ],
   'fields':[
     {
       'name':'field 1',
