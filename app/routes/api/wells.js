@@ -46,7 +46,6 @@ router.route('/:field_id/wells/:well_id')
   .get(function(req, res){
     var fieldId = Number(req.params.field_id);
     var fieldIndex = tools.getFieldIndex(fieldId);
-    console.log(fieldIndex);
     if( fieldIndex !== -1){
       var wellId = Number(req.params.well_id);
       var wellIndex = tools.getWellIndex(fieldId, wellId);
