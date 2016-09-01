@@ -9,12 +9,12 @@ var constants = {
   },
 
   'report_types': {
-    'CONSUMO_ENERGETICO': 1,
-    'PRODUCCION_FLUIDO': 2,
-    'TEMPERATURA': 3
+    'consumo_energetico': 1,
+    'produccion_fluido': 2,
+    'temperatura': 3
   },
 
-  'report_entity': {
+  'report_entities': {
     'REGION': 1,
     'FIELD': 2,
     'WELL': 3,
@@ -28,11 +28,17 @@ var constants = {
     'EMERGENCY': 4,
   },
 
-  'well_state': {
+  'well_status': {
     'OPEN': 1,
     'SHUT_DOWN': 2,
     'STOPPED': 3,
     'PRODUCTION': 4,
+  },
+
+  'report_to_sensor':{
+    'consumo_energetico':'ENERGY',
+    'produccion_fluido':'FLOW',
+    'temperatura': 'TEMPERATURE'
   }
 }
 

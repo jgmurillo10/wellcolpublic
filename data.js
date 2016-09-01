@@ -18,7 +18,7 @@ module.exports = {
       'region': 1,
       'wells':[
         {
-          'status': 'abierto',
+          'status': 1,
           'id': 1,
           'latitude': 4.603185,  // decimal coordinates
           'longitude': -74.065210,
@@ -27,22 +27,22 @@ module.exports = {
             {
               'id': 1,
               'wellid': 1,
-              'type': 'caudal',
-              'rate': 10, // in min
+              'type': 1,
+              'rate': 600, // in sec
               'records':[
                   {
                     'id': 1,
-                    'timestamp': '2016-08-31T18:07:47-05:00',
+                    'date': '2016-08-31T18:07:47-05:00',
                     'value': 10
                   },
                   {
                     'id': 2,
-                    'timestamp': '2016-08-31T18:07:47-05:00',
+                    'date': '2016-08-31T18:07:47-05:00',
                     'value': 180 
                   },
                   {
                     'id': 3,
-                    'timestamp': '2016-08-31T18:07:47-05:00',
+                    'date': '2016-08-31T18:07:47-05:00',
                     'value': 180 
                   }
               ]
@@ -50,22 +50,22 @@ module.exports = {
             {
               'id': 2,
               'wellid': 1,
-              'type': 'energia',
-              'rate': 5, // in min
+              'type': 2,
+              'rate': 5, 
               'records':[
                 {
                   'id': 1,
-                  'timestamp': '2016-08-31T18:07:47-05:00',
+                  'date': '2016-08-31T18:07:47-05:00',
                   'value': 10
                 },
                 {
                   'id': 2,
-                  'timestamp': '2016-08-31T18:07:47-05:00',
+                  'date': '2016-08-31T18:07:47-05:00',
                   'value': 180 
                 },
                 {
                   'id': 3,
-                  'timestamp': '2016-08-31T18:07:47-05:00',
+                  'date': '2016-08-31T18:07:47-05:00',
                   'value': 180 
                 }
               ]
@@ -73,35 +73,35 @@ module.exports = {
             {
               'id': 3,
               'wellid': 1,
-              'type': 'temperatura',
-              'rate': 1 // in secs
+              'type': 3,
+              'rate': 1
             },
             {
               'id': 4,
               'wellid': 1,
-              'type': 'energia',
-              'rate': 15 // in min
+              'type': 2,
+              'rate': 15
             },
             {
               'id': 5,
               'wellid': 1,
-              'type': 'emergencia',
+              'type': 4,
               'rate': -1 // every time there is an emergency
             }
           ]
         },
         {
-          'status': 'parado',
+          'status': 3,
           'id': 2,
           'sensors':[]
         },
         {
-          'status': 'produccion',
+          'status': 4,
           'id': 3,
           'sensors':[]
         },
         {
-          'status': 'clausurado',
+          'status': 2,
           'id': 4,
           'sensors':[]
         }
