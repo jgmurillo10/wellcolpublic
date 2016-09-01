@@ -120,7 +120,7 @@ module.exports = {
           "sensors": [
           {
               "id": 1,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -142,7 +142,7 @@ module.exports = {
             },
             {
               "id": 2,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -164,7 +164,7 @@ module.exports = {
             },
             {
               "id": 3,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -186,7 +186,7 @@ module.exports = {
             },
             {
               "id": 4,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -208,7 +208,7 @@ module.exports = {
             },
             {
               "id": 5,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -230,7 +230,7 @@ module.exports = {
             },
             {
               "id": 6,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -252,7 +252,7 @@ module.exports = {
             },
             {
               "id": 7,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -274,7 +274,7 @@ module.exports = {
             },
             {
               "id": 8,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -296,7 +296,7 @@ module.exports = {
             },
             {
               "id": 9,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -318,7 +318,7 @@ module.exports = {
             },
             {
               "id": 10,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -340,7 +340,7 @@ module.exports = {
             },
             {
               "id": 11,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -362,7 +362,7 @@ module.exports = {
             },
             {
               "id": 12,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -384,7 +384,7 @@ module.exports = {
             },
             {
               "id": 13,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -406,7 +406,7 @@ module.exports = {
             },
             {
               "id": 14,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -428,7 +428,7 @@ module.exports = {
             },
             {
               "id": 15,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -450,7 +450,7 @@ module.exports = {
             },
             {
               "id": 16,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -472,7 +472,7 @@ module.exports = {
             },
             {
               "id": 17,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -494,7 +494,7 @@ module.exports = {
             },
             {
               "id": 18,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -516,7 +516,7 @@ module.exports = {
             },
             {
               "id": 19,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -538,7 +538,7 @@ module.exports = {
             },
             {
               "id": 20,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -560,7 +560,7 @@ module.exports = {
             },
             {
               "id": 21,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -582,7 +582,7 @@ module.exports = {
             },
             {
               "id": 22,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -604,7 +604,7 @@ module.exports = {
             },
             {
               "id": 23,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -626,7 +626,7 @@ module.exports = {
             },
             {
               "id": 24,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -648,7 +648,7 @@ module.exports = {
             },
             {
               "id": 25,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -670,7 +670,7 @@ module.exports = {
             },
             {
               "id": 26,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -692,7 +692,7 @@ module.exports = {
             },
             {
               "id": 27,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -714,7 +714,7 @@ module.exports = {
             },
             {
               "id": 28,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -736,7 +736,7 @@ module.exports = {
             },
             {
               "id": 29,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -758,7 +758,7 @@ module.exports = {
             },
             {
               "id": 30,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -780,7 +780,7 @@ module.exports = {
             },
             {
               "id": 31,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -802,7 +802,7 @@ module.exports = {
             },
             {
               "id": 32,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -824,7 +824,7 @@ module.exports = {
             },
             {
               "id": 33,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -846,7 +846,7 @@ module.exports = {
             },
             {
               "id": 34,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -868,7 +868,7 @@ module.exports = {
             },
             {
               "id": 35,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -890,7 +890,7 @@ module.exports = {
             },
             {
               "id": 36,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -912,7 +912,7 @@ module.exports = {
             },
             {
               "id": 37,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -934,7 +934,7 @@ module.exports = {
             },
             {
               "id": 38,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -956,7 +956,7 @@ module.exports = {
             },
             {
               "id": 39,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -978,7 +978,7 @@ module.exports = {
             },
             {
               "id": 40,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1000,7 +1000,7 @@ module.exports = {
             },
             {
               "id": 41,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1022,7 +1022,7 @@ module.exports = {
             },
             {
               "id": 42,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1044,7 +1044,7 @@ module.exports = {
             },
             {
               "id": 43,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1066,7 +1066,7 @@ module.exports = {
             },
             {
               "id": 44,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1088,7 +1088,7 @@ module.exports = {
             },
             {
               "id": 45,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1110,7 +1110,7 @@ module.exports = {
             },
             {
               "id": 46,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1132,7 +1132,7 @@ module.exports = {
             },
             {
               "id": 47,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1154,7 +1154,7 @@ module.exports = {
             },
             {
               "id": 48,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1176,7 +1176,7 @@ module.exports = {
             },
             {
               "id": 49,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1198,7 +1198,7 @@ module.exports = {
             },
             {
               "id": 50,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1220,7 +1220,7 @@ module.exports = {
             },
             {
               "id": 51,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1242,7 +1242,7 @@ module.exports = {
             },
             {
               "id": 52,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1264,7 +1264,7 @@ module.exports = {
             },
             {
               "id": 53,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1286,7 +1286,7 @@ module.exports = {
             },
             {
               "id": 54,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1308,7 +1308,7 @@ module.exports = {
             },
             {
               "id": 55,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1330,7 +1330,7 @@ module.exports = {
             },
             {
               "id": 56,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1352,7 +1352,7 @@ module.exports = {
             },
             {
               "id": 57,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1374,7 +1374,7 @@ module.exports = {
             },
             {
               "id": 58,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1396,7 +1396,7 @@ module.exports = {
             },
             {
               "id": 59,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1418,7 +1418,7 @@ module.exports = {
             },
             {
               "id": 60,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1440,7 +1440,7 @@ module.exports = {
             },
             {
               "id": 61,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1462,7 +1462,7 @@ module.exports = {
             },
             {
               "id": 62,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1484,7 +1484,7 @@ module.exports = {
             },
             {
               "id": 63,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1506,7 +1506,7 @@ module.exports = {
             },
             {
               "id": 64,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1528,7 +1528,7 @@ module.exports = {
             },
             {
               "id": 65,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1550,7 +1550,7 @@ module.exports = {
             },
             {
               "id": 66,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1572,7 +1572,7 @@ module.exports = {
             },
             {
               "id": 67,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1594,7 +1594,7 @@ module.exports = {
             },
             {
               "id": 68,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1616,7 +1616,7 @@ module.exports = {
             },
             {
               "id": 69,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1638,7 +1638,7 @@ module.exports = {
             },
             {
               "id": 70,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1660,7 +1660,7 @@ module.exports = {
             },
             {
               "id": 71,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1682,7 +1682,7 @@ module.exports = {
             },
             {
               "id": 72,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1704,7 +1704,7 @@ module.exports = {
             },
             {
               "id": 73,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1726,7 +1726,7 @@ module.exports = {
             },
             {
               "id": 74,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1748,7 +1748,7 @@ module.exports = {
             },
             {
               "id": 75,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1770,7 +1770,7 @@ module.exports = {
             },
             {
               "id": 76,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1792,7 +1792,7 @@ module.exports = {
             },
             {
               "id": 77,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1814,7 +1814,7 @@ module.exports = {
             },
             {
               "id": 78,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1836,7 +1836,7 @@ module.exports = {
             },
             {
               "id": 79,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1858,7 +1858,7 @@ module.exports = {
             },
             {
               "id": 80,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1880,7 +1880,7 @@ module.exports = {
             },
             {
               "id": 81,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1902,7 +1902,7 @@ module.exports = {
             },
             {
               "id": 82,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1924,7 +1924,7 @@ module.exports = {
             },
             {
               "id": 83,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1946,7 +1946,7 @@ module.exports = {
             },
             {
               "id": 84,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1968,7 +1968,7 @@ module.exports = {
             },
             {
               "id": 85,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -1990,7 +1990,7 @@ module.exports = {
             },
             {
               "id": 86,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2012,7 +2012,7 @@ module.exports = {
             },
             {
               "id": 87,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2034,7 +2034,7 @@ module.exports = {
             },
             {
               "id": 88,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2056,7 +2056,7 @@ module.exports = {
             },
             {
               "id": 89,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2078,7 +2078,7 @@ module.exports = {
             },
             {
               "id": 90,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2100,7 +2100,7 @@ module.exports = {
             },
             {
               "id": 91,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2122,7 +2122,7 @@ module.exports = {
             },
             {
               "id": 92,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2144,7 +2144,7 @@ module.exports = {
             },
             {
               "id": 93,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2166,7 +2166,7 @@ module.exports = {
             },
             {
               "id": 94,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2188,7 +2188,7 @@ module.exports = {
             },
             {
               "id": 95,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2210,7 +2210,7 @@ module.exports = {
             },
             {
               "id": 96,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2232,7 +2232,7 @@ module.exports = {
             },
             {
               "id": 97,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2254,7 +2254,7 @@ module.exports = {
             },
             {
               "id": 98,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2276,7 +2276,7 @@ module.exports = {
             },
             {
               "id": 99,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2298,7 +2298,7 @@ module.exports = {
             },
             {
               "id": 100,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2320,7 +2320,7 @@ module.exports = {
             },
             {
               "id": 101,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2342,7 +2342,7 @@ module.exports = {
             },
             {
               "id": 102,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2364,7 +2364,7 @@ module.exports = {
             },
             {
               "id": 103,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2386,7 +2386,7 @@ module.exports = {
             },
             {
               "id": 104,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2408,7 +2408,7 @@ module.exports = {
             },
             {
               "id": 105,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2430,7 +2430,7 @@ module.exports = {
             },
             {
               "id": 106,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2452,7 +2452,7 @@ module.exports = {
             },
             {
               "id": 107,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2474,7 +2474,7 @@ module.exports = {
             },
             {
               "id": 108,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2496,7 +2496,7 @@ module.exports = {
             },
             {
               "id": 109,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2518,7 +2518,7 @@ module.exports = {
             },
             {
               "id": 110,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2540,7 +2540,7 @@ module.exports = {
             },
             {
               "id": 111,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2562,7 +2562,7 @@ module.exports = {
             },
             {
               "id": 112,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2584,7 +2584,7 @@ module.exports = {
             },
             {
               "id": 113,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2606,7 +2606,7 @@ module.exports = {
             },
             {
               "id": 114,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2628,7 +2628,7 @@ module.exports = {
             },
             {
               "id": 115,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2650,7 +2650,7 @@ module.exports = {
             },
             {
               "id": 116,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2672,7 +2672,7 @@ module.exports = {
             },
             {
               "id": 117,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2694,7 +2694,7 @@ module.exports = {
             },
             {
               "id": 118,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2716,7 +2716,7 @@ module.exports = {
             },
             {
               "id": 119,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2738,7 +2738,7 @@ module.exports = {
             },
             {
               "id": 120,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2760,7 +2760,7 @@ module.exports = {
             },
             {
               "id": 121,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2782,7 +2782,7 @@ module.exports = {
             },
             {
               "id": 122,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2804,7 +2804,7 @@ module.exports = {
             },
             {
               "id": 123,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2826,7 +2826,7 @@ module.exports = {
             },
             {
               "id": 124,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2848,7 +2848,7 @@ module.exports = {
             },
             {
               "id": 125,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2870,7 +2870,7 @@ module.exports = {
             },
             {
               "id": 126,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2892,7 +2892,7 @@ module.exports = {
             },
             {
               "id": 127,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2914,7 +2914,7 @@ module.exports = {
             },
             {
               "id": 128,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2936,7 +2936,7 @@ module.exports = {
             },
             {
               "id": 129,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2958,7 +2958,7 @@ module.exports = {
             },
             {
               "id": 130,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -2980,7 +2980,7 @@ module.exports = {
             },
             {
               "id": 131,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3002,7 +3002,7 @@ module.exports = {
             },
             {
               "id": 132,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3024,7 +3024,7 @@ module.exports = {
             },
             {
               "id": 133,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3046,7 +3046,7 @@ module.exports = {
             },
             {
               "id": 134,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3068,7 +3068,7 @@ module.exports = {
             },
             {
               "id": 135,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3090,7 +3090,7 @@ module.exports = {
             },
             {
               "id": 136,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3112,7 +3112,7 @@ module.exports = {
             },
             {
               "id": 137,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3134,7 +3134,7 @@ module.exports = {
             },
             {
               "id": 138,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3156,7 +3156,7 @@ module.exports = {
             },
             {
               "id": 139,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3178,7 +3178,7 @@ module.exports = {
             },
             {
               "id": 140,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3200,7 +3200,7 @@ module.exports = {
             },
             {
               "id": 141,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3222,7 +3222,7 @@ module.exports = {
             },
             {
               "id": 142,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3244,7 +3244,7 @@ module.exports = {
             },
             {
               "id": 143,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3266,7 +3266,7 @@ module.exports = {
             },
             {
               "id": 144,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3288,7 +3288,7 @@ module.exports = {
             },
             {
               "id": 145,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3310,7 +3310,7 @@ module.exports = {
             },
             {
               "id": 146,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3332,7 +3332,7 @@ module.exports = {
             },
             {
               "id": 147,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3354,7 +3354,7 @@ module.exports = {
             },
             {
               "id": 148,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3376,7 +3376,7 @@ module.exports = {
             },
             {
               "id": 149,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3398,7 +3398,7 @@ module.exports = {
             },
             {
               "id": 150,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3420,7 +3420,7 @@ module.exports = {
             },
             {
               "id": 151,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3442,7 +3442,7 @@ module.exports = {
             },
             {
               "id": 152,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3464,7 +3464,7 @@ module.exports = {
             },
             {
               "id": 153,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3486,7 +3486,7 @@ module.exports = {
             },
             {
               "id": 154,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3508,7 +3508,7 @@ module.exports = {
             },
             {
               "id": 155,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3530,7 +3530,7 @@ module.exports = {
             },
             {
               "id": 156,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3552,7 +3552,7 @@ module.exports = {
             },
             {
               "id": 157,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3574,7 +3574,7 @@ module.exports = {
             },
             {
               "id": 158,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3596,7 +3596,7 @@ module.exports = {
             },
             {
               "id": 159,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3618,7 +3618,7 @@ module.exports = {
             },
             {
               "id": 160,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3640,7 +3640,7 @@ module.exports = {
             },
             {
               "id": 161,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3662,7 +3662,7 @@ module.exports = {
             },
             {
               "id": 162,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3684,7 +3684,7 @@ module.exports = {
             },
             {
               "id": 163,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3706,7 +3706,7 @@ module.exports = {
             },
             {
               "id": 164,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3728,7 +3728,7 @@ module.exports = {
             },
             {
               "id": 165,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3750,7 +3750,7 @@ module.exports = {
             },
             {
               "id": 166,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3772,7 +3772,7 @@ module.exports = {
             },
             {
               "id": 167,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3794,7 +3794,7 @@ module.exports = {
             },
             {
               "id": 168,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3816,7 +3816,7 @@ module.exports = {
             },
             {
               "id": 169,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3838,7 +3838,7 @@ module.exports = {
             },
             {
               "id": 170,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3860,7 +3860,7 @@ module.exports = {
             },
             {
               "id": 171,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3882,7 +3882,7 @@ module.exports = {
             },
             {
               "id": 172,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3904,7 +3904,7 @@ module.exports = {
             },
             {
               "id": 173,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3926,7 +3926,7 @@ module.exports = {
             },
             {
               "id": 174,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3948,7 +3948,7 @@ module.exports = {
             },
             {
               "id": 175,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3970,7 +3970,7 @@ module.exports = {
             },
             {
               "id": 176,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -3992,7 +3992,7 @@ module.exports = {
             },
             {
               "id": 177,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4014,7 +4014,7 @@ module.exports = {
             },
             {
               "id": 178,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4036,7 +4036,7 @@ module.exports = {
             },
             {
               "id": 179,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4058,7 +4058,7 @@ module.exports = {
             },
             {
               "id": 180,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4080,7 +4080,7 @@ module.exports = {
             },
             {
               "id": 181,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4102,7 +4102,7 @@ module.exports = {
             },
             {
               "id": 182,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4124,7 +4124,7 @@ module.exports = {
             },
             {
               "id": 183,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4146,7 +4146,7 @@ module.exports = {
             },
             {
               "id": 184,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4168,7 +4168,7 @@ module.exports = {
             },
             {
               "id": 185,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4190,7 +4190,7 @@ module.exports = {
             },
             {
               "id": 186,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4212,7 +4212,7 @@ module.exports = {
             },
             {
               "id": 187,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4234,7 +4234,7 @@ module.exports = {
             },
             {
               "id": 188,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4256,7 +4256,7 @@ module.exports = {
             },
             {
               "id": 189,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4278,7 +4278,7 @@ module.exports = {
             },
             {
               "id": 190,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4300,7 +4300,7 @@ module.exports = {
             },
             {
               "id": 191,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4322,7 +4322,7 @@ module.exports = {
             },
             {
               "id": 192,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4344,7 +4344,7 @@ module.exports = {
             },
             {
               "id": 193,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4366,7 +4366,7 @@ module.exports = {
             },
             {
               "id": 194,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4388,7 +4388,7 @@ module.exports = {
             },
             {
               "id": 195,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4410,7 +4410,7 @@ module.exports = {
             },
             {
               "id": 196,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4432,7 +4432,7 @@ module.exports = {
             },
             {
               "id": 197,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4454,7 +4454,7 @@ module.exports = {
             },
             {
               "id": 198,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4476,7 +4476,7 @@ module.exports = {
             },
             {
               "id": 199,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4498,7 +4498,7 @@ module.exports = {
             },
             {
               "id": 200,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4520,7 +4520,7 @@ module.exports = {
             },
             {
               "id": 201,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4542,7 +4542,7 @@ module.exports = {
             },
             {
               "id": 202,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4564,7 +4564,7 @@ module.exports = {
             },
             {
               "id": 203,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4586,7 +4586,7 @@ module.exports = {
             },
             {
               "id": 204,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4608,7 +4608,7 @@ module.exports = {
             },
             {
               "id": 205,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4630,7 +4630,7 @@ module.exports = {
             },
             {
               "id": 206,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4652,7 +4652,7 @@ module.exports = {
             },
             {
               "id": 207,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4674,7 +4674,7 @@ module.exports = {
             },
             {
               "id": 208,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4696,7 +4696,7 @@ module.exports = {
             },
             {
               "id": 209,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4718,7 +4718,7 @@ module.exports = {
             },
             {
               "id": 210,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4740,7 +4740,7 @@ module.exports = {
             },
             {
               "id": 211,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4762,7 +4762,7 @@ module.exports = {
             },
             {
               "id": 212,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4784,7 +4784,7 @@ module.exports = {
             },
             {
               "id": 213,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4806,7 +4806,7 @@ module.exports = {
             },
             {
               "id": 214,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4828,7 +4828,7 @@ module.exports = {
             },
             {
               "id": 215,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4850,7 +4850,7 @@ module.exports = {
             },
             {
               "id": 216,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4872,7 +4872,7 @@ module.exports = {
             },
             {
               "id": 217,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4894,7 +4894,7 @@ module.exports = {
             },
             {
               "id": 218,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4916,7 +4916,7 @@ module.exports = {
             },
             {
               "id": 219,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4938,7 +4938,7 @@ module.exports = {
             },
             {
               "id": 220,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4960,7 +4960,7 @@ module.exports = {
             },
             {
               "id": 221,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -4982,7 +4982,7 @@ module.exports = {
             },
             {
               "id": 222,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5004,7 +5004,7 @@ module.exports = {
             },
             {
               "id": 223,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5026,7 +5026,7 @@ module.exports = {
             },
             {
               "id": 224,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5048,7 +5048,7 @@ module.exports = {
             },
             {
               "id": 225,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5070,7 +5070,7 @@ module.exports = {
             },
             {
               "id": 226,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5092,7 +5092,7 @@ module.exports = {
             },
             {
               "id": 227,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5114,7 +5114,7 @@ module.exports = {
             },
             {
               "id": 228,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5136,7 +5136,7 @@ module.exports = {
             },
             {
               "id": 229,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5158,7 +5158,7 @@ module.exports = {
             },
             {
               "id": 230,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5180,7 +5180,7 @@ module.exports = {
             },
             {
               "id": 231,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5202,7 +5202,7 @@ module.exports = {
             },
             {
               "id": 232,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5224,7 +5224,7 @@ module.exports = {
             },
             {
               "id": 233,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5246,7 +5246,7 @@ module.exports = {
             },
             {
               "id": 234,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5268,7 +5268,7 @@ module.exports = {
             },
             {
               "id": 235,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5290,7 +5290,7 @@ module.exports = {
             },
             {
               "id": 236,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5312,7 +5312,7 @@ module.exports = {
             },
             {
               "id": 237,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5334,7 +5334,7 @@ module.exports = {
             },
             {
               "id": 238,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5356,7 +5356,7 @@ module.exports = {
             },
             {
               "id": 239,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5378,7 +5378,7 @@ module.exports = {
             },
             {
               "id": 240,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5400,7 +5400,7 @@ module.exports = {
             },
             {
               "id": 241,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5422,7 +5422,7 @@ module.exports = {
             },
             {
               "id": 242,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5444,7 +5444,7 @@ module.exports = {
             },
             {
               "id": 243,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5466,7 +5466,7 @@ module.exports = {
             },
             {
               "id": 244,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5488,7 +5488,7 @@ module.exports = {
             },
             {
               "id": 245,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5510,7 +5510,7 @@ module.exports = {
             },
             {
               "id": 246,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5532,7 +5532,7 @@ module.exports = {
             },
             {
               "id": 247,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5554,7 +5554,7 @@ module.exports = {
             },
             {
               "id": 248,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5576,7 +5576,7 @@ module.exports = {
             },
             {
               "id": 249,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5598,7 +5598,7 @@ module.exports = {
             },
             {
               "id": 250,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5620,7 +5620,7 @@ module.exports = {
             },
             {
               "id": 251,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5642,7 +5642,7 @@ module.exports = {
             },
             {
               "id": 252,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5664,7 +5664,7 @@ module.exports = {
             },
             {
               "id": 253,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5686,7 +5686,7 @@ module.exports = {
             },
             {
               "id": 254,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5708,7 +5708,7 @@ module.exports = {
             },
             {
               "id": 255,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5730,7 +5730,7 @@ module.exports = {
             },
             {
               "id": 256,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5752,7 +5752,7 @@ module.exports = {
             },
             {
               "id": 257,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5774,7 +5774,7 @@ module.exports = {
             },
             {
               "id": 258,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5796,7 +5796,7 @@ module.exports = {
             },
             {
               "id": 259,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5818,7 +5818,7 @@ module.exports = {
             },
             {
               "id": 260,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5840,7 +5840,7 @@ module.exports = {
             },
             {
               "id": 261,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5862,7 +5862,7 @@ module.exports = {
             },
             {
               "id": 262,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5884,7 +5884,7 @@ module.exports = {
             },
             {
               "id": 263,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5906,7 +5906,7 @@ module.exports = {
             },
             {
               "id": 264,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5928,7 +5928,7 @@ module.exports = {
             },
             {
               "id": 265,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5950,7 +5950,7 @@ module.exports = {
             },
             {
               "id": 266,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5972,7 +5972,7 @@ module.exports = {
             },
             {
               "id": 267,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -5994,7 +5994,7 @@ module.exports = {
             },
             {
               "id": 268,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6016,7 +6016,7 @@ module.exports = {
             },
             {
               "id": 269,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6038,7 +6038,7 @@ module.exports = {
             },
             {
               "id": 270,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6060,7 +6060,7 @@ module.exports = {
             },
             {
               "id": 271,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6082,7 +6082,7 @@ module.exports = {
             },
             {
               "id": 272,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6104,7 +6104,7 @@ module.exports = {
             },
             {
               "id": 273,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6126,7 +6126,7 @@ module.exports = {
             },
             {
               "id": 274,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6148,7 +6148,7 @@ module.exports = {
             },
             {
               "id": 275,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6170,7 +6170,7 @@ module.exports = {
             },
             {
               "id": 276,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6192,7 +6192,7 @@ module.exports = {
             },
             {
               "id": 277,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6214,7 +6214,7 @@ module.exports = {
             },
             {
               "id": 278,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6236,7 +6236,7 @@ module.exports = {
             },
             {
               "id": 279,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6258,7 +6258,7 @@ module.exports = {
             },
             {
               "id": 280,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6280,7 +6280,7 @@ module.exports = {
             },
             {
               "id": 281,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6302,7 +6302,7 @@ module.exports = {
             },
             {
               "id": 282,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6324,7 +6324,7 @@ module.exports = {
             },
             {
               "id": 283,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6346,7 +6346,7 @@ module.exports = {
             },
             {
               "id": 284,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6368,7 +6368,7 @@ module.exports = {
             },
             {
               "id": 285,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6390,7 +6390,7 @@ module.exports = {
             },
             {
               "id": 286,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6412,7 +6412,7 @@ module.exports = {
             },
             {
               "id": 287,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6434,7 +6434,7 @@ module.exports = {
             },
             {
               "id": 288,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6456,7 +6456,7 @@ module.exports = {
             },
             {
               "id": 289,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6478,7 +6478,7 @@ module.exports = {
             },
             {
               "id": 290,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6500,7 +6500,7 @@ module.exports = {
             },
             {
               "id": 291,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6522,7 +6522,7 @@ module.exports = {
             },
             {
               "id": 292,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6544,7 +6544,7 @@ module.exports = {
             },
             {
               "id": 293,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6566,7 +6566,7 @@ module.exports = {
             },
             {
               "id": 294,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6588,7 +6588,7 @@ module.exports = {
             },
             {
               "id": 295,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6610,7 +6610,7 @@ module.exports = {
             },
             {
               "id": 296,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6632,7 +6632,7 @@ module.exports = {
             },
             {
               "id": 297,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6654,7 +6654,7 @@ module.exports = {
             },
             {
               "id": 298,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6676,7 +6676,7 @@ module.exports = {
             },
             {
               "id": 299,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6698,7 +6698,7 @@ module.exports = {
             },
             {
               "id": 300,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6720,7 +6720,7 @@ module.exports = {
             },
             {
               "id": 301,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6742,7 +6742,7 @@ module.exports = {
             },
             {
               "id": 302,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6764,7 +6764,7 @@ module.exports = {
             },
             {
               "id": 303,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6786,7 +6786,7 @@ module.exports = {
             },
             {
               "id": 304,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6808,7 +6808,7 @@ module.exports = {
             },
             {
               "id": 305,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6830,7 +6830,7 @@ module.exports = {
             },
             {
               "id": 306,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6852,7 +6852,7 @@ module.exports = {
             },
             {
               "id": 307,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6874,7 +6874,7 @@ module.exports = {
             },
             {
               "id": 308,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6896,7 +6896,7 @@ module.exports = {
             },
             {
               "id": 309,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6918,7 +6918,7 @@ module.exports = {
             },
             {
               "id": 310,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6940,7 +6940,7 @@ module.exports = {
             },
             {
               "id": 311,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6962,7 +6962,7 @@ module.exports = {
             },
             {
               "id": 312,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -6984,7 +6984,7 @@ module.exports = {
             },
             {
               "id": 313,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7006,7 +7006,7 @@ module.exports = {
             },
             {
               "id": 314,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7028,7 +7028,7 @@ module.exports = {
             },
             {
               "id": 315,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7050,7 +7050,7 @@ module.exports = {
             },
             {
               "id": 316,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7072,7 +7072,7 @@ module.exports = {
             },
             {
               "id": 317,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7094,7 +7094,7 @@ module.exports = {
             },
             {
               "id": 318,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7116,7 +7116,7 @@ module.exports = {
             },
             {
               "id": 319,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7138,7 +7138,7 @@ module.exports = {
             },
             {
               "id": 320,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7160,7 +7160,7 @@ module.exports = {
             },
             {
               "id": 321,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7182,7 +7182,7 @@ module.exports = {
             },
             {
               "id": 322,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7204,7 +7204,7 @@ module.exports = {
             },
             {
               "id": 323,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7226,7 +7226,7 @@ module.exports = {
             },
             {
               "id": 324,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7248,7 +7248,7 @@ module.exports = {
             },
             {
               "id": 325,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7270,7 +7270,7 @@ module.exports = {
             },
             {
               "id": 326,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7292,7 +7292,7 @@ module.exports = {
             },
             {
               "id": 327,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7314,7 +7314,7 @@ module.exports = {
             },
             {
               "id": 328,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7336,7 +7336,7 @@ module.exports = {
             },
             {
               "id": 329,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7358,7 +7358,7 @@ module.exports = {
             },
             {
               "id": 330,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7380,7 +7380,7 @@ module.exports = {
             },
             {
               "id": 331,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7402,7 +7402,7 @@ module.exports = {
             },
             {
               "id": 332,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7424,7 +7424,7 @@ module.exports = {
             },
             {
               "id": 333,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7446,7 +7446,7 @@ module.exports = {
             },
             {
               "id": 334,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7468,7 +7468,7 @@ module.exports = {
             },
             {
               "id": 335,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7490,7 +7490,7 @@ module.exports = {
             },
             {
               "id": 336,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7512,7 +7512,7 @@ module.exports = {
             },
             {
               "id": 337,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7534,7 +7534,7 @@ module.exports = {
             },
             {
               "id": 338,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7556,7 +7556,7 @@ module.exports = {
             },
             {
               "id": 339,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7578,7 +7578,7 @@ module.exports = {
             },
             {
               "id": 340,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7600,7 +7600,7 @@ module.exports = {
             },
             {
               "id": 341,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7622,7 +7622,7 @@ module.exports = {
             },
             {
               "id": 342,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7644,7 +7644,7 @@ module.exports = {
             },
             {
               "id": 343,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7666,7 +7666,7 @@ module.exports = {
             },
             {
               "id": 344,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7688,7 +7688,7 @@ module.exports = {
             },
             {
               "id": 345,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7710,7 +7710,7 @@ module.exports = {
             },
             {
               "id": 346,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7732,7 +7732,7 @@ module.exports = {
             },
             {
               "id": 347,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7754,7 +7754,7 @@ module.exports = {
             },
             {
               "id": 348,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7776,7 +7776,7 @@ module.exports = {
             },
             {
               "id": 349,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7798,7 +7798,7 @@ module.exports = {
             },
             {
               "id": 350,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7820,7 +7820,7 @@ module.exports = {
             },
             {
               "id": 351,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7842,7 +7842,7 @@ module.exports = {
             },
             {
               "id": 352,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7864,7 +7864,7 @@ module.exports = {
             },
             {
               "id": 353,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7886,7 +7886,7 @@ module.exports = {
             },
             {
               "id": 354,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7908,7 +7908,7 @@ module.exports = {
             },
             {
               "id": 355,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7930,7 +7930,7 @@ module.exports = {
             },
             {
               "id": 356,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7952,7 +7952,7 @@ module.exports = {
             },
             {
               "id": 357,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7974,7 +7974,7 @@ module.exports = {
             },
             {
               "id": 358,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -7996,7 +7996,7 @@ module.exports = {
             },
             {
               "id": 359,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8018,7 +8018,7 @@ module.exports = {
             },
             {
               "id": 360,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8040,7 +8040,7 @@ module.exports = {
             },
             {
               "id": 361,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8062,7 +8062,7 @@ module.exports = {
             },
             {
               "id": 362,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8084,7 +8084,7 @@ module.exports = {
             },
             {
               "id": 363,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8106,7 +8106,7 @@ module.exports = {
             },
             {
               "id": 364,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8128,7 +8128,7 @@ module.exports = {
             },
             {
               "id": 365,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8150,7 +8150,7 @@ module.exports = {
             },
             {
               "id": 366,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8172,7 +8172,7 @@ module.exports = {
             },
             {
               "id": 367,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8194,7 +8194,7 @@ module.exports = {
             },
             {
               "id": 368,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8216,7 +8216,7 @@ module.exports = {
             },
             {
               "id": 369,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8238,7 +8238,7 @@ module.exports = {
             },
             {
               "id": 370,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8260,7 +8260,7 @@ module.exports = {
             },
             {
               "id": 371,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8282,7 +8282,7 @@ module.exports = {
             },
             {
               "id": 372,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8304,7 +8304,7 @@ module.exports = {
             },
             {
               "id": 373,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8326,7 +8326,7 @@ module.exports = {
             },
             {
               "id": 374,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8348,7 +8348,7 @@ module.exports = {
             },
             {
               "id": 375,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8370,7 +8370,7 @@ module.exports = {
             },
             {
               "id": 376,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8392,7 +8392,7 @@ module.exports = {
             },
             {
               "id": 377,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8414,7 +8414,7 @@ module.exports = {
             },
             {
               "id": 378,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8436,7 +8436,7 @@ module.exports = {
             },
             {
               "id": 379,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8458,7 +8458,7 @@ module.exports = {
             },
             {
               "id": 380,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8480,7 +8480,7 @@ module.exports = {
             },
             {
               "id": 381,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8502,7 +8502,7 @@ module.exports = {
             },
             {
               "id": 382,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8524,7 +8524,7 @@ module.exports = {
             },
             {
               "id": 383,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8546,7 +8546,7 @@ module.exports = {
             },
             {
               "id": 384,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8568,7 +8568,7 @@ module.exports = {
             },
             {
               "id": 385,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8590,7 +8590,7 @@ module.exports = {
             },
             {
               "id": 386,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8612,7 +8612,7 @@ module.exports = {
             },
             {
               "id": 387,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8634,7 +8634,7 @@ module.exports = {
             },
             {
               "id": 388,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8656,7 +8656,7 @@ module.exports = {
             },
             {
               "id": 389,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8678,7 +8678,7 @@ module.exports = {
             },
             {
               "id": 390,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8700,7 +8700,7 @@ module.exports = {
             },
             {
               "id": 391,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8722,7 +8722,7 @@ module.exports = {
             },
             {
               "id": 392,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8744,7 +8744,7 @@ module.exports = {
             },
             {
               "id": 393,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8766,7 +8766,7 @@ module.exports = {
             },
             {
               "id": 394,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8788,7 +8788,7 @@ module.exports = {
             },
             {
               "id": 395,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8810,7 +8810,7 @@ module.exports = {
             },
             {
               "id": 396,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8832,7 +8832,7 @@ module.exports = {
             },
             {
               "id": 397,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8854,7 +8854,7 @@ module.exports = {
             },
             {
               "id": 398,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8876,7 +8876,7 @@ module.exports = {
             },
             {
               "id": 399,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8898,7 +8898,7 @@ module.exports = {
             },
             {
               "id": 400,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8920,7 +8920,7 @@ module.exports = {
             },
             {
               "id": 401,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8942,7 +8942,7 @@ module.exports = {
             },
             {
               "id": 402,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8964,7 +8964,7 @@ module.exports = {
             },
             {
               "id": 403,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -8986,7 +8986,7 @@ module.exports = {
             },
             {
               "id": 404,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9008,7 +9008,7 @@ module.exports = {
             },
             {
               "id": 405,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9030,7 +9030,7 @@ module.exports = {
             },
             {
               "id": 406,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9052,7 +9052,7 @@ module.exports = {
             },
             {
               "id": 407,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9074,7 +9074,7 @@ module.exports = {
             },
             {
               "id": 408,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9096,7 +9096,7 @@ module.exports = {
             },
             {
               "id": 409,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9118,7 +9118,7 @@ module.exports = {
             },
             {
               "id": 410,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9140,7 +9140,7 @@ module.exports = {
             },
             {
               "id": 411,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9162,7 +9162,7 @@ module.exports = {
             },
             {
               "id": 412,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9184,7 +9184,7 @@ module.exports = {
             },
             {
               "id": 413,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9206,7 +9206,7 @@ module.exports = {
             },
             {
               "id": 414,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9228,7 +9228,7 @@ module.exports = {
             },
             {
               "id": 415,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9250,7 +9250,7 @@ module.exports = {
             },
             {
               "id": 416,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9272,7 +9272,7 @@ module.exports = {
             },
             {
               "id": 417,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9294,7 +9294,7 @@ module.exports = {
             },
             {
               "id": 418,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9316,7 +9316,7 @@ module.exports = {
             },
             {
               "id": 419,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9338,7 +9338,7 @@ module.exports = {
             },
             {
               "id": 420,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9360,7 +9360,7 @@ module.exports = {
             },
             {
               "id": 421,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9382,7 +9382,7 @@ module.exports = {
             },
             {
               "id": 422,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9404,7 +9404,7 @@ module.exports = {
             },
             {
               "id": 423,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9426,7 +9426,7 @@ module.exports = {
             },
             {
               "id": 424,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9448,7 +9448,7 @@ module.exports = {
             },
             {
               "id": 425,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9470,7 +9470,7 @@ module.exports = {
             },
             {
               "id": 426,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9492,7 +9492,7 @@ module.exports = {
             },
             {
               "id": 427,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9514,7 +9514,7 @@ module.exports = {
             },
             {
               "id": 428,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9536,7 +9536,7 @@ module.exports = {
             },
             {
               "id": 429,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9558,7 +9558,7 @@ module.exports = {
             },
             {
               "id": 430,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9580,7 +9580,7 @@ module.exports = {
             },
             {
               "id": 431,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9602,7 +9602,7 @@ module.exports = {
             },
             {
               "id": 432,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9624,7 +9624,7 @@ module.exports = {
             },
             {
               "id": 433,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9646,7 +9646,7 @@ module.exports = {
             },
             {
               "id": 434,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9668,7 +9668,7 @@ module.exports = {
             },
             {
               "id": 435,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9690,7 +9690,7 @@ module.exports = {
             },
             {
               "id": 436,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9712,7 +9712,7 @@ module.exports = {
             },
             {
               "id": 437,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9734,7 +9734,7 @@ module.exports = {
             },
             {
               "id": 438,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9756,7 +9756,7 @@ module.exports = {
             },
             {
               "id": 439,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9778,7 +9778,7 @@ module.exports = {
             },
             {
               "id": 440,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9800,7 +9800,7 @@ module.exports = {
             },
             {
               "id": 441,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9822,7 +9822,7 @@ module.exports = {
             },
             {
               "id": 442,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9844,7 +9844,7 @@ module.exports = {
             },
             {
               "id": 443,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9866,7 +9866,7 @@ module.exports = {
             },
             {
               "id": 444,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9888,7 +9888,7 @@ module.exports = {
             },
             {
               "id": 445,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9910,7 +9910,7 @@ module.exports = {
             },
             {
               "id": 446,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9932,7 +9932,7 @@ module.exports = {
             },
             {
               "id": 447,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9954,7 +9954,7 @@ module.exports = {
             },
             {
               "id": 448,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9976,7 +9976,7 @@ module.exports = {
             },
             {
               "id": 449,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -9998,7 +9998,7 @@ module.exports = {
             },
             {
               "id": 450,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10020,7 +10020,7 @@ module.exports = {
             },
             {
               "id": 451,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10042,7 +10042,7 @@ module.exports = {
             },
             {
               "id": 452,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10064,7 +10064,7 @@ module.exports = {
             },
             {
               "id": 453,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10086,7 +10086,7 @@ module.exports = {
             },
             {
               "id": 454,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10108,7 +10108,7 @@ module.exports = {
             },
             {
               "id": 455,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10130,7 +10130,7 @@ module.exports = {
             },
             {
               "id": 456,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10152,7 +10152,7 @@ module.exports = {
             },
             {
               "id": 457,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10174,7 +10174,7 @@ module.exports = {
             },
             {
               "id": 458,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10196,7 +10196,7 @@ module.exports = {
             },
             {
               "id": 459,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10218,7 +10218,7 @@ module.exports = {
             },
             {
               "id": 460,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10240,7 +10240,7 @@ module.exports = {
             },
             {
               "id": 461,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10262,7 +10262,7 @@ module.exports = {
             },
             {
               "id": 462,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10284,7 +10284,7 @@ module.exports = {
             },
             {
               "id": 463,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10306,7 +10306,7 @@ module.exports = {
             },
             {
               "id": 464,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10328,7 +10328,7 @@ module.exports = {
             },
             {
               "id": 465,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10350,7 +10350,7 @@ module.exports = {
             },
             {
               "id": 466,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10372,7 +10372,7 @@ module.exports = {
             },
             {
               "id": 467,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10394,7 +10394,7 @@ module.exports = {
             },
             {
               "id": 468,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10416,7 +10416,7 @@ module.exports = {
             },
             {
               "id": 469,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10438,7 +10438,7 @@ module.exports = {
             },
             {
               "id": 470,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10460,7 +10460,7 @@ module.exports = {
             },
             {
               "id": 471,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10482,7 +10482,7 @@ module.exports = {
             },
             {
               "id": 472,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10504,7 +10504,7 @@ module.exports = {
             },
             {
               "id": 473,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10526,7 +10526,7 @@ module.exports = {
             },
             {
               "id": 474,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10548,7 +10548,7 @@ module.exports = {
             },
             {
               "id": 475,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10570,7 +10570,7 @@ module.exports = {
             },
             {
               "id": 476,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10592,7 +10592,7 @@ module.exports = {
             },
             {
               "id": 477,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10614,7 +10614,7 @@ module.exports = {
             },
             {
               "id": 478,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10636,7 +10636,7 @@ module.exports = {
             },
             {
               "id": 479,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10658,7 +10658,7 @@ module.exports = {
             },
             {
               "id": 480,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10680,7 +10680,7 @@ module.exports = {
             },
             {
               "id": 481,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10702,7 +10702,7 @@ module.exports = {
             },
             {
               "id": 482,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10724,7 +10724,7 @@ module.exports = {
             },
             {
               "id": 483,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10746,7 +10746,7 @@ module.exports = {
             },
             {
               "id": 484,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10768,7 +10768,7 @@ module.exports = {
             },
             {
               "id": 485,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10790,7 +10790,7 @@ module.exports = {
             },
             {
               "id": 486,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10812,7 +10812,7 @@ module.exports = {
             },
             {
               "id": 487,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10834,7 +10834,7 @@ module.exports = {
             },
             {
               "id": 488,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10856,7 +10856,7 @@ module.exports = {
             },
             {
               "id": 489,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10878,7 +10878,7 @@ module.exports = {
             },
             {
               "id": 490,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10900,7 +10900,7 @@ module.exports = {
             },
             {
               "id": 491,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10922,7 +10922,7 @@ module.exports = {
             },
             {
               "id": 492,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10944,7 +10944,7 @@ module.exports = {
             },
             {
               "id": 493,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10966,7 +10966,7 @@ module.exports = {
             },
             {
               "id": 494,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -10988,7 +10988,7 @@ module.exports = {
             },
             {
               "id": 495,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11010,7 +11010,7 @@ module.exports = {
             },
             {
               "id": 496,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11032,7 +11032,7 @@ module.exports = {
             },
             {
               "id": 497,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11054,7 +11054,7 @@ module.exports = {
             },
             {
               "id": 498,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11076,7 +11076,7 @@ module.exports = {
             },
             {
               "id": 499,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11098,7 +11098,7 @@ module.exports = {
             },
             {
               "id": 500,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11120,7 +11120,7 @@ module.exports = {
             },
             {
               "id": 501,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11142,7 +11142,7 @@ module.exports = {
             },
             {
               "id": 502,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11164,7 +11164,7 @@ module.exports = {
             },
             {
               "id": 503,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11186,7 +11186,7 @@ module.exports = {
             },
             {
               "id": 504,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11208,7 +11208,7 @@ module.exports = {
             },
             {
               "id": 505,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11230,7 +11230,7 @@ module.exports = {
             },
             {
               "id": 506,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11252,7 +11252,7 @@ module.exports = {
             },
             {
               "id": 507,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11274,7 +11274,7 @@ module.exports = {
             },
             {
               "id": 508,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11296,7 +11296,7 @@ module.exports = {
             },
             {
               "id": 509,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11318,7 +11318,7 @@ module.exports = {
             },
             {
               "id": 510,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11340,7 +11340,7 @@ module.exports = {
             },
             {
               "id": 511,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11362,7 +11362,7 @@ module.exports = {
             },
             {
               "id": 512,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11384,7 +11384,7 @@ module.exports = {
             },
             {
               "id": 513,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11406,7 +11406,7 @@ module.exports = {
             },
             {
               "id": 514,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11428,7 +11428,7 @@ module.exports = {
             },
             {
               "id": 515,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11450,7 +11450,7 @@ module.exports = {
             },
             {
               "id": 516,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11472,7 +11472,7 @@ module.exports = {
             },
             {
               "id": 517,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11494,7 +11494,7 @@ module.exports = {
             },
             {
               "id": 518,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11516,7 +11516,7 @@ module.exports = {
             },
             {
               "id": 519,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11538,7 +11538,7 @@ module.exports = {
             },
             {
               "id": 520,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11560,7 +11560,7 @@ module.exports = {
             },
             {
               "id": 521,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11582,7 +11582,7 @@ module.exports = {
             },
             {
               "id": 522,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11604,7 +11604,7 @@ module.exports = {
             },
             {
               "id": 523,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11626,7 +11626,7 @@ module.exports = {
             },
             {
               "id": 524,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11648,7 +11648,7 @@ module.exports = {
             },
             {
               "id": 525,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11670,7 +11670,7 @@ module.exports = {
             },
             {
               "id": 526,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11692,7 +11692,7 @@ module.exports = {
             },
             {
               "id": 527,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11714,7 +11714,7 @@ module.exports = {
             },
             {
               "id": 528,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11736,7 +11736,7 @@ module.exports = {
             },
             {
               "id": 529,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11758,7 +11758,7 @@ module.exports = {
             },
             {
               "id": 530,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11780,7 +11780,7 @@ module.exports = {
             },
             {
               "id": 531,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11802,7 +11802,7 @@ module.exports = {
             },
             {
               "id": 532,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11824,7 +11824,7 @@ module.exports = {
             },
             {
               "id": 533,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11846,7 +11846,7 @@ module.exports = {
             },
             {
               "id": 534,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11868,7 +11868,7 @@ module.exports = {
             },
             {
               "id": 535,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11890,7 +11890,7 @@ module.exports = {
             },
             {
               "id": 536,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11912,7 +11912,7 @@ module.exports = {
             },
             {
               "id": 537,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11934,7 +11934,7 @@ module.exports = {
             },
             {
               "id": 538,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11956,7 +11956,7 @@ module.exports = {
             },
             {
               "id": 539,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -11978,7 +11978,7 @@ module.exports = {
             },
             {
               "id": 540,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12000,7 +12000,7 @@ module.exports = {
             },
             {
               "id": 541,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12022,7 +12022,7 @@ module.exports = {
             },
             {
               "id": 542,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12044,7 +12044,7 @@ module.exports = {
             },
             {
               "id": 543,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12066,7 +12066,7 @@ module.exports = {
             },
             {
               "id": 544,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12088,7 +12088,7 @@ module.exports = {
             },
             {
               "id": 545,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12110,7 +12110,7 @@ module.exports = {
             },
             {
               "id": 546,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12132,7 +12132,7 @@ module.exports = {
             },
             {
               "id": 547,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12154,7 +12154,7 @@ module.exports = {
             },
             {
               "id": 548,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12176,7 +12176,7 @@ module.exports = {
             },
             {
               "id": 549,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12198,7 +12198,7 @@ module.exports = {
             },
             {
               "id": 550,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12220,7 +12220,7 @@ module.exports = {
             },
             {
               "id": 551,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12242,7 +12242,7 @@ module.exports = {
             },
             {
               "id": 552,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12264,7 +12264,7 @@ module.exports = {
             },
             {
               "id": 553,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12286,7 +12286,7 @@ module.exports = {
             },
             {
               "id": 554,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12308,7 +12308,7 @@ module.exports = {
             },
             {
               "id": 555,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12330,7 +12330,7 @@ module.exports = {
             },
             {
               "id": 556,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12352,7 +12352,7 @@ module.exports = {
             },
             {
               "id": 557,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12374,7 +12374,7 @@ module.exports = {
             },
             {
               "id": 558,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12396,7 +12396,7 @@ module.exports = {
             },
             {
               "id": 559,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12418,7 +12418,7 @@ module.exports = {
             },
             {
               "id": 560,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12440,7 +12440,7 @@ module.exports = {
             },
             {
               "id": 561,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12462,7 +12462,7 @@ module.exports = {
             },
             {
               "id": 562,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12484,7 +12484,7 @@ module.exports = {
             },
             {
               "id": 563,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12506,7 +12506,7 @@ module.exports = {
             },
             {
               "id": 564,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12528,7 +12528,7 @@ module.exports = {
             },
             {
               "id": 565,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12550,7 +12550,7 @@ module.exports = {
             },
             {
               "id": 566,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12572,7 +12572,7 @@ module.exports = {
             },
             {
               "id": 567,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12594,7 +12594,7 @@ module.exports = {
             },
             {
               "id": 568,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12616,7 +12616,7 @@ module.exports = {
             },
             {
               "id": 569,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12638,7 +12638,7 @@ module.exports = {
             },
             {
               "id": 570,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12660,7 +12660,7 @@ module.exports = {
             },
             {
               "id": 571,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12682,7 +12682,7 @@ module.exports = {
             },
             {
               "id": 572,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12704,7 +12704,7 @@ module.exports = {
             },
             {
               "id": 573,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12726,7 +12726,7 @@ module.exports = {
             },
             {
               "id": 574,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12748,7 +12748,7 @@ module.exports = {
             },
             {
               "id": 575,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12770,7 +12770,7 @@ module.exports = {
             },
             {
               "id": 576,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12792,7 +12792,7 @@ module.exports = {
             },
             {
               "id": 577,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12814,7 +12814,7 @@ module.exports = {
             },
             {
               "id": 578,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12836,7 +12836,7 @@ module.exports = {
             },
             {
               "id": 579,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12858,7 +12858,7 @@ module.exports = {
             },
             {
               "id": 580,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12880,7 +12880,7 @@ module.exports = {
             },
             {
               "id": 581,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12902,7 +12902,7 @@ module.exports = {
             },
             {
               "id": 582,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12924,7 +12924,7 @@ module.exports = {
             },
             {
               "id": 583,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12946,7 +12946,7 @@ module.exports = {
             },
             {
               "id": 584,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12968,7 +12968,7 @@ module.exports = {
             },
             {
               "id": 585,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -12990,7 +12990,7 @@ module.exports = {
             },
             {
               "id": 586,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13012,7 +13012,7 @@ module.exports = {
             },
             {
               "id": 587,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13034,7 +13034,7 @@ module.exports = {
             },
             {
               "id": 588,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13056,7 +13056,7 @@ module.exports = {
             },
             {
               "id": 589,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13078,7 +13078,7 @@ module.exports = {
             },
             {
               "id": 590,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13100,7 +13100,7 @@ module.exports = {
             },
             {
               "id": 591,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13122,7 +13122,7 @@ module.exports = {
             },
             {
               "id": 592,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13144,7 +13144,7 @@ module.exports = {
             },
             {
               "id": 593,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13166,7 +13166,7 @@ module.exports = {
             },
             {
               "id": 594,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13188,7 +13188,7 @@ module.exports = {
             },
             {
               "id": 595,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13210,7 +13210,7 @@ module.exports = {
             },
             {
               "id": 596,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13232,7 +13232,7 @@ module.exports = {
             },
             {
               "id": 597,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13254,7 +13254,7 @@ module.exports = {
             },
             {
               "id": 598,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13276,7 +13276,7 @@ module.exports = {
             },
             {
               "id": 599,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13298,7 +13298,7 @@ module.exports = {
             },
             {
               "id": 600,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13320,7 +13320,7 @@ module.exports = {
             },
             {
               "id": 601,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13342,7 +13342,7 @@ module.exports = {
             },
             {
               "id": 602,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13364,7 +13364,7 @@ module.exports = {
             },
             {
               "id": 603,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13386,7 +13386,7 @@ module.exports = {
             },
             {
               "id": 604,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13408,7 +13408,7 @@ module.exports = {
             },
             {
               "id": 605,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13430,7 +13430,7 @@ module.exports = {
             },
             {
               "id": 606,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13452,7 +13452,7 @@ module.exports = {
             },
             {
               "id": 607,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13474,7 +13474,7 @@ module.exports = {
             },
             {
               "id": 608,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13496,7 +13496,7 @@ module.exports = {
             },
             {
               "id": 609,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13518,7 +13518,7 @@ module.exports = {
             },
             {
               "id": 610,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13540,7 +13540,7 @@ module.exports = {
             },
             {
               "id": 611,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13562,7 +13562,7 @@ module.exports = {
             },
             {
               "id": 612,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13584,7 +13584,7 @@ module.exports = {
             },
             {
               "id": 613,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13606,7 +13606,7 @@ module.exports = {
             },
             {
               "id": 614,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13628,7 +13628,7 @@ module.exports = {
             },
             {
               "id": 615,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13650,7 +13650,7 @@ module.exports = {
             },
             {
               "id": 616,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13672,7 +13672,7 @@ module.exports = {
             },
             {
               "id": 617,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13694,7 +13694,7 @@ module.exports = {
             },
             {
               "id": 618,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13716,7 +13716,7 @@ module.exports = {
             },
             {
               "id": 619,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13738,7 +13738,7 @@ module.exports = {
             },
             {
               "id": 620,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13760,7 +13760,7 @@ module.exports = {
             },
             {
               "id": 621,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13782,7 +13782,7 @@ module.exports = {
             },
             {
               "id": 622,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13804,7 +13804,7 @@ module.exports = {
             },
             {
               "id": 623,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13826,7 +13826,7 @@ module.exports = {
             },
             {
               "id": 624,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13848,7 +13848,7 @@ module.exports = {
             },
             {
               "id": 625,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13870,7 +13870,7 @@ module.exports = {
             },
             {
               "id": 626,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13892,7 +13892,7 @@ module.exports = {
             },
             {
               "id": 627,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13914,7 +13914,7 @@ module.exports = {
             },
             {
               "id": 628,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13936,7 +13936,7 @@ module.exports = {
             },
             {
               "id": 629,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13958,7 +13958,7 @@ module.exports = {
             },
             {
               "id": 630,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -13980,7 +13980,7 @@ module.exports = {
             },
             {
               "id": 631,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14002,7 +14002,7 @@ module.exports = {
             },
             {
               "id": 632,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14024,7 +14024,7 @@ module.exports = {
             },
             {
               "id": 633,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14046,7 +14046,7 @@ module.exports = {
             },
             {
               "id": 634,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14068,7 +14068,7 @@ module.exports = {
             },
             {
               "id": 635,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14090,7 +14090,7 @@ module.exports = {
             },
             {
               "id": 636,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14112,7 +14112,7 @@ module.exports = {
             },
             {
               "id": 637,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14134,7 +14134,7 @@ module.exports = {
             },
             {
               "id": 638,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14156,7 +14156,7 @@ module.exports = {
             },
             {
               "id": 639,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14178,7 +14178,7 @@ module.exports = {
             },
             {
               "id": 640,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14200,7 +14200,7 @@ module.exports = {
             },
             {
               "id": 641,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14222,7 +14222,7 @@ module.exports = {
             },
             {
               "id": 642,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14244,7 +14244,7 @@ module.exports = {
             },
             {
               "id": 643,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14266,7 +14266,7 @@ module.exports = {
             },
             {
               "id": 644,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14288,7 +14288,7 @@ module.exports = {
             },
             {
               "id": 645,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14310,7 +14310,7 @@ module.exports = {
             },
             {
               "id": 646,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14332,7 +14332,7 @@ module.exports = {
             },
             {
               "id": 647,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14354,7 +14354,7 @@ module.exports = {
             },
             {
               "id": 648,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14376,7 +14376,7 @@ module.exports = {
             },
             {
               "id": 649,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14398,7 +14398,7 @@ module.exports = {
             },
             {
               "id": 650,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14420,7 +14420,7 @@ module.exports = {
             },
             {
               "id": 651,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14442,7 +14442,7 @@ module.exports = {
             },
             {
               "id": 652,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14464,7 +14464,7 @@ module.exports = {
             },
             {
               "id": 653,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14486,7 +14486,7 @@ module.exports = {
             },
             {
               "id": 654,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14508,7 +14508,7 @@ module.exports = {
             },
             {
               "id": 655,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14530,7 +14530,7 @@ module.exports = {
             },
             {
               "id": 656,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14552,7 +14552,7 @@ module.exports = {
             },
             {
               "id": 657,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14574,7 +14574,7 @@ module.exports = {
             },
             {
               "id": 658,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14596,7 +14596,7 @@ module.exports = {
             },
             {
               "id": 659,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14618,7 +14618,7 @@ module.exports = {
             },
             {
               "id": 660,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14640,7 +14640,7 @@ module.exports = {
             },
             {
               "id": 661,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14662,7 +14662,7 @@ module.exports = {
             },
             {
               "id": 662,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14684,7 +14684,7 @@ module.exports = {
             },
             {
               "id": 663,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14706,7 +14706,7 @@ module.exports = {
             },
             {
               "id": 664,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14728,7 +14728,7 @@ module.exports = {
             },
             {
               "id": 665,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14750,7 +14750,7 @@ module.exports = {
             },
             {
               "id": 666,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14772,7 +14772,7 @@ module.exports = {
             },
             {
               "id": 667,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14794,7 +14794,7 @@ module.exports = {
             },
             {
               "id": 668,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14816,7 +14816,7 @@ module.exports = {
             },
             {
               "id": 669,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14838,7 +14838,7 @@ module.exports = {
             },
             {
               "id": 670,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14860,7 +14860,7 @@ module.exports = {
             },
             {
               "id": 671,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14882,7 +14882,7 @@ module.exports = {
             },
             {
               "id": 672,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14904,7 +14904,7 @@ module.exports = {
             },
             {
               "id": 673,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14926,7 +14926,7 @@ module.exports = {
             },
             {
               "id": 674,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14948,7 +14948,7 @@ module.exports = {
             },
             {
               "id": 675,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14970,7 +14970,7 @@ module.exports = {
             },
             {
               "id": 676,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -14992,7 +14992,7 @@ module.exports = {
             },
             {
               "id": 677,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15014,7 +15014,7 @@ module.exports = {
             },
             {
               "id": 678,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15036,7 +15036,7 @@ module.exports = {
             },
             {
               "id": 679,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15058,7 +15058,7 @@ module.exports = {
             },
             {
               "id": 680,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15080,7 +15080,7 @@ module.exports = {
             },
             {
               "id": 681,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15102,7 +15102,7 @@ module.exports = {
             },
             {
               "id": 682,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15124,7 +15124,7 @@ module.exports = {
             },
             {
               "id": 683,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15146,7 +15146,7 @@ module.exports = {
             },
             {
               "id": 684,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15168,7 +15168,7 @@ module.exports = {
             },
             {
               "id": 685,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15190,7 +15190,7 @@ module.exports = {
             },
             {
               "id": 686,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15212,7 +15212,7 @@ module.exports = {
             },
             {
               "id": 687,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15234,7 +15234,7 @@ module.exports = {
             },
             {
               "id": 688,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15256,7 +15256,7 @@ module.exports = {
             },
             {
               "id": 689,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15278,7 +15278,7 @@ module.exports = {
             },
             {
               "id": 690,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15300,7 +15300,7 @@ module.exports = {
             },
             {
               "id": 691,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15322,7 +15322,7 @@ module.exports = {
             },
             {
               "id": 692,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15344,7 +15344,7 @@ module.exports = {
             },
             {
               "id": 693,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15366,7 +15366,7 @@ module.exports = {
             },
             {
               "id": 694,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15388,7 +15388,7 @@ module.exports = {
             },
             {
               "id": 695,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15410,7 +15410,7 @@ module.exports = {
             },
             {
               "id": 696,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15432,7 +15432,7 @@ module.exports = {
             },
             {
               "id": 697,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15454,7 +15454,7 @@ module.exports = {
             },
             {
               "id": 698,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15476,7 +15476,7 @@ module.exports = {
             },
             {
               "id": 699,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15498,7 +15498,7 @@ module.exports = {
             },
             {
               "id": 700,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15520,7 +15520,7 @@ module.exports = {
             },
             {
               "id": 701,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15542,7 +15542,7 @@ module.exports = {
             },
             {
               "id": 702,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15564,7 +15564,7 @@ module.exports = {
             },
             {
               "id": 703,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15586,7 +15586,7 @@ module.exports = {
             },
             {
               "id": 704,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15608,7 +15608,7 @@ module.exports = {
             },
             {
               "id": 705,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15630,7 +15630,7 @@ module.exports = {
             },
             {
               "id": 706,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15652,7 +15652,7 @@ module.exports = {
             },
             {
               "id": 707,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15674,7 +15674,7 @@ module.exports = {
             },
             {
               "id": 708,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15696,7 +15696,7 @@ module.exports = {
             },
             {
               "id": 709,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15718,7 +15718,7 @@ module.exports = {
             },
             {
               "id": 710,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15740,7 +15740,7 @@ module.exports = {
             },
             {
               "id": 711,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15762,7 +15762,7 @@ module.exports = {
             },
             {
               "id": 712,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15784,7 +15784,7 @@ module.exports = {
             },
             {
               "id": 713,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15806,7 +15806,7 @@ module.exports = {
             },
             {
               "id": 714,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15828,7 +15828,7 @@ module.exports = {
             },
             {
               "id": 715,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15850,7 +15850,7 @@ module.exports = {
             },
             {
               "id": 716,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15872,7 +15872,7 @@ module.exports = {
             },
             {
               "id": 717,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15894,7 +15894,7 @@ module.exports = {
             },
             {
               "id": 718,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15916,7 +15916,7 @@ module.exports = {
             },
             {
               "id": 719,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15938,7 +15938,7 @@ module.exports = {
             },
             {
               "id": 720,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15960,7 +15960,7 @@ module.exports = {
             },
             {
               "id": 721,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -15982,7 +15982,7 @@ module.exports = {
             },
             {
               "id": 722,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16004,7 +16004,7 @@ module.exports = {
             },
             {
               "id": 723,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16026,7 +16026,7 @@ module.exports = {
             },
             {
               "id": 724,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16048,7 +16048,7 @@ module.exports = {
             },
             {
               "id": 725,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16070,7 +16070,7 @@ module.exports = {
             },
             {
               "id": 726,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16092,7 +16092,7 @@ module.exports = {
             },
             {
               "id": 727,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16114,7 +16114,7 @@ module.exports = {
             },
             {
               "id": 728,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16136,7 +16136,7 @@ module.exports = {
             },
             {
               "id": 729,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16158,7 +16158,7 @@ module.exports = {
             },
             {
               "id": 730,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16180,7 +16180,7 @@ module.exports = {
             },
             {
               "id": 731,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16202,7 +16202,7 @@ module.exports = {
             },
             {
               "id": 732,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16224,7 +16224,7 @@ module.exports = {
             },
             {
               "id": 733,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16246,7 +16246,7 @@ module.exports = {
             },
             {
               "id": 734,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16268,7 +16268,7 @@ module.exports = {
             },
             {
               "id": 735,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16290,7 +16290,7 @@ module.exports = {
             },
             {
               "id": 736,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16312,7 +16312,7 @@ module.exports = {
             },
             {
               "id": 737,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16334,7 +16334,7 @@ module.exports = {
             },
             {
               "id": 738,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16356,7 +16356,7 @@ module.exports = {
             },
             {
               "id": 739,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16378,7 +16378,7 @@ module.exports = {
             },
             {
               "id": 740,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16400,7 +16400,7 @@ module.exports = {
             },
             {
               "id": 741,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16422,7 +16422,7 @@ module.exports = {
             },
             {
               "id": 742,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16444,7 +16444,7 @@ module.exports = {
             },
             {
               "id": 743,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16466,7 +16466,7 @@ module.exports = {
             },
             {
               "id": 744,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16488,7 +16488,7 @@ module.exports = {
             },
             {
               "id": 745,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16510,7 +16510,7 @@ module.exports = {
             },
             {
               "id": 746,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16532,7 +16532,7 @@ module.exports = {
             },
             {
               "id": 747,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16554,7 +16554,7 @@ module.exports = {
             },
             {
               "id": 748,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16576,7 +16576,7 @@ module.exports = {
             },
             {
               "id": 749,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16598,7 +16598,7 @@ module.exports = {
             },
             {
               "id": 750,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16620,7 +16620,7 @@ module.exports = {
             },
             {
               "id": 751,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16642,7 +16642,7 @@ module.exports = {
             },
             {
               "id": 752,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16664,7 +16664,7 @@ module.exports = {
             },
             {
               "id": 753,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16686,7 +16686,7 @@ module.exports = {
             },
             {
               "id": 754,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16708,7 +16708,7 @@ module.exports = {
             },
             {
               "id": 755,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16730,7 +16730,7 @@ module.exports = {
             },
             {
               "id": 756,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16752,7 +16752,7 @@ module.exports = {
             },
             {
               "id": 757,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16774,7 +16774,7 @@ module.exports = {
             },
             {
               "id": 758,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16796,7 +16796,7 @@ module.exports = {
             },
             {
               "id": 759,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16818,7 +16818,7 @@ module.exports = {
             },
             {
               "id": 760,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16840,7 +16840,7 @@ module.exports = {
             },
             {
               "id": 761,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16862,7 +16862,7 @@ module.exports = {
             },
             {
               "id": 762,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16884,7 +16884,7 @@ module.exports = {
             },
             {
               "id": 763,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16906,7 +16906,7 @@ module.exports = {
             },
             {
               "id": 764,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16928,7 +16928,7 @@ module.exports = {
             },
             {
               "id": 765,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16950,7 +16950,7 @@ module.exports = {
             },
             {
               "id": 766,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16972,7 +16972,7 @@ module.exports = {
             },
             {
               "id": 767,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -16994,7 +16994,7 @@ module.exports = {
             },
             {
               "id": 768,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17016,7 +17016,7 @@ module.exports = {
             },
             {
               "id": 769,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17038,7 +17038,7 @@ module.exports = {
             },
             {
               "id": 770,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17060,7 +17060,7 @@ module.exports = {
             },
             {
               "id": 771,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17082,7 +17082,7 @@ module.exports = {
             },
             {
               "id": 772,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17104,7 +17104,7 @@ module.exports = {
             },
             {
               "id": 773,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17126,7 +17126,7 @@ module.exports = {
             },
             {
               "id": 774,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17148,7 +17148,7 @@ module.exports = {
             },
             {
               "id": 775,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17170,7 +17170,7 @@ module.exports = {
             },
             {
               "id": 776,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17192,7 +17192,7 @@ module.exports = {
             },
             {
               "id": 777,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17214,7 +17214,7 @@ module.exports = {
             },
             {
               "id": 778,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17236,7 +17236,7 @@ module.exports = {
             },
             {
               "id": 779,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17258,7 +17258,7 @@ module.exports = {
             },
             {
               "id": 780,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17280,7 +17280,7 @@ module.exports = {
             },
             {
               "id": 781,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17302,7 +17302,7 @@ module.exports = {
             },
             {
               "id": 782,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17324,7 +17324,7 @@ module.exports = {
             },
             {
               "id": 783,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17346,7 +17346,7 @@ module.exports = {
             },
             {
               "id": 784,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17368,7 +17368,7 @@ module.exports = {
             },
             {
               "id": 785,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17390,7 +17390,7 @@ module.exports = {
             },
             {
               "id": 786,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17412,7 +17412,7 @@ module.exports = {
             },
             {
               "id": 787,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17434,7 +17434,7 @@ module.exports = {
             },
             {
               "id": 788,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17456,7 +17456,7 @@ module.exports = {
             },
             {
               "id": 789,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17478,7 +17478,7 @@ module.exports = {
             },
             {
               "id": 790,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17500,7 +17500,7 @@ module.exports = {
             },
             {
               "id": 791,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17522,7 +17522,7 @@ module.exports = {
             },
             {
               "id": 792,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17544,7 +17544,7 @@ module.exports = {
             },
             {
               "id": 793,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17566,7 +17566,7 @@ module.exports = {
             },
             {
               "id": 794,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17588,7 +17588,7 @@ module.exports = {
             },
             {
               "id": 795,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17610,7 +17610,7 @@ module.exports = {
             },
             {
               "id": 796,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17632,7 +17632,7 @@ module.exports = {
             },
             {
               "id": 797,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17654,7 +17654,7 @@ module.exports = {
             },
             {
               "id": 798,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17676,7 +17676,7 @@ module.exports = {
             },
             {
               "id": 799,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17698,7 +17698,7 @@ module.exports = {
             },
             {
               "id": 800,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17720,7 +17720,7 @@ module.exports = {
             },
             {
               "id": 801,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17742,7 +17742,7 @@ module.exports = {
             },
             {
               "id": 802,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17764,7 +17764,7 @@ module.exports = {
             },
             {
               "id": 803,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17786,7 +17786,7 @@ module.exports = {
             },
             {
               "id": 804,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17808,7 +17808,7 @@ module.exports = {
             },
             {
               "id": 805,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17830,7 +17830,7 @@ module.exports = {
             },
             {
               "id": 806,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17852,7 +17852,7 @@ module.exports = {
             },
             {
               "id": 807,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17874,7 +17874,7 @@ module.exports = {
             },
             {
               "id": 808,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17896,7 +17896,7 @@ module.exports = {
             },
             {
               "id": 809,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17918,7 +17918,7 @@ module.exports = {
             },
             {
               "id": 810,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17940,7 +17940,7 @@ module.exports = {
             },
             {
               "id": 811,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17962,7 +17962,7 @@ module.exports = {
             },
             {
               "id": 812,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -17984,7 +17984,7 @@ module.exports = {
             },
             {
               "id": 813,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18006,7 +18006,7 @@ module.exports = {
             },
             {
               "id": 814,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18028,7 +18028,7 @@ module.exports = {
             },
             {
               "id": 815,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18050,7 +18050,7 @@ module.exports = {
             },
             {
               "id": 816,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18072,7 +18072,7 @@ module.exports = {
             },
             {
               "id": 817,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18094,7 +18094,7 @@ module.exports = {
             },
             {
               "id": 818,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18116,7 +18116,7 @@ module.exports = {
             },
             {
               "id": 819,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18138,7 +18138,7 @@ module.exports = {
             },
             {
               "id": 820,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18160,7 +18160,7 @@ module.exports = {
             },
             {
               "id": 821,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18182,7 +18182,7 @@ module.exports = {
             },
             {
               "id": 822,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18204,7 +18204,7 @@ module.exports = {
             },
             {
               "id": 823,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18226,7 +18226,7 @@ module.exports = {
             },
             {
               "id": 824,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18248,7 +18248,7 @@ module.exports = {
             },
             {
               "id": 825,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18270,7 +18270,7 @@ module.exports = {
             },
             {
               "id": 826,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18292,7 +18292,7 @@ module.exports = {
             },
             {
               "id": 827,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18314,7 +18314,7 @@ module.exports = {
             },
             {
               "id": 828,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18336,7 +18336,7 @@ module.exports = {
             },
             {
               "id": 829,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18358,7 +18358,7 @@ module.exports = {
             },
             {
               "id": 830,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18380,7 +18380,7 @@ module.exports = {
             },
             {
               "id": 831,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18402,7 +18402,7 @@ module.exports = {
             },
             {
               "id": 832,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18424,7 +18424,7 @@ module.exports = {
             },
             {
               "id": 833,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18446,7 +18446,7 @@ module.exports = {
             },
             {
               "id": 834,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18468,7 +18468,7 @@ module.exports = {
             },
             {
               "id": 835,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18490,7 +18490,7 @@ module.exports = {
             },
             {
               "id": 836,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18512,7 +18512,7 @@ module.exports = {
             },
             {
               "id": 837,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18534,7 +18534,7 @@ module.exports = {
             },
             {
               "id": 838,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18556,7 +18556,7 @@ module.exports = {
             },
             {
               "id": 839,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18578,7 +18578,7 @@ module.exports = {
             },
             {
               "id": 840,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18600,7 +18600,7 @@ module.exports = {
             },
             {
               "id": 841,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18622,7 +18622,7 @@ module.exports = {
             },
             {
               "id": 842,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18644,7 +18644,7 @@ module.exports = {
             },
             {
               "id": 843,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18666,7 +18666,7 @@ module.exports = {
             },
             {
               "id": 844,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18688,7 +18688,7 @@ module.exports = {
             },
             {
               "id": 845,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18710,7 +18710,7 @@ module.exports = {
             },
             {
               "id": 846,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18732,7 +18732,7 @@ module.exports = {
             },
             {
               "id": 847,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18754,7 +18754,7 @@ module.exports = {
             },
             {
               "id": 848,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18776,7 +18776,7 @@ module.exports = {
             },
             {
               "id": 849,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18798,7 +18798,7 @@ module.exports = {
             },
             {
               "id": 850,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18820,7 +18820,7 @@ module.exports = {
             },
             {
               "id": 851,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18842,7 +18842,7 @@ module.exports = {
             },
             {
               "id": 852,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18864,7 +18864,7 @@ module.exports = {
             },
             {
               "id": 853,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18886,7 +18886,7 @@ module.exports = {
             },
             {
               "id": 854,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18908,7 +18908,7 @@ module.exports = {
             },
             {
               "id": 855,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18930,7 +18930,7 @@ module.exports = {
             },
             {
               "id": 856,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18952,7 +18952,7 @@ module.exports = {
             },
             {
               "id": 857,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18974,7 +18974,7 @@ module.exports = {
             },
             {
               "id": 858,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -18996,7 +18996,7 @@ module.exports = {
             },
             {
               "id": 859,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19018,7 +19018,7 @@ module.exports = {
             },
             {
               "id": 860,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19040,7 +19040,7 @@ module.exports = {
             },
             {
               "id": 861,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19062,7 +19062,7 @@ module.exports = {
             },
             {
               "id": 862,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19084,7 +19084,7 @@ module.exports = {
             },
             {
               "id": 863,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19106,7 +19106,7 @@ module.exports = {
             },
             {
               "id": 864,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19128,7 +19128,7 @@ module.exports = {
             },
             {
               "id": 865,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19150,7 +19150,7 @@ module.exports = {
             },
             {
               "id": 866,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19172,7 +19172,7 @@ module.exports = {
             },
             {
               "id": 867,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19194,7 +19194,7 @@ module.exports = {
             },
             {
               "id": 868,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19216,7 +19216,7 @@ module.exports = {
             },
             {
               "id": 869,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19238,7 +19238,7 @@ module.exports = {
             },
             {
               "id": 870,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19260,7 +19260,7 @@ module.exports = {
             },
             {
               "id": 871,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19282,7 +19282,7 @@ module.exports = {
             },
             {
               "id": 872,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19304,7 +19304,7 @@ module.exports = {
             },
             {
               "id": 873,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19326,7 +19326,7 @@ module.exports = {
             },
             {
               "id": 874,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19348,7 +19348,7 @@ module.exports = {
             },
             {
               "id": 875,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19370,7 +19370,7 @@ module.exports = {
             },
             {
               "id": 876,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19392,7 +19392,7 @@ module.exports = {
             },
             {
               "id": 877,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19414,7 +19414,7 @@ module.exports = {
             },
             {
               "id": 878,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19436,7 +19436,7 @@ module.exports = {
             },
             {
               "id": 879,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19458,7 +19458,7 @@ module.exports = {
             },
             {
               "id": 880,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19480,7 +19480,7 @@ module.exports = {
             },
             {
               "id": 881,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19502,7 +19502,7 @@ module.exports = {
             },
             {
               "id": 882,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19524,7 +19524,7 @@ module.exports = {
             },
             {
               "id": 883,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19546,7 +19546,7 @@ module.exports = {
             },
             {
               "id": 884,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19568,7 +19568,7 @@ module.exports = {
             },
             {
               "id": 885,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19590,7 +19590,7 @@ module.exports = {
             },
             {
               "id": 886,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19612,7 +19612,7 @@ module.exports = {
             },
             {
               "id": 887,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19634,7 +19634,7 @@ module.exports = {
             },
             {
               "id": 888,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19656,7 +19656,7 @@ module.exports = {
             },
             {
               "id": 889,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19678,7 +19678,7 @@ module.exports = {
             },
             {
               "id": 890,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19700,7 +19700,7 @@ module.exports = {
             },
             {
               "id": 891,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19722,7 +19722,7 @@ module.exports = {
             },
             {
               "id": 892,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19744,7 +19744,7 @@ module.exports = {
             },
             {
               "id": 893,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19766,7 +19766,7 @@ module.exports = {
             },
             {
               "id": 894,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19788,7 +19788,7 @@ module.exports = {
             },
             {
               "id": 895,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19810,7 +19810,7 @@ module.exports = {
             },
             {
               "id": 896,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19832,7 +19832,7 @@ module.exports = {
             },
             {
               "id": 897,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19854,7 +19854,7 @@ module.exports = {
             },
             {
               "id": 898,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19876,7 +19876,7 @@ module.exports = {
             },
             {
               "id": 899,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19898,7 +19898,7 @@ module.exports = {
             },
             {
               "id": 900,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19920,7 +19920,7 @@ module.exports = {
             },
             {
               "id": 901,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19942,7 +19942,7 @@ module.exports = {
             },
             {
               "id": 902,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19964,7 +19964,7 @@ module.exports = {
             },
             {
               "id": 903,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -19986,7 +19986,7 @@ module.exports = {
             },
             {
               "id": 904,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20008,7 +20008,7 @@ module.exports = {
             },
             {
               "id": 905,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20030,7 +20030,7 @@ module.exports = {
             },
             {
               "id": 906,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20052,7 +20052,7 @@ module.exports = {
             },
             {
               "id": 907,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20074,7 +20074,7 @@ module.exports = {
             },
             {
               "id": 908,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20096,7 +20096,7 @@ module.exports = {
             },
             {
               "id": 909,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20118,7 +20118,7 @@ module.exports = {
             },
             {
               "id": 910,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20140,7 +20140,7 @@ module.exports = {
             },
             {
               "id": 911,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20162,7 +20162,7 @@ module.exports = {
             },
             {
               "id": 912,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20184,7 +20184,7 @@ module.exports = {
             },
             {
               "id": 913,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20206,7 +20206,7 @@ module.exports = {
             },
             {
               "id": 914,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20228,7 +20228,7 @@ module.exports = {
             },
             {
               "id": 915,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20250,7 +20250,7 @@ module.exports = {
             },
             {
               "id": 916,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20272,7 +20272,7 @@ module.exports = {
             },
             {
               "id": 917,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20294,7 +20294,7 @@ module.exports = {
             },
             {
               "id": 918,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20316,7 +20316,7 @@ module.exports = {
             },
             {
               "id": 919,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20338,7 +20338,7 @@ module.exports = {
             },
             {
               "id": 920,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20360,7 +20360,7 @@ module.exports = {
             },
             {
               "id": 921,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20382,7 +20382,7 @@ module.exports = {
             },
             {
               "id": 922,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20404,7 +20404,7 @@ module.exports = {
             },
             {
               "id": 923,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20426,7 +20426,7 @@ module.exports = {
             },
             {
               "id": 924,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20448,7 +20448,7 @@ module.exports = {
             },
             {
               "id": 925,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20470,7 +20470,7 @@ module.exports = {
             },
             {
               "id": 926,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20492,7 +20492,7 @@ module.exports = {
             },
             {
               "id": 927,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20514,7 +20514,7 @@ module.exports = {
             },
             {
               "id": 928,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20536,7 +20536,7 @@ module.exports = {
             },
             {
               "id": 929,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20558,7 +20558,7 @@ module.exports = {
             },
             {
               "id": 930,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20580,7 +20580,7 @@ module.exports = {
             },
             {
               "id": 931,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20602,7 +20602,7 @@ module.exports = {
             },
             {
               "id": 932,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20624,7 +20624,7 @@ module.exports = {
             },
             {
               "id": 933,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20646,7 +20646,7 @@ module.exports = {
             },
             {
               "id": 934,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20668,7 +20668,7 @@ module.exports = {
             },
             {
               "id": 935,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20690,7 +20690,7 @@ module.exports = {
             },
             {
               "id": 936,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20712,7 +20712,7 @@ module.exports = {
             },
             {
               "id": 937,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20734,7 +20734,7 @@ module.exports = {
             },
             {
               "id": 938,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20756,7 +20756,7 @@ module.exports = {
             },
             {
               "id": 939,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20778,7 +20778,7 @@ module.exports = {
             },
             {
               "id": 940,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20800,7 +20800,7 @@ module.exports = {
             },
             {
               "id": 941,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20822,7 +20822,7 @@ module.exports = {
             },
             {
               "id": 942,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20844,7 +20844,7 @@ module.exports = {
             },
             {
               "id": 943,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20866,7 +20866,7 @@ module.exports = {
             },
             {
               "id": 944,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20888,7 +20888,7 @@ module.exports = {
             },
             {
               "id": 945,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20910,7 +20910,7 @@ module.exports = {
             },
             {
               "id": 946,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20932,7 +20932,7 @@ module.exports = {
             },
             {
               "id": 947,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20954,7 +20954,7 @@ module.exports = {
             },
             {
               "id": 948,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20976,7 +20976,7 @@ module.exports = {
             },
             {
               "id": 949,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -20998,7 +20998,7 @@ module.exports = {
             },
             {
               "id": 950,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21020,7 +21020,7 @@ module.exports = {
             },
             {
               "id": 951,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21042,7 +21042,7 @@ module.exports = {
             },
             {
               "id": 952,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21064,7 +21064,7 @@ module.exports = {
             },
             {
               "id": 953,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21086,7 +21086,7 @@ module.exports = {
             },
             {
               "id": 954,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21108,7 +21108,7 @@ module.exports = {
             },
             {
               "id": 955,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21130,7 +21130,7 @@ module.exports = {
             },
             {
               "id": 956,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21152,7 +21152,7 @@ module.exports = {
             },
             {
               "id": 957,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21174,7 +21174,7 @@ module.exports = {
             },
             {
               "id": 958,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21196,7 +21196,7 @@ module.exports = {
             },
             {
               "id": 959,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21218,7 +21218,7 @@ module.exports = {
             },
             {
               "id": 960,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21240,7 +21240,7 @@ module.exports = {
             },
             {
               "id": 961,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21262,7 +21262,7 @@ module.exports = {
             },
             {
               "id": 962,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21284,7 +21284,7 @@ module.exports = {
             },
             {
               "id": 963,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21306,7 +21306,7 @@ module.exports = {
             },
             {
               "id": 964,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21328,7 +21328,7 @@ module.exports = {
             },
             {
               "id": 965,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21350,7 +21350,7 @@ module.exports = {
             },
             {
               "id": 966,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21372,7 +21372,7 @@ module.exports = {
             },
             {
               "id": 967,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21394,7 +21394,7 @@ module.exports = {
             },
             {
               "id": 968,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21416,7 +21416,7 @@ module.exports = {
             },
             {
               "id": 969,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21438,7 +21438,7 @@ module.exports = {
             },
             {
               "id": 970,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21460,7 +21460,7 @@ module.exports = {
             },
             {
               "id": 971,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21482,7 +21482,7 @@ module.exports = {
             },
             {
               "id": 972,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21504,7 +21504,7 @@ module.exports = {
             },
             {
               "id": 973,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21526,7 +21526,7 @@ module.exports = {
             },
             {
               "id": 974,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21548,7 +21548,7 @@ module.exports = {
             },
             {
               "id": 975,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21570,7 +21570,7 @@ module.exports = {
             },
             {
               "id": 976,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21592,7 +21592,7 @@ module.exports = {
             },
             {
               "id": 977,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21614,7 +21614,7 @@ module.exports = {
             },
             {
               "id": 978,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21636,7 +21636,7 @@ module.exports = {
             },
             {
               "id": 979,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21658,7 +21658,7 @@ module.exports = {
             },
             {
               "id": 980,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21680,7 +21680,7 @@ module.exports = {
             },
             {
               "id": 981,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21702,7 +21702,7 @@ module.exports = {
             },
             {
               "id": 982,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21724,7 +21724,7 @@ module.exports = {
             },
             {
               "id": 983,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21746,7 +21746,7 @@ module.exports = {
             },
             {
               "id": 984,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21768,7 +21768,7 @@ module.exports = {
             },
             {
               "id": 985,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21790,7 +21790,7 @@ module.exports = {
             },
             {
               "id": 986,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21812,7 +21812,7 @@ module.exports = {
             },
             {
               "id": 987,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21834,7 +21834,7 @@ module.exports = {
             },
             {
               "id": 988,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21856,7 +21856,7 @@ module.exports = {
             },
             {
               "id": 989,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21878,7 +21878,7 @@ module.exports = {
             },
             {
               "id": 990,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21900,7 +21900,7 @@ module.exports = {
             },
             {
               "id": 991,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21922,7 +21922,7 @@ module.exports = {
             },
             {
               "id": 992,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21944,7 +21944,7 @@ module.exports = {
             },
             {
               "id": 993,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21966,7 +21966,7 @@ module.exports = {
             },
             {
               "id": 994,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -21988,7 +21988,7 @@ module.exports = {
             },
             {
               "id": 995,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22010,7 +22010,7 @@ module.exports = {
             },
             {
               "id": 996,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22032,7 +22032,7 @@ module.exports = {
             },
             {
               "id": 997,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22054,7 +22054,7 @@ module.exports = {
             },
             {
               "id": 998,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22076,7 +22076,7 @@ module.exports = {
             },
             {
               "id": 999,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22098,7 +22098,7 @@ module.exports = {
             },
             {
               "id": 1000,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22120,7 +22120,7 @@ module.exports = {
             },
             {
               "id": 1001,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22142,7 +22142,7 @@ module.exports = {
             },
             {
               "id": 1002,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22164,7 +22164,7 @@ module.exports = {
             },
             {
               "id": 1003,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22186,7 +22186,7 @@ module.exports = {
             },
             {
               "id": 1004,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22208,7 +22208,7 @@ module.exports = {
             },
             {
               "id": 1005,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22230,7 +22230,7 @@ module.exports = {
             },
             {
               "id": 1006,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22252,7 +22252,7 @@ module.exports = {
             },
             {
               "id": 1007,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22274,7 +22274,7 @@ module.exports = {
             },
             {
               "id": 1008,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22296,7 +22296,7 @@ module.exports = {
             },
             {
               "id": 1009,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22318,7 +22318,7 @@ module.exports = {
             },
             {
               "id": 1010,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22340,7 +22340,7 @@ module.exports = {
             },
             {
               "id": 1011,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22362,7 +22362,7 @@ module.exports = {
             },
             {
               "id": 1012,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22384,7 +22384,7 @@ module.exports = {
             },
             {
               "id": 1013,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22406,7 +22406,7 @@ module.exports = {
             },
             {
               "id": 1014,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22428,7 +22428,7 @@ module.exports = {
             },
             {
               "id": 1015,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22450,7 +22450,7 @@ module.exports = {
             },
             {
               "id": 1016,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22472,7 +22472,7 @@ module.exports = {
             },
             {
               "id": 1017,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22494,7 +22494,7 @@ module.exports = {
             },
             {
               "id": 1018,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22516,7 +22516,7 @@ module.exports = {
             },
             {
               "id": 1019,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22538,7 +22538,7 @@ module.exports = {
             },
             {
               "id": 1020,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22560,7 +22560,7 @@ module.exports = {
             },
             {
               "id": 1021,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22582,7 +22582,7 @@ module.exports = {
             },
             {
               "id": 1022,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22604,7 +22604,7 @@ module.exports = {
             },
             {
               "id": 1023,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22626,7 +22626,7 @@ module.exports = {
             },
             {
               "id": 1024,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22648,7 +22648,7 @@ module.exports = {
             },
             {
               "id": 1025,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22670,7 +22670,7 @@ module.exports = {
             },
             {
               "id": 1026,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22692,7 +22692,7 @@ module.exports = {
             },
             {
               "id": 1027,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22714,7 +22714,7 @@ module.exports = {
             },
             {
               "id": 1028,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22736,7 +22736,7 @@ module.exports = {
             },
             {
               "id": 1029,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22758,7 +22758,7 @@ module.exports = {
             },
             {
               "id": 1030,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22780,7 +22780,7 @@ module.exports = {
             },
             {
               "id": 1031,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22802,7 +22802,7 @@ module.exports = {
             },
             {
               "id": 1032,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22824,7 +22824,7 @@ module.exports = {
             },
             {
               "id": 1033,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22846,7 +22846,7 @@ module.exports = {
             },
             {
               "id": 1034,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22868,7 +22868,7 @@ module.exports = {
             },
             {
               "id": 1035,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22890,7 +22890,7 @@ module.exports = {
             },
             {
               "id": 1036,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22912,7 +22912,7 @@ module.exports = {
             },
             {
               "id": 1037,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22934,7 +22934,7 @@ module.exports = {
             },
             {
               "id": 1038,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22956,7 +22956,7 @@ module.exports = {
             },
             {
               "id": 1039,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -22978,7 +22978,7 @@ module.exports = {
             },
             {
               "id": 1040,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23000,7 +23000,7 @@ module.exports = {
             },
             {
               "id": 1041,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23022,7 +23022,7 @@ module.exports = {
             },
             {
               "id": 1042,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23044,7 +23044,7 @@ module.exports = {
             },
             {
               "id": 1043,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23066,7 +23066,7 @@ module.exports = {
             },
             {
               "id": 1044,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23088,7 +23088,7 @@ module.exports = {
             },
             {
               "id": 1045,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23110,7 +23110,7 @@ module.exports = {
             },
             {
               "id": 1046,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23132,7 +23132,7 @@ module.exports = {
             },
             {
               "id": 1047,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23154,7 +23154,7 @@ module.exports = {
             },
             {
               "id": 1048,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23176,7 +23176,7 @@ module.exports = {
             },
             {
               "id": 1049,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23198,7 +23198,7 @@ module.exports = {
             },
             {
               "id": 1050,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23220,7 +23220,7 @@ module.exports = {
             },
             {
               "id": 1051,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23242,7 +23242,7 @@ module.exports = {
             },
             {
               "id": 1052,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23264,7 +23264,7 @@ module.exports = {
             },
             {
               "id": 1053,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23286,7 +23286,7 @@ module.exports = {
             },
             {
               "id": 1054,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23308,7 +23308,7 @@ module.exports = {
             },
             {
               "id": 1055,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23330,7 +23330,7 @@ module.exports = {
             },
             {
               "id": 1056,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23352,7 +23352,7 @@ module.exports = {
             },
             {
               "id": 1057,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23374,7 +23374,7 @@ module.exports = {
             },
             {
               "id": 1058,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23396,7 +23396,7 @@ module.exports = {
             },
             {
               "id": 1059,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23418,7 +23418,7 @@ module.exports = {
             },
             {
               "id": 1060,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23440,7 +23440,7 @@ module.exports = {
             },
             {
               "id": 1061,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23462,7 +23462,7 @@ module.exports = {
             },
             {
               "id": 1062,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23484,7 +23484,7 @@ module.exports = {
             },
             {
               "id": 1063,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23506,7 +23506,7 @@ module.exports = {
             },
             {
               "id": 1064,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23528,7 +23528,7 @@ module.exports = {
             },
             {
               "id": 1065,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23550,7 +23550,7 @@ module.exports = {
             },
             {
               "id": 1066,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23572,7 +23572,7 @@ module.exports = {
             },
             {
               "id": 1067,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23594,7 +23594,7 @@ module.exports = {
             },
             {
               "id": 1068,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23616,7 +23616,7 @@ module.exports = {
             },
             {
               "id": 1069,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23638,7 +23638,7 @@ module.exports = {
             },
             {
               "id": 1070,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23660,7 +23660,7 @@ module.exports = {
             },
             {
               "id": 1071,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23682,7 +23682,7 @@ module.exports = {
             },
             {
               "id": 1072,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23704,7 +23704,7 @@ module.exports = {
             },
             {
               "id": 1073,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23726,7 +23726,7 @@ module.exports = {
             },
             {
               "id": 1074,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23748,7 +23748,7 @@ module.exports = {
             },
             {
               "id": 1075,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23770,7 +23770,7 @@ module.exports = {
             },
             {
               "id": 1076,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23792,7 +23792,7 @@ module.exports = {
             },
             {
               "id": 1077,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23814,7 +23814,7 @@ module.exports = {
             },
             {
               "id": 1078,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23836,7 +23836,7 @@ module.exports = {
             },
             {
               "id": 1079,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23858,7 +23858,7 @@ module.exports = {
             },
             {
               "id": 1080,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23880,7 +23880,7 @@ module.exports = {
             },
             {
               "id": 1081,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23902,7 +23902,7 @@ module.exports = {
             },
             {
               "id": 1082,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23924,7 +23924,7 @@ module.exports = {
             },
             {
               "id": 1083,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23946,7 +23946,7 @@ module.exports = {
             },
             {
               "id": 1084,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23968,7 +23968,7 @@ module.exports = {
             },
             {
               "id": 1085,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -23990,7 +23990,7 @@ module.exports = {
             },
             {
               "id": 1086,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24012,7 +24012,7 @@ module.exports = {
             },
             {
               "id": 1087,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24034,7 +24034,7 @@ module.exports = {
             },
             {
               "id": 1088,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24056,7 +24056,7 @@ module.exports = {
             },
             {
               "id": 1089,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24078,7 +24078,7 @@ module.exports = {
             },
             {
               "id": 1090,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24100,7 +24100,7 @@ module.exports = {
             },
             {
               "id": 1091,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24122,7 +24122,7 @@ module.exports = {
             },
             {
               "id": 1092,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24144,7 +24144,7 @@ module.exports = {
             },
             {
               "id": 1093,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24166,7 +24166,7 @@ module.exports = {
             },
             {
               "id": 1094,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24188,7 +24188,7 @@ module.exports = {
             },
             {
               "id": 1095,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24210,7 +24210,7 @@ module.exports = {
             },
             {
               "id": 1096,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24232,7 +24232,7 @@ module.exports = {
             },
             {
               "id": 1097,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24254,7 +24254,7 @@ module.exports = {
             },
             {
               "id": 1098,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24276,7 +24276,7 @@ module.exports = {
             },
             {
               "id": 1099,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24298,7 +24298,7 @@ module.exports = {
             },
             {
               "id": 1100,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24320,7 +24320,7 @@ module.exports = {
             },
             {
               "id": 1101,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24342,7 +24342,7 @@ module.exports = {
             },
             {
               "id": 1102,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24364,7 +24364,7 @@ module.exports = {
             },
             {
               "id": 1103,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24386,7 +24386,7 @@ module.exports = {
             },
             {
               "id": 1104,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24408,7 +24408,7 @@ module.exports = {
             },
             {
               "id": 1105,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24430,7 +24430,7 @@ module.exports = {
             },
             {
               "id": 1106,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24452,7 +24452,7 @@ module.exports = {
             },
             {
               "id": 1107,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24474,7 +24474,7 @@ module.exports = {
             },
             {
               "id": 1108,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24496,7 +24496,7 @@ module.exports = {
             },
             {
               "id": 1109,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24518,7 +24518,7 @@ module.exports = {
             },
             {
               "id": 1110,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24540,7 +24540,7 @@ module.exports = {
             },
             {
               "id": 1111,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24562,7 +24562,7 @@ module.exports = {
             },
             {
               "id": 1112,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24584,7 +24584,7 @@ module.exports = {
             },
             {
               "id": 1113,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24606,7 +24606,7 @@ module.exports = {
             },
             {
               "id": 1114,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24628,7 +24628,7 @@ module.exports = {
             },
             {
               "id": 1115,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24650,7 +24650,7 @@ module.exports = {
             },
             {
               "id": 1116,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24672,7 +24672,7 @@ module.exports = {
             },
             {
               "id": 1117,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24694,7 +24694,7 @@ module.exports = {
             },
             {
               "id": 1118,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24716,7 +24716,7 @@ module.exports = {
             },
             {
               "id": 1119,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24738,7 +24738,7 @@ module.exports = {
             },
             {
               "id": 1120,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24760,7 +24760,7 @@ module.exports = {
             },
             {
               "id": 1121,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24782,7 +24782,7 @@ module.exports = {
             },
             {
               "id": 1122,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24804,7 +24804,7 @@ module.exports = {
             },
             {
               "id": 1123,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24826,7 +24826,7 @@ module.exports = {
             },
             {
               "id": 1124,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24848,7 +24848,7 @@ module.exports = {
             },
             {
               "id": 1125,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24870,7 +24870,7 @@ module.exports = {
             },
             {
               "id": 1126,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24892,7 +24892,7 @@ module.exports = {
             },
             {
               "id": 1127,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24914,7 +24914,7 @@ module.exports = {
             },
             {
               "id": 1128,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24936,7 +24936,7 @@ module.exports = {
             },
             {
               "id": 1129,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24958,7 +24958,7 @@ module.exports = {
             },
             {
               "id": 1130,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -24980,7 +24980,7 @@ module.exports = {
             },
             {
               "id": 1131,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25002,7 +25002,7 @@ module.exports = {
             },
             {
               "id": 1132,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25024,7 +25024,7 @@ module.exports = {
             },
             {
               "id": 1133,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25046,7 +25046,7 @@ module.exports = {
             },
             {
               "id": 1134,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25068,7 +25068,7 @@ module.exports = {
             },
             {
               "id": 1135,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25090,7 +25090,7 @@ module.exports = {
             },
             {
               "id": 1136,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25112,7 +25112,7 @@ module.exports = {
             },
             {
               "id": 1137,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25134,7 +25134,7 @@ module.exports = {
             },
             {
               "id": 1138,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25156,7 +25156,7 @@ module.exports = {
             },
             {
               "id": 1139,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25178,7 +25178,7 @@ module.exports = {
             },
             {
               "id": 1140,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25200,7 +25200,7 @@ module.exports = {
             },
             {
               "id": 1141,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25222,7 +25222,7 @@ module.exports = {
             },
             {
               "id": 1142,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25244,7 +25244,7 @@ module.exports = {
             },
             {
               "id": 1143,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25266,7 +25266,7 @@ module.exports = {
             },
             {
               "id": 1144,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25288,7 +25288,7 @@ module.exports = {
             },
             {
               "id": 1145,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25310,7 +25310,7 @@ module.exports = {
             },
             {
               "id": 1146,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25332,7 +25332,7 @@ module.exports = {
             },
             {
               "id": 1147,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25354,7 +25354,7 @@ module.exports = {
             },
             {
               "id": 1148,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25376,7 +25376,7 @@ module.exports = {
             },
             {
               "id": 1149,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25398,7 +25398,7 @@ module.exports = {
             },
             {
               "id": 1150,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25420,7 +25420,7 @@ module.exports = {
             },
             {
               "id": 1151,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25442,7 +25442,7 @@ module.exports = {
             },
             {
               "id": 1152,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25464,7 +25464,7 @@ module.exports = {
             },
             {
               "id": 1153,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25486,7 +25486,7 @@ module.exports = {
             },
             {
               "id": 1154,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25508,7 +25508,7 @@ module.exports = {
             },
             {
               "id": 1155,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25530,7 +25530,7 @@ module.exports = {
             },
             {
               "id": 1156,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25552,7 +25552,7 @@ module.exports = {
             },
             {
               "id": 1157,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25574,7 +25574,7 @@ module.exports = {
             },
             {
               "id": 1158,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25596,7 +25596,7 @@ module.exports = {
             },
             {
               "id": 1159,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25618,7 +25618,7 @@ module.exports = {
             },
             {
               "id": 1160,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25640,7 +25640,7 @@ module.exports = {
             },
             {
               "id": 1161,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25662,7 +25662,7 @@ module.exports = {
             },
             {
               "id": 1162,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25684,7 +25684,7 @@ module.exports = {
             },
             {
               "id": 1163,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25706,7 +25706,7 @@ module.exports = {
             },
             {
               "id": 1164,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25728,7 +25728,7 @@ module.exports = {
             },
             {
               "id": 1165,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25750,7 +25750,7 @@ module.exports = {
             },
             {
               "id": 1166,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25772,7 +25772,7 @@ module.exports = {
             },
             {
               "id": 1167,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25794,7 +25794,7 @@ module.exports = {
             },
             {
               "id": 1168,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25816,7 +25816,7 @@ module.exports = {
             },
             {
               "id": 1169,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25838,7 +25838,7 @@ module.exports = {
             },
             {
               "id": 1170,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25860,7 +25860,7 @@ module.exports = {
             },
             {
               "id": 1171,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25882,7 +25882,7 @@ module.exports = {
             },
             {
               "id": 1172,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25904,7 +25904,7 @@ module.exports = {
             },
             {
               "id": 1173,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25926,7 +25926,7 @@ module.exports = {
             },
             {
               "id": 1174,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25948,7 +25948,7 @@ module.exports = {
             },
             {
               "id": 1175,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25970,7 +25970,7 @@ module.exports = {
             },
             {
               "id": 1176,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -25992,7 +25992,7 @@ module.exports = {
             },
             {
               "id": 1177,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26014,7 +26014,7 @@ module.exports = {
             },
             {
               "id": 1178,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26036,7 +26036,7 @@ module.exports = {
             },
             {
               "id": 1179,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26058,7 +26058,7 @@ module.exports = {
             },
             {
               "id": 1180,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26080,7 +26080,7 @@ module.exports = {
             },
             {
               "id": 1181,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26102,7 +26102,7 @@ module.exports = {
             },
             {
               "id": 1182,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26124,7 +26124,7 @@ module.exports = {
             },
             {
               "id": 1183,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26146,7 +26146,7 @@ module.exports = {
             },
             {
               "id": 1184,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26168,7 +26168,7 @@ module.exports = {
             },
             {
               "id": 1185,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26190,7 +26190,7 @@ module.exports = {
             },
             {
               "id": 1186,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26212,7 +26212,7 @@ module.exports = {
             },
             {
               "id": 1187,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26234,7 +26234,7 @@ module.exports = {
             },
             {
               "id": 1188,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26256,7 +26256,7 @@ module.exports = {
             },
             {
               "id": 1189,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26278,7 +26278,7 @@ module.exports = {
             },
             {
               "id": 1190,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26300,7 +26300,7 @@ module.exports = {
             },
             {
               "id": 1191,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26322,7 +26322,7 @@ module.exports = {
             },
             {
               "id": 1192,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26344,7 +26344,7 @@ module.exports = {
             },
             {
               "id": 1193,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26366,7 +26366,7 @@ module.exports = {
             },
             {
               "id": 1194,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26388,7 +26388,7 @@ module.exports = {
             },
             {
               "id": 1195,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26410,7 +26410,7 @@ module.exports = {
             },
             {
               "id": 1196,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26432,7 +26432,7 @@ module.exports = {
             },
             {
               "id": 1197,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26454,7 +26454,7 @@ module.exports = {
             },
             {
               "id": 1198,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26476,7 +26476,7 @@ module.exports = {
             },
             {
               "id": 1199,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26498,7 +26498,7 @@ module.exports = {
             },
             {
               "id": 1200,
-              "type": "temperatura",
+              "type": 3,
               "rate": 1,
               "reports": [
                 {
@@ -26520,7 +26520,7 @@ module.exports = {
             }
           , {
               "id": 1201,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -26542,7 +26542,7 @@ module.exports = {
             },
             {
               "id": 1202,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -26564,7 +26564,7 @@ module.exports = {
             },
             {
               "id": 1203,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -26586,7 +26586,7 @@ module.exports = {
             },
             {
               "id": 1204,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -26608,7 +26608,7 @@ module.exports = {
             },
             {
               "id": 1205,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -26630,7 +26630,7 @@ module.exports = {
             },
             {
               "id": 1206,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -26652,7 +26652,7 @@ module.exports = {
             },
             {
               "id": 1207,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -26674,7 +26674,7 @@ module.exports = {
             },
             {
               "id": 1208,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -26696,7 +26696,7 @@ module.exports = {
             },
             {
               "id": 1209,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -26718,7 +26718,7 @@ module.exports = {
             },
             {
               "id": 1210,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -26740,7 +26740,7 @@ module.exports = {
             },
             {
               "id": 1211,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -26762,7 +26762,7 @@ module.exports = {
             },
             {
               "id": 1212,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -26784,7 +26784,7 @@ module.exports = {
             },
             {
               "id": 1213,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -26806,7 +26806,7 @@ module.exports = {
             },
             {
               "id": 1214,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -26828,7 +26828,7 @@ module.exports = {
             },
             {
               "id": 1215,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -26850,7 +26850,7 @@ module.exports = {
             },
             {
               "id": 1216,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -26872,7 +26872,7 @@ module.exports = {
             },
             {
               "id": 1217,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -26894,7 +26894,7 @@ module.exports = {
             },
             {
               "id": 1218,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -26916,7 +26916,7 @@ module.exports = {
             },
             {
               "id": 1219,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -26938,7 +26938,7 @@ module.exports = {
             },
             {
               "id": 1220,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -26960,7 +26960,7 @@ module.exports = {
             },
             {
               "id": 1221,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -26982,7 +26982,7 @@ module.exports = {
             },
             {
               "id": 1222,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -27004,7 +27004,7 @@ module.exports = {
             },
             {
               "id": 1223,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -27026,7 +27026,7 @@ module.exports = {
             },
             {
               "id": 1224,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -27048,7 +27048,7 @@ module.exports = {
             },
             {
               "id": 1225,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -27070,7 +27070,7 @@ module.exports = {
             },
             {
               "id": 1226,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -27092,7 +27092,7 @@ module.exports = {
             },
             {
               "id": 1227,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -27114,7 +27114,7 @@ module.exports = {
             },
             {
               "id": 1228,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -27136,7 +27136,7 @@ module.exports = {
             },
             {
               "id": 1229,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -27158,7 +27158,7 @@ module.exports = {
             },
             {
               "id": 1230,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -27180,7 +27180,7 @@ module.exports = {
             },
             {
               "id": 1231,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -27202,7 +27202,7 @@ module.exports = {
             },
             {
               "id": 1232,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -27224,7 +27224,7 @@ module.exports = {
             },
             {
               "id": 1233,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -27246,7 +27246,7 @@ module.exports = {
             },
             {
               "id": 1234,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -27268,7 +27268,7 @@ module.exports = {
             },
             {
               "id": 1235,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -27290,7 +27290,7 @@ module.exports = {
             },
             {
               "id": 1236,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -27312,7 +27312,7 @@ module.exports = {
             },
             {
               "id": 1237,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -27334,7 +27334,7 @@ module.exports = {
             },
             {
               "id": 1238,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -27356,7 +27356,7 @@ module.exports = {
             },
             {
               "id": 1239,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -27378,7 +27378,7 @@ module.exports = {
             },
             {
               "id": 1240,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -27400,7 +27400,7 @@ module.exports = {
             },
             {
               "id": 1241,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -27422,7 +27422,7 @@ module.exports = {
             },
             {
               "id": 1242,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -27444,7 +27444,7 @@ module.exports = {
             },
             {
               "id": 1243,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -27466,7 +27466,7 @@ module.exports = {
             },
             {
               "id": 1244,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -27488,7 +27488,7 @@ module.exports = {
             },
             {
               "id": 1245,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -27510,7 +27510,7 @@ module.exports = {
             },
             {
               "id": 1246,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -27532,7 +27532,7 @@ module.exports = {
             },
             {
               "id": 1247,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -27554,7 +27554,7 @@ module.exports = {
             },
             {
               "id": 1248,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -27576,7 +27576,7 @@ module.exports = {
             },
             {
               "id": 1249,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -27598,7 +27598,7 @@ module.exports = {
             },
             {
               "id": 1250,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -27620,7 +27620,7 @@ module.exports = {
             },
             {
               "id": 1251,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -27642,7 +27642,7 @@ module.exports = {
             },
             {
               "id": 1252,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -27664,7 +27664,7 @@ module.exports = {
             },
             {
               "id": 1253,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -27686,7 +27686,7 @@ module.exports = {
             },
             {
               "id": 1254,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -27708,7 +27708,7 @@ module.exports = {
             },
             {
               "id": 1255,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -27730,7 +27730,7 @@ module.exports = {
             },
             {
               "id": 1256,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -27752,7 +27752,7 @@ module.exports = {
             },
             {
               "id": 1257,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -27774,7 +27774,7 @@ module.exports = {
             },
             {
               "id": 1258,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -27796,7 +27796,7 @@ module.exports = {
             },
             {
               "id": 1259,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -27818,7 +27818,7 @@ module.exports = {
             },
             {
               "id": 1260,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -27840,7 +27840,7 @@ module.exports = {
             },
             {
               "id": 1261,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -27862,7 +27862,7 @@ module.exports = {
             },
             {
               "id": 1262,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -27884,7 +27884,7 @@ module.exports = {
             },
             {
               "id": 1263,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -27906,7 +27906,7 @@ module.exports = {
             },
             {
               "id": 1264,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -27928,7 +27928,7 @@ module.exports = {
             },
             {
               "id": 1265,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -27950,7 +27950,7 @@ module.exports = {
             },
             {
               "id": 1266,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -27972,7 +27972,7 @@ module.exports = {
             },
             {
               "id": 1267,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -27994,7 +27994,7 @@ module.exports = {
             },
             {
               "id": 1268,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -28016,7 +28016,7 @@ module.exports = {
             },
             {
               "id": 1269,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -28038,7 +28038,7 @@ module.exports = {
             },
             {
               "id": 1270,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -28060,7 +28060,7 @@ module.exports = {
             },
             {
               "id": 1271,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -28082,7 +28082,7 @@ module.exports = {
             },
             {
               "id": 1272,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -28104,7 +28104,7 @@ module.exports = {
             },
             {
               "id": 1273,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -28126,7 +28126,7 @@ module.exports = {
             },
             {
               "id": 1274,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -28148,7 +28148,7 @@ module.exports = {
             },
             {
               "id": 1275,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -28170,7 +28170,7 @@ module.exports = {
             },
             {
               "id": 1276,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -28192,7 +28192,7 @@ module.exports = {
             },
             {
               "id": 1277,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -28214,7 +28214,7 @@ module.exports = {
             },
             {
               "id": 1278,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -28236,7 +28236,7 @@ module.exports = {
             },
             {
               "id": 1279,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -28258,7 +28258,7 @@ module.exports = {
             },
             {
               "id": 1280,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -28280,7 +28280,7 @@ module.exports = {
             },
             {
               "id": 1281,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -28302,7 +28302,7 @@ module.exports = {
             },
             {
               "id": 1282,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -28324,7 +28324,7 @@ module.exports = {
             },
             {
               "id": 1283,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -28346,7 +28346,7 @@ module.exports = {
             },
             {
               "id": 1284,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -28368,7 +28368,7 @@ module.exports = {
             },
             {
               "id": 1285,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -28390,7 +28390,7 @@ module.exports = {
             },
             {
               "id": 1286,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -28412,7 +28412,7 @@ module.exports = {
             },
             {
               "id": 1287,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -28434,7 +28434,7 @@ module.exports = {
             },
             {
               "id": 1288,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -28456,7 +28456,7 @@ module.exports = {
             },
             {
               "id": 1289,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -28478,7 +28478,7 @@ module.exports = {
             },
             {
               "id": 1290,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -28500,7 +28500,7 @@ module.exports = {
             },
             {
               "id": 1291,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -28522,7 +28522,7 @@ module.exports = {
             },
             {
               "id": 1292,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -28544,7 +28544,7 @@ module.exports = {
             },
             {
               "id": 1293,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -28566,7 +28566,7 @@ module.exports = {
             },
             {
               "id": 1294,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -28588,7 +28588,7 @@ module.exports = {
             },
             {
               "id": 1295,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -28610,7 +28610,7 @@ module.exports = {
             },
             {
               "id": 1296,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -28632,7 +28632,7 @@ module.exports = {
             },
             {
               "id": 1297,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -28654,7 +28654,7 @@ module.exports = {
             },
             {
               "id": 1298,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -28676,7 +28676,7 @@ module.exports = {
             },
             {
               "id": 1299,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -28698,7 +28698,7 @@ module.exports = {
             },
             {
               "id": 1300,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -28720,7 +28720,7 @@ module.exports = {
             },
             {
               "id": 1301,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -28742,7 +28742,7 @@ module.exports = {
             },
             {
               "id": 1302,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -28764,7 +28764,7 @@ module.exports = {
             },
             {
               "id": 1303,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -28786,7 +28786,7 @@ module.exports = {
             },
             {
               "id": 1304,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -28808,7 +28808,7 @@ module.exports = {
             },
             {
               "id": 1305,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -28830,7 +28830,7 @@ module.exports = {
             },
             {
               "id": 1306,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -28852,7 +28852,7 @@ module.exports = {
             },
             {
               "id": 1307,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -28874,7 +28874,7 @@ module.exports = {
             },
             {
               "id": 1308,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -28896,7 +28896,7 @@ module.exports = {
             },
             {
               "id": 1309,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -28918,7 +28918,7 @@ module.exports = {
             },
             {
               "id": 1310,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -28940,7 +28940,7 @@ module.exports = {
             },
             {
               "id": 1311,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -28962,7 +28962,7 @@ module.exports = {
             },
             {
               "id": 1312,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -28984,7 +28984,7 @@ module.exports = {
             },
             {
               "id": 1313,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -29006,7 +29006,7 @@ module.exports = {
             },
             {
               "id": 1314,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -29028,7 +29028,7 @@ module.exports = {
             },
             {
               "id": 1315,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -29050,7 +29050,7 @@ module.exports = {
             },
             {
               "id": 1316,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -29072,7 +29072,7 @@ module.exports = {
             },
             {
               "id": 1317,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -29094,7 +29094,7 @@ module.exports = {
             },
             {
               "id": 1318,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -29116,7 +29116,7 @@ module.exports = {
             },
             {
               "id": 1319,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -29138,7 +29138,7 @@ module.exports = {
             },
             {
               "id": 1320,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -29160,7 +29160,7 @@ module.exports = {
             },
             {
               "id": 1321,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -29182,7 +29182,7 @@ module.exports = {
             },
             {
               "id": 1322,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -29204,7 +29204,7 @@ module.exports = {
             },
             {
               "id": 1323,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -29226,7 +29226,7 @@ module.exports = {
             },
             {
               "id": 1324,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -29248,7 +29248,7 @@ module.exports = {
             },
             {
               "id": 1325,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -29270,7 +29270,7 @@ module.exports = {
             },
             {
               "id": 1326,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -29292,7 +29292,7 @@ module.exports = {
             },
             {
               "id": 1327,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -29314,7 +29314,7 @@ module.exports = {
             },
             {
               "id": 1328,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -29336,7 +29336,7 @@ module.exports = {
             },
             {
               "id": 1329,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -29358,7 +29358,7 @@ module.exports = {
             },
             {
               "id": 1330,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -29380,7 +29380,7 @@ module.exports = {
             },
             {
               "id": 1331,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -29402,7 +29402,7 @@ module.exports = {
             },
             {
               "id": 1332,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -29424,7 +29424,7 @@ module.exports = {
             },
             {
               "id": 1333,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -29446,7 +29446,7 @@ module.exports = {
             },
             {
               "id": 1334,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -29468,7 +29468,7 @@ module.exports = {
             },
             {
               "id": 1335,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -29490,7 +29490,7 @@ module.exports = {
             },
             {
               "id": 1336,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -29512,7 +29512,7 @@ module.exports = {
             },
             {
               "id": 1337,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -29534,7 +29534,7 @@ module.exports = {
             },
             {
               "id": 1338,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -29556,7 +29556,7 @@ module.exports = {
             },
             {
               "id": 1339,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -29578,7 +29578,7 @@ module.exports = {
             },
             {
               "id": 1340,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -29600,7 +29600,7 @@ module.exports = {
             },
             {
               "id": 1341,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -29622,7 +29622,7 @@ module.exports = {
             },
             {
               "id": 1342,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -29644,7 +29644,7 @@ module.exports = {
             },
             {
               "id": 1343,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -29666,7 +29666,7 @@ module.exports = {
             },
             {
               "id": 1344,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -29688,7 +29688,7 @@ module.exports = {
             },
             {
               "id": 1345,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -29710,7 +29710,7 @@ module.exports = {
             },
             {
               "id": 1346,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -29732,7 +29732,7 @@ module.exports = {
             },
             {
               "id": 1347,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -29754,7 +29754,7 @@ module.exports = {
             },
             {
               "id": 1348,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -29776,7 +29776,7 @@ module.exports = {
             },
             {
               "id": 1349,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -29798,7 +29798,7 @@ module.exports = {
             },
             {
               "id": 1350,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -29820,7 +29820,7 @@ module.exports = {
             },
             {
               "id": 1351,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -29842,7 +29842,7 @@ module.exports = {
             },
             {
               "id": 1352,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -29864,7 +29864,7 @@ module.exports = {
             },
             {
               "id": 1353,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -29886,7 +29886,7 @@ module.exports = {
             },
             {
               "id": 1354,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -29908,7 +29908,7 @@ module.exports = {
             },
             {
               "id": 1355,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -29930,7 +29930,7 @@ module.exports = {
             },
             {
               "id": 1356,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -29952,7 +29952,7 @@ module.exports = {
             },
             {
               "id": 1357,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -29974,7 +29974,7 @@ module.exports = {
             },
             {
               "id": 1358,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -29996,7 +29996,7 @@ module.exports = {
             },
             {
               "id": 1359,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -30018,7 +30018,7 @@ module.exports = {
             },
             {
               "id": 1360,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -30040,7 +30040,7 @@ module.exports = {
             },
             {
               "id": 1361,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30062,7 +30062,7 @@ module.exports = {
             },
             {
               "id": 1362,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30084,7 +30084,7 @@ module.exports = {
             },
             {
               "id": 1363,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -30106,7 +30106,7 @@ module.exports = {
             },
             {
               "id": 1364,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -30128,7 +30128,7 @@ module.exports = {
             },
             {
               "id": 1365,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -30150,7 +30150,7 @@ module.exports = {
             },
             {
               "id": 1366,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30172,7 +30172,7 @@ module.exports = {
             },
             {
               "id": 1367,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -30194,7 +30194,7 @@ module.exports = {
             },
             {
               "id": 1368,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30216,7 +30216,7 @@ module.exports = {
             },
             {
               "id": 1369,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -30238,7 +30238,7 @@ module.exports = {
             },
             {
               "id": 1370,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -30260,7 +30260,7 @@ module.exports = {
             },
             {
               "id": 1371,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -30282,7 +30282,7 @@ module.exports = {
             },
             {
               "id": 1372,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30304,7 +30304,7 @@ module.exports = {
             },
             {
               "id": 1373,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30326,7 +30326,7 @@ module.exports = {
             },
             {
               "id": 1374,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -30348,7 +30348,7 @@ module.exports = {
             },
             {
               "id": 1375,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30370,7 +30370,7 @@ module.exports = {
             },
             {
               "id": 1376,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -30392,7 +30392,7 @@ module.exports = {
             },
             {
               "id": 1377,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -30414,7 +30414,7 @@ module.exports = {
             },
             {
               "id": 1378,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30436,7 +30436,7 @@ module.exports = {
             },
             {
               "id": 1379,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -30458,7 +30458,7 @@ module.exports = {
             },
             {
               "id": 1380,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -30480,7 +30480,7 @@ module.exports = {
             },
             {
               "id": 1381,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30502,7 +30502,7 @@ module.exports = {
             },
             {
               "id": 1382,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -30524,7 +30524,7 @@ module.exports = {
             },
             {
               "id": 1383,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -30546,7 +30546,7 @@ module.exports = {
             },
             {
               "id": 1384,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30568,7 +30568,7 @@ module.exports = {
             },
             {
               "id": 1385,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -30590,7 +30590,7 @@ module.exports = {
             },
             {
               "id": 1386,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -30612,7 +30612,7 @@ module.exports = {
             },
             {
               "id": 1387,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30634,7 +30634,7 @@ module.exports = {
             },
             {
               "id": 1388,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30656,7 +30656,7 @@ module.exports = {
             },
             {
               "id": 1389,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -30678,7 +30678,7 @@ module.exports = {
             },
             {
               "id": 1390,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30700,7 +30700,7 @@ module.exports = {
             },
             {
               "id": 1391,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30722,7 +30722,7 @@ module.exports = {
             },
             {
               "id": 1392,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30744,7 +30744,7 @@ module.exports = {
             },
             {
               "id": 1393,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30766,7 +30766,7 @@ module.exports = {
             },
             {
               "id": 1394,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -30788,7 +30788,7 @@ module.exports = {
             },
             {
               "id": 1395,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -30810,7 +30810,7 @@ module.exports = {
             },
             {
               "id": 1396,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30832,7 +30832,7 @@ module.exports = {
             },
             {
               "id": 1397,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -30854,7 +30854,7 @@ module.exports = {
             },
             {
               "id": 1398,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -30876,7 +30876,7 @@ module.exports = {
             },
             {
               "id": 1399,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -30898,7 +30898,7 @@ module.exports = {
             },
             {
               "id": 1400,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -30920,7 +30920,7 @@ module.exports = {
             },
             {
               "id": 1401,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -30942,7 +30942,7 @@ module.exports = {
             },
             {
               "id": 1402,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -30964,7 +30964,7 @@ module.exports = {
             },
             {
               "id": 1403,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -30986,7 +30986,7 @@ module.exports = {
             },
             {
               "id": 1404,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -31008,7 +31008,7 @@ module.exports = {
             },
             {
               "id": 1405,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -31030,7 +31030,7 @@ module.exports = {
             },
             {
               "id": 1406,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -31052,7 +31052,7 @@ module.exports = {
             },
             {
               "id": 1407,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -31074,7 +31074,7 @@ module.exports = {
             },
             {
               "id": 1408,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -31096,7 +31096,7 @@ module.exports = {
             },
             {
               "id": 1409,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -31118,7 +31118,7 @@ module.exports = {
             },
             {
               "id": 1410,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -31140,7 +31140,7 @@ module.exports = {
             },
             {
               "id": 1411,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -31162,7 +31162,7 @@ module.exports = {
             },
             {
               "id": 1412,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -31184,7 +31184,7 @@ module.exports = {
             },
             {
               "id": 1413,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -31206,7 +31206,7 @@ module.exports = {
             },
             {
               "id": 1414,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -31228,7 +31228,7 @@ module.exports = {
             },
             {
               "id": 1415,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -31250,7 +31250,7 @@ module.exports = {
             },
             {
               "id": 1416,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -31272,7 +31272,7 @@ module.exports = {
             },
             {
               "id": 1417,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -31294,7 +31294,7 @@ module.exports = {
             },
             {
               "id": 1418,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -31316,7 +31316,7 @@ module.exports = {
             },
             {
               "id": 1419,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -31338,7 +31338,7 @@ module.exports = {
             },
             {
               "id": 1420,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -31360,7 +31360,7 @@ module.exports = {
             },
             {
               "id": 1421,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -31382,7 +31382,7 @@ module.exports = {
             },
             {
               "id": 1422,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -31404,7 +31404,7 @@ module.exports = {
             },
             {
               "id": 1423,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -31426,7 +31426,7 @@ module.exports = {
             },
             {
               "id": 1424,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -31448,7 +31448,7 @@ module.exports = {
             },
             {
               "id": 1425,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -31470,7 +31470,7 @@ module.exports = {
             },
             {
               "id": 1426,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -31492,7 +31492,7 @@ module.exports = {
             },
             {
               "id": 1427,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -31514,7 +31514,7 @@ module.exports = {
             },
             {
               "id": 1428,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -31536,7 +31536,7 @@ module.exports = {
             },
             {
               "id": 1429,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -31558,7 +31558,7 @@ module.exports = {
             },
             {
               "id": 1430,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -31580,7 +31580,7 @@ module.exports = {
             },
             {
               "id": 1431,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -31602,7 +31602,7 @@ module.exports = {
             },
             {
               "id": 1432,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -31624,7 +31624,7 @@ module.exports = {
             },
             {
               "id": 1433,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -31646,7 +31646,7 @@ module.exports = {
             },
             {
               "id": 1434,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -31668,7 +31668,7 @@ module.exports = {
             },
             {
               "id": 1435,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -31690,7 +31690,7 @@ module.exports = {
             },
             {
               "id": 1436,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -31712,7 +31712,7 @@ module.exports = {
             },
             {
               "id": 1437,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -31734,7 +31734,7 @@ module.exports = {
             },
             {
               "id": 1438,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -31756,7 +31756,7 @@ module.exports = {
             },
             {
               "id": 1439,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -31778,7 +31778,7 @@ module.exports = {
             },
             {
               "id": 1440,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -31800,7 +31800,7 @@ module.exports = {
             },
             {
               "id": 1441,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -31822,7 +31822,7 @@ module.exports = {
             },
             {
               "id": 1442,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -31844,7 +31844,7 @@ module.exports = {
             },
             {
               "id": 1443,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -31866,7 +31866,7 @@ module.exports = {
             },
             {
               "id": 1444,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -31888,7 +31888,7 @@ module.exports = {
             },
             {
               "id": 1445,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -31910,7 +31910,7 @@ module.exports = {
             },
             {
               "id": 1446,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -31932,7 +31932,7 @@ module.exports = {
             },
             {
               "id": 1447,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -31954,7 +31954,7 @@ module.exports = {
             },
             {
               "id": 1448,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -31976,7 +31976,7 @@ module.exports = {
             },
             {
               "id": 1449,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -31998,7 +31998,7 @@ module.exports = {
             },
             {
               "id": 1450,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -32020,7 +32020,7 @@ module.exports = {
             },
             {
               "id": 1451,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -32042,7 +32042,7 @@ module.exports = {
             },
             {
               "id": 1452,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -32064,7 +32064,7 @@ module.exports = {
             },
             {
               "id": 1453,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -32086,7 +32086,7 @@ module.exports = {
             },
             {
               "id": 1454,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -32108,7 +32108,7 @@ module.exports = {
             },
             {
               "id": 1455,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -32130,7 +32130,7 @@ module.exports = {
             },
             {
               "id": 1456,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -32152,7 +32152,7 @@ module.exports = {
             },
             {
               "id": 1457,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -32174,7 +32174,7 @@ module.exports = {
             },
             {
               "id": 1458,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -32196,7 +32196,7 @@ module.exports = {
             },
             {
               "id": 1459,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -32218,7 +32218,7 @@ module.exports = {
             },
             {
               "id": 1460,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -32240,7 +32240,7 @@ module.exports = {
             },
             {
               "id": 1461,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -32262,7 +32262,7 @@ module.exports = {
             },
             {
               "id": 1462,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -32284,7 +32284,7 @@ module.exports = {
             },
             {
               "id": 1463,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -32306,7 +32306,7 @@ module.exports = {
             },
             {
               "id": 1464,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -32328,7 +32328,7 @@ module.exports = {
             },
             {
               "id": 1465,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -32350,7 +32350,7 @@ module.exports = {
             },
             {
               "id": 1466,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -32372,7 +32372,7 @@ module.exports = {
             },
             {
               "id": 1467,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -32394,7 +32394,7 @@ module.exports = {
             },
             {
               "id": 1468,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -32416,7 +32416,7 @@ module.exports = {
             },
             {
               "id": 1469,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -32438,7 +32438,7 @@ module.exports = {
             },
             {
               "id": 1470,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -32460,7 +32460,7 @@ module.exports = {
             },
             {
               "id": 1471,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -32482,7 +32482,7 @@ module.exports = {
             },
             {
               "id": 1472,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -32504,7 +32504,7 @@ module.exports = {
             },
             {
               "id": 1473,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -32526,7 +32526,7 @@ module.exports = {
             },
             {
               "id": 1474,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -32548,7 +32548,7 @@ module.exports = {
             },
             {
               "id": 1475,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -32570,7 +32570,7 @@ module.exports = {
             },
             {
               "id": 1476,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -32592,7 +32592,7 @@ module.exports = {
             },
             {
               "id": 1477,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -32614,7 +32614,7 @@ module.exports = {
             },
             {
               "id": 1478,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -32636,7 +32636,7 @@ module.exports = {
             },
             {
               "id": 1479,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -32658,7 +32658,7 @@ module.exports = {
             },
             {
               "id": 1480,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -32680,7 +32680,7 @@ module.exports = {
             },
             {
               "id": 1481,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -32702,7 +32702,7 @@ module.exports = {
             },
             {
               "id": 1482,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -32724,7 +32724,7 @@ module.exports = {
             },
             {
               "id": 1483,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -32746,7 +32746,7 @@ module.exports = {
             },
             {
               "id": 1484,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -32768,7 +32768,7 @@ module.exports = {
             },
             {
               "id": 1485,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -32790,7 +32790,7 @@ module.exports = {
             },
             {
               "id": 1486,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -32812,7 +32812,7 @@ module.exports = {
             },
             {
               "id": 1487,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -32834,7 +32834,7 @@ module.exports = {
             },
             {
               "id": 1488,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -32856,7 +32856,7 @@ module.exports = {
             },
             {
               "id": 1489,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -32878,7 +32878,7 @@ module.exports = {
             },
             {
               "id": 1490,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -32900,7 +32900,7 @@ module.exports = {
             },
             {
               "id": 1491,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -32922,7 +32922,7 @@ module.exports = {
             },
             {
               "id": 1492,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -32944,7 +32944,7 @@ module.exports = {
             },
             {
               "id": 1493,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -32966,7 +32966,7 @@ module.exports = {
             },
             {
               "id": 1494,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -32988,7 +32988,7 @@ module.exports = {
             },
             {
               "id": 1495,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33010,7 +33010,7 @@ module.exports = {
             },
             {
               "id": 1496,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -33032,7 +33032,7 @@ module.exports = {
             },
             {
               "id": 1497,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33054,7 +33054,7 @@ module.exports = {
             },
             {
               "id": 1498,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33076,7 +33076,7 @@ module.exports = {
             },
             {
               "id": 1499,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33098,7 +33098,7 @@ module.exports = {
             },
             {
               "id": 1500,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -33120,7 +33120,7 @@ module.exports = {
             },
             {
               "id": 1501,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -33142,7 +33142,7 @@ module.exports = {
             },
             {
               "id": 1502,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -33164,7 +33164,7 @@ module.exports = {
             },
             {
               "id": 1503,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33186,7 +33186,7 @@ module.exports = {
             },
             {
               "id": 1504,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -33208,7 +33208,7 @@ module.exports = {
             },
             {
               "id": 1505,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -33230,7 +33230,7 @@ module.exports = {
             },
             {
               "id": 1506,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -33252,7 +33252,7 @@ module.exports = {
             },
             {
               "id": 1507,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -33274,7 +33274,7 @@ module.exports = {
             },
             {
               "id": 1508,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -33296,7 +33296,7 @@ module.exports = {
             },
             {
               "id": 1509,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33318,7 +33318,7 @@ module.exports = {
             },
             {
               "id": 1510,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -33340,7 +33340,7 @@ module.exports = {
             },
             {
               "id": 1511,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -33362,7 +33362,7 @@ module.exports = {
             },
             {
               "id": 1512,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -33384,7 +33384,7 @@ module.exports = {
             },
             {
               "id": 1513,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33406,7 +33406,7 @@ module.exports = {
             },
             {
               "id": 1514,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -33428,7 +33428,7 @@ module.exports = {
             },
             {
               "id": 1515,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -33450,7 +33450,7 @@ module.exports = {
             },
             {
               "id": 1516,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -33472,7 +33472,7 @@ module.exports = {
             },
             {
               "id": 1517,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -33494,7 +33494,7 @@ module.exports = {
             },
             {
               "id": 1518,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33516,7 +33516,7 @@ module.exports = {
             },
             {
               "id": 1519,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33538,7 +33538,7 @@ module.exports = {
             },
             {
               "id": 1520,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -33560,7 +33560,7 @@ module.exports = {
             },
             {
               "id": 1521,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33582,7 +33582,7 @@ module.exports = {
             },
             {
               "id": 1522,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -33604,7 +33604,7 @@ module.exports = {
             },
             {
               "id": 1523,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -33626,7 +33626,7 @@ module.exports = {
             },
             {
               "id": 1524,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -33648,7 +33648,7 @@ module.exports = {
             },
             {
               "id": 1525,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -33670,7 +33670,7 @@ module.exports = {
             },
             {
               "id": 1526,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -33692,7 +33692,7 @@ module.exports = {
             },
             {
               "id": 1527,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33714,7 +33714,7 @@ module.exports = {
             },
             {
               "id": 1528,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -33736,7 +33736,7 @@ module.exports = {
             },
             {
               "id": 1529,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33758,7 +33758,7 @@ module.exports = {
             },
             {
               "id": 1530,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -33780,7 +33780,7 @@ module.exports = {
             },
             {
               "id": 1531,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -33802,7 +33802,7 @@ module.exports = {
             },
             {
               "id": 1532,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -33824,7 +33824,7 @@ module.exports = {
             },
             {
               "id": 1533,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -33846,7 +33846,7 @@ module.exports = {
             },
             {
               "id": 1534,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -33868,7 +33868,7 @@ module.exports = {
             },
             {
               "id": 1535,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -33890,7 +33890,7 @@ module.exports = {
             },
             {
               "id": 1536,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -33912,7 +33912,7 @@ module.exports = {
             },
             {
               "id": 1537,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33934,7 +33934,7 @@ module.exports = {
             },
             {
               "id": 1538,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33956,7 +33956,7 @@ module.exports = {
             },
             {
               "id": 1539,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -33978,7 +33978,7 @@ module.exports = {
             },
             {
               "id": 1540,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -34000,7 +34000,7 @@ module.exports = {
             },
             {
               "id": 1541,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -34022,7 +34022,7 @@ module.exports = {
             },
             {
               "id": 1542,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -34044,7 +34044,7 @@ module.exports = {
             },
             {
               "id": 1543,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -34066,7 +34066,7 @@ module.exports = {
             },
             {
               "id": 1544,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -34088,7 +34088,7 @@ module.exports = {
             },
             {
               "id": 1545,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -34110,7 +34110,7 @@ module.exports = {
             },
             {
               "id": 1546,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -34132,7 +34132,7 @@ module.exports = {
             },
             {
               "id": 1547,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -34154,7 +34154,7 @@ module.exports = {
             },
             {
               "id": 1548,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -34176,7 +34176,7 @@ module.exports = {
             },
             {
               "id": 1549,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -34198,7 +34198,7 @@ module.exports = {
             },
             {
               "id": 1550,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -34220,7 +34220,7 @@ module.exports = {
             },
             {
               "id": 1551,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -34242,7 +34242,7 @@ module.exports = {
             },
             {
               "id": 1552,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -34264,7 +34264,7 @@ module.exports = {
             },
             {
               "id": 1553,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -34286,7 +34286,7 @@ module.exports = {
             },
             {
               "id": 1554,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -34308,7 +34308,7 @@ module.exports = {
             },
             {
               "id": 1555,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -34330,7 +34330,7 @@ module.exports = {
             },
             {
               "id": 1556,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -34352,7 +34352,7 @@ module.exports = {
             },
             {
               "id": 1557,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -34374,7 +34374,7 @@ module.exports = {
             },
             {
               "id": 1558,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -34396,7 +34396,7 @@ module.exports = {
             },
             {
               "id": 1559,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -34418,7 +34418,7 @@ module.exports = {
             },
             {
               "id": 1560,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -34440,7 +34440,7 @@ module.exports = {
             },
             {
               "id": 1561,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -34462,7 +34462,7 @@ module.exports = {
             },
             {
               "id": 1562,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -34484,7 +34484,7 @@ module.exports = {
             },
             {
               "id": 1563,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -34506,7 +34506,7 @@ module.exports = {
             },
             {
               "id": 1564,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -34528,7 +34528,7 @@ module.exports = {
             },
             {
               "id": 1565,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -34550,7 +34550,7 @@ module.exports = {
             },
             {
               "id": 1566,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -34572,7 +34572,7 @@ module.exports = {
             },
             {
               "id": 1567,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -34594,7 +34594,7 @@ module.exports = {
             },
             {
               "id": 1568,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -34616,7 +34616,7 @@ module.exports = {
             },
             {
               "id": 1569,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -34638,7 +34638,7 @@ module.exports = {
             },
             {
               "id": 1570,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -34660,7 +34660,7 @@ module.exports = {
             },
             {
               "id": 1571,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -34682,7 +34682,7 @@ module.exports = {
             },
             {
               "id": 1572,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -34704,7 +34704,7 @@ module.exports = {
             },
             {
               "id": 1573,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -34726,7 +34726,7 @@ module.exports = {
             },
             {
               "id": 1574,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -34748,7 +34748,7 @@ module.exports = {
             },
             {
               "id": 1575,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -34770,7 +34770,7 @@ module.exports = {
             },
             {
               "id": 1576,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -34792,7 +34792,7 @@ module.exports = {
             },
             {
               "id": 1577,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -34814,7 +34814,7 @@ module.exports = {
             },
             {
               "id": 1578,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -34836,7 +34836,7 @@ module.exports = {
             },
             {
               "id": 1579,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -34858,7 +34858,7 @@ module.exports = {
             },
             {
               "id": 1580,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -34880,7 +34880,7 @@ module.exports = {
             },
             {
               "id": 1581,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -34902,7 +34902,7 @@ module.exports = {
             },
             {
               "id": 1582,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -34924,7 +34924,7 @@ module.exports = {
             },
             {
               "id": 1583,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -34946,7 +34946,7 @@ module.exports = {
             },
             {
               "id": 1584,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -34968,7 +34968,7 @@ module.exports = {
             },
             {
               "id": 1585,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -34990,7 +34990,7 @@ module.exports = {
             },
             {
               "id": 1586,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -35012,7 +35012,7 @@ module.exports = {
             },
             {
               "id": 1587,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -35034,7 +35034,7 @@ module.exports = {
             },
             {
               "id": 1588,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -35056,7 +35056,7 @@ module.exports = {
             },
             {
               "id": 1589,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -35078,7 +35078,7 @@ module.exports = {
             },
             {
               "id": 1590,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -35100,7 +35100,7 @@ module.exports = {
             },
             {
               "id": 1591,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -35122,7 +35122,7 @@ module.exports = {
             },
             {
               "id": 1592,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -35144,7 +35144,7 @@ module.exports = {
             },
             {
               "id": 1593,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -35166,7 +35166,7 @@ module.exports = {
             },
             {
               "id": 1594,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -35188,7 +35188,7 @@ module.exports = {
             },
             {
               "id": 1595,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -35210,7 +35210,7 @@ module.exports = {
             },
             {
               "id": 1596,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -35232,7 +35232,7 @@ module.exports = {
             },
             {
               "id": 1597,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -35254,7 +35254,7 @@ module.exports = {
             },
             {
               "id": 1598,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -35276,7 +35276,7 @@ module.exports = {
             },
             {
               "id": 1599,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -35298,7 +35298,7 @@ module.exports = {
             },
             {
               "id": 1600,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -35320,7 +35320,7 @@ module.exports = {
             },
             {
               "id": 1601,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -35342,7 +35342,7 @@ module.exports = {
             },
             {
               "id": 1602,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -35364,7 +35364,7 @@ module.exports = {
             },
             {
               "id": 1603,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -35386,7 +35386,7 @@ module.exports = {
             },
             {
               "id": 1604,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -35408,7 +35408,7 @@ module.exports = {
             },
             {
               "id": 1605,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -35430,7 +35430,7 @@ module.exports = {
             },
             {
               "id": 1606,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -35452,7 +35452,7 @@ module.exports = {
             },
             {
               "id": 1607,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -35474,7 +35474,7 @@ module.exports = {
             },
             {
               "id": 1608,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -35496,7 +35496,7 @@ module.exports = {
             },
             {
               "id": 1609,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -35518,7 +35518,7 @@ module.exports = {
             },
             {
               "id": 1610,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -35540,7 +35540,7 @@ module.exports = {
             },
             {
               "id": 1611,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -35562,7 +35562,7 @@ module.exports = {
             },
             {
               "id": 1612,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -35584,7 +35584,7 @@ module.exports = {
             },
             {
               "id": 1613,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -35606,7 +35606,7 @@ module.exports = {
             },
             {
               "id": 1614,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -35628,7 +35628,7 @@ module.exports = {
             },
             {
               "id": 1615,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -35650,7 +35650,7 @@ module.exports = {
             },
             {
               "id": 1616,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -35672,7 +35672,7 @@ module.exports = {
             },
             {
               "id": 1617,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -35694,7 +35694,7 @@ module.exports = {
             },
             {
               "id": 1618,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -35716,7 +35716,7 @@ module.exports = {
             },
             {
               "id": 1619,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -35738,7 +35738,7 @@ module.exports = {
             },
             {
               "id": 1620,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -35760,7 +35760,7 @@ module.exports = {
             },
             {
               "id": 1621,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -35782,7 +35782,7 @@ module.exports = {
             },
             {
               "id": 1622,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -35804,7 +35804,7 @@ module.exports = {
             },
             {
               "id": 1623,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -35826,7 +35826,7 @@ module.exports = {
             },
             {
               "id": 1624,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -35848,7 +35848,7 @@ module.exports = {
             },
             {
               "id": 1625,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -35870,7 +35870,7 @@ module.exports = {
             },
             {
               "id": 1626,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -35892,7 +35892,7 @@ module.exports = {
             },
             {
               "id": 1627,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -35914,7 +35914,7 @@ module.exports = {
             },
             {
               "id": 1628,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -35936,7 +35936,7 @@ module.exports = {
             },
             {
               "id": 1629,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -35958,7 +35958,7 @@ module.exports = {
             },
             {
               "id": 1630,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -35980,7 +35980,7 @@ module.exports = {
             },
             {
               "id": 1631,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -36002,7 +36002,7 @@ module.exports = {
             },
             {
               "id": 1632,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -36024,7 +36024,7 @@ module.exports = {
             },
             {
               "id": 1633,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -36046,7 +36046,7 @@ module.exports = {
             },
             {
               "id": 1634,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -36068,7 +36068,7 @@ module.exports = {
             },
             {
               "id": 1635,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -36090,7 +36090,7 @@ module.exports = {
             },
             {
               "id": 1636,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -36112,7 +36112,7 @@ module.exports = {
             },
             {
               "id": 1637,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -36134,7 +36134,7 @@ module.exports = {
             },
             {
               "id": 1638,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -36156,7 +36156,7 @@ module.exports = {
             },
             {
               "id": 1639,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -36178,7 +36178,7 @@ module.exports = {
             },
             {
               "id": 1640,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -36200,7 +36200,7 @@ module.exports = {
             },
             {
               "id": 1641,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -36222,7 +36222,7 @@ module.exports = {
             },
             {
               "id": 1642,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -36244,7 +36244,7 @@ module.exports = {
             },
             {
               "id": 1643,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -36266,7 +36266,7 @@ module.exports = {
             },
             {
               "id": 1644,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -36288,7 +36288,7 @@ module.exports = {
             },
             {
               "id": 1645,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -36310,7 +36310,7 @@ module.exports = {
             },
             {
               "id": 1646,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -36332,7 +36332,7 @@ module.exports = {
             },
             {
               "id": 1647,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -36354,7 +36354,7 @@ module.exports = {
             },
             {
               "id": 1648,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -36376,7 +36376,7 @@ module.exports = {
             },
             {
               "id": 1649,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -36398,7 +36398,7 @@ module.exports = {
             },
             {
               "id": 1650,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -36420,7 +36420,7 @@ module.exports = {
             },
             {
               "id": 1651,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -36442,7 +36442,7 @@ module.exports = {
             },
             {
               "id": 1652,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -36464,7 +36464,7 @@ module.exports = {
             },
             {
               "id": 1653,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -36486,7 +36486,7 @@ module.exports = {
             },
             {
               "id": 1654,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -36508,7 +36508,7 @@ module.exports = {
             },
             {
               "id": 1655,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -36530,7 +36530,7 @@ module.exports = {
             },
             {
               "id": 1656,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -36552,7 +36552,7 @@ module.exports = {
             },
             {
               "id": 1657,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -36574,7 +36574,7 @@ module.exports = {
             },
             {
               "id": 1658,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -36596,7 +36596,7 @@ module.exports = {
             },
             {
               "id": 1659,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -36618,7 +36618,7 @@ module.exports = {
             },
             {
               "id": 1660,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -36640,7 +36640,7 @@ module.exports = {
             },
             {
               "id": 1661,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -36662,7 +36662,7 @@ module.exports = {
             },
             {
               "id": 1662,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -36684,7 +36684,7 @@ module.exports = {
             },
             {
               "id": 1663,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -36706,7 +36706,7 @@ module.exports = {
             },
             {
               "id": 1664,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -36728,7 +36728,7 @@ module.exports = {
             },
             {
               "id": 1665,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -36750,7 +36750,7 @@ module.exports = {
             },
             {
               "id": 1666,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -36772,7 +36772,7 @@ module.exports = {
             },
             {
               "id": 1667,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -36794,7 +36794,7 @@ module.exports = {
             },
             {
               "id": 1668,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -36816,7 +36816,7 @@ module.exports = {
             },
             {
               "id": 1669,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -36838,7 +36838,7 @@ module.exports = {
             },
             {
               "id": 1670,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -36860,7 +36860,7 @@ module.exports = {
             },
             {
               "id": 1671,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -36882,7 +36882,7 @@ module.exports = {
             },
             {
               "id": 1672,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -36904,7 +36904,7 @@ module.exports = {
             },
             {
               "id": 1673,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -36926,7 +36926,7 @@ module.exports = {
             },
             {
               "id": 1674,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -36948,7 +36948,7 @@ module.exports = {
             },
             {
               "id": 1675,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -36970,7 +36970,7 @@ module.exports = {
             },
             {
               "id": 1676,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -36992,7 +36992,7 @@ module.exports = {
             },
             {
               "id": 1677,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -37014,7 +37014,7 @@ module.exports = {
             },
             {
               "id": 1678,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -37036,7 +37036,7 @@ module.exports = {
             },
             {
               "id": 1679,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -37058,7 +37058,7 @@ module.exports = {
             },
             {
               "id": 1680,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -37080,7 +37080,7 @@ module.exports = {
             },
             {
               "id": 1681,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -37102,7 +37102,7 @@ module.exports = {
             },
             {
               "id": 1682,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -37124,7 +37124,7 @@ module.exports = {
             },
             {
               "id": 1683,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -37146,7 +37146,7 @@ module.exports = {
             },
             {
               "id": 1684,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -37168,7 +37168,7 @@ module.exports = {
             },
             {
               "id": 1685,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -37190,7 +37190,7 @@ module.exports = {
             },
             {
               "id": 1686,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -37212,7 +37212,7 @@ module.exports = {
             },
             {
               "id": 1687,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -37234,7 +37234,7 @@ module.exports = {
             },
             {
               "id": 1688,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -37256,7 +37256,7 @@ module.exports = {
             },
             {
               "id": 1689,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -37278,7 +37278,7 @@ module.exports = {
             },
             {
               "id": 1690,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -37300,7 +37300,7 @@ module.exports = {
             },
             {
               "id": 1691,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -37322,7 +37322,7 @@ module.exports = {
             },
             {
               "id": 1692,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -37344,7 +37344,7 @@ module.exports = {
             },
             {
               "id": 1693,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -37366,7 +37366,7 @@ module.exports = {
             },
             {
               "id": 1694,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -37388,7 +37388,7 @@ module.exports = {
             },
             {
               "id": 1695,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -37410,7 +37410,7 @@ module.exports = {
             },
             {
               "id": 1696,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -37432,7 +37432,7 @@ module.exports = {
             },
             {
               "id": 1697,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -37454,7 +37454,7 @@ module.exports = {
             },
             {
               "id": 1698,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -37476,7 +37476,7 @@ module.exports = {
             },
             {
               "id": 1699,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -37498,7 +37498,7 @@ module.exports = {
             },
             {
               "id": 1700,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -37520,7 +37520,7 @@ module.exports = {
             },
             {
               "id": 1701,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -37542,7 +37542,7 @@ module.exports = {
             },
             {
               "id": 1702,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -37564,7 +37564,7 @@ module.exports = {
             },
             {
               "id": 1703,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -37586,7 +37586,7 @@ module.exports = {
             },
             {
               "id": 1704,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -37608,7 +37608,7 @@ module.exports = {
             },
             {
               "id": 1705,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -37630,7 +37630,7 @@ module.exports = {
             },
             {
               "id": 1706,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -37652,7 +37652,7 @@ module.exports = {
             },
             {
               "id": 1707,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -37674,7 +37674,7 @@ module.exports = {
             },
             {
               "id": 1708,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -37696,7 +37696,7 @@ module.exports = {
             },
             {
               "id": 1709,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -37718,7 +37718,7 @@ module.exports = {
             },
             {
               "id": 1710,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -37740,7 +37740,7 @@ module.exports = {
             },
             {
               "id": 1711,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -37762,7 +37762,7 @@ module.exports = {
             },
             {
               "id": 1712,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -37784,7 +37784,7 @@ module.exports = {
             },
             {
               "id": 1713,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -37806,7 +37806,7 @@ module.exports = {
             },
             {
               "id": 1714,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -37828,7 +37828,7 @@ module.exports = {
             },
             {
               "id": 1715,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -37850,7 +37850,7 @@ module.exports = {
             },
             {
               "id": 1716,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -37872,7 +37872,7 @@ module.exports = {
             },
             {
               "id": 1717,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -37894,7 +37894,7 @@ module.exports = {
             },
             {
               "id": 1718,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -37916,7 +37916,7 @@ module.exports = {
             },
             {
               "id": 1719,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -37938,7 +37938,7 @@ module.exports = {
             },
             {
               "id": 1720,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -37960,7 +37960,7 @@ module.exports = {
             },
             {
               "id": 1721,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -37982,7 +37982,7 @@ module.exports = {
             },
             {
               "id": 1722,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -38004,7 +38004,7 @@ module.exports = {
             },
             {
               "id": 1723,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -38026,7 +38026,7 @@ module.exports = {
             },
             {
               "id": 1724,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -38048,7 +38048,7 @@ module.exports = {
             },
             {
               "id": 1725,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38070,7 +38070,7 @@ module.exports = {
             },
             {
               "id": 1726,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38092,7 +38092,7 @@ module.exports = {
             },
             {
               "id": 1727,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -38114,7 +38114,7 @@ module.exports = {
             },
             {
               "id": 1728,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38136,7 +38136,7 @@ module.exports = {
             },
             {
               "id": 1729,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -38158,7 +38158,7 @@ module.exports = {
             },
             {
               "id": 1730,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38180,7 +38180,7 @@ module.exports = {
             },
             {
               "id": 1731,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -38202,7 +38202,7 @@ module.exports = {
             },
             {
               "id": 1732,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -38224,7 +38224,7 @@ module.exports = {
             },
             {
               "id": 1733,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -38246,7 +38246,7 @@ module.exports = {
             },
             {
               "id": 1734,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -38268,7 +38268,7 @@ module.exports = {
             },
             {
               "id": 1735,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38290,7 +38290,7 @@ module.exports = {
             },
             {
               "id": 1736,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38312,7 +38312,7 @@ module.exports = {
             },
             {
               "id": 1737,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -38334,7 +38334,7 @@ module.exports = {
             },
             {
               "id": 1738,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -38356,7 +38356,7 @@ module.exports = {
             },
             {
               "id": 1739,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38378,7 +38378,7 @@ module.exports = {
             },
             {
               "id": 1740,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38400,7 +38400,7 @@ module.exports = {
             },
             {
               "id": 1741,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -38422,7 +38422,7 @@ module.exports = {
             },
             {
               "id": 1742,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -38444,7 +38444,7 @@ module.exports = {
             },
             {
               "id": 1743,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38466,7 +38466,7 @@ module.exports = {
             },
             {
               "id": 1744,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -38488,7 +38488,7 @@ module.exports = {
             },
             {
               "id": 1745,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38510,7 +38510,7 @@ module.exports = {
             },
             {
               "id": 1746,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -38532,7 +38532,7 @@ module.exports = {
             },
             {
               "id": 1747,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -38554,7 +38554,7 @@ module.exports = {
             },
             {
               "id": 1748,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38576,7 +38576,7 @@ module.exports = {
             },
             {
               "id": 1749,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38598,7 +38598,7 @@ module.exports = {
             },
             {
               "id": 1750,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -38620,7 +38620,7 @@ module.exports = {
             },
             {
               "id": 1751,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -38642,7 +38642,7 @@ module.exports = {
             },
             {
               "id": 1752,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -38664,7 +38664,7 @@ module.exports = {
             },
             {
               "id": 1753,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -38686,7 +38686,7 @@ module.exports = {
             },
             {
               "id": 1754,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -38708,7 +38708,7 @@ module.exports = {
             },
             {
               "id": 1755,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -38730,7 +38730,7 @@ module.exports = {
             },
             {
               "id": 1756,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -38752,7 +38752,7 @@ module.exports = {
             },
             {
               "id": 1757,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -38774,7 +38774,7 @@ module.exports = {
             },
             {
               "id": 1758,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38796,7 +38796,7 @@ module.exports = {
             },
             {
               "id": 1759,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -38818,7 +38818,7 @@ module.exports = {
             },
             {
               "id": 1760,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38840,7 +38840,7 @@ module.exports = {
             },
             {
               "id": 1761,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -38862,7 +38862,7 @@ module.exports = {
             },
             {
               "id": 1762,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -38884,7 +38884,7 @@ module.exports = {
             },
             {
               "id": 1763,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38906,7 +38906,7 @@ module.exports = {
             },
             {
               "id": 1764,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -38928,7 +38928,7 @@ module.exports = {
             },
             {
               "id": 1765,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -38950,7 +38950,7 @@ module.exports = {
             },
             {
               "id": 1766,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -38972,7 +38972,7 @@ module.exports = {
             },
             {
               "id": 1767,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -38994,7 +38994,7 @@ module.exports = {
             },
             {
               "id": 1768,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -39016,7 +39016,7 @@ module.exports = {
             },
             {
               "id": 1769,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -39038,7 +39038,7 @@ module.exports = {
             },
             {
               "id": 1770,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -39060,7 +39060,7 @@ module.exports = {
             },
             {
               "id": 1771,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -39082,7 +39082,7 @@ module.exports = {
             },
             {
               "id": 1772,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -39104,7 +39104,7 @@ module.exports = {
             },
             {
               "id": 1773,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -39126,7 +39126,7 @@ module.exports = {
             },
             {
               "id": 1774,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -39148,7 +39148,7 @@ module.exports = {
             },
             {
               "id": 1775,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -39170,7 +39170,7 @@ module.exports = {
             },
             {
               "id": 1776,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -39192,7 +39192,7 @@ module.exports = {
             },
             {
               "id": 1777,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -39214,7 +39214,7 @@ module.exports = {
             },
             {
               "id": 1778,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -39236,7 +39236,7 @@ module.exports = {
             },
             {
               "id": 1779,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -39258,7 +39258,7 @@ module.exports = {
             },
             {
               "id": 1780,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -39280,7 +39280,7 @@ module.exports = {
             },
             {
               "id": 1781,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -39302,7 +39302,7 @@ module.exports = {
             },
             {
               "id": 1782,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -39324,7 +39324,7 @@ module.exports = {
             },
             {
               "id": 1783,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -39346,7 +39346,7 @@ module.exports = {
             },
             {
               "id": 1784,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -39368,7 +39368,7 @@ module.exports = {
             },
             {
               "id": 1785,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -39390,7 +39390,7 @@ module.exports = {
             },
             {
               "id": 1786,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -39412,7 +39412,7 @@ module.exports = {
             },
             {
               "id": 1787,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -39434,7 +39434,7 @@ module.exports = {
             },
             {
               "id": 1788,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -39456,7 +39456,7 @@ module.exports = {
             },
             {
               "id": 1789,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -39478,7 +39478,7 @@ module.exports = {
             },
             {
               "id": 1790,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -39500,7 +39500,7 @@ module.exports = {
             },
             {
               "id": 1791,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -39522,7 +39522,7 @@ module.exports = {
             },
             {
               "id": 1792,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -39544,7 +39544,7 @@ module.exports = {
             },
             {
               "id": 1793,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -39566,7 +39566,7 @@ module.exports = {
             },
             {
               "id": 1794,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -39588,7 +39588,7 @@ module.exports = {
             },
             {
               "id": 1795,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -39610,7 +39610,7 @@ module.exports = {
             },
             {
               "id": 1796,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -39632,7 +39632,7 @@ module.exports = {
             },
             {
               "id": 1797,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -39654,7 +39654,7 @@ module.exports = {
             },
             {
               "id": 1798,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -39676,7 +39676,7 @@ module.exports = {
             },
             {
               "id": 1799,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -39698,7 +39698,7 @@ module.exports = {
             },
             {
               "id": 1800,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -39720,7 +39720,7 @@ module.exports = {
             },
             {
               "id": 1801,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -39742,7 +39742,7 @@ module.exports = {
             },
             {
               "id": 1802,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -39764,7 +39764,7 @@ module.exports = {
             },
             {
               "id": 1803,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -39786,7 +39786,7 @@ module.exports = {
             },
             {
               "id": 1804,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -39808,7 +39808,7 @@ module.exports = {
             },
             {
               "id": 1805,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -39830,7 +39830,7 @@ module.exports = {
             },
             {
               "id": 1806,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -39852,7 +39852,7 @@ module.exports = {
             },
             {
               "id": 1807,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -39874,7 +39874,7 @@ module.exports = {
             },
             {
               "id": 1808,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -39896,7 +39896,7 @@ module.exports = {
             },
             {
               "id": 1809,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -39918,7 +39918,7 @@ module.exports = {
             },
             {
               "id": 1810,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -39940,7 +39940,7 @@ module.exports = {
             },
             {
               "id": 1811,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -39962,7 +39962,7 @@ module.exports = {
             },
             {
               "id": 1812,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -39984,7 +39984,7 @@ module.exports = {
             },
             {
               "id": 1813,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -40006,7 +40006,7 @@ module.exports = {
             },
             {
               "id": 1814,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -40028,7 +40028,7 @@ module.exports = {
             },
             {
               "id": 1815,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -40050,7 +40050,7 @@ module.exports = {
             },
             {
               "id": 1816,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40072,7 +40072,7 @@ module.exports = {
             },
             {
               "id": 1817,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40094,7 +40094,7 @@ module.exports = {
             },
             {
               "id": 1818,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -40116,7 +40116,7 @@ module.exports = {
             },
             {
               "id": 1819,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -40138,7 +40138,7 @@ module.exports = {
             },
             {
               "id": 1820,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -40160,7 +40160,7 @@ module.exports = {
             },
             {
               "id": 1821,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -40182,7 +40182,7 @@ module.exports = {
             },
             {
               "id": 1822,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -40204,7 +40204,7 @@ module.exports = {
             },
             {
               "id": 1823,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -40226,7 +40226,7 @@ module.exports = {
             },
             {
               "id": 1824,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -40248,7 +40248,7 @@ module.exports = {
             },
             {
               "id": 1825,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40270,7 +40270,7 @@ module.exports = {
             },
             {
               "id": 1826,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -40292,7 +40292,7 @@ module.exports = {
             },
             {
               "id": 1827,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -40314,7 +40314,7 @@ module.exports = {
             },
             {
               "id": 1828,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -40336,7 +40336,7 @@ module.exports = {
             },
             {
               "id": 1829,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40358,7 +40358,7 @@ module.exports = {
             },
             {
               "id": 1830,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -40380,7 +40380,7 @@ module.exports = {
             },
             {
               "id": 1831,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -40402,7 +40402,7 @@ module.exports = {
             },
             {
               "id": 1832,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -40424,7 +40424,7 @@ module.exports = {
             },
             {
               "id": 1833,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40446,7 +40446,7 @@ module.exports = {
             },
             {
               "id": 1834,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -40468,7 +40468,7 @@ module.exports = {
             },
             {
               "id": 1835,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -40490,7 +40490,7 @@ module.exports = {
             },
             {
               "id": 1836,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -40512,7 +40512,7 @@ module.exports = {
             },
             {
               "id": 1837,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40534,7 +40534,7 @@ module.exports = {
             },
             {
               "id": 1838,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -40556,7 +40556,7 @@ module.exports = {
             },
             {
               "id": 1839,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -40578,7 +40578,7 @@ module.exports = {
             },
             {
               "id": 1840,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -40600,7 +40600,7 @@ module.exports = {
             },
             {
               "id": 1841,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -40622,7 +40622,7 @@ module.exports = {
             },
             {
               "id": 1842,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40644,7 +40644,7 @@ module.exports = {
             },
             {
               "id": 1843,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40666,7 +40666,7 @@ module.exports = {
             },
             {
               "id": 1844,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -40688,7 +40688,7 @@ module.exports = {
             },
             {
               "id": 1845,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -40710,7 +40710,7 @@ module.exports = {
             },
             {
               "id": 1846,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -40732,7 +40732,7 @@ module.exports = {
             },
             {
               "id": 1847,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40754,7 +40754,7 @@ module.exports = {
             },
             {
               "id": 1848,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -40776,7 +40776,7 @@ module.exports = {
             },
             {
               "id": 1849,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -40798,7 +40798,7 @@ module.exports = {
             },
             {
               "id": 1850,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40820,7 +40820,7 @@ module.exports = {
             },
             {
               "id": 1851,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40842,7 +40842,7 @@ module.exports = {
             },
             {
               "id": 1852,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40864,7 +40864,7 @@ module.exports = {
             },
             {
               "id": 1853,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40886,7 +40886,7 @@ module.exports = {
             },
             {
               "id": 1854,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40908,7 +40908,7 @@ module.exports = {
             },
             {
               "id": 1855,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40930,7 +40930,7 @@ module.exports = {
             },
             {
               "id": 1856,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -40952,7 +40952,7 @@ module.exports = {
             },
             {
               "id": 1857,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40974,7 +40974,7 @@ module.exports = {
             },
             {
               "id": 1858,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -40996,7 +40996,7 @@ module.exports = {
             },
             {
               "id": 1859,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -41018,7 +41018,7 @@ module.exports = {
             },
             {
               "id": 1860,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -41040,7 +41040,7 @@ module.exports = {
             },
             {
               "id": 1861,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -41062,7 +41062,7 @@ module.exports = {
             },
             {
               "id": 1862,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -41084,7 +41084,7 @@ module.exports = {
             },
             {
               "id": 1863,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -41106,7 +41106,7 @@ module.exports = {
             },
             {
               "id": 1864,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -41128,7 +41128,7 @@ module.exports = {
             },
             {
               "id": 1865,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -41150,7 +41150,7 @@ module.exports = {
             },
             {
               "id": 1866,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -41172,7 +41172,7 @@ module.exports = {
             },
             {
               "id": 1867,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -41194,7 +41194,7 @@ module.exports = {
             },
             {
               "id": 1868,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -41216,7 +41216,7 @@ module.exports = {
             },
             {
               "id": 1869,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -41238,7 +41238,7 @@ module.exports = {
             },
             {
               "id": 1870,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -41260,7 +41260,7 @@ module.exports = {
             },
             {
               "id": 1871,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -41282,7 +41282,7 @@ module.exports = {
             },
             {
               "id": 1872,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -41304,7 +41304,7 @@ module.exports = {
             },
             {
               "id": 1873,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -41326,7 +41326,7 @@ module.exports = {
             },
             {
               "id": 1874,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -41348,7 +41348,7 @@ module.exports = {
             },
             {
               "id": 1875,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -41370,7 +41370,7 @@ module.exports = {
             },
             {
               "id": 1876,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -41392,7 +41392,7 @@ module.exports = {
             },
             {
               "id": 1877,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -41414,7 +41414,7 @@ module.exports = {
             },
             {
               "id": 1878,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -41436,7 +41436,7 @@ module.exports = {
             },
             {
               "id": 1879,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -41458,7 +41458,7 @@ module.exports = {
             },
             {
               "id": 1880,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -41480,7 +41480,7 @@ module.exports = {
             },
             {
               "id": 1881,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -41502,7 +41502,7 @@ module.exports = {
             },
             {
               "id": 1882,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -41524,7 +41524,7 @@ module.exports = {
             },
             {
               "id": 1883,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -41546,7 +41546,7 @@ module.exports = {
             },
             {
               "id": 1884,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -41568,7 +41568,7 @@ module.exports = {
             },
             {
               "id": 1885,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -41590,7 +41590,7 @@ module.exports = {
             },
             {
               "id": 1886,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -41612,7 +41612,7 @@ module.exports = {
             },
             {
               "id": 1887,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -41634,7 +41634,7 @@ module.exports = {
             },
             {
               "id": 1888,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -41656,7 +41656,7 @@ module.exports = {
             },
             {
               "id": 1889,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -41678,7 +41678,7 @@ module.exports = {
             },
             {
               "id": 1890,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -41700,7 +41700,7 @@ module.exports = {
             },
             {
               "id": 1891,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -41722,7 +41722,7 @@ module.exports = {
             },
             {
               "id": 1892,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -41744,7 +41744,7 @@ module.exports = {
             },
             {
               "id": 1893,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -41766,7 +41766,7 @@ module.exports = {
             },
             {
               "id": 1894,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -41788,7 +41788,7 @@ module.exports = {
             },
             {
               "id": 1895,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -41810,7 +41810,7 @@ module.exports = {
             },
             {
               "id": 1896,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -41832,7 +41832,7 @@ module.exports = {
             },
             {
               "id": 1897,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -41854,7 +41854,7 @@ module.exports = {
             },
             {
               "id": 1898,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -41876,7 +41876,7 @@ module.exports = {
             },
             {
               "id": 1899,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -41898,7 +41898,7 @@ module.exports = {
             },
             {
               "id": 1900,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -41920,7 +41920,7 @@ module.exports = {
             },
             {
               "id": 1901,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -41942,7 +41942,7 @@ module.exports = {
             },
             {
               "id": 1902,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -41964,7 +41964,7 @@ module.exports = {
             },
             {
               "id": 1903,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -41986,7 +41986,7 @@ module.exports = {
             },
             {
               "id": 1904,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -42008,7 +42008,7 @@ module.exports = {
             },
             {
               "id": 1905,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -42030,7 +42030,7 @@ module.exports = {
             },
             {
               "id": 1906,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42052,7 +42052,7 @@ module.exports = {
             },
             {
               "id": 1907,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42074,7 +42074,7 @@ module.exports = {
             },
             {
               "id": 1908,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -42096,7 +42096,7 @@ module.exports = {
             },
             {
               "id": 1909,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -42118,7 +42118,7 @@ module.exports = {
             },
             {
               "id": 1910,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -42140,7 +42140,7 @@ module.exports = {
             },
             {
               "id": 1911,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -42162,7 +42162,7 @@ module.exports = {
             },
             {
               "id": 1912,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -42184,7 +42184,7 @@ module.exports = {
             },
             {
               "id": 1913,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -42206,7 +42206,7 @@ module.exports = {
             },
             {
               "id": 1914,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -42228,7 +42228,7 @@ module.exports = {
             },
             {
               "id": 1915,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42250,7 +42250,7 @@ module.exports = {
             },
             {
               "id": 1916,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -42272,7 +42272,7 @@ module.exports = {
             },
             {
               "id": 1917,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -42294,7 +42294,7 @@ module.exports = {
             },
             {
               "id": 1918,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -42316,7 +42316,7 @@ module.exports = {
             },
             {
               "id": 1919,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42338,7 +42338,7 @@ module.exports = {
             },
             {
               "id": 1920,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -42360,7 +42360,7 @@ module.exports = {
             },
             {
               "id": 1921,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42382,7 +42382,7 @@ module.exports = {
             },
             {
               "id": 1922,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -42404,7 +42404,7 @@ module.exports = {
             },
             {
               "id": 1923,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42426,7 +42426,7 @@ module.exports = {
             },
             {
               "id": 1924,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -42448,7 +42448,7 @@ module.exports = {
             },
             {
               "id": 1925,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42470,7 +42470,7 @@ module.exports = {
             },
             {
               "id": 1926,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42492,7 +42492,7 @@ module.exports = {
             },
             {
               "id": 1927,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -42514,7 +42514,7 @@ module.exports = {
             },
             {
               "id": 1928,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -42536,7 +42536,7 @@ module.exports = {
             },
             {
               "id": 1929,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -42558,7 +42558,7 @@ module.exports = {
             },
             {
               "id": 1930,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -42580,7 +42580,7 @@ module.exports = {
             },
             {
               "id": 1931,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42602,7 +42602,7 @@ module.exports = {
             },
             {
               "id": 1932,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -42624,7 +42624,7 @@ module.exports = {
             },
             {
               "id": 1933,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -42646,7 +42646,7 @@ module.exports = {
             },
             {
               "id": 1934,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -42668,7 +42668,7 @@ module.exports = {
             },
             {
               "id": 1935,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -42690,7 +42690,7 @@ module.exports = {
             },
             {
               "id": 1936,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42712,7 +42712,7 @@ module.exports = {
             },
             {
               "id": 1937,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -42734,7 +42734,7 @@ module.exports = {
             },
             {
               "id": 1938,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42756,7 +42756,7 @@ module.exports = {
             },
             {
               "id": 1939,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42778,7 +42778,7 @@ module.exports = {
             },
             {
               "id": 1940,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -42800,7 +42800,7 @@ module.exports = {
             },
             {
               "id": 1941,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42822,7 +42822,7 @@ module.exports = {
             },
             {
               "id": 1942,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -42844,7 +42844,7 @@ module.exports = {
             },
             {
               "id": 1943,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -42866,7 +42866,7 @@ module.exports = {
             },
             {
               "id": 1944,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -42888,7 +42888,7 @@ module.exports = {
             },
             {
               "id": 1945,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42910,7 +42910,7 @@ module.exports = {
             },
             {
               "id": 1946,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -42932,7 +42932,7 @@ module.exports = {
             },
             {
               "id": 1947,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -42954,7 +42954,7 @@ module.exports = {
             },
             {
               "id": 1948,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -42976,7 +42976,7 @@ module.exports = {
             },
             {
               "id": 1949,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -42998,7 +42998,7 @@ module.exports = {
             },
             {
               "id": 1950,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -43020,7 +43020,7 @@ module.exports = {
             },
             {
               "id": 1951,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -43042,7 +43042,7 @@ module.exports = {
             },
             {
               "id": 1952,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -43064,7 +43064,7 @@ module.exports = {
             },
             {
               "id": 1953,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -43086,7 +43086,7 @@ module.exports = {
             },
             {
               "id": 1954,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -43108,7 +43108,7 @@ module.exports = {
             },
             {
               "id": 1955,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -43130,7 +43130,7 @@ module.exports = {
             },
             {
               "id": 1956,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -43152,7 +43152,7 @@ module.exports = {
             },
             {
               "id": 1957,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -43174,7 +43174,7 @@ module.exports = {
             },
             {
               "id": 1958,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -43196,7 +43196,7 @@ module.exports = {
             },
             {
               "id": 1959,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -43218,7 +43218,7 @@ module.exports = {
             },
             {
               "id": 1960,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -43240,7 +43240,7 @@ module.exports = {
             },
             {
               "id": 1961,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -43262,7 +43262,7 @@ module.exports = {
             },
             {
               "id": 1962,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -43284,7 +43284,7 @@ module.exports = {
             },
             {
               "id": 1963,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -43306,7 +43306,7 @@ module.exports = {
             },
             {
               "id": 1964,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -43328,7 +43328,7 @@ module.exports = {
             },
             {
               "id": 1965,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -43350,7 +43350,7 @@ module.exports = {
             },
             {
               "id": 1966,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -43372,7 +43372,7 @@ module.exports = {
             },
             {
               "id": 1967,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -43394,7 +43394,7 @@ module.exports = {
             },
             {
               "id": 1968,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -43416,7 +43416,7 @@ module.exports = {
             },
             {
               "id": 1969,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -43438,7 +43438,7 @@ module.exports = {
             },
             {
               "id": 1970,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -43460,7 +43460,7 @@ module.exports = {
             },
             {
               "id": 1971,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -43482,7 +43482,7 @@ module.exports = {
             },
             {
               "id": 1972,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -43504,7 +43504,7 @@ module.exports = {
             },
             {
               "id": 1973,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -43526,7 +43526,7 @@ module.exports = {
             },
             {
               "id": 1974,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -43548,7 +43548,7 @@ module.exports = {
             },
             {
               "id": 1975,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -43570,7 +43570,7 @@ module.exports = {
             },
             {
               "id": 1976,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -43592,7 +43592,7 @@ module.exports = {
             },
             {
               "id": 1977,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -43614,7 +43614,7 @@ module.exports = {
             },
             {
               "id": 1978,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -43636,7 +43636,7 @@ module.exports = {
             },
             {
               "id": 1979,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -43658,7 +43658,7 @@ module.exports = {
             },
             {
               "id": 1980,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -43680,7 +43680,7 @@ module.exports = {
             },
             {
               "id": 1981,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -43702,7 +43702,7 @@ module.exports = {
             },
             {
               "id": 1982,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -43724,7 +43724,7 @@ module.exports = {
             },
             {
               "id": 1983,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -43746,7 +43746,7 @@ module.exports = {
             },
             {
               "id": 1984,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -43768,7 +43768,7 @@ module.exports = {
             },
             {
               "id": 1985,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -43790,7 +43790,7 @@ module.exports = {
             },
             {
               "id": 1986,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -43812,7 +43812,7 @@ module.exports = {
             },
             {
               "id": 1987,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -43834,7 +43834,7 @@ module.exports = {
             },
             {
               "id": 1988,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -43856,7 +43856,7 @@ module.exports = {
             },
             {
               "id": 1989,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -43878,7 +43878,7 @@ module.exports = {
             },
             {
               "id": 1990,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -43900,7 +43900,7 @@ module.exports = {
             },
             {
               "id": 1991,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -43922,7 +43922,7 @@ module.exports = {
             },
             {
               "id": 1992,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -43944,7 +43944,7 @@ module.exports = {
             },
             {
               "id": 1993,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -43966,7 +43966,7 @@ module.exports = {
             },
             {
               "id": 1994,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -43988,7 +43988,7 @@ module.exports = {
             },
             {
               "id": 1995,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -44010,7 +44010,7 @@ module.exports = {
             },
             {
               "id": 1996,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -44032,7 +44032,7 @@ module.exports = {
             },
             {
               "id": 1997,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -44054,7 +44054,7 @@ module.exports = {
             },
             {
               "id": 1998,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -44076,7 +44076,7 @@ module.exports = {
             },
             {
               "id": 1999,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -44098,7 +44098,7 @@ module.exports = {
             },
             {
               "id": 2000,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -44120,7 +44120,7 @@ module.exports = {
             },
             {
               "id": 2001,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -44142,7 +44142,7 @@ module.exports = {
             },
             {
               "id": 2002,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -44164,7 +44164,7 @@ module.exports = {
             },
             {
               "id": 2003,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -44186,7 +44186,7 @@ module.exports = {
             },
             {
               "id": 2004,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -44208,7 +44208,7 @@ module.exports = {
             },
             {
               "id": 2005,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -44230,7 +44230,7 @@ module.exports = {
             },
             {
               "id": 2006,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -44252,7 +44252,7 @@ module.exports = {
             },
             {
               "id": 2007,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -44274,7 +44274,7 @@ module.exports = {
             },
             {
               "id": 2008,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -44296,7 +44296,7 @@ module.exports = {
             },
             {
               "id": 2009,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -44318,7 +44318,7 @@ module.exports = {
             },
             {
               "id": 2010,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -44340,7 +44340,7 @@ module.exports = {
             },
             {
               "id": 2011,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -44362,7 +44362,7 @@ module.exports = {
             },
             {
               "id": 2012,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -44384,7 +44384,7 @@ module.exports = {
             },
             {
               "id": 2013,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -44406,7 +44406,7 @@ module.exports = {
             },
             {
               "id": 2014,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -44428,7 +44428,7 @@ module.exports = {
             },
             {
               "id": 2015,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -44450,7 +44450,7 @@ module.exports = {
             },
             {
               "id": 2016,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -44472,7 +44472,7 @@ module.exports = {
             },
             {
               "id": 2017,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -44494,7 +44494,7 @@ module.exports = {
             },
             {
               "id": 2018,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -44516,7 +44516,7 @@ module.exports = {
             },
             {
               "id": 2019,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -44538,7 +44538,7 @@ module.exports = {
             },
             {
               "id": 2020,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -44560,7 +44560,7 @@ module.exports = {
             },
             {
               "id": 2021,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -44582,7 +44582,7 @@ module.exports = {
             },
             {
               "id": 2022,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -44604,7 +44604,7 @@ module.exports = {
             },
             {
               "id": 2023,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -44626,7 +44626,7 @@ module.exports = {
             },
             {
               "id": 2024,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -44648,7 +44648,7 @@ module.exports = {
             },
             {
               "id": 2025,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -44670,7 +44670,7 @@ module.exports = {
             },
             {
               "id": 2026,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -44692,7 +44692,7 @@ module.exports = {
             },
             {
               "id": 2027,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -44714,7 +44714,7 @@ module.exports = {
             },
             {
               "id": 2028,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -44736,7 +44736,7 @@ module.exports = {
             },
             {
               "id": 2029,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -44758,7 +44758,7 @@ module.exports = {
             },
             {
               "id": 2030,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -44780,7 +44780,7 @@ module.exports = {
             },
             {
               "id": 2031,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -44802,7 +44802,7 @@ module.exports = {
             },
             {
               "id": 2032,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -44824,7 +44824,7 @@ module.exports = {
             },
             {
               "id": 2033,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -44846,7 +44846,7 @@ module.exports = {
             },
             {
               "id": 2034,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -44868,7 +44868,7 @@ module.exports = {
             },
             {
               "id": 2035,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -44890,7 +44890,7 @@ module.exports = {
             },
             {
               "id": 2036,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -44912,7 +44912,7 @@ module.exports = {
             },
             {
               "id": 2037,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -44934,7 +44934,7 @@ module.exports = {
             },
             {
               "id": 2038,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -44956,7 +44956,7 @@ module.exports = {
             },
             {
               "id": 2039,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -44978,7 +44978,7 @@ module.exports = {
             },
             {
               "id": 2040,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -45000,7 +45000,7 @@ module.exports = {
             },
             {
               "id": 2041,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -45022,7 +45022,7 @@ module.exports = {
             },
             {
               "id": 2042,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -45044,7 +45044,7 @@ module.exports = {
             },
             {
               "id": 2043,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -45066,7 +45066,7 @@ module.exports = {
             },
             {
               "id": 2044,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -45088,7 +45088,7 @@ module.exports = {
             },
             {
               "id": 2045,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -45110,7 +45110,7 @@ module.exports = {
             },
             {
               "id": 2046,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -45132,7 +45132,7 @@ module.exports = {
             },
             {
               "id": 2047,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -45154,7 +45154,7 @@ module.exports = {
             },
             {
               "id": 2048,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -45176,7 +45176,7 @@ module.exports = {
             },
             {
               "id": 2049,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -45198,7 +45198,7 @@ module.exports = {
             },
             {
               "id": 2050,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -45220,7 +45220,7 @@ module.exports = {
             },
             {
               "id": 2051,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -45242,7 +45242,7 @@ module.exports = {
             },
             {
               "id": 2052,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -45264,7 +45264,7 @@ module.exports = {
             },
             {
               "id": 2053,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -45286,7 +45286,7 @@ module.exports = {
             },
             {
               "id": 2054,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -45308,7 +45308,7 @@ module.exports = {
             },
             {
               "id": 2055,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -45330,7 +45330,7 @@ module.exports = {
             },
             {
               "id": 2056,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -45352,7 +45352,7 @@ module.exports = {
             },
             {
               "id": 2057,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -45374,7 +45374,7 @@ module.exports = {
             },
             {
               "id": 2058,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -45396,7 +45396,7 @@ module.exports = {
             },
             {
               "id": 2059,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -45418,7 +45418,7 @@ module.exports = {
             },
             {
               "id": 2060,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -45440,7 +45440,7 @@ module.exports = {
             },
             {
               "id": 2061,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -45462,7 +45462,7 @@ module.exports = {
             },
             {
               "id": 2062,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -45484,7 +45484,7 @@ module.exports = {
             },
             {
               "id": 2063,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -45506,7 +45506,7 @@ module.exports = {
             },
             {
               "id": 2064,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -45528,7 +45528,7 @@ module.exports = {
             },
             {
               "id": 2065,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -45550,7 +45550,7 @@ module.exports = {
             },
             {
               "id": 2066,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -45572,7 +45572,7 @@ module.exports = {
             },
             {
               "id": 2067,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -45594,7 +45594,7 @@ module.exports = {
             },
             {
               "id": 2068,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -45616,7 +45616,7 @@ module.exports = {
             },
             {
               "id": 2069,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -45638,7 +45638,7 @@ module.exports = {
             },
             {
               "id": 2070,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -45660,7 +45660,7 @@ module.exports = {
             },
             {
               "id": 2071,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -45682,7 +45682,7 @@ module.exports = {
             },
             {
               "id": 2072,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -45704,7 +45704,7 @@ module.exports = {
             },
             {
               "id": 2073,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -45726,7 +45726,7 @@ module.exports = {
             },
             {
               "id": 2074,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -45748,7 +45748,7 @@ module.exports = {
             },
             {
               "id": 2075,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -45770,7 +45770,7 @@ module.exports = {
             },
             {
               "id": 2076,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -45792,7 +45792,7 @@ module.exports = {
             },
             {
               "id": 2077,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -45814,7 +45814,7 @@ module.exports = {
             },
             {
               "id": 2078,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -45836,7 +45836,7 @@ module.exports = {
             },
             {
               "id": 2079,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -45858,7 +45858,7 @@ module.exports = {
             },
             {
               "id": 2080,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -45880,7 +45880,7 @@ module.exports = {
             },
             {
               "id": 2081,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -45902,7 +45902,7 @@ module.exports = {
             },
             {
               "id": 2082,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -45924,7 +45924,7 @@ module.exports = {
             },
             {
               "id": 2083,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -45946,7 +45946,7 @@ module.exports = {
             },
             {
               "id": 2084,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -45968,7 +45968,7 @@ module.exports = {
             },
             {
               "id": 2085,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -45990,7 +45990,7 @@ module.exports = {
             },
             {
               "id": 2086,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -46012,7 +46012,7 @@ module.exports = {
             },
             {
               "id": 2087,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -46034,7 +46034,7 @@ module.exports = {
             },
             {
               "id": 2088,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -46056,7 +46056,7 @@ module.exports = {
             },
             {
               "id": 2089,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -46078,7 +46078,7 @@ module.exports = {
             },
             {
               "id": 2090,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -46100,7 +46100,7 @@ module.exports = {
             },
             {
               "id": 2091,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -46122,7 +46122,7 @@ module.exports = {
             },
             {
               "id": 2092,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -46144,7 +46144,7 @@ module.exports = {
             },
             {
               "id": 2093,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -46166,7 +46166,7 @@ module.exports = {
             },
             {
               "id": 2094,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -46188,7 +46188,7 @@ module.exports = {
             },
             {
               "id": 2095,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -46210,7 +46210,7 @@ module.exports = {
             },
             {
               "id": 2096,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -46232,7 +46232,7 @@ module.exports = {
             },
             {
               "id": 2097,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -46254,7 +46254,7 @@ module.exports = {
             },
             {
               "id": 2098,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -46276,7 +46276,7 @@ module.exports = {
             },
             {
               "id": 2099,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -46298,7 +46298,7 @@ module.exports = {
             },
             {
               "id": 2100,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -46320,7 +46320,7 @@ module.exports = {
             },
             {
               "id": 2101,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -46342,7 +46342,7 @@ module.exports = {
             },
             {
               "id": 2102,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -46364,7 +46364,7 @@ module.exports = {
             },
             {
               "id": 2103,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -46386,7 +46386,7 @@ module.exports = {
             },
             {
               "id": 2104,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -46408,7 +46408,7 @@ module.exports = {
             },
             {
               "id": 2105,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -46430,7 +46430,7 @@ module.exports = {
             },
             {
               "id": 2106,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -46452,7 +46452,7 @@ module.exports = {
             },
             {
               "id": 2107,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -46474,7 +46474,7 @@ module.exports = {
             },
             {
               "id": 2108,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -46496,7 +46496,7 @@ module.exports = {
             },
             {
               "id": 2109,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -46518,7 +46518,7 @@ module.exports = {
             },
             {
               "id": 2110,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -46540,7 +46540,7 @@ module.exports = {
             },
             {
               "id": 2111,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -46562,7 +46562,7 @@ module.exports = {
             },
             {
               "id": 2112,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -46584,7 +46584,7 @@ module.exports = {
             },
             {
               "id": 2113,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -46606,7 +46606,7 @@ module.exports = {
             },
             {
               "id": 2114,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -46628,7 +46628,7 @@ module.exports = {
             },
             {
               "id": 2115,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -46650,7 +46650,7 @@ module.exports = {
             },
             {
               "id": 2116,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -46672,7 +46672,7 @@ module.exports = {
             },
             {
               "id": 2117,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -46694,7 +46694,7 @@ module.exports = {
             },
             {
               "id": 2118,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -46716,7 +46716,7 @@ module.exports = {
             },
             {
               "id": 2119,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -46738,7 +46738,7 @@ module.exports = {
             },
             {
               "id": 2120,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -46760,7 +46760,7 @@ module.exports = {
             },
             {
               "id": 2121,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -46782,7 +46782,7 @@ module.exports = {
             },
             {
               "id": 2122,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -46804,7 +46804,7 @@ module.exports = {
             },
             {
               "id": 2123,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -46826,7 +46826,7 @@ module.exports = {
             },
             {
               "id": 2124,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -46848,7 +46848,7 @@ module.exports = {
             },
             {
               "id": 2125,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -46870,7 +46870,7 @@ module.exports = {
             },
             {
               "id": 2126,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -46892,7 +46892,7 @@ module.exports = {
             },
             {
               "id": 2127,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -46914,7 +46914,7 @@ module.exports = {
             },
             {
               "id": 2128,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -46936,7 +46936,7 @@ module.exports = {
             },
             {
               "id": 2129,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -46958,7 +46958,7 @@ module.exports = {
             },
             {
               "id": 2130,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -46980,7 +46980,7 @@ module.exports = {
             },
             {
               "id": 2131,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -47002,7 +47002,7 @@ module.exports = {
             },
             {
               "id": 2132,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -47024,7 +47024,7 @@ module.exports = {
             },
             {
               "id": 2133,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -47046,7 +47046,7 @@ module.exports = {
             },
             {
               "id": 2134,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -47068,7 +47068,7 @@ module.exports = {
             },
             {
               "id": 2135,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -47090,7 +47090,7 @@ module.exports = {
             },
             {
               "id": 2136,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -47112,7 +47112,7 @@ module.exports = {
             },
             {
               "id": 2137,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -47134,7 +47134,7 @@ module.exports = {
             },
             {
               "id": 2138,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -47156,7 +47156,7 @@ module.exports = {
             },
             {
               "id": 2139,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -47178,7 +47178,7 @@ module.exports = {
             },
             {
               "id": 2140,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -47200,7 +47200,7 @@ module.exports = {
             },
             {
               "id": 2141,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -47222,7 +47222,7 @@ module.exports = {
             },
             {
               "id": 2142,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -47244,7 +47244,7 @@ module.exports = {
             },
             {
               "id": 2143,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -47266,7 +47266,7 @@ module.exports = {
             },
             {
               "id": 2144,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -47288,7 +47288,7 @@ module.exports = {
             },
             {
               "id": 2145,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -47310,7 +47310,7 @@ module.exports = {
             },
             {
               "id": 2146,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -47332,7 +47332,7 @@ module.exports = {
             },
             {
               "id": 2147,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -47354,7 +47354,7 @@ module.exports = {
             },
             {
               "id": 2148,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -47376,7 +47376,7 @@ module.exports = {
             },
             {
               "id": 2149,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -47398,7 +47398,7 @@ module.exports = {
             },
             {
               "id": 2150,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -47420,7 +47420,7 @@ module.exports = {
             },
             {
               "id": 2151,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -47442,7 +47442,7 @@ module.exports = {
             },
             {
               "id": 2152,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -47464,7 +47464,7 @@ module.exports = {
             },
             {
               "id": 2153,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -47486,7 +47486,7 @@ module.exports = {
             },
             {
               "id": 2154,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -47508,7 +47508,7 @@ module.exports = {
             },
             {
               "id": 2155,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -47530,7 +47530,7 @@ module.exports = {
             },
             {
               "id": 2156,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -47552,7 +47552,7 @@ module.exports = {
             },
             {
               "id": 2157,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -47574,7 +47574,7 @@ module.exports = {
             },
             {
               "id": 2158,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -47596,7 +47596,7 @@ module.exports = {
             },
             {
               "id": 2159,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -47618,7 +47618,7 @@ module.exports = {
             },
             {
               "id": 2160,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -47640,7 +47640,7 @@ module.exports = {
             },
             {
               "id": 2161,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -47662,7 +47662,7 @@ module.exports = {
             },
             {
               "id": 2162,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -47684,7 +47684,7 @@ module.exports = {
             },
             {
               "id": 2163,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -47706,7 +47706,7 @@ module.exports = {
             },
             {
               "id": 2164,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -47728,7 +47728,7 @@ module.exports = {
             },
             {
               "id": 2165,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -47750,7 +47750,7 @@ module.exports = {
             },
             {
               "id": 2166,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -47772,7 +47772,7 @@ module.exports = {
             },
             {
               "id": 2167,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -47794,7 +47794,7 @@ module.exports = {
             },
             {
               "id": 2168,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -47816,7 +47816,7 @@ module.exports = {
             },
             {
               "id": 2169,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -47838,7 +47838,7 @@ module.exports = {
             },
             {
               "id": 2170,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -47860,7 +47860,7 @@ module.exports = {
             },
             {
               "id": 2171,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -47882,7 +47882,7 @@ module.exports = {
             },
             {
               "id": 2172,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -47904,7 +47904,7 @@ module.exports = {
             },
             {
               "id": 2173,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -47926,7 +47926,7 @@ module.exports = {
             },
             {
               "id": 2174,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -47948,7 +47948,7 @@ module.exports = {
             },
             {
               "id": 2175,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -47970,7 +47970,7 @@ module.exports = {
             },
             {
               "id": 2176,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -47992,7 +47992,7 @@ module.exports = {
             },
             {
               "id": 2177,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -48014,7 +48014,7 @@ module.exports = {
             },
             {
               "id": 2178,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -48036,7 +48036,7 @@ module.exports = {
             },
             {
               "id": 2179,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -48058,7 +48058,7 @@ module.exports = {
             },
             {
               "id": 2180,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -48080,7 +48080,7 @@ module.exports = {
             },
             {
               "id": 2181,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -48102,7 +48102,7 @@ module.exports = {
             },
             {
               "id": 2182,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -48124,7 +48124,7 @@ module.exports = {
             },
             {
               "id": 2183,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -48146,7 +48146,7 @@ module.exports = {
             },
             {
               "id": 2184,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -48168,7 +48168,7 @@ module.exports = {
             },
             {
               "id": 2185,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -48190,7 +48190,7 @@ module.exports = {
             },
             {
               "id": 2186,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -48212,7 +48212,7 @@ module.exports = {
             },
             {
               "id": 2187,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -48234,7 +48234,7 @@ module.exports = {
             },
             {
               "id": 2188,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -48256,7 +48256,7 @@ module.exports = {
             },
             {
               "id": 2189,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -48278,7 +48278,7 @@ module.exports = {
             },
             {
               "id": 2190,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -48300,7 +48300,7 @@ module.exports = {
             },
             {
               "id": 2191,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -48322,7 +48322,7 @@ module.exports = {
             },
             {
               "id": 2192,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -48344,7 +48344,7 @@ module.exports = {
             },
             {
               "id": 2193,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -48366,7 +48366,7 @@ module.exports = {
             },
             {
               "id": 2194,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -48388,7 +48388,7 @@ module.exports = {
             },
             {
               "id": 2195,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -48410,7 +48410,7 @@ module.exports = {
             },
             {
               "id": 2196,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -48432,7 +48432,7 @@ module.exports = {
             },
             {
               "id": 2197,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -48454,7 +48454,7 @@ module.exports = {
             },
             {
               "id": 2198,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -48476,7 +48476,7 @@ module.exports = {
             },
             {
               "id": 2199,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -48498,7 +48498,7 @@ module.exports = {
             },
             {
               "id": 2200,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -48520,7 +48520,7 @@ module.exports = {
             },
             {
               "id": 2201,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -48542,7 +48542,7 @@ module.exports = {
             },
             {
               "id": 2202,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -48564,7 +48564,7 @@ module.exports = {
             },
             {
               "id": 2203,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -48586,7 +48586,7 @@ module.exports = {
             },
             {
               "id": 2204,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -48608,7 +48608,7 @@ module.exports = {
             },
             {
               "id": 2205,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -48630,7 +48630,7 @@ module.exports = {
             },
             {
               "id": 2206,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -48652,7 +48652,7 @@ module.exports = {
             },
             {
               "id": 2207,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -48674,7 +48674,7 @@ module.exports = {
             },
             {
               "id": 2208,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -48696,7 +48696,7 @@ module.exports = {
             },
             {
               "id": 2209,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -48718,7 +48718,7 @@ module.exports = {
             },
             {
               "id": 2210,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -48740,7 +48740,7 @@ module.exports = {
             },
             {
               "id": 2211,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -48762,7 +48762,7 @@ module.exports = {
             },
             {
               "id": 2212,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -48784,7 +48784,7 @@ module.exports = {
             },
             {
               "id": 2213,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -48806,7 +48806,7 @@ module.exports = {
             },
             {
               "id": 2214,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -48828,7 +48828,7 @@ module.exports = {
             },
             {
               "id": 2215,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -48850,7 +48850,7 @@ module.exports = {
             },
             {
               "id": 2216,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -48872,7 +48872,7 @@ module.exports = {
             },
             {
               "id": 2217,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -48894,7 +48894,7 @@ module.exports = {
             },
             {
               "id": 2218,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -48916,7 +48916,7 @@ module.exports = {
             },
             {
               "id": 2219,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -48938,7 +48938,7 @@ module.exports = {
             },
             {
               "id": 2220,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -48960,7 +48960,7 @@ module.exports = {
             },
             {
               "id": 2221,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -48982,7 +48982,7 @@ module.exports = {
             },
             {
               "id": 2222,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -49004,7 +49004,7 @@ module.exports = {
             },
             {
               "id": 2223,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -49026,7 +49026,7 @@ module.exports = {
             },
             {
               "id": 2224,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -49048,7 +49048,7 @@ module.exports = {
             },
             {
               "id": 2225,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49070,7 +49070,7 @@ module.exports = {
             },
             {
               "id": 2226,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49092,7 +49092,7 @@ module.exports = {
             },
             {
               "id": 2227,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -49114,7 +49114,7 @@ module.exports = {
             },
             {
               "id": 2228,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -49136,7 +49136,7 @@ module.exports = {
             },
             {
               "id": 2229,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -49158,7 +49158,7 @@ module.exports = {
             },
             {
               "id": 2230,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -49180,7 +49180,7 @@ module.exports = {
             },
             {
               "id": 2231,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -49202,7 +49202,7 @@ module.exports = {
             },
             {
               "id": 2232,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49224,7 +49224,7 @@ module.exports = {
             },
             {
               "id": 2233,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -49246,7 +49246,7 @@ module.exports = {
             },
             {
               "id": 2234,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -49268,7 +49268,7 @@ module.exports = {
             },
             {
               "id": 2235,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -49290,7 +49290,7 @@ module.exports = {
             },
             {
               "id": 2236,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49312,7 +49312,7 @@ module.exports = {
             },
             {
               "id": 2237,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -49334,7 +49334,7 @@ module.exports = {
             },
             {
               "id": 2238,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -49356,7 +49356,7 @@ module.exports = {
             },
             {
               "id": 2239,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49378,7 +49378,7 @@ module.exports = {
             },
             {
               "id": 2240,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -49400,7 +49400,7 @@ module.exports = {
             },
             {
               "id": 2241,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -49422,7 +49422,7 @@ module.exports = {
             },
             {
               "id": 2242,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -49444,7 +49444,7 @@ module.exports = {
             },
             {
               "id": 2243,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -49466,7 +49466,7 @@ module.exports = {
             },
             {
               "id": 2244,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49488,7 +49488,7 @@ module.exports = {
             },
             {
               "id": 2245,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49510,7 +49510,7 @@ module.exports = {
             },
             {
               "id": 2246,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -49532,7 +49532,7 @@ module.exports = {
             },
             {
               "id": 2247,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -49554,7 +49554,7 @@ module.exports = {
             },
             {
               "id": 2248,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -49576,7 +49576,7 @@ module.exports = {
             },
             {
               "id": 2249,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49598,7 +49598,7 @@ module.exports = {
             },
             {
               "id": 2250,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49620,7 +49620,7 @@ module.exports = {
             },
             {
               "id": 2251,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -49642,7 +49642,7 @@ module.exports = {
             },
             {
               "id": 2252,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -49664,7 +49664,7 @@ module.exports = {
             },
             {
               "id": 2253,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -49686,7 +49686,7 @@ module.exports = {
             },
             {
               "id": 2254,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49708,7 +49708,7 @@ module.exports = {
             },
             {
               "id": 2255,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -49730,7 +49730,7 @@ module.exports = {
             },
             {
               "id": 2256,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49752,7 +49752,7 @@ module.exports = {
             },
             {
               "id": 2257,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -49774,7 +49774,7 @@ module.exports = {
             },
             {
               "id": 2258,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49796,7 +49796,7 @@ module.exports = {
             },
             {
               "id": 2259,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -49818,7 +49818,7 @@ module.exports = {
             },
             {
               "id": 2260,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49840,7 +49840,7 @@ module.exports = {
             },
             {
               "id": 2261,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49862,7 +49862,7 @@ module.exports = {
             },
             {
               "id": 2262,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49884,7 +49884,7 @@ module.exports = {
             },
             {
               "id": 2263,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -49906,7 +49906,7 @@ module.exports = {
             },
             {
               "id": 2264,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -49928,7 +49928,7 @@ module.exports = {
             },
             {
               "id": 2265,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -49950,7 +49950,7 @@ module.exports = {
             },
             {
               "id": 2266,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -49972,7 +49972,7 @@ module.exports = {
             },
             {
               "id": 2267,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -49994,7 +49994,7 @@ module.exports = {
             },
             {
               "id": 2268,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50016,7 +50016,7 @@ module.exports = {
             },
             {
               "id": 2269,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -50038,7 +50038,7 @@ module.exports = {
             },
             {
               "id": 2270,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50060,7 +50060,7 @@ module.exports = {
             },
             {
               "id": 2271,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -50082,7 +50082,7 @@ module.exports = {
             },
             {
               "id": 2272,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -50104,7 +50104,7 @@ module.exports = {
             },
             {
               "id": 2273,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -50126,7 +50126,7 @@ module.exports = {
             },
             {
               "id": 2274,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -50148,7 +50148,7 @@ module.exports = {
             },
             {
               "id": 2275,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50170,7 +50170,7 @@ module.exports = {
             },
             {
               "id": 2276,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -50192,7 +50192,7 @@ module.exports = {
             },
             {
               "id": 2277,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -50214,7 +50214,7 @@ module.exports = {
             },
             {
               "id": 2278,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -50236,7 +50236,7 @@ module.exports = {
             },
             {
               "id": 2279,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -50258,7 +50258,7 @@ module.exports = {
             },
             {
               "id": 2280,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -50280,7 +50280,7 @@ module.exports = {
             },
             {
               "id": 2281,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50302,7 +50302,7 @@ module.exports = {
             },
             {
               "id": 2282,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50324,7 +50324,7 @@ module.exports = {
             },
             {
               "id": 2283,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -50346,7 +50346,7 @@ module.exports = {
             },
             {
               "id": 2284,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50368,7 +50368,7 @@ module.exports = {
             },
             {
               "id": 2285,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -50390,7 +50390,7 @@ module.exports = {
             },
             {
               "id": 2286,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -50412,7 +50412,7 @@ module.exports = {
             },
             {
               "id": 2287,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -50434,7 +50434,7 @@ module.exports = {
             },
             {
               "id": 2288,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -50456,7 +50456,7 @@ module.exports = {
             },
             {
               "id": 2289,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50478,7 +50478,7 @@ module.exports = {
             },
             {
               "id": 2290,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -50500,7 +50500,7 @@ module.exports = {
             },
             {
               "id": 2291,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -50522,7 +50522,7 @@ module.exports = {
             },
             {
               "id": 2292,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -50544,7 +50544,7 @@ module.exports = {
             },
             {
               "id": 2293,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50566,7 +50566,7 @@ module.exports = {
             },
             {
               "id": 2294,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50588,7 +50588,7 @@ module.exports = {
             },
             {
               "id": 2295,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -50610,7 +50610,7 @@ module.exports = {
             },
             {
               "id": 2296,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -50632,7 +50632,7 @@ module.exports = {
             },
             {
               "id": 2297,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -50654,7 +50654,7 @@ module.exports = {
             },
             {
               "id": 2298,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -50676,7 +50676,7 @@ module.exports = {
             },
             {
               "id": 2299,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -50698,7 +50698,7 @@ module.exports = {
             },
             {
               "id": 2300,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -50720,7 +50720,7 @@ module.exports = {
             },
             {
               "id": 2301,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50742,7 +50742,7 @@ module.exports = {
             },
             {
               "id": 2302,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50764,7 +50764,7 @@ module.exports = {
             },
             {
               "id": 2303,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -50786,7 +50786,7 @@ module.exports = {
             },
             {
               "id": 2304,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50808,7 +50808,7 @@ module.exports = {
             },
             {
               "id": 2305,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -50830,7 +50830,7 @@ module.exports = {
             },
             {
               "id": 2306,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -50852,7 +50852,7 @@ module.exports = {
             },
             {
               "id": 2307,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -50874,7 +50874,7 @@ module.exports = {
             },
             {
               "id": 2308,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -50896,7 +50896,7 @@ module.exports = {
             },
             {
               "id": 2309,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50918,7 +50918,7 @@ module.exports = {
             },
             {
               "id": 2310,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50940,7 +50940,7 @@ module.exports = {
             },
             {
               "id": 2311,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -50962,7 +50962,7 @@ module.exports = {
             },
             {
               "id": 2312,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -50984,7 +50984,7 @@ module.exports = {
             },
             {
               "id": 2313,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -51006,7 +51006,7 @@ module.exports = {
             },
             {
               "id": 2314,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -51028,7 +51028,7 @@ module.exports = {
             },
             {
               "id": 2315,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -51050,7 +51050,7 @@ module.exports = {
             },
             {
               "id": 2316,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -51072,7 +51072,7 @@ module.exports = {
             },
             {
               "id": 2317,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -51094,7 +51094,7 @@ module.exports = {
             },
             {
               "id": 2318,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -51116,7 +51116,7 @@ module.exports = {
             },
             {
               "id": 2319,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -51138,7 +51138,7 @@ module.exports = {
             },
             {
               "id": 2320,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -51160,7 +51160,7 @@ module.exports = {
             },
             {
               "id": 2321,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -51182,7 +51182,7 @@ module.exports = {
             },
             {
               "id": 2322,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -51204,7 +51204,7 @@ module.exports = {
             },
             {
               "id": 2323,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -51226,7 +51226,7 @@ module.exports = {
             },
             {
               "id": 2324,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -51248,7 +51248,7 @@ module.exports = {
             },
             {
               "id": 2325,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -51270,7 +51270,7 @@ module.exports = {
             },
             {
               "id": 2326,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -51292,7 +51292,7 @@ module.exports = {
             },
             {
               "id": 2327,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -51314,7 +51314,7 @@ module.exports = {
             },
             {
               "id": 2328,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -51336,7 +51336,7 @@ module.exports = {
             },
             {
               "id": 2329,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -51358,7 +51358,7 @@ module.exports = {
             },
             {
               "id": 2330,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -51380,7 +51380,7 @@ module.exports = {
             },
             {
               "id": 2331,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -51402,7 +51402,7 @@ module.exports = {
             },
             {
               "id": 2332,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -51424,7 +51424,7 @@ module.exports = {
             },
             {
               "id": 2333,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -51446,7 +51446,7 @@ module.exports = {
             },
             {
               "id": 2334,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -51468,7 +51468,7 @@ module.exports = {
             },
             {
               "id": 2335,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -51490,7 +51490,7 @@ module.exports = {
             },
             {
               "id": 2336,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -51512,7 +51512,7 @@ module.exports = {
             },
             {
               "id": 2337,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -51534,7 +51534,7 @@ module.exports = {
             },
             {
               "id": 2338,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -51556,7 +51556,7 @@ module.exports = {
             },
             {
               "id": 2339,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -51578,7 +51578,7 @@ module.exports = {
             },
             {
               "id": 2340,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -51600,7 +51600,7 @@ module.exports = {
             },
             {
               "id": 2341,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -51622,7 +51622,7 @@ module.exports = {
             },
             {
               "id": 2342,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -51644,7 +51644,7 @@ module.exports = {
             },
             {
               "id": 2343,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -51666,7 +51666,7 @@ module.exports = {
             },
             {
               "id": 2344,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -51688,7 +51688,7 @@ module.exports = {
             },
             {
               "id": 2345,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -51710,7 +51710,7 @@ module.exports = {
             },
             {
               "id": 2346,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -51732,7 +51732,7 @@ module.exports = {
             },
             {
               "id": 2347,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -51754,7 +51754,7 @@ module.exports = {
             },
             {
               "id": 2348,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -51776,7 +51776,7 @@ module.exports = {
             },
             {
               "id": 2349,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -51798,7 +51798,7 @@ module.exports = {
             },
             {
               "id": 2350,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -51820,7 +51820,7 @@ module.exports = {
             },
             {
               "id": 2351,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -51842,7 +51842,7 @@ module.exports = {
             },
             {
               "id": 2352,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -51864,7 +51864,7 @@ module.exports = {
             },
             {
               "id": 2353,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -51886,7 +51886,7 @@ module.exports = {
             },
             {
               "id": 2354,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -51908,7 +51908,7 @@ module.exports = {
             },
             {
               "id": 2355,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -51930,7 +51930,7 @@ module.exports = {
             },
             {
               "id": 2356,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -51952,7 +51952,7 @@ module.exports = {
             },
             {
               "id": 2357,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -51974,7 +51974,7 @@ module.exports = {
             },
             {
               "id": 2358,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -51996,7 +51996,7 @@ module.exports = {
             },
             {
               "id": 2359,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -52018,7 +52018,7 @@ module.exports = {
             },
             {
               "id": 2360,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -52040,7 +52040,7 @@ module.exports = {
             },
             {
               "id": 2361,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -52062,7 +52062,7 @@ module.exports = {
             },
             {
               "id": 2362,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -52084,7 +52084,7 @@ module.exports = {
             },
             {
               "id": 2363,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -52106,7 +52106,7 @@ module.exports = {
             },
             {
               "id": 2364,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -52128,7 +52128,7 @@ module.exports = {
             },
             {
               "id": 2365,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -52150,7 +52150,7 @@ module.exports = {
             },
             {
               "id": 2366,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -52172,7 +52172,7 @@ module.exports = {
             },
             {
               "id": 2367,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -52194,7 +52194,7 @@ module.exports = {
             },
             {
               "id": 2368,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -52216,7 +52216,7 @@ module.exports = {
             },
             {
               "id": 2369,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -52238,7 +52238,7 @@ module.exports = {
             },
             {
               "id": 2370,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -52260,7 +52260,7 @@ module.exports = {
             },
             {
               "id": 2371,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -52282,7 +52282,7 @@ module.exports = {
             },
             {
               "id": 2372,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -52304,7 +52304,7 @@ module.exports = {
             },
             {
               "id": 2373,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -52326,7 +52326,7 @@ module.exports = {
             },
             {
               "id": 2374,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -52348,7 +52348,7 @@ module.exports = {
             },
             {
               "id": 2375,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -52370,7 +52370,7 @@ module.exports = {
             },
             {
               "id": 2376,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -52392,7 +52392,7 @@ module.exports = {
             },
             {
               "id": 2377,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -52414,7 +52414,7 @@ module.exports = {
             },
             {
               "id": 2378,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -52436,7 +52436,7 @@ module.exports = {
             },
             {
               "id": 2379,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -52458,7 +52458,7 @@ module.exports = {
             },
             {
               "id": 2380,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -52480,7 +52480,7 @@ module.exports = {
             },
             {
               "id": 2381,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -52502,7 +52502,7 @@ module.exports = {
             },
             {
               "id": 2382,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -52524,7 +52524,7 @@ module.exports = {
             },
             {
               "id": 2383,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -52546,7 +52546,7 @@ module.exports = {
             },
             {
               "id": 2384,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -52568,7 +52568,7 @@ module.exports = {
             },
             {
               "id": 2385,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -52590,7 +52590,7 @@ module.exports = {
             },
             {
               "id": 2386,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -52612,7 +52612,7 @@ module.exports = {
             },
             {
               "id": 2387,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -52634,7 +52634,7 @@ module.exports = {
             },
             {
               "id": 2388,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -52656,7 +52656,7 @@ module.exports = {
             },
             {
               "id": 2389,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -52678,7 +52678,7 @@ module.exports = {
             },
             {
               "id": 2390,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -52700,7 +52700,7 @@ module.exports = {
             },
             {
               "id": 2391,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -52722,7 +52722,7 @@ module.exports = {
             },
             {
               "id": 2392,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -52744,7 +52744,7 @@ module.exports = {
             },
             {
               "id": 2393,
-              "type": "energia",
+              "type": 1,
               "rate": 300,
               "reports": [
                 {
@@ -52766,7 +52766,7 @@ module.exports = {
             },
             {
               "id": 2394,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -52788,7 +52788,7 @@ module.exports = {
             },
             {
               "id": 2395,
-              "type": "energia",
+              "type": 1,
               "rate": 1800,
               "reports": [
                 {
@@ -52810,7 +52810,7 @@ module.exports = {
             },
             {
               "id": 2396,
-              "type": "energia",
+              "type": 1,
               "rate": 900,
               "reports": [
                 {
@@ -52832,7 +52832,7 @@ module.exports = {
             },
             {
               "id": 2397,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -52854,7 +52854,7 @@ module.exports = {
             },
             {
               "id": 2398,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -52876,7 +52876,7 @@ module.exports = {
             },
             {
               "id": 2399,
-              "type": "energia",
+              "type": 1,
               "rate": 60,
               "reports": [
                 {
@@ -52898,7 +52898,7 @@ module.exports = {
             },
             {
               "id": 2400,
-              "type": "energia",
+              "type": 1,
               "rate": 3600,
               "reports": [
                 {
@@ -52920,7 +52920,7 @@ module.exports = {
             }
           , {
               "id": 2401,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -52942,7 +52942,7 @@ module.exports = {
             },
             {
               "id": 2402,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -52964,7 +52964,7 @@ module.exports = {
             },
             {
               "id": 2403,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -52986,7 +52986,7 @@ module.exports = {
             },
             {
               "id": 2404,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -53008,7 +53008,7 @@ module.exports = {
             },
             {
               "id": 2405,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -53030,7 +53030,7 @@ module.exports = {
             },
             {
               "id": 2406,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -53052,7 +53052,7 @@ module.exports = {
             },
             {
               "id": 2407,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -53074,7 +53074,7 @@ module.exports = {
             },
             {
               "id": 2408,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -53096,7 +53096,7 @@ module.exports = {
             },
             {
               "id": 2409,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -53118,7 +53118,7 @@ module.exports = {
             },
             {
               "id": 2410,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -53140,7 +53140,7 @@ module.exports = {
             },
             {
               "id": 2411,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -53162,7 +53162,7 @@ module.exports = {
             },
             {
               "id": 2412,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -53184,7 +53184,7 @@ module.exports = {
             },
             {
               "id": 2413,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -53206,7 +53206,7 @@ module.exports = {
             },
             {
               "id": 2414,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -53228,7 +53228,7 @@ module.exports = {
             },
             {
               "id": 2415,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -53250,7 +53250,7 @@ module.exports = {
             },
             {
               "id": 2416,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -53272,7 +53272,7 @@ module.exports = {
             },
             {
               "id": 2417,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -53294,7 +53294,7 @@ module.exports = {
             },
             {
               "id": 2418,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -53316,7 +53316,7 @@ module.exports = {
             },
             {
               "id": 2419,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -53338,7 +53338,7 @@ module.exports = {
             },
             {
               "id": 2420,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -53360,7 +53360,7 @@ module.exports = {
             },
             {
               "id": 2421,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -53382,7 +53382,7 @@ module.exports = {
             },
             {
               "id": 2422,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -53404,7 +53404,7 @@ module.exports = {
             },
             {
               "id": 2423,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -53426,7 +53426,7 @@ module.exports = {
             },
             {
               "id": 2424,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -53448,7 +53448,7 @@ module.exports = {
             },
             {
               "id": 2425,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -53470,7 +53470,7 @@ module.exports = {
             },
             {
               "id": 2426,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -53492,7 +53492,7 @@ module.exports = {
             },
             {
               "id": 2427,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -53514,7 +53514,7 @@ module.exports = {
             },
             {
               "id": 2428,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -53536,7 +53536,7 @@ module.exports = {
             },
             {
               "id": 2429,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -53558,7 +53558,7 @@ module.exports = {
             },
             {
               "id": 2430,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -53580,7 +53580,7 @@ module.exports = {
             },
             {
               "id": 2431,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -53602,7 +53602,7 @@ module.exports = {
             },
             {
               "id": 2432,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -53624,7 +53624,7 @@ module.exports = {
             },
             {
               "id": 2433,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -53646,7 +53646,7 @@ module.exports = {
             },
             {
               "id": 2434,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -53668,7 +53668,7 @@ module.exports = {
             },
             {
               "id": 2435,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -53690,7 +53690,7 @@ module.exports = {
             },
             {
               "id": 2436,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -53712,7 +53712,7 @@ module.exports = {
             },
             {
               "id": 2437,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -53734,7 +53734,7 @@ module.exports = {
             },
             {
               "id": 2438,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -53756,7 +53756,7 @@ module.exports = {
             },
             {
               "id": 2439,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -53778,7 +53778,7 @@ module.exports = {
             },
             {
               "id": 2440,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -53800,7 +53800,7 @@ module.exports = {
             },
             {
               "id": 2441,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -53822,7 +53822,7 @@ module.exports = {
             },
             {
               "id": 2442,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -53844,7 +53844,7 @@ module.exports = {
             },
             {
               "id": 2443,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -53866,7 +53866,7 @@ module.exports = {
             },
             {
               "id": 2444,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -53888,7 +53888,7 @@ module.exports = {
             },
             {
               "id": 2445,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -53910,7 +53910,7 @@ module.exports = {
             },
             {
               "id": 2446,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -53932,7 +53932,7 @@ module.exports = {
             },
             {
               "id": 2447,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -53954,7 +53954,7 @@ module.exports = {
             },
             {
               "id": 2448,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -53976,7 +53976,7 @@ module.exports = {
             },
             {
               "id": 2449,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -53998,7 +53998,7 @@ module.exports = {
             },
             {
               "id": 2450,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -54020,7 +54020,7 @@ module.exports = {
             },
             {
               "id": 2451,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -54042,7 +54042,7 @@ module.exports = {
             },
             {
               "id": 2452,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -54064,7 +54064,7 @@ module.exports = {
             },
             {
               "id": 2453,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -54086,7 +54086,7 @@ module.exports = {
             },
             {
               "id": 2454,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -54108,7 +54108,7 @@ module.exports = {
             },
             {
               "id": 2455,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -54130,7 +54130,7 @@ module.exports = {
             },
             {
               "id": 2456,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -54152,7 +54152,7 @@ module.exports = {
             },
             {
               "id": 2457,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -54174,7 +54174,7 @@ module.exports = {
             },
             {
               "id": 2458,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -54196,7 +54196,7 @@ module.exports = {
             },
             {
               "id": 2459,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -54218,7 +54218,7 @@ module.exports = {
             },
             {
               "id": 2460,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -54240,7 +54240,7 @@ module.exports = {
             },
             {
               "id": 2461,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -54262,7 +54262,7 @@ module.exports = {
             },
             {
               "id": 2462,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -54284,7 +54284,7 @@ module.exports = {
             },
             {
               "id": 2463,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -54306,7 +54306,7 @@ module.exports = {
             },
             {
               "id": 2464,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -54328,7 +54328,7 @@ module.exports = {
             },
             {
               "id": 2465,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -54350,7 +54350,7 @@ module.exports = {
             },
             {
               "id": 2466,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -54372,7 +54372,7 @@ module.exports = {
             },
             {
               "id": 2467,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -54394,7 +54394,7 @@ module.exports = {
             },
             {
               "id": 2468,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -54416,7 +54416,7 @@ module.exports = {
             },
             {
               "id": 2469,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -54438,7 +54438,7 @@ module.exports = {
             },
             {
               "id": 2470,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -54460,7 +54460,7 @@ module.exports = {
             },
             {
               "id": 2471,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -54482,7 +54482,7 @@ module.exports = {
             },
             {
               "id": 2472,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -54504,7 +54504,7 @@ module.exports = {
             },
             {
               "id": 2473,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -54526,7 +54526,7 @@ module.exports = {
             },
             {
               "id": 2474,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -54548,7 +54548,7 @@ module.exports = {
             },
             {
               "id": 2475,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -54570,7 +54570,7 @@ module.exports = {
             },
             {
               "id": 2476,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -54592,7 +54592,7 @@ module.exports = {
             },
             {
               "id": 2477,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -54614,7 +54614,7 @@ module.exports = {
             },
             {
               "id": 2478,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -54636,7 +54636,7 @@ module.exports = {
             },
             {
               "id": 2479,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -54658,7 +54658,7 @@ module.exports = {
             },
             {
               "id": 2480,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -54680,7 +54680,7 @@ module.exports = {
             },
             {
               "id": 2481,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -54702,7 +54702,7 @@ module.exports = {
             },
             {
               "id": 2482,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -54724,7 +54724,7 @@ module.exports = {
             },
             {
               "id": 2483,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -54746,7 +54746,7 @@ module.exports = {
             },
             {
               "id": 2484,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -54768,7 +54768,7 @@ module.exports = {
             },
             {
               "id": 2485,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -54790,7 +54790,7 @@ module.exports = {
             },
             {
               "id": 2486,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -54812,7 +54812,7 @@ module.exports = {
             },
             {
               "id": 2487,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -54834,7 +54834,7 @@ module.exports = {
             },
             {
               "id": 2488,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -54856,7 +54856,7 @@ module.exports = {
             },
             {
               "id": 2489,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -54878,7 +54878,7 @@ module.exports = {
             },
             {
               "id": 2490,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -54900,7 +54900,7 @@ module.exports = {
             },
             {
               "id": 2491,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -54922,7 +54922,7 @@ module.exports = {
             },
             {
               "id": 2492,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -54944,7 +54944,7 @@ module.exports = {
             },
             {
               "id": 2493,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -54966,7 +54966,7 @@ module.exports = {
             },
             {
               "id": 2494,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -54988,7 +54988,7 @@ module.exports = {
             },
             {
               "id": 2495,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -55010,7 +55010,7 @@ module.exports = {
             },
             {
               "id": 2496,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -55032,7 +55032,7 @@ module.exports = {
             },
             {
               "id": 2497,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -55054,7 +55054,7 @@ module.exports = {
             },
             {
               "id": 2498,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -55076,7 +55076,7 @@ module.exports = {
             },
             {
               "id": 2499,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -55098,7 +55098,7 @@ module.exports = {
             },
             {
               "id": 2500,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -55120,7 +55120,7 @@ module.exports = {
             },
             {
               "id": 2501,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -55142,7 +55142,7 @@ module.exports = {
             },
             {
               "id": 2502,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -55164,7 +55164,7 @@ module.exports = {
             },
             {
               "id": 2503,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -55186,7 +55186,7 @@ module.exports = {
             },
             {
               "id": 2504,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -55208,7 +55208,7 @@ module.exports = {
             },
             {
               "id": 2505,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -55230,7 +55230,7 @@ module.exports = {
             },
             {
               "id": 2506,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -55252,7 +55252,7 @@ module.exports = {
             },
             {
               "id": 2507,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -55274,7 +55274,7 @@ module.exports = {
             },
             {
               "id": 2508,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -55296,7 +55296,7 @@ module.exports = {
             },
             {
               "id": 2509,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -55318,7 +55318,7 @@ module.exports = {
             },
             {
               "id": 2510,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -55340,7 +55340,7 @@ module.exports = {
             },
             {
               "id": 2511,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -55362,7 +55362,7 @@ module.exports = {
             },
             {
               "id": 2512,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -55384,7 +55384,7 @@ module.exports = {
             },
             {
               "id": 2513,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -55406,7 +55406,7 @@ module.exports = {
             },
             {
               "id": 2514,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -55428,7 +55428,7 @@ module.exports = {
             },
             {
               "id": 2515,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -55450,7 +55450,7 @@ module.exports = {
             },
             {
               "id": 2516,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -55472,7 +55472,7 @@ module.exports = {
             },
             {
               "id": 2517,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -55494,7 +55494,7 @@ module.exports = {
             },
             {
               "id": 2518,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -55516,7 +55516,7 @@ module.exports = {
             },
             {
               "id": 2519,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -55538,7 +55538,7 @@ module.exports = {
             },
             {
               "id": 2520,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -55560,7 +55560,7 @@ module.exports = {
             },
             {
               "id": 2521,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -55582,7 +55582,7 @@ module.exports = {
             },
             {
               "id": 2522,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -55604,7 +55604,7 @@ module.exports = {
             },
             {
               "id": 2523,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -55626,7 +55626,7 @@ module.exports = {
             },
             {
               "id": 2524,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -55648,7 +55648,7 @@ module.exports = {
             },
             {
               "id": 2525,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -55670,7 +55670,7 @@ module.exports = {
             },
             {
               "id": 2526,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -55692,7 +55692,7 @@ module.exports = {
             },
             {
               "id": 2527,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -55714,7 +55714,7 @@ module.exports = {
             },
             {
               "id": 2528,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -55736,7 +55736,7 @@ module.exports = {
             },
             {
               "id": 2529,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -55758,7 +55758,7 @@ module.exports = {
             },
             {
               "id": 2530,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -55780,7 +55780,7 @@ module.exports = {
             },
             {
               "id": 2531,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -55802,7 +55802,7 @@ module.exports = {
             },
             {
               "id": 2532,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -55824,7 +55824,7 @@ module.exports = {
             },
             {
               "id": 2533,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -55846,7 +55846,7 @@ module.exports = {
             },
             {
               "id": 2534,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -55868,7 +55868,7 @@ module.exports = {
             },
             {
               "id": 2535,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -55890,7 +55890,7 @@ module.exports = {
             },
             {
               "id": 2536,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -55912,7 +55912,7 @@ module.exports = {
             },
             {
               "id": 2537,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -55934,7 +55934,7 @@ module.exports = {
             },
             {
               "id": 2538,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -55956,7 +55956,7 @@ module.exports = {
             },
             {
               "id": 2539,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -55978,7 +55978,7 @@ module.exports = {
             },
             {
               "id": 2540,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -56000,7 +56000,7 @@ module.exports = {
             },
             {
               "id": 2541,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -56022,7 +56022,7 @@ module.exports = {
             },
             {
               "id": 2542,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -56044,7 +56044,7 @@ module.exports = {
             },
             {
               "id": 2543,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -56066,7 +56066,7 @@ module.exports = {
             },
             {
               "id": 2544,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -56088,7 +56088,7 @@ module.exports = {
             },
             {
               "id": 2545,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -56110,7 +56110,7 @@ module.exports = {
             },
             {
               "id": 2546,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -56132,7 +56132,7 @@ module.exports = {
             },
             {
               "id": 2547,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -56154,7 +56154,7 @@ module.exports = {
             },
             {
               "id": 2548,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -56176,7 +56176,7 @@ module.exports = {
             },
             {
               "id": 2549,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -56198,7 +56198,7 @@ module.exports = {
             },
             {
               "id": 2550,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -56220,7 +56220,7 @@ module.exports = {
             },
             {
               "id": 2551,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -56242,7 +56242,7 @@ module.exports = {
             },
             {
               "id": 2552,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -56264,7 +56264,7 @@ module.exports = {
             },
             {
               "id": 2553,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -56286,7 +56286,7 @@ module.exports = {
             },
             {
               "id": 2554,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -56308,7 +56308,7 @@ module.exports = {
             },
             {
               "id": 2555,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -56330,7 +56330,7 @@ module.exports = {
             },
             {
               "id": 2556,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -56352,7 +56352,7 @@ module.exports = {
             },
             {
               "id": 2557,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -56374,7 +56374,7 @@ module.exports = {
             },
             {
               "id": 2558,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -56396,7 +56396,7 @@ module.exports = {
             },
             {
               "id": 2559,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -56418,7 +56418,7 @@ module.exports = {
             },
             {
               "id": 2560,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -56440,7 +56440,7 @@ module.exports = {
             },
             {
               "id": 2561,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -56462,7 +56462,7 @@ module.exports = {
             },
             {
               "id": 2562,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -56484,7 +56484,7 @@ module.exports = {
             },
             {
               "id": 2563,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -56506,7 +56506,7 @@ module.exports = {
             },
             {
               "id": 2564,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -56528,7 +56528,7 @@ module.exports = {
             },
             {
               "id": 2565,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -56550,7 +56550,7 @@ module.exports = {
             },
             {
               "id": 2566,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -56572,7 +56572,7 @@ module.exports = {
             },
             {
               "id": 2567,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -56594,7 +56594,7 @@ module.exports = {
             },
             {
               "id": 2568,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -56616,7 +56616,7 @@ module.exports = {
             },
             {
               "id": 2569,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -56638,7 +56638,7 @@ module.exports = {
             },
             {
               "id": 2570,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -56660,7 +56660,7 @@ module.exports = {
             },
             {
               "id": 2571,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -56682,7 +56682,7 @@ module.exports = {
             },
             {
               "id": 2572,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -56704,7 +56704,7 @@ module.exports = {
             },
             {
               "id": 2573,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -56726,7 +56726,7 @@ module.exports = {
             },
             {
               "id": 2574,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -56748,7 +56748,7 @@ module.exports = {
             },
             {
               "id": 2575,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -56770,7 +56770,7 @@ module.exports = {
             },
             {
               "id": 2576,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -56792,7 +56792,7 @@ module.exports = {
             },
             {
               "id": 2577,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -56814,7 +56814,7 @@ module.exports = {
             },
             {
               "id": 2578,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -56836,7 +56836,7 @@ module.exports = {
             },
             {
               "id": 2579,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -56858,7 +56858,7 @@ module.exports = {
             },
             {
               "id": 2580,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -56880,7 +56880,7 @@ module.exports = {
             },
             {
               "id": 2581,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -56902,7 +56902,7 @@ module.exports = {
             },
             {
               "id": 2582,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -56924,7 +56924,7 @@ module.exports = {
             },
             {
               "id": 2583,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -56946,7 +56946,7 @@ module.exports = {
             },
             {
               "id": 2584,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -56968,7 +56968,7 @@ module.exports = {
             },
             {
               "id": 2585,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -56990,7 +56990,7 @@ module.exports = {
             },
             {
               "id": 2586,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -57012,7 +57012,7 @@ module.exports = {
             },
             {
               "id": 2587,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -57034,7 +57034,7 @@ module.exports = {
             },
             {
               "id": 2588,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -57056,7 +57056,7 @@ module.exports = {
             },
             {
               "id": 2589,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -57078,7 +57078,7 @@ module.exports = {
             },
             {
               "id": 2590,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -57100,7 +57100,7 @@ module.exports = {
             },
             {
               "id": 2591,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -57122,7 +57122,7 @@ module.exports = {
             },
             {
               "id": 2592,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -57144,7 +57144,7 @@ module.exports = {
             },
             {
               "id": 2593,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -57166,7 +57166,7 @@ module.exports = {
             },
             {
               "id": 2594,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -57188,7 +57188,7 @@ module.exports = {
             },
             {
               "id": 2595,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -57210,7 +57210,7 @@ module.exports = {
             },
             {
               "id": 2596,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -57232,7 +57232,7 @@ module.exports = {
             },
             {
               "id": 2597,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -57254,7 +57254,7 @@ module.exports = {
             },
             {
               "id": 2598,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -57276,7 +57276,7 @@ module.exports = {
             },
             {
               "id": 2599,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -57298,7 +57298,7 @@ module.exports = {
             },
             {
               "id": 2600,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -57320,7 +57320,7 @@ module.exports = {
             },
             {
               "id": 2601,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -57342,7 +57342,7 @@ module.exports = {
             },
             {
               "id": 2602,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -57364,7 +57364,7 @@ module.exports = {
             },
             {
               "id": 2603,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -57386,7 +57386,7 @@ module.exports = {
             },
             {
               "id": 2604,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -57408,7 +57408,7 @@ module.exports = {
             },
             {
               "id": 2605,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -57430,7 +57430,7 @@ module.exports = {
             },
             {
               "id": 2606,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -57452,7 +57452,7 @@ module.exports = {
             },
             {
               "id": 2607,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -57474,7 +57474,7 @@ module.exports = {
             },
             {
               "id": 2608,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -57496,7 +57496,7 @@ module.exports = {
             },
             {
               "id": 2609,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -57518,7 +57518,7 @@ module.exports = {
             },
             {
               "id": 2610,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -57540,7 +57540,7 @@ module.exports = {
             },
             {
               "id": 2611,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -57562,7 +57562,7 @@ module.exports = {
             },
             {
               "id": 2612,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -57584,7 +57584,7 @@ module.exports = {
             },
             {
               "id": 2613,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -57606,7 +57606,7 @@ module.exports = {
             },
             {
               "id": 2614,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -57628,7 +57628,7 @@ module.exports = {
             },
             {
               "id": 2615,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -57650,7 +57650,7 @@ module.exports = {
             },
             {
               "id": 2616,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -57672,7 +57672,7 @@ module.exports = {
             },
             {
               "id": 2617,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -57694,7 +57694,7 @@ module.exports = {
             },
             {
               "id": 2618,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -57716,7 +57716,7 @@ module.exports = {
             },
             {
               "id": 2619,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -57738,7 +57738,7 @@ module.exports = {
             },
             {
               "id": 2620,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -57760,7 +57760,7 @@ module.exports = {
             },
             {
               "id": 2621,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -57782,7 +57782,7 @@ module.exports = {
             },
             {
               "id": 2622,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -57804,7 +57804,7 @@ module.exports = {
             },
             {
               "id": 2623,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -57826,7 +57826,7 @@ module.exports = {
             },
             {
               "id": 2624,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -57848,7 +57848,7 @@ module.exports = {
             },
             {
               "id": 2625,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -57870,7 +57870,7 @@ module.exports = {
             },
             {
               "id": 2626,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -57892,7 +57892,7 @@ module.exports = {
             },
             {
               "id": 2627,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -57914,7 +57914,7 @@ module.exports = {
             },
             {
               "id": 2628,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -57936,7 +57936,7 @@ module.exports = {
             },
             {
               "id": 2629,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -57958,7 +57958,7 @@ module.exports = {
             },
             {
               "id": 2630,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -57980,7 +57980,7 @@ module.exports = {
             },
             {
               "id": 2631,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -58002,7 +58002,7 @@ module.exports = {
             },
             {
               "id": 2632,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -58024,7 +58024,7 @@ module.exports = {
             },
             {
               "id": 2633,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -58046,7 +58046,7 @@ module.exports = {
             },
             {
               "id": 2634,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -58068,7 +58068,7 @@ module.exports = {
             },
             {
               "id": 2635,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -58090,7 +58090,7 @@ module.exports = {
             },
             {
               "id": 2636,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -58112,7 +58112,7 @@ module.exports = {
             },
             {
               "id": 2637,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -58134,7 +58134,7 @@ module.exports = {
             },
             {
               "id": 2638,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -58156,7 +58156,7 @@ module.exports = {
             },
             {
               "id": 2639,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -58178,7 +58178,7 @@ module.exports = {
             },
             {
               "id": 2640,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -58200,7 +58200,7 @@ module.exports = {
             },
             {
               "id": 2641,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -58222,7 +58222,7 @@ module.exports = {
             },
             {
               "id": 2642,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -58244,7 +58244,7 @@ module.exports = {
             },
             {
               "id": 2643,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -58266,7 +58266,7 @@ module.exports = {
             },
             {
               "id": 2644,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -58288,7 +58288,7 @@ module.exports = {
             },
             {
               "id": 2645,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -58310,7 +58310,7 @@ module.exports = {
             },
             {
               "id": 2646,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -58332,7 +58332,7 @@ module.exports = {
             },
             {
               "id": 2647,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -58354,7 +58354,7 @@ module.exports = {
             },
             {
               "id": 2648,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -58376,7 +58376,7 @@ module.exports = {
             },
             {
               "id": 2649,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -58398,7 +58398,7 @@ module.exports = {
             },
             {
               "id": 2650,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -58420,7 +58420,7 @@ module.exports = {
             },
             {
               "id": 2651,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -58442,7 +58442,7 @@ module.exports = {
             },
             {
               "id": 2652,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -58464,7 +58464,7 @@ module.exports = {
             },
             {
               "id": 2653,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -58486,7 +58486,7 @@ module.exports = {
             },
             {
               "id": 2654,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -58508,7 +58508,7 @@ module.exports = {
             },
             {
               "id": 2655,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -58530,7 +58530,7 @@ module.exports = {
             },
             {
               "id": 2656,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -58552,7 +58552,7 @@ module.exports = {
             },
             {
               "id": 2657,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -58574,7 +58574,7 @@ module.exports = {
             },
             {
               "id": 2658,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -58596,7 +58596,7 @@ module.exports = {
             },
             {
               "id": 2659,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -58618,7 +58618,7 @@ module.exports = {
             },
             {
               "id": 2660,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -58640,7 +58640,7 @@ module.exports = {
             },
             {
               "id": 2661,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -58662,7 +58662,7 @@ module.exports = {
             },
             {
               "id": 2662,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -58684,7 +58684,7 @@ module.exports = {
             },
             {
               "id": 2663,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -58706,7 +58706,7 @@ module.exports = {
             },
             {
               "id": 2664,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -58728,7 +58728,7 @@ module.exports = {
             },
             {
               "id": 2665,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -58750,7 +58750,7 @@ module.exports = {
             },
             {
               "id": 2666,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -58772,7 +58772,7 @@ module.exports = {
             },
             {
               "id": 2667,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -58794,7 +58794,7 @@ module.exports = {
             },
             {
               "id": 2668,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -58816,7 +58816,7 @@ module.exports = {
             },
             {
               "id": 2669,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -58838,7 +58838,7 @@ module.exports = {
             },
             {
               "id": 2670,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -58860,7 +58860,7 @@ module.exports = {
             },
             {
               "id": 2671,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -58882,7 +58882,7 @@ module.exports = {
             },
             {
               "id": 2672,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -58904,7 +58904,7 @@ module.exports = {
             },
             {
               "id": 2673,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -58926,7 +58926,7 @@ module.exports = {
             },
             {
               "id": 2674,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -58948,7 +58948,7 @@ module.exports = {
             },
             {
               "id": 2675,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -58970,7 +58970,7 @@ module.exports = {
             },
             {
               "id": 2676,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -58992,7 +58992,7 @@ module.exports = {
             },
             {
               "id": 2677,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -59014,7 +59014,7 @@ module.exports = {
             },
             {
               "id": 2678,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -59036,7 +59036,7 @@ module.exports = {
             },
             {
               "id": 2679,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -59058,7 +59058,7 @@ module.exports = {
             },
             {
               "id": 2680,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -59080,7 +59080,7 @@ module.exports = {
             },
             {
               "id": 2681,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -59102,7 +59102,7 @@ module.exports = {
             },
             {
               "id": 2682,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -59124,7 +59124,7 @@ module.exports = {
             },
             {
               "id": 2683,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -59146,7 +59146,7 @@ module.exports = {
             },
             {
               "id": 2684,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -59168,7 +59168,7 @@ module.exports = {
             },
             {
               "id": 2685,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -59190,7 +59190,7 @@ module.exports = {
             },
             {
               "id": 2686,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -59212,7 +59212,7 @@ module.exports = {
             },
             {
               "id": 2687,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -59234,7 +59234,7 @@ module.exports = {
             },
             {
               "id": 2688,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -59256,7 +59256,7 @@ module.exports = {
             },
             {
               "id": 2689,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -59278,7 +59278,7 @@ module.exports = {
             },
             {
               "id": 2690,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -59300,7 +59300,7 @@ module.exports = {
             },
             {
               "id": 2691,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -59322,7 +59322,7 @@ module.exports = {
             },
             {
               "id": 2692,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -59344,7 +59344,7 @@ module.exports = {
             },
             {
               "id": 2693,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -59366,7 +59366,7 @@ module.exports = {
             },
             {
               "id": 2694,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -59388,7 +59388,7 @@ module.exports = {
             },
             {
               "id": 2695,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -59410,7 +59410,7 @@ module.exports = {
             },
             {
               "id": 2696,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -59432,7 +59432,7 @@ module.exports = {
             },
             {
               "id": 2697,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -59454,7 +59454,7 @@ module.exports = {
             },
             {
               "id": 2698,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -59476,7 +59476,7 @@ module.exports = {
             },
             {
               "id": 2699,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -59498,7 +59498,7 @@ module.exports = {
             },
             {
               "id": 2700,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -59520,7 +59520,7 @@ module.exports = {
             },
             {
               "id": 2701,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -59542,7 +59542,7 @@ module.exports = {
             },
             {
               "id": 2702,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -59564,7 +59564,7 @@ module.exports = {
             },
             {
               "id": 2703,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -59586,7 +59586,7 @@ module.exports = {
             },
             {
               "id": 2704,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -59608,7 +59608,7 @@ module.exports = {
             },
             {
               "id": 2705,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -59630,7 +59630,7 @@ module.exports = {
             },
             {
               "id": 2706,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -59652,7 +59652,7 @@ module.exports = {
             },
             {
               "id": 2707,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -59674,7 +59674,7 @@ module.exports = {
             },
             {
               "id": 2708,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -59696,7 +59696,7 @@ module.exports = {
             },
             {
               "id": 2709,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -59718,7 +59718,7 @@ module.exports = {
             },
             {
               "id": 2710,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -59740,7 +59740,7 @@ module.exports = {
             },
             {
               "id": 2711,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -59762,7 +59762,7 @@ module.exports = {
             },
             {
               "id": 2712,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -59784,7 +59784,7 @@ module.exports = {
             },
             {
               "id": 2713,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -59806,7 +59806,7 @@ module.exports = {
             },
             {
               "id": 2714,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -59828,7 +59828,7 @@ module.exports = {
             },
             {
               "id": 2715,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -59850,7 +59850,7 @@ module.exports = {
             },
             {
               "id": 2716,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -59872,7 +59872,7 @@ module.exports = {
             },
             {
               "id": 2717,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -59894,7 +59894,7 @@ module.exports = {
             },
             {
               "id": 2718,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -59916,7 +59916,7 @@ module.exports = {
             },
             {
               "id": 2719,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -59938,7 +59938,7 @@ module.exports = {
             },
             {
               "id": 2720,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -59960,7 +59960,7 @@ module.exports = {
             },
             {
               "id": 2721,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -59982,7 +59982,7 @@ module.exports = {
             },
             {
               "id": 2722,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -60004,7 +60004,7 @@ module.exports = {
             },
             {
               "id": 2723,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -60026,7 +60026,7 @@ module.exports = {
             },
             {
               "id": 2724,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -60048,7 +60048,7 @@ module.exports = {
             },
             {
               "id": 2725,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -60070,7 +60070,7 @@ module.exports = {
             },
             {
               "id": 2726,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -60092,7 +60092,7 @@ module.exports = {
             },
             {
               "id": 2727,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -60114,7 +60114,7 @@ module.exports = {
             },
             {
               "id": 2728,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -60136,7 +60136,7 @@ module.exports = {
             },
             {
               "id": 2729,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -60158,7 +60158,7 @@ module.exports = {
             },
             {
               "id": 2730,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -60180,7 +60180,7 @@ module.exports = {
             },
             {
               "id": 2731,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -60202,7 +60202,7 @@ module.exports = {
             },
             {
               "id": 2732,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -60224,7 +60224,7 @@ module.exports = {
             },
             {
               "id": 2733,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -60246,7 +60246,7 @@ module.exports = {
             },
             {
               "id": 2734,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -60268,7 +60268,7 @@ module.exports = {
             },
             {
               "id": 2735,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -60290,7 +60290,7 @@ module.exports = {
             },
             {
               "id": 2736,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -60312,7 +60312,7 @@ module.exports = {
             },
             {
               "id": 2737,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -60334,7 +60334,7 @@ module.exports = {
             },
             {
               "id": 2738,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -60356,7 +60356,7 @@ module.exports = {
             },
             {
               "id": 2739,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -60378,7 +60378,7 @@ module.exports = {
             },
             {
               "id": 2740,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -60400,7 +60400,7 @@ module.exports = {
             },
             {
               "id": 2741,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -60422,7 +60422,7 @@ module.exports = {
             },
             {
               "id": 2742,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -60444,7 +60444,7 @@ module.exports = {
             },
             {
               "id": 2743,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -60466,7 +60466,7 @@ module.exports = {
             },
             {
               "id": 2744,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -60488,7 +60488,7 @@ module.exports = {
             },
             {
               "id": 2745,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -60510,7 +60510,7 @@ module.exports = {
             },
             {
               "id": 2746,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -60532,7 +60532,7 @@ module.exports = {
             },
             {
               "id": 2747,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -60554,7 +60554,7 @@ module.exports = {
             },
             {
               "id": 2748,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -60576,7 +60576,7 @@ module.exports = {
             },
             {
               "id": 2749,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -60598,7 +60598,7 @@ module.exports = {
             },
             {
               "id": 2750,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -60620,7 +60620,7 @@ module.exports = {
             },
             {
               "id": 2751,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -60642,7 +60642,7 @@ module.exports = {
             },
             {
               "id": 2752,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -60664,7 +60664,7 @@ module.exports = {
             },
             {
               "id": 2753,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -60686,7 +60686,7 @@ module.exports = {
             },
             {
               "id": 2754,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -60708,7 +60708,7 @@ module.exports = {
             },
             {
               "id": 2755,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -60730,7 +60730,7 @@ module.exports = {
             },
             {
               "id": 2756,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -60752,7 +60752,7 @@ module.exports = {
             },
             {
               "id": 2757,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -60774,7 +60774,7 @@ module.exports = {
             },
             {
               "id": 2758,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -60796,7 +60796,7 @@ module.exports = {
             },
             {
               "id": 2759,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -60818,7 +60818,7 @@ module.exports = {
             },
             {
               "id": 2760,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -60840,7 +60840,7 @@ module.exports = {
             },
             {
               "id": 2761,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -60862,7 +60862,7 @@ module.exports = {
             },
             {
               "id": 2762,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -60884,7 +60884,7 @@ module.exports = {
             },
             {
               "id": 2763,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -60906,7 +60906,7 @@ module.exports = {
             },
             {
               "id": 2764,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -60928,7 +60928,7 @@ module.exports = {
             },
             {
               "id": 2765,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -60950,7 +60950,7 @@ module.exports = {
             },
             {
               "id": 2766,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -60972,7 +60972,7 @@ module.exports = {
             },
             {
               "id": 2767,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -60994,7 +60994,7 @@ module.exports = {
             },
             {
               "id": 2768,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -61016,7 +61016,7 @@ module.exports = {
             },
             {
               "id": 2769,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -61038,7 +61038,7 @@ module.exports = {
             },
             {
               "id": 2770,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -61060,7 +61060,7 @@ module.exports = {
             },
             {
               "id": 2771,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -61082,7 +61082,7 @@ module.exports = {
             },
             {
               "id": 2772,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -61104,7 +61104,7 @@ module.exports = {
             },
             {
               "id": 2773,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -61126,7 +61126,7 @@ module.exports = {
             },
             {
               "id": 2774,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -61148,7 +61148,7 @@ module.exports = {
             },
             {
               "id": 2775,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -61170,7 +61170,7 @@ module.exports = {
             },
             {
               "id": 2776,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -61192,7 +61192,7 @@ module.exports = {
             },
             {
               "id": 2777,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -61214,7 +61214,7 @@ module.exports = {
             },
             {
               "id": 2778,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -61236,7 +61236,7 @@ module.exports = {
             },
             {
               "id": 2779,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -61258,7 +61258,7 @@ module.exports = {
             },
             {
               "id": 2780,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -61280,7 +61280,7 @@ module.exports = {
             },
             {
               "id": 2781,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -61302,7 +61302,7 @@ module.exports = {
             },
             {
               "id": 2782,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -61324,7 +61324,7 @@ module.exports = {
             },
             {
               "id": 2783,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -61346,7 +61346,7 @@ module.exports = {
             },
             {
               "id": 2784,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -61368,7 +61368,7 @@ module.exports = {
             },
             {
               "id": 2785,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -61390,7 +61390,7 @@ module.exports = {
             },
             {
               "id": 2786,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -61412,7 +61412,7 @@ module.exports = {
             },
             {
               "id": 2787,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -61434,7 +61434,7 @@ module.exports = {
             },
             {
               "id": 2788,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -61456,7 +61456,7 @@ module.exports = {
             },
             {
               "id": 2789,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -61478,7 +61478,7 @@ module.exports = {
             },
             {
               "id": 2790,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -61500,7 +61500,7 @@ module.exports = {
             },
             {
               "id": 2791,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -61522,7 +61522,7 @@ module.exports = {
             },
             {
               "id": 2792,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -61544,7 +61544,7 @@ module.exports = {
             },
             {
               "id": 2793,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -61566,7 +61566,7 @@ module.exports = {
             },
             {
               "id": 2794,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -61588,7 +61588,7 @@ module.exports = {
             },
             {
               "id": 2795,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -61610,7 +61610,7 @@ module.exports = {
             },
             {
               "id": 2796,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -61632,7 +61632,7 @@ module.exports = {
             },
             {
               "id": 2797,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -61654,7 +61654,7 @@ module.exports = {
             },
             {
               "id": 2798,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -61676,7 +61676,7 @@ module.exports = {
             },
             {
               "id": 2799,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -61698,7 +61698,7 @@ module.exports = {
             },
             {
               "id": 2800,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -61720,7 +61720,7 @@ module.exports = {
             },
             {
               "id": 2801,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -61742,7 +61742,7 @@ module.exports = {
             },
             {
               "id": 2802,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -61764,7 +61764,7 @@ module.exports = {
             },
             {
               "id": 2803,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -61786,7 +61786,7 @@ module.exports = {
             },
             {
               "id": 2804,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -61808,7 +61808,7 @@ module.exports = {
             },
             {
               "id": 2805,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -61830,7 +61830,7 @@ module.exports = {
             },
             {
               "id": 2806,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -61852,7 +61852,7 @@ module.exports = {
             },
             {
               "id": 2807,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -61874,7 +61874,7 @@ module.exports = {
             },
             {
               "id": 2808,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -61896,7 +61896,7 @@ module.exports = {
             },
             {
               "id": 2809,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -61918,7 +61918,7 @@ module.exports = {
             },
             {
               "id": 2810,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -61940,7 +61940,7 @@ module.exports = {
             },
             {
               "id": 2811,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -61962,7 +61962,7 @@ module.exports = {
             },
             {
               "id": 2812,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -61984,7 +61984,7 @@ module.exports = {
             },
             {
               "id": 2813,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -62006,7 +62006,7 @@ module.exports = {
             },
             {
               "id": 2814,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -62028,7 +62028,7 @@ module.exports = {
             },
             {
               "id": 2815,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -62050,7 +62050,7 @@ module.exports = {
             },
             {
               "id": 2816,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -62072,7 +62072,7 @@ module.exports = {
             },
             {
               "id": 2817,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -62094,7 +62094,7 @@ module.exports = {
             },
             {
               "id": 2818,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -62116,7 +62116,7 @@ module.exports = {
             },
             {
               "id": 2819,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -62138,7 +62138,7 @@ module.exports = {
             },
             {
               "id": 2820,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -62160,7 +62160,7 @@ module.exports = {
             },
             {
               "id": 2821,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -62182,7 +62182,7 @@ module.exports = {
             },
             {
               "id": 2822,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -62204,7 +62204,7 @@ module.exports = {
             },
             {
               "id": 2823,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -62226,7 +62226,7 @@ module.exports = {
             },
             {
               "id": 2824,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -62248,7 +62248,7 @@ module.exports = {
             },
             {
               "id": 2825,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -62270,7 +62270,7 @@ module.exports = {
             },
             {
               "id": 2826,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -62292,7 +62292,7 @@ module.exports = {
             },
             {
               "id": 2827,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -62314,7 +62314,7 @@ module.exports = {
             },
             {
               "id": 2828,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -62336,7 +62336,7 @@ module.exports = {
             },
             {
               "id": 2829,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -62358,7 +62358,7 @@ module.exports = {
             },
             {
               "id": 2830,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -62380,7 +62380,7 @@ module.exports = {
             },
             {
               "id": 2831,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -62402,7 +62402,7 @@ module.exports = {
             },
             {
               "id": 2832,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -62424,7 +62424,7 @@ module.exports = {
             },
             {
               "id": 2833,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -62446,7 +62446,7 @@ module.exports = {
             },
             {
               "id": 2834,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -62468,7 +62468,7 @@ module.exports = {
             },
             {
               "id": 2835,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -62490,7 +62490,7 @@ module.exports = {
             },
             {
               "id": 2836,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -62512,7 +62512,7 @@ module.exports = {
             },
             {
               "id": 2837,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -62534,7 +62534,7 @@ module.exports = {
             },
             {
               "id": 2838,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -62556,7 +62556,7 @@ module.exports = {
             },
             {
               "id": 2839,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -62578,7 +62578,7 @@ module.exports = {
             },
             {
               "id": 2840,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -62600,7 +62600,7 @@ module.exports = {
             },
             {
               "id": 2841,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -62622,7 +62622,7 @@ module.exports = {
             },
             {
               "id": 2842,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -62644,7 +62644,7 @@ module.exports = {
             },
             {
               "id": 2843,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -62666,7 +62666,7 @@ module.exports = {
             },
             {
               "id": 2844,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -62688,7 +62688,7 @@ module.exports = {
             },
             {
               "id": 2845,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -62710,7 +62710,7 @@ module.exports = {
             },
             {
               "id": 2846,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -62732,7 +62732,7 @@ module.exports = {
             },
             {
               "id": 2847,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -62754,7 +62754,7 @@ module.exports = {
             },
             {
               "id": 2848,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -62776,7 +62776,7 @@ module.exports = {
             },
             {
               "id": 2849,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -62798,7 +62798,7 @@ module.exports = {
             },
             {
               "id": 2850,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -62820,7 +62820,7 @@ module.exports = {
             },
             {
               "id": 2851,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -62842,7 +62842,7 @@ module.exports = {
             },
             {
               "id": 2852,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -62864,7 +62864,7 @@ module.exports = {
             },
             {
               "id": 2853,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -62886,7 +62886,7 @@ module.exports = {
             },
             {
               "id": 2854,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -62908,7 +62908,7 @@ module.exports = {
             },
             {
               "id": 2855,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -62930,7 +62930,7 @@ module.exports = {
             },
             {
               "id": 2856,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -62952,7 +62952,7 @@ module.exports = {
             },
             {
               "id": 2857,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -62974,7 +62974,7 @@ module.exports = {
             },
             {
               "id": 2858,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -62996,7 +62996,7 @@ module.exports = {
             },
             {
               "id": 2859,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -63018,7 +63018,7 @@ module.exports = {
             },
             {
               "id": 2860,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -63040,7 +63040,7 @@ module.exports = {
             },
             {
               "id": 2861,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -63062,7 +63062,7 @@ module.exports = {
             },
             {
               "id": 2862,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -63084,7 +63084,7 @@ module.exports = {
             },
             {
               "id": 2863,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -63106,7 +63106,7 @@ module.exports = {
             },
             {
               "id": 2864,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -63128,7 +63128,7 @@ module.exports = {
             },
             {
               "id": 2865,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -63150,7 +63150,7 @@ module.exports = {
             },
             {
               "id": 2866,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -63172,7 +63172,7 @@ module.exports = {
             },
             {
               "id": 2867,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -63194,7 +63194,7 @@ module.exports = {
             },
             {
               "id": 2868,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -63216,7 +63216,7 @@ module.exports = {
             },
             {
               "id": 2869,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -63238,7 +63238,7 @@ module.exports = {
             },
             {
               "id": 2870,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -63260,7 +63260,7 @@ module.exports = {
             },
             {
               "id": 2871,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -63282,7 +63282,7 @@ module.exports = {
             },
             {
               "id": 2872,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -63304,7 +63304,7 @@ module.exports = {
             },
             {
               "id": 2873,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -63326,7 +63326,7 @@ module.exports = {
             },
             {
               "id": 2874,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -63348,7 +63348,7 @@ module.exports = {
             },
             {
               "id": 2875,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -63370,7 +63370,7 @@ module.exports = {
             },
             {
               "id": 2876,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -63392,7 +63392,7 @@ module.exports = {
             },
             {
               "id": 2877,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -63414,7 +63414,7 @@ module.exports = {
             },
             {
               "id": 2878,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -63436,7 +63436,7 @@ module.exports = {
             },
             {
               "id": 2879,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -63458,7 +63458,7 @@ module.exports = {
             },
             {
               "id": 2880,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -63480,7 +63480,7 @@ module.exports = {
             },
             {
               "id": 2881,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -63502,7 +63502,7 @@ module.exports = {
             },
             {
               "id": 2882,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -63524,7 +63524,7 @@ module.exports = {
             },
             {
               "id": 2883,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -63546,7 +63546,7 @@ module.exports = {
             },
             {
               "id": 2884,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -63568,7 +63568,7 @@ module.exports = {
             },
             {
               "id": 2885,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -63590,7 +63590,7 @@ module.exports = {
             },
             {
               "id": 2886,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -63612,7 +63612,7 @@ module.exports = {
             },
             {
               "id": 2887,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -63634,7 +63634,7 @@ module.exports = {
             },
             {
               "id": 2888,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -63656,7 +63656,7 @@ module.exports = {
             },
             {
               "id": 2889,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -63678,7 +63678,7 @@ module.exports = {
             },
             {
               "id": 2890,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -63700,7 +63700,7 @@ module.exports = {
             },
             {
               "id": 2891,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -63722,7 +63722,7 @@ module.exports = {
             },
             {
               "id": 2892,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -63744,7 +63744,7 @@ module.exports = {
             },
             {
               "id": 2893,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -63766,7 +63766,7 @@ module.exports = {
             },
             {
               "id": 2894,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -63788,7 +63788,7 @@ module.exports = {
             },
             {
               "id": 2895,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -63810,7 +63810,7 @@ module.exports = {
             },
             {
               "id": 2896,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -63832,7 +63832,7 @@ module.exports = {
             },
             {
               "id": 2897,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -63854,7 +63854,7 @@ module.exports = {
             },
             {
               "id": 2898,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -63876,7 +63876,7 @@ module.exports = {
             },
             {
               "id": 2899,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -63898,7 +63898,7 @@ module.exports = {
             },
             {
               "id": 2900,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -63920,7 +63920,7 @@ module.exports = {
             },
             {
               "id": 2901,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -63942,7 +63942,7 @@ module.exports = {
             },
             {
               "id": 2902,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -63964,7 +63964,7 @@ module.exports = {
             },
             {
               "id": 2903,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -63986,7 +63986,7 @@ module.exports = {
             },
             {
               "id": 2904,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -64008,7 +64008,7 @@ module.exports = {
             },
             {
               "id": 2905,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -64030,7 +64030,7 @@ module.exports = {
             },
             {
               "id": 2906,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -64052,7 +64052,7 @@ module.exports = {
             },
             {
               "id": 2907,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -64074,7 +64074,7 @@ module.exports = {
             },
             {
               "id": 2908,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -64096,7 +64096,7 @@ module.exports = {
             },
             {
               "id": 2909,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -64118,7 +64118,7 @@ module.exports = {
             },
             {
               "id": 2910,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -64140,7 +64140,7 @@ module.exports = {
             },
             {
               "id": 2911,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -64162,7 +64162,7 @@ module.exports = {
             },
             {
               "id": 2912,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -64184,7 +64184,7 @@ module.exports = {
             },
             {
               "id": 2913,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -64206,7 +64206,7 @@ module.exports = {
             },
             {
               "id": 2914,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -64228,7 +64228,7 @@ module.exports = {
             },
             {
               "id": 2915,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -64250,7 +64250,7 @@ module.exports = {
             },
             {
               "id": 2916,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -64272,7 +64272,7 @@ module.exports = {
             },
             {
               "id": 2917,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -64294,7 +64294,7 @@ module.exports = {
             },
             {
               "id": 2918,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -64316,7 +64316,7 @@ module.exports = {
             },
             {
               "id": 2919,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -64338,7 +64338,7 @@ module.exports = {
             },
             {
               "id": 2920,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -64360,7 +64360,7 @@ module.exports = {
             },
             {
               "id": 2921,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -64382,7 +64382,7 @@ module.exports = {
             },
             {
               "id": 2922,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -64404,7 +64404,7 @@ module.exports = {
             },
             {
               "id": 2923,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -64426,7 +64426,7 @@ module.exports = {
             },
             {
               "id": 2924,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -64448,7 +64448,7 @@ module.exports = {
             },
             {
               "id": 2925,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -64470,7 +64470,7 @@ module.exports = {
             },
             {
               "id": 2926,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -64492,7 +64492,7 @@ module.exports = {
             },
             {
               "id": 2927,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -64514,7 +64514,7 @@ module.exports = {
             },
             {
               "id": 2928,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -64536,7 +64536,7 @@ module.exports = {
             },
             {
               "id": 2929,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -64558,7 +64558,7 @@ module.exports = {
             },
             {
               "id": 2930,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -64580,7 +64580,7 @@ module.exports = {
             },
             {
               "id": 2931,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -64602,7 +64602,7 @@ module.exports = {
             },
             {
               "id": 2932,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -64624,7 +64624,7 @@ module.exports = {
             },
             {
               "id": 2933,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -64646,7 +64646,7 @@ module.exports = {
             },
             {
               "id": 2934,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -64668,7 +64668,7 @@ module.exports = {
             },
             {
               "id": 2935,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -64690,7 +64690,7 @@ module.exports = {
             },
             {
               "id": 2936,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -64712,7 +64712,7 @@ module.exports = {
             },
             {
               "id": 2937,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -64734,7 +64734,7 @@ module.exports = {
             },
             {
               "id": 2938,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -64756,7 +64756,7 @@ module.exports = {
             },
             {
               "id": 2939,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -64778,7 +64778,7 @@ module.exports = {
             },
             {
               "id": 2940,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -64800,7 +64800,7 @@ module.exports = {
             },
             {
               "id": 2941,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -64822,7 +64822,7 @@ module.exports = {
             },
             {
               "id": 2942,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -64844,7 +64844,7 @@ module.exports = {
             },
             {
               "id": 2943,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -64866,7 +64866,7 @@ module.exports = {
             },
             {
               "id": 2944,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -64888,7 +64888,7 @@ module.exports = {
             },
             {
               "id": 2945,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -64910,7 +64910,7 @@ module.exports = {
             },
             {
               "id": 2946,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -64932,7 +64932,7 @@ module.exports = {
             },
             {
               "id": 2947,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -64954,7 +64954,7 @@ module.exports = {
             },
             {
               "id": 2948,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -64976,7 +64976,7 @@ module.exports = {
             },
             {
               "id": 2949,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -64998,7 +64998,7 @@ module.exports = {
             },
             {
               "id": 2950,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -65020,7 +65020,7 @@ module.exports = {
             },
             {
               "id": 2951,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -65042,7 +65042,7 @@ module.exports = {
             },
             {
               "id": 2952,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -65064,7 +65064,7 @@ module.exports = {
             },
             {
               "id": 2953,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -65086,7 +65086,7 @@ module.exports = {
             },
             {
               "id": 2954,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -65108,7 +65108,7 @@ module.exports = {
             },
             {
               "id": 2955,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -65130,7 +65130,7 @@ module.exports = {
             },
             {
               "id": 2956,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -65152,7 +65152,7 @@ module.exports = {
             },
             {
               "id": 2957,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -65174,7 +65174,7 @@ module.exports = {
             },
             {
               "id": 2958,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -65196,7 +65196,7 @@ module.exports = {
             },
             {
               "id": 2959,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -65218,7 +65218,7 @@ module.exports = {
             },
             {
               "id": 2960,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -65240,7 +65240,7 @@ module.exports = {
             },
             {
               "id": 2961,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -65262,7 +65262,7 @@ module.exports = {
             },
             {
               "id": 2962,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -65284,7 +65284,7 @@ module.exports = {
             },
             {
               "id": 2963,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -65306,7 +65306,7 @@ module.exports = {
             },
             {
               "id": 2964,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -65328,7 +65328,7 @@ module.exports = {
             },
             {
               "id": 2965,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -65350,7 +65350,7 @@ module.exports = {
             },
             {
               "id": 2966,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -65372,7 +65372,7 @@ module.exports = {
             },
             {
               "id": 2967,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -65394,7 +65394,7 @@ module.exports = {
             },
             {
               "id": 2968,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -65416,7 +65416,7 @@ module.exports = {
             },
             {
               "id": 2969,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -65438,7 +65438,7 @@ module.exports = {
             },
             {
               "id": 2970,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -65460,7 +65460,7 @@ module.exports = {
             },
             {
               "id": 2971,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -65482,7 +65482,7 @@ module.exports = {
             },
             {
               "id": 2972,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -65504,7 +65504,7 @@ module.exports = {
             },
             {
               "id": 2973,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -65526,7 +65526,7 @@ module.exports = {
             },
             {
               "id": 2974,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -65548,7 +65548,7 @@ module.exports = {
             },
             {
               "id": 2975,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -65570,7 +65570,7 @@ module.exports = {
             },
             {
               "id": 2976,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -65592,7 +65592,7 @@ module.exports = {
             },
             {
               "id": 2977,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -65614,7 +65614,7 @@ module.exports = {
             },
             {
               "id": 2978,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -65636,7 +65636,7 @@ module.exports = {
             },
             {
               "id": 2979,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -65658,7 +65658,7 @@ module.exports = {
             },
             {
               "id": 2980,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -65680,7 +65680,7 @@ module.exports = {
             },
             {
               "id": 2981,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -65702,7 +65702,7 @@ module.exports = {
             },
             {
               "id": 2982,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -65724,7 +65724,7 @@ module.exports = {
             },
             {
               "id": 2983,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -65746,7 +65746,7 @@ module.exports = {
             },
             {
               "id": 2984,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -65768,7 +65768,7 @@ module.exports = {
             },
             {
               "id": 2985,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -65790,7 +65790,7 @@ module.exports = {
             },
             {
               "id": 2986,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -65812,7 +65812,7 @@ module.exports = {
             },
             {
               "id": 2987,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -65834,7 +65834,7 @@ module.exports = {
             },
             {
               "id": 2988,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -65856,7 +65856,7 @@ module.exports = {
             },
             {
               "id": 2989,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -65878,7 +65878,7 @@ module.exports = {
             },
             {
               "id": 2990,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -65900,7 +65900,7 @@ module.exports = {
             },
             {
               "id": 2991,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -65922,7 +65922,7 @@ module.exports = {
             },
             {
               "id": 2992,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -65944,7 +65944,7 @@ module.exports = {
             },
             {
               "id": 2993,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -65966,7 +65966,7 @@ module.exports = {
             },
             {
               "id": 2994,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -65988,7 +65988,7 @@ module.exports = {
             },
             {
               "id": 2995,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -66010,7 +66010,7 @@ module.exports = {
             },
             {
               "id": 2996,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -66032,7 +66032,7 @@ module.exports = {
             },
             {
               "id": 2997,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -66054,7 +66054,7 @@ module.exports = {
             },
             {
               "id": 2998,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -66076,7 +66076,7 @@ module.exports = {
             },
             {
               "id": 2999,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -66098,7 +66098,7 @@ module.exports = {
             },
             {
               "id": 3000,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -66120,7 +66120,7 @@ module.exports = {
             },
             {
               "id": 3001,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -66142,7 +66142,7 @@ module.exports = {
             },
             {
               "id": 3002,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -66164,7 +66164,7 @@ module.exports = {
             },
             {
               "id": 3003,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -66186,7 +66186,7 @@ module.exports = {
             },
             {
               "id": 3004,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -66208,7 +66208,7 @@ module.exports = {
             },
             {
               "id": 3005,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -66230,7 +66230,7 @@ module.exports = {
             },
             {
               "id": 3006,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -66252,7 +66252,7 @@ module.exports = {
             },
             {
               "id": 3007,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -66274,7 +66274,7 @@ module.exports = {
             },
             {
               "id": 3008,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -66296,7 +66296,7 @@ module.exports = {
             },
             {
               "id": 3009,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -66318,7 +66318,7 @@ module.exports = {
             },
             {
               "id": 3010,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -66340,7 +66340,7 @@ module.exports = {
             },
             {
               "id": 3011,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -66362,7 +66362,7 @@ module.exports = {
             },
             {
               "id": 3012,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -66384,7 +66384,7 @@ module.exports = {
             },
             {
               "id": 3013,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -66406,7 +66406,7 @@ module.exports = {
             },
             {
               "id": 3014,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -66428,7 +66428,7 @@ module.exports = {
             },
             {
               "id": 3015,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -66450,7 +66450,7 @@ module.exports = {
             },
             {
               "id": 3016,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -66472,7 +66472,7 @@ module.exports = {
             },
             {
               "id": 3017,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -66494,7 +66494,7 @@ module.exports = {
             },
             {
               "id": 3018,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -66516,7 +66516,7 @@ module.exports = {
             },
             {
               "id": 3019,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -66538,7 +66538,7 @@ module.exports = {
             },
             {
               "id": 3020,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -66560,7 +66560,7 @@ module.exports = {
             },
             {
               "id": 3021,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -66582,7 +66582,7 @@ module.exports = {
             },
             {
               "id": 3022,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -66604,7 +66604,7 @@ module.exports = {
             },
             {
               "id": 3023,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -66626,7 +66626,7 @@ module.exports = {
             },
             {
               "id": 3024,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -66648,7 +66648,7 @@ module.exports = {
             },
             {
               "id": 3025,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -66670,7 +66670,7 @@ module.exports = {
             },
             {
               "id": 3026,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -66692,7 +66692,7 @@ module.exports = {
             },
             {
               "id": 3027,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -66714,7 +66714,7 @@ module.exports = {
             },
             {
               "id": 3028,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -66736,7 +66736,7 @@ module.exports = {
             },
             {
               "id": 3029,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -66758,7 +66758,7 @@ module.exports = {
             },
             {
               "id": 3030,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -66780,7 +66780,7 @@ module.exports = {
             },
             {
               "id": 3031,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -66802,7 +66802,7 @@ module.exports = {
             },
             {
               "id": 3032,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -66824,7 +66824,7 @@ module.exports = {
             },
             {
               "id": 3033,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -66846,7 +66846,7 @@ module.exports = {
             },
             {
               "id": 3034,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -66868,7 +66868,7 @@ module.exports = {
             },
             {
               "id": 3035,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -66890,7 +66890,7 @@ module.exports = {
             },
             {
               "id": 3036,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -66912,7 +66912,7 @@ module.exports = {
             },
             {
               "id": 3037,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -66934,7 +66934,7 @@ module.exports = {
             },
             {
               "id": 3038,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -66956,7 +66956,7 @@ module.exports = {
             },
             {
               "id": 3039,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -66978,7 +66978,7 @@ module.exports = {
             },
             {
               "id": 3040,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -67000,7 +67000,7 @@ module.exports = {
             },
             {
               "id": 3041,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -67022,7 +67022,7 @@ module.exports = {
             },
             {
               "id": 3042,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -67044,7 +67044,7 @@ module.exports = {
             },
             {
               "id": 3043,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -67066,7 +67066,7 @@ module.exports = {
             },
             {
               "id": 3044,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -67088,7 +67088,7 @@ module.exports = {
             },
             {
               "id": 3045,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -67110,7 +67110,7 @@ module.exports = {
             },
             {
               "id": 3046,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -67132,7 +67132,7 @@ module.exports = {
             },
             {
               "id": 3047,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -67154,7 +67154,7 @@ module.exports = {
             },
             {
               "id": 3048,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -67176,7 +67176,7 @@ module.exports = {
             },
             {
               "id": 3049,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -67198,7 +67198,7 @@ module.exports = {
             },
             {
               "id": 3050,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -67220,7 +67220,7 @@ module.exports = {
             },
             {
               "id": 3051,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -67242,7 +67242,7 @@ module.exports = {
             },
             {
               "id": 3052,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -67264,7 +67264,7 @@ module.exports = {
             },
             {
               "id": 3053,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -67286,7 +67286,7 @@ module.exports = {
             },
             {
               "id": 3054,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -67308,7 +67308,7 @@ module.exports = {
             },
             {
               "id": 3055,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -67330,7 +67330,7 @@ module.exports = {
             },
             {
               "id": 3056,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -67352,7 +67352,7 @@ module.exports = {
             },
             {
               "id": 3057,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -67374,7 +67374,7 @@ module.exports = {
             },
             {
               "id": 3058,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -67396,7 +67396,7 @@ module.exports = {
             },
             {
               "id": 3059,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -67418,7 +67418,7 @@ module.exports = {
             },
             {
               "id": 3060,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -67440,7 +67440,7 @@ module.exports = {
             },
             {
               "id": 3061,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -67462,7 +67462,7 @@ module.exports = {
             },
             {
               "id": 3062,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -67484,7 +67484,7 @@ module.exports = {
             },
             {
               "id": 3063,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -67506,7 +67506,7 @@ module.exports = {
             },
             {
               "id": 3064,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -67528,7 +67528,7 @@ module.exports = {
             },
             {
               "id": 3065,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -67550,7 +67550,7 @@ module.exports = {
             },
             {
               "id": 3066,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -67572,7 +67572,7 @@ module.exports = {
             },
             {
               "id": 3067,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -67594,7 +67594,7 @@ module.exports = {
             },
             {
               "id": 3068,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -67616,7 +67616,7 @@ module.exports = {
             },
             {
               "id": 3069,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -67638,7 +67638,7 @@ module.exports = {
             },
             {
               "id": 3070,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -67660,7 +67660,7 @@ module.exports = {
             },
             {
               "id": 3071,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -67682,7 +67682,7 @@ module.exports = {
             },
             {
               "id": 3072,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -67704,7 +67704,7 @@ module.exports = {
             },
             {
               "id": 3073,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -67726,7 +67726,7 @@ module.exports = {
             },
             {
               "id": 3074,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -67748,7 +67748,7 @@ module.exports = {
             },
             {
               "id": 3075,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -67770,7 +67770,7 @@ module.exports = {
             },
             {
               "id": 3076,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -67792,7 +67792,7 @@ module.exports = {
             },
             {
               "id": 3077,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -67814,7 +67814,7 @@ module.exports = {
             },
             {
               "id": 3078,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -67836,7 +67836,7 @@ module.exports = {
             },
             {
               "id": 3079,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -67858,7 +67858,7 @@ module.exports = {
             },
             {
               "id": 3080,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -67880,7 +67880,7 @@ module.exports = {
             },
             {
               "id": 3081,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -67902,7 +67902,7 @@ module.exports = {
             },
             {
               "id": 3082,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -67924,7 +67924,7 @@ module.exports = {
             },
             {
               "id": 3083,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -67946,7 +67946,7 @@ module.exports = {
             },
             {
               "id": 3084,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -67968,7 +67968,7 @@ module.exports = {
             },
             {
               "id": 3085,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -67990,7 +67990,7 @@ module.exports = {
             },
             {
               "id": 3086,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -68012,7 +68012,7 @@ module.exports = {
             },
             {
               "id": 3087,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -68034,7 +68034,7 @@ module.exports = {
             },
             {
               "id": 3088,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -68056,7 +68056,7 @@ module.exports = {
             },
             {
               "id": 3089,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -68078,7 +68078,7 @@ module.exports = {
             },
             {
               "id": 3090,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -68100,7 +68100,7 @@ module.exports = {
             },
             {
               "id": 3091,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -68122,7 +68122,7 @@ module.exports = {
             },
             {
               "id": 3092,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -68144,7 +68144,7 @@ module.exports = {
             },
             {
               "id": 3093,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -68166,7 +68166,7 @@ module.exports = {
             },
             {
               "id": 3094,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -68188,7 +68188,7 @@ module.exports = {
             },
             {
               "id": 3095,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -68210,7 +68210,7 @@ module.exports = {
             },
             {
               "id": 3096,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -68232,7 +68232,7 @@ module.exports = {
             },
             {
               "id": 3097,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -68254,7 +68254,7 @@ module.exports = {
             },
             {
               "id": 3098,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -68276,7 +68276,7 @@ module.exports = {
             },
             {
               "id": 3099,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -68298,7 +68298,7 @@ module.exports = {
             },
             {
               "id": 3100,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -68320,7 +68320,7 @@ module.exports = {
             },
             {
               "id": 3101,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -68342,7 +68342,7 @@ module.exports = {
             },
             {
               "id": 3102,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -68364,7 +68364,7 @@ module.exports = {
             },
             {
               "id": 3103,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -68386,7 +68386,7 @@ module.exports = {
             },
             {
               "id": 3104,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -68408,7 +68408,7 @@ module.exports = {
             },
             {
               "id": 3105,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -68430,7 +68430,7 @@ module.exports = {
             },
             {
               "id": 3106,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -68452,7 +68452,7 @@ module.exports = {
             },
             {
               "id": 3107,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -68474,7 +68474,7 @@ module.exports = {
             },
             {
               "id": 3108,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -68496,7 +68496,7 @@ module.exports = {
             },
             {
               "id": 3109,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -68518,7 +68518,7 @@ module.exports = {
             },
             {
               "id": 3110,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -68540,7 +68540,7 @@ module.exports = {
             },
             {
               "id": 3111,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -68562,7 +68562,7 @@ module.exports = {
             },
             {
               "id": 3112,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -68584,7 +68584,7 @@ module.exports = {
             },
             {
               "id": 3113,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -68606,7 +68606,7 @@ module.exports = {
             },
             {
               "id": 3114,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -68628,7 +68628,7 @@ module.exports = {
             },
             {
               "id": 3115,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -68650,7 +68650,7 @@ module.exports = {
             },
             {
               "id": 3116,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -68672,7 +68672,7 @@ module.exports = {
             },
             {
               "id": 3117,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -68694,7 +68694,7 @@ module.exports = {
             },
             {
               "id": 3118,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -68716,7 +68716,7 @@ module.exports = {
             },
             {
               "id": 3119,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -68738,7 +68738,7 @@ module.exports = {
             },
             {
               "id": 3120,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -68760,7 +68760,7 @@ module.exports = {
             },
             {
               "id": 3121,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -68782,7 +68782,7 @@ module.exports = {
             },
             {
               "id": 3122,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -68804,7 +68804,7 @@ module.exports = {
             },
             {
               "id": 3123,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -68826,7 +68826,7 @@ module.exports = {
             },
             {
               "id": 3124,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -68848,7 +68848,7 @@ module.exports = {
             },
             {
               "id": 3125,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -68870,7 +68870,7 @@ module.exports = {
             },
             {
               "id": 3126,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -68892,7 +68892,7 @@ module.exports = {
             },
             {
               "id": 3127,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -68914,7 +68914,7 @@ module.exports = {
             },
             {
               "id": 3128,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -68936,7 +68936,7 @@ module.exports = {
             },
             {
               "id": 3129,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -68958,7 +68958,7 @@ module.exports = {
             },
             {
               "id": 3130,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -68980,7 +68980,7 @@ module.exports = {
             },
             {
               "id": 3131,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -69002,7 +69002,7 @@ module.exports = {
             },
             {
               "id": 3132,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -69024,7 +69024,7 @@ module.exports = {
             },
             {
               "id": 3133,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -69046,7 +69046,7 @@ module.exports = {
             },
             {
               "id": 3134,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -69068,7 +69068,7 @@ module.exports = {
             },
             {
               "id": 3135,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -69090,7 +69090,7 @@ module.exports = {
             },
             {
               "id": 3136,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -69112,7 +69112,7 @@ module.exports = {
             },
             {
               "id": 3137,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -69134,7 +69134,7 @@ module.exports = {
             },
             {
               "id": 3138,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -69156,7 +69156,7 @@ module.exports = {
             },
             {
               "id": 3139,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -69178,7 +69178,7 @@ module.exports = {
             },
             {
               "id": 3140,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -69200,7 +69200,7 @@ module.exports = {
             },
             {
               "id": 3141,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -69222,7 +69222,7 @@ module.exports = {
             },
             {
               "id": 3142,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -69244,7 +69244,7 @@ module.exports = {
             },
             {
               "id": 3143,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -69266,7 +69266,7 @@ module.exports = {
             },
             {
               "id": 3144,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -69288,7 +69288,7 @@ module.exports = {
             },
             {
               "id": 3145,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -69310,7 +69310,7 @@ module.exports = {
             },
             {
               "id": 3146,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -69332,7 +69332,7 @@ module.exports = {
             },
             {
               "id": 3147,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -69354,7 +69354,7 @@ module.exports = {
             },
             {
               "id": 3148,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -69376,7 +69376,7 @@ module.exports = {
             },
             {
               "id": 3149,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -69398,7 +69398,7 @@ module.exports = {
             },
             {
               "id": 3150,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -69420,7 +69420,7 @@ module.exports = {
             },
             {
               "id": 3151,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -69442,7 +69442,7 @@ module.exports = {
             },
             {
               "id": 3152,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -69464,7 +69464,7 @@ module.exports = {
             },
             {
               "id": 3153,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -69486,7 +69486,7 @@ module.exports = {
             },
             {
               "id": 3154,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -69508,7 +69508,7 @@ module.exports = {
             },
             {
               "id": 3155,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -69530,7 +69530,7 @@ module.exports = {
             },
             {
               "id": 3156,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -69552,7 +69552,7 @@ module.exports = {
             },
             {
               "id": 3157,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -69574,7 +69574,7 @@ module.exports = {
             },
             {
               "id": 3158,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -69596,7 +69596,7 @@ module.exports = {
             },
             {
               "id": 3159,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -69618,7 +69618,7 @@ module.exports = {
             },
             {
               "id": 3160,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -69640,7 +69640,7 @@ module.exports = {
             },
             {
               "id": 3161,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -69662,7 +69662,7 @@ module.exports = {
             },
             {
               "id": 3162,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -69684,7 +69684,7 @@ module.exports = {
             },
             {
               "id": 3163,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -69706,7 +69706,7 @@ module.exports = {
             },
             {
               "id": 3164,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -69728,7 +69728,7 @@ module.exports = {
             },
             {
               "id": 3165,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -69750,7 +69750,7 @@ module.exports = {
             },
             {
               "id": 3166,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -69772,7 +69772,7 @@ module.exports = {
             },
             {
               "id": 3167,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -69794,7 +69794,7 @@ module.exports = {
             },
             {
               "id": 3168,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -69816,7 +69816,7 @@ module.exports = {
             },
             {
               "id": 3169,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -69838,7 +69838,7 @@ module.exports = {
             },
             {
               "id": 3170,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -69860,7 +69860,7 @@ module.exports = {
             },
             {
               "id": 3171,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -69882,7 +69882,7 @@ module.exports = {
             },
             {
               "id": 3172,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -69904,7 +69904,7 @@ module.exports = {
             },
             {
               "id": 3173,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -69926,7 +69926,7 @@ module.exports = {
             },
             {
               "id": 3174,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -69948,7 +69948,7 @@ module.exports = {
             },
             {
               "id": 3175,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -69970,7 +69970,7 @@ module.exports = {
             },
             {
               "id": 3176,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -69992,7 +69992,7 @@ module.exports = {
             },
             {
               "id": 3177,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -70014,7 +70014,7 @@ module.exports = {
             },
             {
               "id": 3178,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -70036,7 +70036,7 @@ module.exports = {
             },
             {
               "id": 3179,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -70058,7 +70058,7 @@ module.exports = {
             },
             {
               "id": 3180,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -70080,7 +70080,7 @@ module.exports = {
             },
             {
               "id": 3181,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -70102,7 +70102,7 @@ module.exports = {
             },
             {
               "id": 3182,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -70124,7 +70124,7 @@ module.exports = {
             },
             {
               "id": 3183,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -70146,7 +70146,7 @@ module.exports = {
             },
             {
               "id": 3184,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -70168,7 +70168,7 @@ module.exports = {
             },
             {
               "id": 3185,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -70190,7 +70190,7 @@ module.exports = {
             },
             {
               "id": 3186,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -70212,7 +70212,7 @@ module.exports = {
             },
             {
               "id": 3187,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -70234,7 +70234,7 @@ module.exports = {
             },
             {
               "id": 3188,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -70256,7 +70256,7 @@ module.exports = {
             },
             {
               "id": 3189,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -70278,7 +70278,7 @@ module.exports = {
             },
             {
               "id": 3190,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -70300,7 +70300,7 @@ module.exports = {
             },
             {
               "id": 3191,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -70322,7 +70322,7 @@ module.exports = {
             },
             {
               "id": 3192,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -70344,7 +70344,7 @@ module.exports = {
             },
             {
               "id": 3193,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -70366,7 +70366,7 @@ module.exports = {
             },
             {
               "id": 3194,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -70388,7 +70388,7 @@ module.exports = {
             },
             {
               "id": 3195,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -70410,7 +70410,7 @@ module.exports = {
             },
             {
               "id": 3196,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -70432,7 +70432,7 @@ module.exports = {
             },
             {
               "id": 3197,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -70454,7 +70454,7 @@ module.exports = {
             },
             {
               "id": 3198,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -70476,7 +70476,7 @@ module.exports = {
             },
             {
               "id": 3199,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -70498,7 +70498,7 @@ module.exports = {
             },
             {
               "id": 3200,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -70520,7 +70520,7 @@ module.exports = {
             },
             {
               "id": 3201,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -70542,7 +70542,7 @@ module.exports = {
             },
             {
               "id": 3202,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -70564,7 +70564,7 @@ module.exports = {
             },
             {
               "id": 3203,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -70586,7 +70586,7 @@ module.exports = {
             },
             {
               "id": 3204,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -70608,7 +70608,7 @@ module.exports = {
             },
             {
               "id": 3205,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -70630,7 +70630,7 @@ module.exports = {
             },
             {
               "id": 3206,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -70652,7 +70652,7 @@ module.exports = {
             },
             {
               "id": 3207,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -70674,7 +70674,7 @@ module.exports = {
             },
             {
               "id": 3208,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -70696,7 +70696,7 @@ module.exports = {
             },
             {
               "id": 3209,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -70718,7 +70718,7 @@ module.exports = {
             },
             {
               "id": 3210,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -70740,7 +70740,7 @@ module.exports = {
             },
             {
               "id": 3211,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -70762,7 +70762,7 @@ module.exports = {
             },
             {
               "id": 3212,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -70784,7 +70784,7 @@ module.exports = {
             },
             {
               "id": 3213,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -70806,7 +70806,7 @@ module.exports = {
             },
             {
               "id": 3214,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -70828,7 +70828,7 @@ module.exports = {
             },
             {
               "id": 3215,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -70850,7 +70850,7 @@ module.exports = {
             },
             {
               "id": 3216,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -70872,7 +70872,7 @@ module.exports = {
             },
             {
               "id": 3217,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -70894,7 +70894,7 @@ module.exports = {
             },
             {
               "id": 3218,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -70916,7 +70916,7 @@ module.exports = {
             },
             {
               "id": 3219,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -70938,7 +70938,7 @@ module.exports = {
             },
             {
               "id": 3220,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -70960,7 +70960,7 @@ module.exports = {
             },
             {
               "id": 3221,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -70982,7 +70982,7 @@ module.exports = {
             },
             {
               "id": 3222,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -71004,7 +71004,7 @@ module.exports = {
             },
             {
               "id": 3223,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -71026,7 +71026,7 @@ module.exports = {
             },
             {
               "id": 3224,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -71048,7 +71048,7 @@ module.exports = {
             },
             {
               "id": 3225,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -71070,7 +71070,7 @@ module.exports = {
             },
             {
               "id": 3226,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -71092,7 +71092,7 @@ module.exports = {
             },
             {
               "id": 3227,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -71114,7 +71114,7 @@ module.exports = {
             },
             {
               "id": 3228,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -71136,7 +71136,7 @@ module.exports = {
             },
             {
               "id": 3229,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -71158,7 +71158,7 @@ module.exports = {
             },
             {
               "id": 3230,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -71180,7 +71180,7 @@ module.exports = {
             },
             {
               "id": 3231,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -71202,7 +71202,7 @@ module.exports = {
             },
             {
               "id": 3232,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -71224,7 +71224,7 @@ module.exports = {
             },
             {
               "id": 3233,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -71246,7 +71246,7 @@ module.exports = {
             },
             {
               "id": 3234,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -71268,7 +71268,7 @@ module.exports = {
             },
             {
               "id": 3235,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -71290,7 +71290,7 @@ module.exports = {
             },
             {
               "id": 3236,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -71312,7 +71312,7 @@ module.exports = {
             },
             {
               "id": 3237,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -71334,7 +71334,7 @@ module.exports = {
             },
             {
               "id": 3238,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -71356,7 +71356,7 @@ module.exports = {
             },
             {
               "id": 3239,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -71378,7 +71378,7 @@ module.exports = {
             },
             {
               "id": 3240,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -71400,7 +71400,7 @@ module.exports = {
             },
             {
               "id": 3241,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -71422,7 +71422,7 @@ module.exports = {
             },
             {
               "id": 3242,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -71444,7 +71444,7 @@ module.exports = {
             },
             {
               "id": 3243,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -71466,7 +71466,7 @@ module.exports = {
             },
             {
               "id": 3244,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -71488,7 +71488,7 @@ module.exports = {
             },
             {
               "id": 3245,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -71510,7 +71510,7 @@ module.exports = {
             },
             {
               "id": 3246,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -71532,7 +71532,7 @@ module.exports = {
             },
             {
               "id": 3247,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -71554,7 +71554,7 @@ module.exports = {
             },
             {
               "id": 3248,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -71576,7 +71576,7 @@ module.exports = {
             },
             {
               "id": 3249,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -71598,7 +71598,7 @@ module.exports = {
             },
             {
               "id": 3250,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -71620,7 +71620,7 @@ module.exports = {
             },
             {
               "id": 3251,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -71642,7 +71642,7 @@ module.exports = {
             },
             {
               "id": 3252,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -71664,7 +71664,7 @@ module.exports = {
             },
             {
               "id": 3253,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -71686,7 +71686,7 @@ module.exports = {
             },
             {
               "id": 3254,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -71708,7 +71708,7 @@ module.exports = {
             },
             {
               "id": 3255,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -71730,7 +71730,7 @@ module.exports = {
             },
             {
               "id": 3256,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -71752,7 +71752,7 @@ module.exports = {
             },
             {
               "id": 3257,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -71774,7 +71774,7 @@ module.exports = {
             },
             {
               "id": 3258,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -71796,7 +71796,7 @@ module.exports = {
             },
             {
               "id": 3259,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -71818,7 +71818,7 @@ module.exports = {
             },
             {
               "id": 3260,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -71840,7 +71840,7 @@ module.exports = {
             },
             {
               "id": 3261,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -71862,7 +71862,7 @@ module.exports = {
             },
             {
               "id": 3262,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -71884,7 +71884,7 @@ module.exports = {
             },
             {
               "id": 3263,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -71906,7 +71906,7 @@ module.exports = {
             },
             {
               "id": 3264,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -71928,7 +71928,7 @@ module.exports = {
             },
             {
               "id": 3265,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -71950,7 +71950,7 @@ module.exports = {
             },
             {
               "id": 3266,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -71972,7 +71972,7 @@ module.exports = {
             },
             {
               "id": 3267,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -71994,7 +71994,7 @@ module.exports = {
             },
             {
               "id": 3268,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -72016,7 +72016,7 @@ module.exports = {
             },
             {
               "id": 3269,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -72038,7 +72038,7 @@ module.exports = {
             },
             {
               "id": 3270,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -72060,7 +72060,7 @@ module.exports = {
             },
             {
               "id": 3271,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -72082,7 +72082,7 @@ module.exports = {
             },
             {
               "id": 3272,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -72104,7 +72104,7 @@ module.exports = {
             },
             {
               "id": 3273,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -72126,7 +72126,7 @@ module.exports = {
             },
             {
               "id": 3274,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -72148,7 +72148,7 @@ module.exports = {
             },
             {
               "id": 3275,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -72170,7 +72170,7 @@ module.exports = {
             },
             {
               "id": 3276,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -72192,7 +72192,7 @@ module.exports = {
             },
             {
               "id": 3277,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -72214,7 +72214,7 @@ module.exports = {
             },
             {
               "id": 3278,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -72236,7 +72236,7 @@ module.exports = {
             },
             {
               "id": 3279,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -72258,7 +72258,7 @@ module.exports = {
             },
             {
               "id": 3280,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -72280,7 +72280,7 @@ module.exports = {
             },
             {
               "id": 3281,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -72302,7 +72302,7 @@ module.exports = {
             },
             {
               "id": 3282,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -72324,7 +72324,7 @@ module.exports = {
             },
             {
               "id": 3283,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -72346,7 +72346,7 @@ module.exports = {
             },
             {
               "id": 3284,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -72368,7 +72368,7 @@ module.exports = {
             },
             {
               "id": 3285,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -72390,7 +72390,7 @@ module.exports = {
             },
             {
               "id": 3286,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -72412,7 +72412,7 @@ module.exports = {
             },
             {
               "id": 3287,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -72434,7 +72434,7 @@ module.exports = {
             },
             {
               "id": 3288,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -72456,7 +72456,7 @@ module.exports = {
             },
             {
               "id": 3289,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -72478,7 +72478,7 @@ module.exports = {
             },
             {
               "id": 3290,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -72500,7 +72500,7 @@ module.exports = {
             },
             {
               "id": 3291,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -72522,7 +72522,7 @@ module.exports = {
             },
             {
               "id": 3292,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -72544,7 +72544,7 @@ module.exports = {
             },
             {
               "id": 3293,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -72566,7 +72566,7 @@ module.exports = {
             },
             {
               "id": 3294,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -72588,7 +72588,7 @@ module.exports = {
             },
             {
               "id": 3295,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -72610,7 +72610,7 @@ module.exports = {
             },
             {
               "id": 3296,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -72632,7 +72632,7 @@ module.exports = {
             },
             {
               "id": 3297,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -72654,7 +72654,7 @@ module.exports = {
             },
             {
               "id": 3298,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -72676,7 +72676,7 @@ module.exports = {
             },
             {
               "id": 3299,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -72698,7 +72698,7 @@ module.exports = {
             },
             {
               "id": 3300,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -72720,7 +72720,7 @@ module.exports = {
             },
             {
               "id": 3301,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -72742,7 +72742,7 @@ module.exports = {
             },
             {
               "id": 3302,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -72764,7 +72764,7 @@ module.exports = {
             },
             {
               "id": 3303,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -72786,7 +72786,7 @@ module.exports = {
             },
             {
               "id": 3304,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -72808,7 +72808,7 @@ module.exports = {
             },
             {
               "id": 3305,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -72830,7 +72830,7 @@ module.exports = {
             },
             {
               "id": 3306,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -72852,7 +72852,7 @@ module.exports = {
             },
             {
               "id": 3307,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -72874,7 +72874,7 @@ module.exports = {
             },
             {
               "id": 3308,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -72896,7 +72896,7 @@ module.exports = {
             },
             {
               "id": 3309,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -72918,7 +72918,7 @@ module.exports = {
             },
             {
               "id": 3310,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -72940,7 +72940,7 @@ module.exports = {
             },
             {
               "id": 3311,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -72962,7 +72962,7 @@ module.exports = {
             },
             {
               "id": 3312,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -72984,7 +72984,7 @@ module.exports = {
             },
             {
               "id": 3313,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -73006,7 +73006,7 @@ module.exports = {
             },
             {
               "id": 3314,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -73028,7 +73028,7 @@ module.exports = {
             },
             {
               "id": 3315,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -73050,7 +73050,7 @@ module.exports = {
             },
             {
               "id": 3316,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -73072,7 +73072,7 @@ module.exports = {
             },
             {
               "id": 3317,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -73094,7 +73094,7 @@ module.exports = {
             },
             {
               "id": 3318,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -73116,7 +73116,7 @@ module.exports = {
             },
             {
               "id": 3319,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -73138,7 +73138,7 @@ module.exports = {
             },
             {
               "id": 3320,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -73160,7 +73160,7 @@ module.exports = {
             },
             {
               "id": 3321,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -73182,7 +73182,7 @@ module.exports = {
             },
             {
               "id": 3322,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -73204,7 +73204,7 @@ module.exports = {
             },
             {
               "id": 3323,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -73226,7 +73226,7 @@ module.exports = {
             },
             {
               "id": 3324,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -73248,7 +73248,7 @@ module.exports = {
             },
             {
               "id": 3325,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -73270,7 +73270,7 @@ module.exports = {
             },
             {
               "id": 3326,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -73292,7 +73292,7 @@ module.exports = {
             },
             {
               "id": 3327,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -73314,7 +73314,7 @@ module.exports = {
             },
             {
               "id": 3328,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -73336,7 +73336,7 @@ module.exports = {
             },
             {
               "id": 3329,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -73358,7 +73358,7 @@ module.exports = {
             },
             {
               "id": 3330,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -73380,7 +73380,7 @@ module.exports = {
             },
             {
               "id": 3331,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -73402,7 +73402,7 @@ module.exports = {
             },
             {
               "id": 3332,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -73424,7 +73424,7 @@ module.exports = {
             },
             {
               "id": 3333,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -73446,7 +73446,7 @@ module.exports = {
             },
             {
               "id": 3334,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -73468,7 +73468,7 @@ module.exports = {
             },
             {
               "id": 3335,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -73490,7 +73490,7 @@ module.exports = {
             },
             {
               "id": 3336,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -73512,7 +73512,7 @@ module.exports = {
             },
             {
               "id": 3337,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -73534,7 +73534,7 @@ module.exports = {
             },
             {
               "id": 3338,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -73556,7 +73556,7 @@ module.exports = {
             },
             {
               "id": 3339,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -73578,7 +73578,7 @@ module.exports = {
             },
             {
               "id": 3340,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -73600,7 +73600,7 @@ module.exports = {
             },
             {
               "id": 3341,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -73622,7 +73622,7 @@ module.exports = {
             },
             {
               "id": 3342,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -73644,7 +73644,7 @@ module.exports = {
             },
             {
               "id": 3343,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -73666,7 +73666,7 @@ module.exports = {
             },
             {
               "id": 3344,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -73688,7 +73688,7 @@ module.exports = {
             },
             {
               "id": 3345,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -73710,7 +73710,7 @@ module.exports = {
             },
             {
               "id": 3346,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -73732,7 +73732,7 @@ module.exports = {
             },
             {
               "id": 3347,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -73754,7 +73754,7 @@ module.exports = {
             },
             {
               "id": 3348,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -73776,7 +73776,7 @@ module.exports = {
             },
             {
               "id": 3349,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -73798,7 +73798,7 @@ module.exports = {
             },
             {
               "id": 3350,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -73820,7 +73820,7 @@ module.exports = {
             },
             {
               "id": 3351,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -73842,7 +73842,7 @@ module.exports = {
             },
             {
               "id": 3352,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -73864,7 +73864,7 @@ module.exports = {
             },
             {
               "id": 3353,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -73886,7 +73886,7 @@ module.exports = {
             },
             {
               "id": 3354,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -73908,7 +73908,7 @@ module.exports = {
             },
             {
               "id": 3355,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -73930,7 +73930,7 @@ module.exports = {
             },
             {
               "id": 3356,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -73952,7 +73952,7 @@ module.exports = {
             },
             {
               "id": 3357,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -73974,7 +73974,7 @@ module.exports = {
             },
             {
               "id": 3358,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -73996,7 +73996,7 @@ module.exports = {
             },
             {
               "id": 3359,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -74018,7 +74018,7 @@ module.exports = {
             },
             {
               "id": 3360,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -74040,7 +74040,7 @@ module.exports = {
             },
             {
               "id": 3361,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -74062,7 +74062,7 @@ module.exports = {
             },
             {
               "id": 3362,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -74084,7 +74084,7 @@ module.exports = {
             },
             {
               "id": 3363,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -74106,7 +74106,7 @@ module.exports = {
             },
             {
               "id": 3364,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -74128,7 +74128,7 @@ module.exports = {
             },
             {
               "id": 3365,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -74150,7 +74150,7 @@ module.exports = {
             },
             {
               "id": 3366,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -74172,7 +74172,7 @@ module.exports = {
             },
             {
               "id": 3367,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -74194,7 +74194,7 @@ module.exports = {
             },
             {
               "id": 3368,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -74216,7 +74216,7 @@ module.exports = {
             },
             {
               "id": 3369,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -74238,7 +74238,7 @@ module.exports = {
             },
             {
               "id": 3370,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -74260,7 +74260,7 @@ module.exports = {
             },
             {
               "id": 3371,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -74282,7 +74282,7 @@ module.exports = {
             },
             {
               "id": 3372,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -74304,7 +74304,7 @@ module.exports = {
             },
             {
               "id": 3373,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -74326,7 +74326,7 @@ module.exports = {
             },
             {
               "id": 3374,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -74348,7 +74348,7 @@ module.exports = {
             },
             {
               "id": 3375,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -74370,7 +74370,7 @@ module.exports = {
             },
             {
               "id": 3376,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -74392,7 +74392,7 @@ module.exports = {
             },
             {
               "id": 3377,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -74414,7 +74414,7 @@ module.exports = {
             },
             {
               "id": 3378,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -74436,7 +74436,7 @@ module.exports = {
             },
             {
               "id": 3379,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -74458,7 +74458,7 @@ module.exports = {
             },
             {
               "id": 3380,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -74480,7 +74480,7 @@ module.exports = {
             },
             {
               "id": 3381,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -74502,7 +74502,7 @@ module.exports = {
             },
             {
               "id": 3382,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -74524,7 +74524,7 @@ module.exports = {
             },
             {
               "id": 3383,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -74546,7 +74546,7 @@ module.exports = {
             },
             {
               "id": 3384,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -74568,7 +74568,7 @@ module.exports = {
             },
             {
               "id": 3385,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -74590,7 +74590,7 @@ module.exports = {
             },
             {
               "id": 3386,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -74612,7 +74612,7 @@ module.exports = {
             },
             {
               "id": 3387,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -74634,7 +74634,7 @@ module.exports = {
             },
             {
               "id": 3388,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -74656,7 +74656,7 @@ module.exports = {
             },
             {
               "id": 3389,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -74678,7 +74678,7 @@ module.exports = {
             },
             {
               "id": 3390,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -74700,7 +74700,7 @@ module.exports = {
             },
             {
               "id": 3391,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -74722,7 +74722,7 @@ module.exports = {
             },
             {
               "id": 3392,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -74744,7 +74744,7 @@ module.exports = {
             },
             {
               "id": 3393,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -74766,7 +74766,7 @@ module.exports = {
             },
             {
               "id": 3394,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -74788,7 +74788,7 @@ module.exports = {
             },
             {
               "id": 3395,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -74810,7 +74810,7 @@ module.exports = {
             },
             {
               "id": 3396,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -74832,7 +74832,7 @@ module.exports = {
             },
             {
               "id": 3397,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -74854,7 +74854,7 @@ module.exports = {
             },
             {
               "id": 3398,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -74876,7 +74876,7 @@ module.exports = {
             },
             {
               "id": 3399,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -74898,7 +74898,7 @@ module.exports = {
             },
             {
               "id": 3400,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -74920,7 +74920,7 @@ module.exports = {
             },
             {
               "id": 3401,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -74942,7 +74942,7 @@ module.exports = {
             },
             {
               "id": 3402,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -74964,7 +74964,7 @@ module.exports = {
             },
             {
               "id": 3403,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -74986,7 +74986,7 @@ module.exports = {
             },
             {
               "id": 3404,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -75008,7 +75008,7 @@ module.exports = {
             },
             {
               "id": 3405,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -75030,7 +75030,7 @@ module.exports = {
             },
             {
               "id": 3406,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -75052,7 +75052,7 @@ module.exports = {
             },
             {
               "id": 3407,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -75074,7 +75074,7 @@ module.exports = {
             },
             {
               "id": 3408,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -75096,7 +75096,7 @@ module.exports = {
             },
             {
               "id": 3409,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -75118,7 +75118,7 @@ module.exports = {
             },
             {
               "id": 3410,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -75140,7 +75140,7 @@ module.exports = {
             },
             {
               "id": 3411,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -75162,7 +75162,7 @@ module.exports = {
             },
             {
               "id": 3412,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -75184,7 +75184,7 @@ module.exports = {
             },
             {
               "id": 3413,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -75206,7 +75206,7 @@ module.exports = {
             },
             {
               "id": 3414,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -75228,7 +75228,7 @@ module.exports = {
             },
             {
               "id": 3415,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -75250,7 +75250,7 @@ module.exports = {
             },
             {
               "id": 3416,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -75272,7 +75272,7 @@ module.exports = {
             },
             {
               "id": 3417,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -75294,7 +75294,7 @@ module.exports = {
             },
             {
               "id": 3418,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -75316,7 +75316,7 @@ module.exports = {
             },
             {
               "id": 3419,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -75338,7 +75338,7 @@ module.exports = {
             },
             {
               "id": 3420,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -75360,7 +75360,7 @@ module.exports = {
             },
             {
               "id": 3421,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -75382,7 +75382,7 @@ module.exports = {
             },
             {
               "id": 3422,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -75404,7 +75404,7 @@ module.exports = {
             },
             {
               "id": 3423,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -75426,7 +75426,7 @@ module.exports = {
             },
             {
               "id": 3424,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -75448,7 +75448,7 @@ module.exports = {
             },
             {
               "id": 3425,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -75470,7 +75470,7 @@ module.exports = {
             },
             {
               "id": 3426,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -75492,7 +75492,7 @@ module.exports = {
             },
             {
               "id": 3427,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -75514,7 +75514,7 @@ module.exports = {
             },
             {
               "id": 3428,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -75536,7 +75536,7 @@ module.exports = {
             },
             {
               "id": 3429,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -75558,7 +75558,7 @@ module.exports = {
             },
             {
               "id": 3430,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -75580,7 +75580,7 @@ module.exports = {
             },
             {
               "id": 3431,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -75602,7 +75602,7 @@ module.exports = {
             },
             {
               "id": 3432,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -75624,7 +75624,7 @@ module.exports = {
             },
             {
               "id": 3433,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -75646,7 +75646,7 @@ module.exports = {
             },
             {
               "id": 3434,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -75668,7 +75668,7 @@ module.exports = {
             },
             {
               "id": 3435,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -75690,7 +75690,7 @@ module.exports = {
             },
             {
               "id": 3436,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -75712,7 +75712,7 @@ module.exports = {
             },
             {
               "id": 3437,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -75734,7 +75734,7 @@ module.exports = {
             },
             {
               "id": 3438,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -75756,7 +75756,7 @@ module.exports = {
             },
             {
               "id": 3439,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -75778,7 +75778,7 @@ module.exports = {
             },
             {
               "id": 3440,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -75800,7 +75800,7 @@ module.exports = {
             },
             {
               "id": 3441,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -75822,7 +75822,7 @@ module.exports = {
             },
             {
               "id": 3442,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -75844,7 +75844,7 @@ module.exports = {
             },
             {
               "id": 3443,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -75866,7 +75866,7 @@ module.exports = {
             },
             {
               "id": 3444,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -75888,7 +75888,7 @@ module.exports = {
             },
             {
               "id": 3445,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -75910,7 +75910,7 @@ module.exports = {
             },
             {
               "id": 3446,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -75932,7 +75932,7 @@ module.exports = {
             },
             {
               "id": 3447,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -75954,7 +75954,7 @@ module.exports = {
             },
             {
               "id": 3448,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -75976,7 +75976,7 @@ module.exports = {
             },
             {
               "id": 3449,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -75998,7 +75998,7 @@ module.exports = {
             },
             {
               "id": 3450,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -76020,7 +76020,7 @@ module.exports = {
             },
             {
               "id": 3451,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -76042,7 +76042,7 @@ module.exports = {
             },
             {
               "id": 3452,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -76064,7 +76064,7 @@ module.exports = {
             },
             {
               "id": 3453,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -76086,7 +76086,7 @@ module.exports = {
             },
             {
               "id": 3454,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -76108,7 +76108,7 @@ module.exports = {
             },
             {
               "id": 3455,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -76130,7 +76130,7 @@ module.exports = {
             },
             {
               "id": 3456,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -76152,7 +76152,7 @@ module.exports = {
             },
             {
               "id": 3457,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -76174,7 +76174,7 @@ module.exports = {
             },
             {
               "id": 3458,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -76196,7 +76196,7 @@ module.exports = {
             },
             {
               "id": 3459,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -76218,7 +76218,7 @@ module.exports = {
             },
             {
               "id": 3460,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -76240,7 +76240,7 @@ module.exports = {
             },
             {
               "id": 3461,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -76262,7 +76262,7 @@ module.exports = {
             },
             {
               "id": 3462,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -76284,7 +76284,7 @@ module.exports = {
             },
             {
               "id": 3463,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -76306,7 +76306,7 @@ module.exports = {
             },
             {
               "id": 3464,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -76328,7 +76328,7 @@ module.exports = {
             },
             {
               "id": 3465,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -76350,7 +76350,7 @@ module.exports = {
             },
             {
               "id": 3466,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -76372,7 +76372,7 @@ module.exports = {
             },
             {
               "id": 3467,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -76394,7 +76394,7 @@ module.exports = {
             },
             {
               "id": 3468,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -76416,7 +76416,7 @@ module.exports = {
             },
             {
               "id": 3469,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -76438,7 +76438,7 @@ module.exports = {
             },
             {
               "id": 3470,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -76460,7 +76460,7 @@ module.exports = {
             },
             {
               "id": 3471,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -76482,7 +76482,7 @@ module.exports = {
             },
             {
               "id": 3472,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -76504,7 +76504,7 @@ module.exports = {
             },
             {
               "id": 3473,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -76526,7 +76526,7 @@ module.exports = {
             },
             {
               "id": 3474,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -76548,7 +76548,7 @@ module.exports = {
             },
             {
               "id": 3475,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -76570,7 +76570,7 @@ module.exports = {
             },
             {
               "id": 3476,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -76592,7 +76592,7 @@ module.exports = {
             },
             {
               "id": 3477,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -76614,7 +76614,7 @@ module.exports = {
             },
             {
               "id": 3478,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -76636,7 +76636,7 @@ module.exports = {
             },
             {
               "id": 3479,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -76658,7 +76658,7 @@ module.exports = {
             },
             {
               "id": 3480,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -76680,7 +76680,7 @@ module.exports = {
             },
             {
               "id": 3481,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -76702,7 +76702,7 @@ module.exports = {
             },
             {
               "id": 3482,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -76724,7 +76724,7 @@ module.exports = {
             },
             {
               "id": 3483,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -76746,7 +76746,7 @@ module.exports = {
             },
             {
               "id": 3484,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -76768,7 +76768,7 @@ module.exports = {
             },
             {
               "id": 3485,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -76790,7 +76790,7 @@ module.exports = {
             },
             {
               "id": 3486,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -76812,7 +76812,7 @@ module.exports = {
             },
             {
               "id": 3487,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -76834,7 +76834,7 @@ module.exports = {
             },
             {
               "id": 3488,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -76856,7 +76856,7 @@ module.exports = {
             },
             {
               "id": 3489,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -76878,7 +76878,7 @@ module.exports = {
             },
             {
               "id": 3490,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -76900,7 +76900,7 @@ module.exports = {
             },
             {
               "id": 3491,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -76922,7 +76922,7 @@ module.exports = {
             },
             {
               "id": 3492,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -76944,7 +76944,7 @@ module.exports = {
             },
             {
               "id": 3493,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -76966,7 +76966,7 @@ module.exports = {
             },
             {
               "id": 3494,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -76988,7 +76988,7 @@ module.exports = {
             },
             {
               "id": 3495,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -77010,7 +77010,7 @@ module.exports = {
             },
             {
               "id": 3496,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -77032,7 +77032,7 @@ module.exports = {
             },
             {
               "id": 3497,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -77054,7 +77054,7 @@ module.exports = {
             },
             {
               "id": 3498,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -77076,7 +77076,7 @@ module.exports = {
             },
             {
               "id": 3499,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -77098,7 +77098,7 @@ module.exports = {
             },
             {
               "id": 3500,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -77120,7 +77120,7 @@ module.exports = {
             },
             {
               "id": 3501,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -77142,7 +77142,7 @@ module.exports = {
             },
             {
               "id": 3502,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -77164,7 +77164,7 @@ module.exports = {
             },
             {
               "id": 3503,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -77186,7 +77186,7 @@ module.exports = {
             },
             {
               "id": 3504,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -77208,7 +77208,7 @@ module.exports = {
             },
             {
               "id": 3505,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -77230,7 +77230,7 @@ module.exports = {
             },
             {
               "id": 3506,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -77252,7 +77252,7 @@ module.exports = {
             },
             {
               "id": 3507,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -77274,7 +77274,7 @@ module.exports = {
             },
             {
               "id": 3508,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -77296,7 +77296,7 @@ module.exports = {
             },
             {
               "id": 3509,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -77318,7 +77318,7 @@ module.exports = {
             },
             {
               "id": 3510,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -77340,7 +77340,7 @@ module.exports = {
             },
             {
               "id": 3511,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -77362,7 +77362,7 @@ module.exports = {
             },
             {
               "id": 3512,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -77384,7 +77384,7 @@ module.exports = {
             },
             {
               "id": 3513,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -77406,7 +77406,7 @@ module.exports = {
             },
             {
               "id": 3514,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -77428,7 +77428,7 @@ module.exports = {
             },
             {
               "id": 3515,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -77450,7 +77450,7 @@ module.exports = {
             },
             {
               "id": 3516,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -77472,7 +77472,7 @@ module.exports = {
             },
             {
               "id": 3517,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -77494,7 +77494,7 @@ module.exports = {
             },
             {
               "id": 3518,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -77516,7 +77516,7 @@ module.exports = {
             },
             {
               "id": 3519,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -77538,7 +77538,7 @@ module.exports = {
             },
             {
               "id": 3520,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -77560,7 +77560,7 @@ module.exports = {
             },
             {
               "id": 3521,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -77582,7 +77582,7 @@ module.exports = {
             },
             {
               "id": 3522,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -77604,7 +77604,7 @@ module.exports = {
             },
             {
               "id": 3523,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -77626,7 +77626,7 @@ module.exports = {
             },
             {
               "id": 3524,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -77648,7 +77648,7 @@ module.exports = {
             },
             {
               "id": 3525,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -77670,7 +77670,7 @@ module.exports = {
             },
             {
               "id": 3526,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -77692,7 +77692,7 @@ module.exports = {
             },
             {
               "id": 3527,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -77714,7 +77714,7 @@ module.exports = {
             },
             {
               "id": 3528,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -77736,7 +77736,7 @@ module.exports = {
             },
             {
               "id": 3529,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -77758,7 +77758,7 @@ module.exports = {
             },
             {
               "id": 3530,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -77780,7 +77780,7 @@ module.exports = {
             },
             {
               "id": 3531,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -77802,7 +77802,7 @@ module.exports = {
             },
             {
               "id": 3532,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -77824,7 +77824,7 @@ module.exports = {
             },
             {
               "id": 3533,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -77846,7 +77846,7 @@ module.exports = {
             },
             {
               "id": 3534,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -77868,7 +77868,7 @@ module.exports = {
             },
             {
               "id": 3535,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -77890,7 +77890,7 @@ module.exports = {
             },
             {
               "id": 3536,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -77912,7 +77912,7 @@ module.exports = {
             },
             {
               "id": 3537,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -77934,7 +77934,7 @@ module.exports = {
             },
             {
               "id": 3538,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -77956,7 +77956,7 @@ module.exports = {
             },
             {
               "id": 3539,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -77978,7 +77978,7 @@ module.exports = {
             },
             {
               "id": 3540,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -78000,7 +78000,7 @@ module.exports = {
             },
             {
               "id": 3541,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -78022,7 +78022,7 @@ module.exports = {
             },
             {
               "id": 3542,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -78044,7 +78044,7 @@ module.exports = {
             },
             {
               "id": 3543,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -78066,7 +78066,7 @@ module.exports = {
             },
             {
               "id": 3544,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -78088,7 +78088,7 @@ module.exports = {
             },
             {
               "id": 3545,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -78110,7 +78110,7 @@ module.exports = {
             },
             {
               "id": 3546,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -78132,7 +78132,7 @@ module.exports = {
             },
             {
               "id": 3547,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -78154,7 +78154,7 @@ module.exports = {
             },
             {
               "id": 3548,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -78176,7 +78176,7 @@ module.exports = {
             },
             {
               "id": 3549,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -78198,7 +78198,7 @@ module.exports = {
             },
             {
               "id": 3550,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -78220,7 +78220,7 @@ module.exports = {
             },
             {
               "id": 3551,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -78242,7 +78242,7 @@ module.exports = {
             },
             {
               "id": 3552,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -78264,7 +78264,7 @@ module.exports = {
             },
             {
               "id": 3553,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -78286,7 +78286,7 @@ module.exports = {
             },
             {
               "id": 3554,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -78308,7 +78308,7 @@ module.exports = {
             },
             {
               "id": 3555,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -78330,7 +78330,7 @@ module.exports = {
             },
             {
               "id": 3556,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -78352,7 +78352,7 @@ module.exports = {
             },
             {
               "id": 3557,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -78374,7 +78374,7 @@ module.exports = {
             },
             {
               "id": 3558,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -78396,7 +78396,7 @@ module.exports = {
             },
             {
               "id": 3559,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -78418,7 +78418,7 @@ module.exports = {
             },
             {
               "id": 3560,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -78440,7 +78440,7 @@ module.exports = {
             },
             {
               "id": 3561,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -78462,7 +78462,7 @@ module.exports = {
             },
             {
               "id": 3562,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -78484,7 +78484,7 @@ module.exports = {
             },
             {
               "id": 3563,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -78506,7 +78506,7 @@ module.exports = {
             },
             {
               "id": 3564,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -78528,7 +78528,7 @@ module.exports = {
             },
             {
               "id": 3565,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -78550,7 +78550,7 @@ module.exports = {
             },
             {
               "id": 3566,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -78572,7 +78572,7 @@ module.exports = {
             },
             {
               "id": 3567,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -78594,7 +78594,7 @@ module.exports = {
             },
             {
               "id": 3568,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -78616,7 +78616,7 @@ module.exports = {
             },
             {
               "id": 3569,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -78638,7 +78638,7 @@ module.exports = {
             },
             {
               "id": 3570,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -78660,7 +78660,7 @@ module.exports = {
             },
             {
               "id": 3571,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -78682,7 +78682,7 @@ module.exports = {
             },
             {
               "id": 3572,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -78704,7 +78704,7 @@ module.exports = {
             },
             {
               "id": 3573,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -78726,7 +78726,7 @@ module.exports = {
             },
             {
               "id": 3574,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -78748,7 +78748,7 @@ module.exports = {
             },
             {
               "id": 3575,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -78770,7 +78770,7 @@ module.exports = {
             },
             {
               "id": 3576,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -78792,7 +78792,7 @@ module.exports = {
             },
             {
               "id": 3577,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -78814,7 +78814,7 @@ module.exports = {
             },
             {
               "id": 3578,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -78836,7 +78836,7 @@ module.exports = {
             },
             {
               "id": 3579,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -78858,7 +78858,7 @@ module.exports = {
             },
             {
               "id": 3580,
-              "type": "caudal",
+              "type": 2,
               "rate": 3600,
               "reports": [
                 {
@@ -78880,7 +78880,7 @@ module.exports = {
             },
             {
               "id": 3581,
-              "type": "caudal",
+              "type": 2,
               "rate": 21600,
               "reports": [
                 {
@@ -78902,7 +78902,7 @@ module.exports = {
             },
             {
               "id": 3582,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -78924,7 +78924,7 @@ module.exports = {
             },
             {
               "id": 3583,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -78946,7 +78946,7 @@ module.exports = {
             },
             {
               "id": 3584,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -78968,7 +78968,7 @@ module.exports = {
             },
             {
               "id": 3585,
-              "type": "caudal",
+              "type": 2,
               "rate": 7200,
               "reports": [
                 {
@@ -78990,7 +78990,7 @@ module.exports = {
             },
             {
               "id": 3586,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -79012,7 +79012,7 @@ module.exports = {
             },
             {
               "id": 3587,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -79034,7 +79034,7 @@ module.exports = {
             },
             {
               "id": 3588,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
@@ -79056,7 +79056,7 @@ module.exports = {
             },
             {
               "id": 3589,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -79078,7 +79078,7 @@ module.exports = {
             },
             {
               "id": 3590,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -79100,7 +79100,7 @@ module.exports = {
             },
             {
               "id": 3591,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -79122,7 +79122,7 @@ module.exports = {
             },
             {
               "id": 3592,
-              "type": "caudal",
+              "type": 2,
               "rate": 43200,
               "reports": [
                 {
@@ -79144,7 +79144,7 @@ module.exports = {
             },
             {
               "id": 3593,
-              "type": "caudal",
+              "type": 2,
               "rate": 86400,
               "reports": [
                 {
@@ -79166,7 +79166,7 @@ module.exports = {
             },
             {
               "id": 3594,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -79188,7 +79188,7 @@ module.exports = {
             },
             {
               "id": 3595,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -79210,7 +79210,7 @@ module.exports = {
             },
             {
               "id": 3596,
-              "type": "caudal",
+              "type": 2,
               "rate": 14400,
               "reports": [
                 {
@@ -79232,7 +79232,7 @@ module.exports = {
             },
             {
               "id": 3597,
-              "type": "caudal",
+              "type": 2,
               "rate": 300,
               "reports": [
                 {
@@ -79254,7 +79254,7 @@ module.exports = {
             },
             {
               "id": 3598,
-              "type": "caudal",
+              "type": 2,
               "rate": 900,
               "reports": [
                 {
@@ -79276,7 +79276,7 @@ module.exports = {
             },
             {
               "id": 3599,
-              "type": "caudal",
+              "type": 2,
               "rate": 60,
               "reports": [
                 {
@@ -79298,7 +79298,7 @@ module.exports = {
             },
             {
               "id": 3600,
-              "type": "caudal",
+              "type": 2,
               "rate": 1800,
               "reports": [
                 {
