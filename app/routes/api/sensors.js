@@ -5,32 +5,27 @@ var router = express.Router();
 //funcions for existence validaton
 var tools = require('../../modules/Validator');
 
+// postgres query helper 
+var query = require('pg-query');
+
+
 
 // on routes that end in /sensors
 // ----------------------------------------------------
 router.route('/:field_id/wells/:well_id/sensors')
 
   //get all sensors
+  
+
   .get(function(req, res) {
     var fieldId = Number(req.params.field_id);
-    var fieldIndex = tools.getFieldIndex(fieldId);
-    if( fieldIndex !== -1){
-      var wellId = Number(req.params.well_id);
-      var wellIndex = tools.getWellIndex(fieldId, wellId);
-      if(wellIndex !== -1){
-        res.json(fields[fieldIndex].wells[wellIndex].sensors);
+    var wellId = Number(req.params.well_id);
+    sql  = "SELECT * FROM sensors";
+    query(sql, function(err, result) {
+      if (err) return res.send(err);
+      res.json(result);
 
-      }else {
-        res.json('There is no well with that id');
-      }
-
-
-    } else {
-      res.json('There is no field with that id');
-    }    
-
-
-
+    });
   })
 
   // create new sensor
