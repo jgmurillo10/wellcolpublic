@@ -1,5 +1,4 @@
 var express = require('express');
-var fields = require('../../../data').fields;
 var router = express.Router();
 
 //funcions for existence validaton

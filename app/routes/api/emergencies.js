@@ -3,45 +3,41 @@
   var wells = require('../../../data').wells;
   var router = express.Router();
 
+  // Posgres database helper
+  var query = require('pg-query');
+
+
+
   // on routes that end in /emergencies
   // ----------------------------------------------------
   router.route('/')
 
     //get all emergencies
     .get(function(req, res) {
-      res.json(emergencies);
+      var sql = 'SELECT * FROM emergencies';
+      query(sql, function(err, results){
+        if(err) return res.json(err);
+
+        res.send(results);
+      });
     })
 
     //create new emergency
     .post(function(req, res) {
 
-      var wellid = req.body.wellid;
-      var wellExists = false;
-      for (var j = 0; j < wells.length; j++) {
-        if(wells[j].id === wellid){
-          wellExists = true;
-          break;
+      var well_id = req.body.well_id;
+      var state = req.body.state;
+      var sql = 'INSERT into emergencies (well_id, state) VALUES($1, $2) returning id'
+      query(sql, [well_id, state], function(err, results){
+        if(err){
+          if(err.code === "23503" && (err.detail.search('(well_id)')   !== -1)) return res.json('There is no well with that id');
+          if(err.code === "23514" && (err.constraint.search('_state_') !== -1)) return res.json('There is no sensor type with that id');
+          return res.send(err);
         }
-      }
-
-      if(wellExists){
-        var bigId = -1;
-        for (var i = 0; i < emergencies.length; i++) {
-          if(emergencies[i].id > bigId){
-            bigId = emergencies[i].id;
-          }
-        }
-      //add emergency into emergencies array
-      emergencies.push({
-        'id': bigId + 1,
-        'wellid': req.body.wellid,
-        'type': req.body.type,
-        'state': req.body.state
+        var response = results[0];
+        response.message = 'Emergency saved';
+        res.send(response);
       });
-      res.json('emergency notified.'); 
-    } else {
-      res.json('There is no well with that id. You can only notify an emergency from an exiting well');
-    }
 
   })
 
