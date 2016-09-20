@@ -1,6 +1,4 @@
   var express = require('express');
-  var emergencies    = require('../../../data').emergencies;
-  var wells = require('../../../data').wells;
   var router = express.Router();
 
   // Posgres database helper

@@ -4,11 +4,11 @@ var router = express.Router();
 // Posgres database helper
   var query = require('pg-query');
 
-// on routes that end in /zones
+// on routes that end in /regions
 // ----------------------------------------------------
 router.route('/')
 
-  // get all zones
+  // get all region
   .get(function(req, res) {
     var sql = 'SELECT * FROM regions';
       query(sql, function(err, results){
@@ -18,7 +18,7 @@ router.route('/')
       });
   })
 
-  // create new zone
+  // create new region
   .post(function(req, res) {
     var name = req.body.name;
     var sql = 'INSERT into regions (name) VALUES($1) returning id'
@@ -34,79 +34,79 @@ router.route('/')
     
   })
 
-router.route('/:zone_id')
+router.route('/:region_id')
 
-  // get zone by id
+  // get region by id
   .get(function(req, res) {
-    
-     var id = req.params.zone_id;
-    var found = false;
+    var region_id = Number(req.params.region_id);
+      sql = 'SELECT * FROM regions where id=$1'
 
-    var i = 0;
-    for (; i < zones.length; i++) {
-      if(zones[i].id == id) {
-        found = true;
-        break;
-      }
-    }
+      query(sql, [region_id], function(err, results) {
+        if (err) return res.send(err);
 
-    if(found) {
-      res.json(zones[i]);
-    } else {
-      res.json('There is not a field with that id.');
-    }
+        var response = results[0];
+        if(response === undefined) return res.json('There is no region with that id');
+        res.send(response);
+
+      }); 
+   
 
   })
 
-  // update zone
+  // update region
   .put(function(req, res) {
+    var region_id = Number(req.params.region_id);
+      var sql = 'SELECT * FROM regions WHERE id=$1';
+      query(sql, [region_id], function(err, rows) {
+        if (err) return res.send(err);
 
-    var id = req.params.zone_id;
-    var found = false;
+        var response = {};
+        if(rows.length !== 0) {
+          
+          var sql2 = 'UPDATE regions SET (name) = ($2) WHERE id=$1 returning *';
+          
+          var params = [
+            region_id,
+            req.body.name || rows[0].name
+          ];
 
-    var i = 0;
-    for (; i < zones.length; i++) {
-      if(zones[i].id == id) {
-        found = true;
-        break;
-      }
-    }
+          query(sql2, params, function(err2, rows2) {
+            if (err2) return res.send(err2);
 
-    
-    if(found) {
+            response.message = "Region updated.";
+            response.user = rows2[0];
 
-      // update zone data
-      if(req.body.name) {
-        zones[i].name = req.body.name;
-      }
-     
+            return res.json(response);
+          });
 
-      res.json('Zone updated.');
-    } else {
-      res.json('There is not a Zone with that id.');
-    }
+        } else {
+          return res.json({
+            message: "There is no region with that id."
+          });
+        }
+
+        
+      });
   })
 
   .delete(function(req, res) {
+    var region_id = Number(req.params.region_id);
+      sql = 'DELETE FROM regions WHERE id=$1 returning *'
+      query(sql, [region_id], function(err, results) {
+        
+        if (err) return res.send(err);
 
-    var id = req.params.zone_id;
-    var found = false;
+        var response = {};
+        if(results.length === 0) {
+          response.message = "There is no region with that id."
+        } else {
+          response.message = "Region deleted.";
+          response.user = results[0];
+        }
 
-    var i = 0;
-    for (; i < zones.length; i++) {
-      if(zones[i].id == id) {
-        found = true;
-        break;
-      };
-    }
-    
-    if(found) {
-      zones.splice(i,1);
+        res.json(response);
 
-      res.json('Zone deleted.');
-    } else {
-      res.json('There is not a Zone with that id.');
-    }
+      });
   })
 
 module.exports = router;
