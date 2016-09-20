@@ -66,9 +66,7 @@ router.route('/:sensor_id')
       if (err) return res.send(err);
 
       var response = results[0];
-
       if(response === undefined) return res.json('There is no sensor with that id');
-      
       res.send(response);
 
     });
@@ -77,68 +75,67 @@ router.route('/:sensor_id')
 
   // update a sensor
   .put(function(req, res){
-    var fieldId = Number(req.params.field_id);
-    var fieldIndex = tools.getFieldIndex(fieldId);
-    if( fieldIndex !== -1){
-      var wellId = Number(req.params.well_id);
-      var wellIndex = tools.getWellIndex(fieldId, wellId);
-      if(wellIndex !== -1){
-        var sensorId = Number(req.params.sensor_id);
-        var sensorIndex = tools.getSensorIndex(fieldId, wellId, sensorId);
-        if(sensorIndex !== -1){
-          var currentSensor = fields[fieldIndex].wells[wellIndex].sensors[sensorIndex];
-          if(req.body.type){
-            currentSensor.type = req.body.type;
-          }
-          if(req.body.rate){
-            currentSensor.rate = req.body.rate;
-          }
 
-          res.json('Sensor updated');
-        } else {
-          res.json('There is no sensor with that id');
-        }
+    var sensor_id = Number(req.params.sensor_id);
+    var sql = 'select * from sensors where id=$1';
 
+    query(sql, [sensor_id], function(err, rows) {
+      if (err) return res.send(err);
 
-      }else {
-        res.json('There is no well with that id');
+      var response = {};
+
+      if(rows.length !== 0) {
+        
+        var sql2 = 'update sensors set (well_id, type, rate) = ($2, $3, $4) where id=$1 returning *';
+        
+        var params = [
+          sensor_id,
+          req.body.well_id || rows[0].well_id,
+          req.body.type || rows[0].type,
+          req.body.rate || rows[0].rate
+        ];
+
+        query(sql2, params, function(err2, rows2) {
+          if (err2) return res.send(err2);
+
+          response.message = "Sensor updated.";
+          response.user = rows2[0];
+
+          return res.json(response);
+        });
+
+      } else {
+        return res.json({
+          message: "There is no sensor with that id."
+        });
       }
-      
 
-    } else {
-      res.json('There is no field with that id');
-    }
+      
+    });
 
   })
 
   // delete a sensor
 
   .delete(function(req, res){
-    var fieldId = Number(req.params.field_id);
-    var fieldIndex = tools.getFieldIndex(fieldId);
-    if( fieldIndex !== -1){
-      var wellId = Number(req.params.well_id);
-      var wellIndex = tools.getWellIndex(fieldId, wellId);
-      if(wellIndex !== -1){
-        var sensorId = Number(req.params.sensor_id);
-        var sensorIndex = tools.getSensorIndex(fieldId, wellId, sensorId);
-        if(sensorIndex !== -1){
-          
-          fields[fieldIndex].wells[wellIndex].sensors.splice(sensorIndex, 1);
-          res.json('Sensor deleted');
-        } else {
-          res.json('There is no sensor with that id');
-        }
+    var sensorId = Number(req.params.sensor_id);
+    sql = 'DELETE FROM sensors where id=$1 returning *'
 
-
-      }else {
-        res.json('There is no well with that id');
-      }
+    query(sql, [sensorId], function(err, results) {
       
+      if (err) return res.send(err);
 
-    } else {
-      res.json('There is no field with that id');
-    }
+      var response = {};
+      if(results.length === 0) {
+        response.message = "There is no sensor with that id."
+      } else {
+        response.message = "Sensor deleted.";
+        response.user = results[0];
+      }
+
+      res.json(response);
+
+    });    
 
   })
     
