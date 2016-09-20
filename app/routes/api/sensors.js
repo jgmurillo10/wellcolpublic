@@ -16,9 +16,6 @@ router.route('/')
   
   //get all sensors
   .get(function(req, res) {
-    var fieldId = Number(req.params.field_id);
-    var wellId = Number(req.params.well_id);
-
     sql  = 'SELECT * FROM sensors';
 
     query(sql, function(err, result) {
