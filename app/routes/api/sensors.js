@@ -5,8 +5,8 @@ var router = express.Router();
 //funcions for existence validaton
 var tools = require('../../modules/Validator');
 
-// postgres database connection 
-var pg = require('pg');
+// postgres query helper 
+var query = require('pg-query');
 
 
 
@@ -15,54 +15,17 @@ var pg = require('pg');
 router.route('/:field_id/wells/:well_id/sensors')
 
   //get all sensors
-  .get(function(req, res) {
-    var fieldId = Number(req.params.field_id);
-    var fieldIndex = tools.getFieldIndex(fieldId);
-    if( fieldIndex !== -1){
-      var wellId = Number(req.params.well_id);
-      var wellIndex = tools.getWellIndex(fieldId, wellId);
-      if(wellIndex !== -1){
-        res.json(fields[fieldIndex].wells[wellIndex].sensors);
-
-      }else {
-        res.json('There is no well with that id');
-      }
-
-
-    } else {
-      res.json('There is no field with that id');
-    }    
-
-
-
-  })
+  
 
   .get(function(req, res) {
     var fieldId = Number(req.params.field_id);
-    var fieldIndex = tools.getFieldIndex(fieldId);
-    if( fieldIndex !== -1){
-      var wellId = Number(req.params.well_id);
-      var wellIndex = tools.getWellIndex(fieldId, wellId);
-      if(wellIndex !== -1){
-        var client = new Client();
-        client.on('drain', client.end.bind(client)); //disconnect client when all queries are finished
-        client.connect();
-        var sql  = "SELECT * FROM sensors";
-        var query = client.query(sql, function(err, result) {
-        console.log(result.rows[0].name);
-    })
+    var wellId = Number(req.params.well_id);
+    sql  = "SELECT * FROM sensors";
+    query(sql, function(err, result) {
+      if (err) return res.send(err);
+      res.json(result);
 
-      }else {
-        res.json('There is no well with that id');
-      }
-
-
-    } else {
-      res.json('There is no field with that id');
-    }    
-
-
-
+    });
   })
 
   // create new sensor
