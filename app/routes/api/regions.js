@@ -1,7 +1,8 @@
 var express = require('express');
-var zones    = require('../../../data').zones;
-
 var router = express.Router();
+
+// Posgres database helper
+  var query = require('pg-query');
 
 // on routes that end in /zones
 // ----------------------------------------------------
@@ -9,33 +10,28 @@ router.route('/')
 
   // get all zones
   .get(function(req, res) {
-    res.json(zones);
+    var sql = 'SELECT * FROM regions';
+      query(sql, function(err, results){
+        if(err) return res.json(err);
+
+        res.send(results);
+      });
   })
 
   // create new zone
   .post(function(req, res) {
-
-    var id = req.body.id;
-    var exists = false;
-
-    for (var i = 0; i < zones.length; i++) {
-      if(zones[i].id === id) {
-        exists = true;
-        break;
-      };
-    }
-    
-    if(!exists) {
-      // add zone into zones array
-      zones.push({
-        'name': req.body.name,
-        'id': req.body.id
+    var name = req.body.name;
+    var sql = 'INSERT into regions (name) VALUES($1) returning id'
+      query(sql, [name], function(err, results){
+        if(err){
+          if(err.code === "23505" && (err.detail.search('already exists')   !== -1)) return res.json('A region with that name already exists');
+          return res.send(err);
+        }
+        var response = results[0];
+        response.message = 'Region saved';
+        res.send(response);
       });
-
-      res.json('Zone created.');
-    } else {
-      res.json('There already is a zone with that id.');
-    }
+    
   })
 
 router.route('/:zone_id')
