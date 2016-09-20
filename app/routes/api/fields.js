@@ -1,6 +1,7 @@
   var express = require('express');
   var fields = require('../../../data').fields;
   var router = express.Router();
+  var query   = require('pg-query');
 
 // on routes that end in /fields
   // ----------------------------------------------------
@@ -8,93 +9,87 @@
   
   //get all fields
     .get(function(req, res) {
-      res.json(fields);
-    })
-    
+       var sql = 'select * from fields';
+       
+       query(sql, [], function(err, rows) {
+       if (err) return res.send(err);
+       
+       res.json(rows);
+       });
+   })     
+   
+ 
     //create new field
     .post(function(req, res) {
-    var bigId = -1;
-    for (var i = 0; i < fields.length; i++) {
-      if(fields[i].id > bigId){
-        bigId = fields[i].id;
-      }
-    }
-        //add sensor into sensors array
-        fields.push({
-          'id': bigId + 1,
-          'name': req.body.name,
-          'region': req.body.region,
-          'wells': []
-        });
-      res.json('Field created.'); 
-    })
+
+    var sql = 'insert into fields (name, region) values ($1, $2) returning id;';
+
+    query(sql, [req.body.name, req.body.region], function(err, rows) {
+      if (err) return res.send(err);
+
+      var response = rows[0];
+      response.message = 'Field created.';
+
+      res.json(response);
+    });
+  })
     
     router.route('/:field_id')
     
     // get a field
   .get(function(req, res) {
-    var id = req.params.field_id;
-    var found = false;
+    
+    var sql = 'select * from fields where id=$1';
 
-    var i = 0;
-    for (; i < fields.length; i++) {
-      if(fields[i].id == id) {
-        found = true;
-        break;
+    query(sql, [req.params.field_id], function(err, rows) {
+      if (err) return res.send(err);
+
+      var response = {};
+      console.log(rows.length);
+
+      if(rows.length === 0) {
+        response.message = "There is no field with that id."
+      } else {
+        response.field = rows[0];
       }
-    }
 
-    if(found) {
-      res.json(fields[i]);
-    } else {
-      res.json('There is not a field with that id.');
-    }
+      res.json(response);
+    });
   })
 
   // Update a field
   .put(function(req, res) {
+    var sql = 'update fields set(name) =($2) where id=$1 returning *';
 
-    var id = req.params.field_id;
-    var found = false;
+    query(sql, [req.params.field_id, req.body.name], function(err, rows) {
+      if (err) return res.send(err);
 
-    var i = 0;
-    for (; i < fields.length; i++) {
-      if(fields[i].id == id) {
-        found = true;
-        break;
-      };
-    }
-    
-    if(found) {
-      // update field data
-      if(req.body.name) {
-        fields[i].name = req.body.name;
-      }
-      res.json('Field updated.');
-    } else {
-      res.json('There is not a field with that id.');
-    }
+      var response = rows[0];
+      response.message = 'Field updated.';
+
+      res.json(response);
+    });
   })
 
   .delete(function(req, res) {
-    var id = req.params.field_id;
-    var found = false;
 
-    var i = 0;
-    for (; i < fields.length; i++) {
-      if(fields[i].id == id) {
-        found = true;
-        break;
-      };
-    }
-    
-    if(found) {
-      fields.splice(i,1);
+    var sql = 'delete from fields where id=$1 returning *';
 
-      res.json('Field deleted.');
-    } else {
-      res.json('There is not a field with that id.');
-    }
+    query(sql, [req.params.field_id], function(err, rows) {
+      if (err) return res.send(err);
+
+      var response = {};
+      console.log(rows.length);
+
+      if(rows.length === 0) {
+        response.message = "There is no field with that id."
+      } else {
+        response.message = "Field deleted.";
+        response.field = rows[0];
+      }
+
+      res.json(response);
+    });
   })
 
 module.exports = router;
