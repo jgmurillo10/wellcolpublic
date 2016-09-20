@@ -76,7 +76,7 @@ router.route('/:sensor_id')
   .put(function(req, res){
 
     var sensor_id = Number(req.params.sensor_id);
-    var sql = 'select * from sensors where id=$1';
+    var sql = 'SELECT * FROM sensors WHERE id=$1';
 
     query(sql, [sensor_id], function(err, rows) {
       if (err) return res.send(err);
@@ -85,7 +85,7 @@ router.route('/:sensor_id')
 
       if(rows.length !== 0) {
         
-        var sql2 = 'update sensors set (well_id, type, rate) = ($2, $3, $4) where id=$1 returning *';
+        var sql2 = 'UPDATE sensors SET (well_id, type, rate) = ($2, $3, $4) WHERE id=$1 returning *';
         
         var params = [
           sensor_id,
@@ -118,7 +118,7 @@ router.route('/:sensor_id')
 
   .delete(function(req, res){
     var sensorId = Number(req.params.sensor_id);
-    sql = 'DELETE FROM sensors where id=$1 returning *'
+    sql = 'DELETE FROM sensors WHERE id=$1 returning *'
 
     query(sql, [sensorId], function(err, results) {
       

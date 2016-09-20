@@ -46,76 +46,78 @@
 
     // get a emergency
     .get(function(req, res){
-      var id = Number(req.params.emergency_id);
-      var exists = false;
-      var i = -1;
-      for(var i = 0; i < emergencies.length; i++) {
-        if(emergencies[i].id === id){
-          exists = true;
-          break;
-        }
-      }
+      var emergency_id = Number(req.params.emergency_id);
+      sql = 'SELECT * FROM emergencies where id=$1'
 
-      if(exists){
-        res.json(emergencies[i]);
-      } else {
-        res.json('There is no emergency with that id')
-      }
+      query(sql, [emergency_id], function(err, results) {
+        if (err) return res.send(err);
 
+        var response = results[0];
+        if(response === undefined) return res.json('There is no emergency with that id');
+        res.send(response);
+
+      });
     })
+
 
     //update a emergency
     .put(function(req, res) {
-      var id = Number(req.params.emergency_id);
-      var exists = false;
-      var i = -1;
+      var emergency_id = Number(req.params.emergency_id);
+      var sql = 'SELECT * FROM emergencies WHERE id=$1';
+      query(sql, [emergency_id], function(err, rows) {
+        if (err) return res.send(err);
 
-      for(var i = 0; i < emergencies.length; i++) {
-        if(emergencies[i].id === id){
-          exists = true;
-          break;
-        }
-      }
-      
-      if(exists) {
+        var response = {};
+        if(rows.length !== 0) {
+          
+          var sql2 = 'UPDATE emergencies SET (well_id, state) = ($2, $3) WHERE id=$1 returning *';
+          
+          var params = [
+            emergency_id,
+            req.body.well_id || rows[0].well_id,
+            req.body.state || rows[0].state
+          ];
 
-        // update emergency data
-        if(req.body.name) {
-          emergencies[i].wellid = req.body.wellid;
-        }
-        if(req.body.type) {
-          emergencies[i].type = req.body.type;
-        }
-        if(req.body.state) {
-          emergencies[i].state = req.body.state;
+          query(sql2, params, function(err2, rows2) {
+            if (err2) return res.send(err2);
+
+            response.message = "Emergency updated.";
+            response.user = rows2[0];
+
+            return res.json(response);
+          });
+
+        } else {
+          return res.json({
+            message: "There is no emergency with that id."
+          });
         }
 
-        res.json('Emergency updated.');
-      } else {
-        res.json('There is not an emergency with that id.');
-      }
+        
+      });
+
     })
 
     // delete a emergency
     .delete(function(req, res) {
-      var id = Number(req.params.emergency_id);
-      var exists = false;
-      var i = -1;
+      var emergency_id = Number(req.params.emergency_id);
+      sql = 'DELETE FROM emergencies WHERE id=$1 returning *'
+      query(sql, [emergency_id], function(err, results) {
+        
+        if (err) return res.send(err);
 
-      for(var i = 0; i < emergencies.length; i++) {
-        if(emergencies[i].id === id){
-          exists = true;
-          break;
+        var response = {};
+        if(results.length === 0) {
+          response.message = "There is no emergency with that id."
+        } else {
+          response.message = "Emergency deleted.";
+          response.user = results[0];
         }
-      }
-      
-      if(exists) {
-        emergencies.splice(i,1);
 
-        res.json('Emergency deleted.');
-      } else {
-        res.json('There is not an emergency with that id.');
-      }
+        res.json(response);
+
+      });  
+
     });
 
     module.exports = router;
