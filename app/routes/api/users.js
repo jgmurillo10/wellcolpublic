@@ -1,5 +1,6 @@
 var express = require('express');
-var users    = require('../../../data').users;
+var users   = require('../../../data').users;
+var query   = require('pg-query');
 
 var router = express.Router();
 
@@ -9,34 +10,29 @@ router.route('/')
 
   // get all users
   .get(function(req, res) {
-    res.json(users);
+
+    var sql = 'select * from users';
+
+    query(sql, [], function(err, rows) {
+      if (err) return res.send(err);
+
+      res.json(rows);
+    });
   })
 
   // create new user
   .post(function(req, res) {
 
-    var id = req.body.id;
-    var exists = false;
+    var sql = 'insert into users (name, user_type) values ($1, $2) returning id;';
 
-    for (var i = 0; i < users.length; i++) {
-      if(users[i].id === id) {
-        exists = true;
-        break;
-      };
-    }
-    
-    if(!exists) {
-      // add user into users array
-      users.push({
-        'name': req.body.name,
-        'status': req.body.status,
-        'id': req.body.id
-      });
+    query(sql, [req.body.name, req.body.user_type], function(err, rows) {
+      if (err) return res.send(err);
 
-      res.json('User created.');
-    } else {
-      res.json('There already is an user with that id.');
-    }
+      var response = rows[0];
+      response.message = 'User created.';
+
+      res.json(response);
+    });
   })
 
 router.route('/:user_id')
@@ -44,22 +40,22 @@ router.route('/:user_id')
   // get all users
   .get(function(req, res) {
     
-    var id = req.params.user_id;
-    var found = false;
+    var sql = 'select * from users where id=$1';
 
-    var i = 0;
-    for (; i < users.length; i++) {
-      if(users[i].id === id) {
-        found = true;
-        break;
+    query(sql, [req.params.user_id], function(err, rows) {
+      if (err) return res.send(err);
+
+      var response = {};
+      console.log(rows.length);
+
+      if(rows.length === 0) {
+        response.message = "There is no user with that id."
+      } else {
+        response.user = rows[0];
       }
-    }
 
-    if(found) {
-      res.json(users[i]);
-    } else {
-      res.json('There is not an user with that id.');
-    }
+      res.json(response);
+    });
 
   })
 
@@ -71,7 +67,7 @@ router.route('/:user_id')
 
     var i = 0;
     for (; i < users.length; i++) {
-      if(users[i].id === id) {
+      if(users[i].id == id) {
         found = true;
         break;
       };
@@ -95,24 +91,23 @@ router.route('/:user_id')
 
   .delete(function(req, res) {
 
-    var id = req.params.user_id;
-    var found = false;
+    var sql = 'delete from users where id=$1 returning *';
 
-    var i = 0;
-    for (; i < users.length; i++) {
-      if(users[i].id === id) {
-        found = true;
-        break;
-      };
-    }
-    
-    if(found) {
-      users.splice(i,1);
+    query(sql, [req.params.user_id], function(err, rows) {
+      if (err) return res.send(err);
 
-      res.json('User deleted.');
-    } else {
-      res.json('There is not an user with that id.');
-    }
+      var response = {};
+      console.log(rows.length);
+
+      if(rows.length === 0) {
+        response.message = "There is no user with that id."
+      } else {
+        response.message = "User deleted.";
+        response.user = rows[0];
+      }
+
+      res.json(response);
+    });
   })
 
 module.exports = router;

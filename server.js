@@ -8,6 +8,8 @@ var bodyParser = require('body-parser'); // get body-parser
 var morgan     = require('morgan');      // used to see requests
 var config     = require('./config');
 var path       = require('path'); 
+var pg         = require('pg'); 
+var query      = require('pg-query'); 
 
 // APP CONFIGURATION
 // ==============================================
@@ -30,6 +32,12 @@ app.use(morgan('dev'));
 // set static files location
 // used for requests that our frontend will make
 app.use(express.static(__dirname + '/public'));
+
+// enable SSL on postgres requests
+pg.defaults.ssl = true;
+
+// configure URL for Heroku postgres
+query.connectionParameters = process.env.DATABASE_URL || config.postgresUrl;
 
 // ROUTES FOR OUR API
 // ==============================================
