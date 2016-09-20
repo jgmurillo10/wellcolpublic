@@ -62,31 +62,41 @@ router.route('/:user_id')
   // create new user
   .put(function(req, res) {
 
-    var id = req.params.user_id;
-    var found = false;
+    var sql = 'select * from users where id=$1';
 
-    var i = 0;
-    for (; i < users.length; i++) {
-      if(users[i].id == id) {
-        found = true;
-        break;
-      };
-    }
-    
-    if(found) {
+    query(sql, [req.params.user_id], function(err, rows) {
+      if (err) return res.send(err);
 
-      // update user data
-      if(req.body.name) {
-        users[i].name = req.body.name;
+      var response = {};
+
+      if(rows.length !== 0) {
+        
+        var sql2 = 'update users set (name, user_type) = ($2, $3) where id=$1 returning *';
+        
+        var params = [
+          req.params.user_id,
+          req.body.name || rows[0].name,
+          req.body.user_type || rows[0].user_type
+        ];
+
+        query(sql2, params, function(err2, rows2) {
+          if (err2) return res.send(err2);
+
+          response.message = "User updated.";
+          response.user = rows2[0];
+
+          return res.json(response);
+        });
+
+      } else {
+        return res.json({
+          message: "There is no user with that id."
+        });
       }
-      if(req.body.status) {
-        users[i].status = req.body.status;
-      }
 
-      res.json('User updated.');
-    } else {
-      res.json('There is not an user with that id.');
-    }
+      
+    });
+
   })
 
   .delete(function(req, res) {
