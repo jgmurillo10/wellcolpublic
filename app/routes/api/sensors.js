@@ -12,15 +12,12 @@ var query = require('pg-query');
 
 // on routes that end in /sensors
 // ----------------------------------------------------
-router.route('/:field_id/wells/:well_id/sensors')
-
-  //get all sensors
-  
-
   .get(function(req, res) {
     var fieldId = Number(req.params.field_id);
     var wellId = Number(req.params.well_id);
-    sql  = "SELECT * FROM sensors";
+
+    sql  = 'SELECT * FROM sensors';
+
     query(sql, function(err, result) {
       if (err) return res.send(err);
       res.json(result);
@@ -28,31 +25,33 @@ router.route('/:field_id/wells/:well_id/sensors')
     });
   })
 
+
+
+// on routes that end in /sensors
+// ----------------------------------------------------
+router.route('/:field_id/wells/:well_id/sensors')
+
+  //get all sensors
+  
+
+  
+
   // create new sensor
   .post(function(req, res){
-    var fieldId = Number(req.params.field_id);
-    var fieldIndex = tools.getFieldIndex(fieldId);
-    if( fieldIndex !== -1){
-      var wellId = Number(req.params.well_id);
-      var wellIndex = tools.getWellIndex(fieldId, wellId);
-      if(wellIndex !== -1){
-        var id = fields[fieldIndex].wells[wellIndex].sensors.length + 1;
-        var newSensor = {
-          'id': id,
-          'type': req.body.type,
-          'rate': req.body.rate,
-          'records': []
-        }
-        fields[fieldIndex].wells[wellIndex].sensors.push(newSensor);
-        res.json(newSensor);
-      }else {
-        res.json('There is no well with that id');
-      }
-      
+    var fieldId = Number(req.params.field_id); // esto ya no se va a usar
+    var wellId = Number(req.params.well_id);
+    var type = req.body.type;
+    var rate = req.body.rate;
 
-    } else {
-      res.json('There is no field with that id');
-    }
+    sql = 'insert into sensors (well_id, type, rate) values ($1, $2, $3) returning id;'
+    
+    query(sql, function(err, result) {
+      if (err) return res.send(err);
+      var response = rows[0];
+      response.message = 'Sensor created.';
+      res.json(response);
+
+    });
 
   })
 
@@ -62,6 +61,7 @@ router.route('/:field_id/wells/:well_id/sensors/:sensor_id')
   .get(function(req, res){
     var fieldId = Number(req.params.field_id);
     var fieldIndex = tools.getFieldIndex(fieldId);
+    
     if( fieldIndex !== -1){
       var wellId = Number(req.params.well_id);
       var wellIndex = tools.getWellIndex(fieldId, wellId);
