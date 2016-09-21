@@ -22,10 +22,10 @@ router.route('/:sensor_id/records')
 
     sql = 'SELECT * FROM sensor_records  '
 
-    query(sql, function(err, results) {
+    query(sql2,[sensor_id], function(err, results) {
       
       if (err) return res.send(err);
-       var response = results[0];
+       var response = results;
       if(response === undefined) return res.json('There is no sensor records');
       res.json(response);
 
