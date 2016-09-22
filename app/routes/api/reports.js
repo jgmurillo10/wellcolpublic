@@ -4,6 +4,7 @@ var express = require('express');
 var fields = require('../../../data').fields;
 var wells = require('../../../data').wells;
 var router = express.Router();
+var query   = require('pg-query');
 
 var report_types = require('../../modules/constants').report_types;
 var tools = require('../../modules/Validator');
@@ -17,37 +18,51 @@ router.route('/regions/:region/:report_type/')
 
   // get report from a region in an specified interval
   .get(function(req, res){
-    var region = req.params.region;
+
+    var region = req.params.field_id;
     var reportType = req.params.report_type;
     var from = req.query.from;
     var to = req.query.to;
 
-    // check if the region exists
-    if(tools.existsRegion(region)){
+    if (reportType === 'energy' ||
+        reportType === 'flow'  ||
+        reportType === 'temperature') {
 
-      if(tools.validReportType(reportType)){
+      var report = {};
 
-        var report = {};
+      var sql = "select coalesce(" + (reportType === 'flow' ? "sum" : "avg") + "(sr.value),0) from regions r, sensor_types st, fields f, sensors s, wells w, sensor_records sr where s.well_id = w.id AND w.field_id = f.id AND r.name = $1 AND r.id = f.region AND st.name = $2 AND s.type = st.id AND sr.sensor_id = s.id AND sr.date > $3 AND sr.date < $4";
 
-        if (reportType === 'consumo_energetico') {
-          report = reporter.getRegionEnergyReport(region, reportType, from, to);
-        }
-        else if (reportType === 'produccion_fluido') {
-          report = reporter.getRegionFlowReport(region, reportType, from, to);
-        }
-        else if (reportType === 'temperatura') {
-          report = reporter.getRegionTempReport(region, reportType, from, to);
-        }
-        
-        res.json(report);
+      var params = [region, reportType];
 
-      } else {
-        res.json({'message': 'That is not valid report type'});
+      if (!from && !to) {
+        params.push(new Date(0));
+        params.push(new Date());
+      }
+      if (from && !to) {
+        params.push(from);
+        params.push(new Date());
+      }
+      else if (!from && to) {
+        params.push(new Date(0));
+        params.push(to);
+      }
+      else if (from && to) {
+        params.push(from);
+        params.push(to);
       }
 
+      query(sql, params, function(err, rows) {
+        if (err) return res.send(err);
+
+        report.value = rows[0].coalesce;
+        
+        res.json(report);
+      });
     } else {
-      res.json({'message': 'There is no region with that name'});
+      res.json({ message: "No corresponde a un tipo de reporte." });
     }
+
+    
 
   })
 
@@ -60,63 +75,96 @@ router.route('/fields/:field_id/:report_type/')
     var reportType = req.params.report_type;
     var from = req.query.from;
     var to = req.query.to;
-    
-    if(tools.existsField(fieldId)){
-      if(tools.validReportType(reportType)){
 
-        var report = {};
+    if (reportType === 'energy' ||
+        reportType === 'flow'  ||
+        reportType === 'temperature') {
 
-        if (reportType === 'consumo_energetico') {
-          report = reporter.getFieldEnergyReport(fieldId, reportType, from, to);
-        }
-        else if (reportType === 'produccion_fluido') {
-          report = reporter.getFieldFlowReport(fieldId, reportType, from, to);
-        }
-        else if (reportType === 'temperatura') {
-          report = reporter.getFieldTempReport(fieldId, reportType, from, to);
-        }
+      var report = {};
+
+      var sql = "select coalesce(" + (reportType === 'flow' ? "sum" : "avg") + "(sr.value),0) from sensor_types st, fields f, sensors s, wells w, sensor_records sr where s.well_id = w.id AND w.field_id = f.id AND f.id = $1 AND st.name = $2 AND s.type = st.id AND sr.sensor_id = s.id AND sr.date > $3 AND sr.date < $4";
+
+      var params = [fieldId, reportType];
+
+      if (!from && !to) {
+        params.push(new Date(0));
+        params.push(new Date());
+      }
+      if (from && !to) {
+        params.push(from);
+        params.push(new Date());
+      }
+      else if (!from && to) {
+        params.push(new Date(0));
+        params.push(to);
+      }
+      else if (from && to) {
+        params.push(from);
+        params.push(to);
+      }
+
+      query(sql, params, function(err, rows) {
+        if (err) return res.send(err);
+
+        report.value = rows[0].coalesce;
         
         res.json(report);
-
-      } else {
-        res.json({'message': 'This is not a valid report type'})
-      }
- 
+      });
     } else {
-      res.json({'message': 'There is no field with that id. You can only request a report frmo an existing field'});
-      }
+      res.json({ message: "No corresponde a un tipo de reporte." });
+    }
+
+    
   })
 
-router.route('/fields/:field_id/wells/:well_id/:report_type/')
+router.route('/wells/:well_id/:report_type/')
 
   // get report from a well in an specified interval
   .get(function(req, res){
-    var wellId = Number(req.params.well_id);
-    var fieldId = Number(req.params.field_id);
+    var wellId = Number(req.params.field_id);
     var reportType = req.params.report_type;
     var from = req.query.from;
     var to = req.query.to;
-    
-    
-      if(tools.validReportType(reportType)){
 
-        var report = {};
+    if (reportType === 'energy' ||
+        reportType === 'flow'  ||
+        reportType === 'temperature') {
 
-        if (reportType === 'consumo_energetico') {
-          report = reporter.getWellEnergyReport(wellId, fieldId, reportType, from, to);
-        }
-        else if (reportType === 'produccion_fluido') {
-          report = reporter.getWellFlowReport(wellId, fieldId, reportType, from, to);
-        }
-        else if (reportType === 'temperatura') {
-          report = reporter.getWellTempReport(wellId, fieldId, reportType, from, to);
-        }
+      var report = {};
+
+      var sql = "select coalesce(" + (reportType === 'flow' ? "sum" : "avg") + "(sr.value),0) from sensor_types st, sensors s, wells w, sensor_records sr where s.well_id = w.id AND w.id = $1 AND st.name = $2 AND s.type = st.id AND sr.sensor_id = s.id AND sr.date > $3 AND sr.date < $4";
+
+      var params = [wellId, reportType];
+
+      if (!from && !to) {
+        params.push(new Date(0));
+        params.push(new Date());
+      }
+      if (from && !to) {
+        params.push(from);
+        params.push(new Date());
+      }
+      else if (!from && to) {
+        params.push(new Date(0));
+        params.push(to);
+      }
+      else if (from && to) {
+        params.push(from);
+        params.push(to);
+      }
+
+      query(sql, params, function(err, rows) {
+        if (err) return res.send(err);
+
+        report.value = rows[0].coalesce;
         
         res.json(report);
+      });
+    } else {
+      res.json({ message: "No corresponde a un tipo de reporte." });
+    }
 
-      } else {
-        res.json({'message': 'This is not a valid report tyye'});
-      }
+    
   })
 
 router.route('/wells/:well_id/:report_type')
