@@ -15,11 +15,10 @@ var reporter = require('../../modules/Reporter');
 
 router.route('/regions/:region/:report_type/')
   
-
   // get report from a region in an specified interval
   .get(function(req, res){
 
-    var region = req.params.field_id;
+    var region = req.params.region;
     var reportType = req.params.report_type;
     var from = req.query.from;
     var to = req.query.to;
@@ -61,11 +60,7 @@ router.route('/regions/:region/:report_type/')
     } else {
       res.json({ message: "No corresponde a un tipo de reporte." });
     }
-
-    
-
   })
-
 
 router.route('/fields/:field_id/:report_type/')
 
@@ -113,15 +108,13 @@ router.route('/fields/:field_id/:report_type/')
     } else {
       res.json({ message: "No corresponde a un tipo de reporte." });
     }
-
-    
   })
 
 router.route('/wells/:well_id/:report_type/')
 
   // get report from a well in an specified interval
   .get(function(req, res){
-    var wellId = Number(req.params.field_id);
+    var wellId = Number(req.params.well_id);
     var reportType = req.params.report_type;
     var from = req.query.from;
     var to = req.query.to;
@@ -163,8 +156,6 @@ router.route('/wells/:well_id/:report_type/')
     } else {
       res.json({ message: "No corresponde a un tipo de reporte." });
     }
-
-    
   })
 
 router.route('/wells/:well_id/:report_type')
