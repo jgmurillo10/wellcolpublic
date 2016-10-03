@@ -1,9 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Well Col</title>
+	<title>Welcome to WellCol!</title>
+	<meta charset="utf-8">
+
+	<base href="/">
+		<!-- CSS -->
+		<!-- Load bootstrap and our stylesheet-->
+	
+		 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/paper/bootstrap.min.css"> 
+		 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css">  
+		 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css"> 
+		 <link rel="stylesheet" href="assets/css/style.css"> 
+
+		<!--JS-->
+		<!--Load angular to our custom app-->
+
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script> 
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-route.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-animate.js"></script>
+
+		<!-- controllers --> 
+		<script src="app/components/mainCtrl.js"></script>
+		<script src="app/components/emergency/emergencyCtrl.js"></script> 
+		<script src="app/components/field/fieldCtrl.js"></script> 
+		<script src="app/components/record/recordCtrl.js"></script> 
+		<script src="app/components/region/regionCtrl.js"></script> 
+		<script src="app/components/report/reportCtrl.js"></script> 
+		<script src="app/components/sensor/sensorCtrl.js"></script> 
+		<script src="app/components/user/userCtrl.js"></script> 
+		<script src="app/components/well/wellCtrl.js"></script> 
+
+		<!-- services -->
+		<script src="app/components/authService.js"></script> 
+		<script src="app/components/emergency/emergencyService.js"></script> 
+		<script src="app/components/field/fieldService.js"></script> 
+		<script src="app/components/record/recordService.js"></script> 
+		<script src="app/components/region/regionService.js"></script> 
+		<script src="app/components/report/reportService.js"></script> 
+		<script src="app/components/sensor/sensorService.js"></script> 
+		<script src="app/components/user/userService.js"></script> 
+		<script src="app/components/well/wellService.js"></script> 
+
+		<!-- main Angular app files -->
+		<script src="app/app.js"></script>
+		<script src="app/app.routes.js"></script>
 </head>
-<body>
-	<h1>Hola Mundo!</h1>
-</body>
+	<body class="container" ng-app="wellCol" ng-controller="mainController as main">
+		<!--header and navbar-->
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+					<a href="/">Well Col</a>
+				</div>
+				<!-- <ul class="nav navbar-nav navbar-right">
+					<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+					<li><a href="/wells"><i class="fa fa-shields"></i>Wells</a></li>
+				</ul> -->
+			</nav>
+		</header>
+
+		<!--main content and injected views-->
+		<main>
+			<div ng-view></div>
+		</main>
+		
+
+	</body>
 </html>
