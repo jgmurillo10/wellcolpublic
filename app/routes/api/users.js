@@ -4,6 +4,51 @@ var query   = require('pg-query');
 
 var router = express.Router();
 
+router.post('/auth', function(req, res) {
+
+  var sql = 'SELECT * FROM users WHERE username = $1';
+    
+  query.first(sql, req.body.username, function(err, user) {
+    if (err) res.send(err);
+
+    if (!user) {
+      res.json({ 
+        success: false, 
+        message: 'Authentication failed. User not found.' 
+      });
+    } else if (user) {
+
+      // check if password matches
+      var validPassword = bcrypt.compareSync(req.body.password, user.password);
+
+      if (!validPassword) {
+        res.json({ 
+          success: false, 
+          message: 'Authentication failed. Wrong password.' 
+        });
+      } else {
+
+        // if user is found and password is right
+        // create a token
+        var token = jwt.sign({
+          name: user.name,
+          username: user.username
+        }, superSecret, {
+          expiresIn: "2 days" // expires in 2 days
+                              // this is using a rauchg/ms time span
+        });
+
+        // return the information including token as JSON
+        res.json({
+          success: true,
+          message: 'Enjoy your token!',
+          token: token
+        });
+      }   
+    }
+  });
+});
+
 // on routes that end in /users
 // ----------------------------------------------------
 router.route('/')
