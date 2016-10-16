@@ -1,24 +1,24 @@
 <div class="row col-sm-6 col-sm-offset-3">
 	<div class="jumbotron">
 		<h1>Login</h1>
-		<form>
+		<form ng-submit="main.doLogin()">
 			<!--USERNAME INPUT-->
 			<div class="form-group">
 				<label>Username</label>
-				<input type="text" class="form-control" >
+				<input type="text" class="form-control" ng-model="main.loginData.username">
 			</div>
 
 			<!--PASSWORD INPUT-->
 			<div class="form-group">
 				<label>Password</label>
-				<input type="password" class="form-control" >
+				<input type="password" class="form-control" ng-model="main.loginData.password">
 			</div>
 
 
 			<!--LOGIN BUTTON-->
 			<button type="submit" class="btn btn-block btn-primary">
-				<span ng-if="!login.processing">Login</span>
-				<span ng-if="login.processing" class="spinner">
+				<span ng-if="!main.processing">Login</span>
+				<span ng-if="main.processing" class="spinner">
 					<span class="glyphicon glyphicon-repeat"></span>
 				</span>
 			</button>

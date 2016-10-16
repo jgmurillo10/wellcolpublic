@@ -9,16 +9,16 @@
 		<!-- Load bootstrap and our stylesheet-->
 	
 		 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/paper/bootstrap.min.css"> 
-		 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css">  
+		 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css"> 
 		 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css"> 
 		 <link rel="stylesheet" href="assets/css/style.css"> 
 
 		<!--JS-->
 		<!--Load angular to our custom app-->
 
-		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script> 
-		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-route.js"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-animate.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+		
 
 		<!-- controllers --> 
 		<script src="app/components/mainCtrl.js"></script>
@@ -62,7 +62,7 @@
 
 		<!--main content and injected views-->
 		<main>
-			<div ng-view></div>
+			<div ui-view></div>
 		</main>
 		
 
