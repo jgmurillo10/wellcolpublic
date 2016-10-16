@@ -30,6 +30,9 @@ var middleware = function(req, res, next) {
     jwt.verify(token, superSecret, function(err, decoded) {      
 
       if (err) {
+
+        console.log(err);
+
         res.status(403).send({ 
           success: false, 
           message: 'Failed to authenticate token.' 

@@ -12,6 +12,8 @@ router.route('/')
   .get(function(req, res) {
 
     var sql = 'SELECT name, username FROM users WHERE username = $1';
+
+    console.log(req.decoded);
     
     query.first(sql, req.decoded.username, function(err, rows) {
       if (err) res.send(err);

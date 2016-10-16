@@ -1,6 +1,12 @@
 var express = require('express');
 var users   = require('../../../data').users;
 var query   = require('pg-query');
+var bcrypt  = require('bcrypt');
+var jwt     = require('jsonwebtoken');
+var config  = require('../../../config');
+
+// super secret for creating tokens
+var superSecret = config.secret;
 
 var router = express.Router();
 
@@ -8,13 +14,16 @@ router.post('/auth', function(req, res) {
 
   var sql = 'SELECT * FROM users WHERE username = $1';
     
-  query.first(sql, req.body.username, function(err, user) {
-    if (err) res.send(err);
+  query.first(sql, [req.body.username], function(err, user) {
+    if (err) {
+      console.log(err);
+      res.send(err);
+    }
 
     if (!user) {
       res.json({ 
         success: false, 
-        message: 'Authentication failed. User not found.' 
+        message: 'Authentication failed. User not found.: ' + req.body.username 
       });
     } else if (user) {
 
