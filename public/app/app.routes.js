@@ -15,11 +15,18 @@ angular.module('app.routes', ['ui.router'])
       url         : "/home",
       templateUrl : "app/views/pages/home.html"
     })
+    .state('dashboard', {
+      url         : "/dashboard",
+      templateUrl : "app/views/pages/dashboard.html"
 
-    // .state('wells', {
-    //   url         : "/wells",
-    //   templateUrl : "app/views/pages/wells.html"
-    // })
+    })
+    .state('dashboard.list', {
+          url: '/test',
+          templateUrl: 'app/views/pages/regions/regions.html',
+          controller: function($scope) {
+              // Anything we want
+          }
+      })
     .state('regions', {
       url         : "/regions",
       templateUrl : "app/views/pages/regions/regions.html"

@@ -31,7 +31,7 @@ angular.module('mainCtrl', [])
 
         // if a user successfully logs in, redirect to users page
         if (data.success)     
-          $state.go('wells');
+          $state.go('dashboard');
         else 
           vm.error = data.message;
         

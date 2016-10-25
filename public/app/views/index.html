@@ -49,10 +49,15 @@
 	<body class="container" ng-app="wellCol" ng-controller="mainController as main">
 		<!--header and navbar-->
 		<header>
-			<nav class="navbar navbar-default">
+			<nav class="navbar navbar-inverse" ng-if="main.loggedIn">
 				<div class="navbar-header">
 					<a href="/">Well Col</a>
 				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<li ng-if="!main.loggedIn"><a href="/login">Login</a></li>
+					<li ng-if="main.loggedIn" class="navbar-text">Hello {{ main.user.username }}!</li>
+					<li ng-if="main.loggedIn"><a href="#" ng-click="main.doLogout()">Logout</a></li>
+				</ul>
 				<!-- <ul class="nav navbar-nav navbar-right">
 					<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
 					<li><a href="/wells"><i class="fa fa-shields"></i>Wells</a></li>
