@@ -8,9 +8,9 @@
 		<!-- CSS -->
 		<!-- Load bootstrap and our stylesheet-->
 	
-		 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/paper/bootstrap.min.css"> 
+		 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/paper/bootstrap.min.css">
 		 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css"> 
-		 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css"> 
+		 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.css"> 
 		 <link rel="stylesheet" href="assets/css/style.css"> 
 
 		<!--JS-->
@@ -55,8 +55,8 @@
 				</div>
 				<ul class="nav navbar-nav navbar-right">
 					<li ng-if="!main.loggedIn"><a href="/login">Login</a></li>
-					<li ng-if="main.loggedIn" class="navbar-text">Hello {{ main.user.username }}!</li>
-					<li ng-if="main.loggedIn"><a href="#" ng-click="main.doLogout()">Logout</a></li>
+					<li ng-if="main.loggedIn" class="navbar-text">   Hello {{ main.user.username }}!    </li>
+					<li ng-if="main.loggedIn"><a href="#" ng-click="main.doLogout()">   Logout   </a></li>
 				</ul>
 				<!-- <ul class="nav navbar-nav navbar-right">
 					<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
@@ -64,7 +64,6 @@
 				</ul> -->
 			</nav>
 		</header>
-
 		<!--main content and injected views-->
 		<main>
 			<div ui-view></div>
