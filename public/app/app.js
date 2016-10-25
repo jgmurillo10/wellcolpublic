@@ -1,4 +1,4 @@
-angular.module('wellCol', ['app.routes', 'authService', 'mainCtrl'])
+angular.module('wellCol', ['app.routes', 'authService', 'mainCtrl','regionCtrl','regionService','fieldCtrl','fieldService','wellCtrl','wellService'])
 
 // application configuration to integrate token into requests
 .config(function($httpProvider) {

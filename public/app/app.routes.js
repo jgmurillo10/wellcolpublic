@@ -1,7 +1,7 @@
 angular.module('app.routes', ['ui.router'])
 
 .config(function($stateProvider, $urlRouterProvider, $locationProvider) {
-  $urlRouterProvider.otherwise("/");
+  $urlRouterProvider.otherwise("/home");
   $locationProvider.html5Mode(true);
   $stateProvider
 
@@ -16,9 +16,21 @@ angular.module('app.routes', ['ui.router'])
       templateUrl : "app/views/pages/home.html"
     })
 
+    // .state('wells', {
+    //   url         : "/wells",
+    //   templateUrl : "app/views/pages/wells.html"
+    // })
+    .state('regions', {
+      url         : "/regions",
+      templateUrl : "app/views/pages/regions/regions.html"
+    })
+    .state('fields', {
+      url         : "/regions/fields",
+      templateUrl : "app/views/pages/fields/fields.html"
+    })
     .state('wells', {
-      url         : "/wells",
-      templateUrl : "app/views/pages/wells.html"
+      url         : "/regions/fields/wells",
+      templateUrl : "app/views/pages/wells/wells.html"
     });
 
 });
