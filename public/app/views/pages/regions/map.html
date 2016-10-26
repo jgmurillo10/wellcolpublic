@@ -1,0 +1,14 @@
+<div class="jumbotron text-center" ng-controller="regionController as region">
+	<h1>Maps page</h1>
+	<div class="table-responsive">
+
+		<table class="table">
+			<tbody ng-repeat="re in region.regions">
+				<tr>
+					<td><a ><button class="btn btn-lg">{{re.name}}</button></a></td>
+				</tr>
+			</tbody>
+		</table>
+		
+	</div>
+</div>

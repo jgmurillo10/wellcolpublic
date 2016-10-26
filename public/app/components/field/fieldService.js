@@ -1,6 +1,6 @@
 angular.module('fieldService', [])
 
-.factory('field', function($http) {
+.factory('Field', function($http) {
 
 	// create a new object
 	var fieldFactory = {};
@@ -11,12 +11,12 @@ angular.module('fieldService', [])
 	};
 
 	// create a field
-	fieldFactory.create = function(userData) {
+	fieldFactory.create = function(fieldData) {
 		return $http.post('/api/fields/', fieldData);
 	};
 
 	// update field
-	fieldFactory.update = function(id, userData) {
+	fieldFactory.update = function(id, fieldData) {
 		return $http.put('/api/fields/', fieldData);
 	};
 
