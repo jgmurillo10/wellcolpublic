@@ -6,23 +6,27 @@ angular.module('reportService', [])
 	var reportFactory = {};
 
 	// get a single report
-	reportFactory.get = function(id) {
-		return $http.get('/api/reports/');
-	};
+	reportFactory.get = function(reportArea, reportType, idArea, beginDate) {
+		
+		var uri = '/api/reports/';
+		if(reportArea === 'zone'){
+			uri += 'zones'
+		}
+		else if(reportArea === 'field'){
+			uri += 'fields'
+		}
+		else if(reportArea === 'well'){
+			uri += 'wells'
+		}
+		else {
+			return error; // how to throw and error?
+		}
 
-	// create a report
-	reportFactory.create = function(reportData) {
-		return $http.post('/api/reports/', reportData);
-	};
+		uri += '/' + idArea;
+		uri += '/' + reportType;
 
-	// update report
-	reportFactory.update = function(id, reportData) {
-		return $http.put('/api/reports/', reportData);
-	};
-
-	// delete a report
-	reportFactory.delete = function(id) {
-		return $http.delete('/api/reports/');
+		// now we add the dates
+		return $http.get(uri);
 	};
 
 	// return our entire reportFactory object
