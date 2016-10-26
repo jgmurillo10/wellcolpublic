@@ -26,11 +26,7 @@ angular.module('reportService', [])
 		uri += '/' + reportType;
 
 		// now we add the dates
-		
-		
-
-		if()
-		return $http.get('/api/reports/');
+		return $http.get(uri);
 	};
 
 	// return our entire reportFactory object

@@ -1,4 +1,4 @@
-angular.module('app.routes', ['ui.router'])
+angular.module('app.routes', ['ui.router')
 
 .config(function($stateProvider, $urlRouterProvider, $locationProvider) {
   $urlRouterProvider.otherwise("/home");
@@ -23,7 +23,9 @@ angular.module('app.routes', ['ui.router'])
               '': { templateUrl: 'app/views/pages/dashboard.html' },
 
               // the child views will be defined here (absolutely named)
-              'map@dashboard': { template: 'Here is where the map goes!' },
+              'map@dashboard': { 
+                  templateUrl: 'app/views/pages/default.html',
+                },
 
               // for column two, we'll define a separate controller 
               'right-panel@dashboard': { 
