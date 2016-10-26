@@ -15,11 +15,23 @@ angular.module('app.routes', ['ui.router'])
       url         : "/home",
       templateUrl : "app/views/pages/home.html"
     })
+    .state('dashboard', {
+      url         : "/dashboard",
+      views: { // here we are talking about the concept of view. You can have multiple views on the same state
 
-    // .state('wells', {
-    //   url         : "/wells",
-    //   templateUrl : "app/views/pages/wells.html"
-    // })
+              // the main template will be placed here (relatively named)
+              '': { templateUrl: 'app/views/pages/dashboard.html' },
+
+              // the child views will be defined here (absolutely named)
+              'map@dashboard': { template: 'Here is where the map goes!' },
+
+              // for column two, we'll define a separate controller 
+              'right-panel@dashboard': { 
+                  templateUrl: 'app/views/pages/default.html'
+              }
+          }
+
+    })
     .state('regions', {
       url         : "/regions",
       views       : {

@@ -30,8 +30,11 @@ angular.module('mainCtrl', [])
         vm.processing = false;      
 
         // if a user successfully logs in, redirect to users page
-        if (data.success)     
-          $state.go('wells');
+        if (data.success){
+          vm.loggedIn = Auth.isLoggedIn();
+          $state.go('dashboard');
+        }     
+          
         else 
           vm.error = data.message;
         
@@ -41,6 +44,7 @@ angular.module('mainCtrl', [])
   // function to handle logging out
   vm.doLogout = function() {
     Auth.logout();
+    vm.loggedIn = Auth.isLoggedIn();
     vm.user = '';
     
     $state.go('login');
