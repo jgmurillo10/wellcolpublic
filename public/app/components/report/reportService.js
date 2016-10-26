@@ -1,6 +1,6 @@
 angular.module('reportService', [])
 
-.factory('report', function($http) {
+.factory('Report', function($http) {
 
 	// create a new object
 	var reportFactory = {};

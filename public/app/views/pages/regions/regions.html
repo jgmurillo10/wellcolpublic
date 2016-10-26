@@ -1,4 +1,20 @@
-<div class="jumbotron text-center">
+<!-- <div class="jumbotron text-center">
 	<h1>Regions page</h1>
 	<p>{{region.message}}</p>
 </div>
+ -->
+<div class="row" ng-controller="regionController as region">
+
+
+    <!-- COLUMN ONE NAMED VIEW -->
+    <div class="col-sm-6">
+        <div ui-view="map"></div>
+    </div>
+    
+    <!-- COLUMN TWO NAMED VIEW -->
+    <div class="col-sm-6">
+        <div ui-view="description"></div>
+    </div>
+
+
+</div>  

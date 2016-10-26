@@ -1,6 +1,6 @@
 angular.module('regionService', [])
 
-.factory('region', function($http) {
+.factory('Region', function($http) {
 
 	// create a new object
 	var regionFactory = {};
