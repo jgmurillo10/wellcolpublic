@@ -109,4 +109,44 @@ router.route('/:region_id')
       });
   })
 
+  // fields in regions
+  router.route('/:region_id/fields')
+
+  // get fields by  region
+  .get(function(req, res) {
+    var region_id = Number(req.params.region_id);
+      sql = 'SELECT * FROM fields where region=$1'
+
+      query(sql, [region_id], function(err, results) {
+        if (err) return res.send(err);
+
+        if(results.length === 0){
+          res.json('There are no fields in that region');
+        }
+
+        res.json(results);
+      }); 
+  })
+
+  router.route('/:region_id/fields/:field_id/wells')
+
+  .get(function(req, res) {
+    var region_id = Number(req.params.region_id);
+    var field_id = Number(req.params.field_id);
+      sql = 'SELECT wells.id,wells.status, wells.name, wells.latitude, wells.longitude, wells.field_id '; 
+      sql += 'FROM fields, wells WHERE wells.field_id = fields.id AND wells.field_id = $1 AND fields.region = $2';
+
+      query(sql, [field_id, region_id], function(err, results) {
+        if (err) return res.send(err);
+
+        if(results.length === 0){
+          res.json('There are no wells in that field');
+        }
+        res.json(results);
+      }); 
+  })
+
+
+
+
 module.exports = router;
