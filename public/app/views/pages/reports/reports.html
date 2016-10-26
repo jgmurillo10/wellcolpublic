@@ -1,4 +1,68 @@
 <div class="jumbotron text-center">
-	<h1>Reports page</h1>
-	<p>{{report.message}}</p>
+	<h1>Reports</h1>
+        <form class='form-horizontal'>
+                <div class='form-group'> 
+                         <label >Type:</label>
+                         <div>
+                             <!--Seleccionamos tipo de consulta: 'por pozo', 'por campo', 'por región'-->
+                             <select name="Type">
+                                 <option>well</option>
+                                 <option>field</option>
+                                 <option>region</option>
+                             </select>
+                         </div>
+                </div>
+                <!--<div class="form-group">
+                    <label class="control-label col-sm-2">Well/Field/Region:</label>
+                    <div class="col-sm-8">
+                        <!--Dependiendo del tipo de consulta, nos darán un listado del tipo de reporte escogido 
+                            (Si escogemos consulta por pozo, tendremos la lista de todos los pozos para escoger sólo uno)
+                            <td>
+                                <select name="">
+                                    <option></option>
+                                </select>
+                            </td>
+                    </div>
+                </div>-->
+                <div class='form-group'>
+                     <label >Metric:</label>
+                     <div >
+                         <!--El usuario podrá escoger que tipo de metrica quiere en su reporte: 'flujo', 'energía' o 'temperatura'-->
+                          <select name="Metric">
+                              <option>flow</option>
+                              <option>energy</option>
+                              <option>temperature</option>
+                          </select>
+                     </div>
+                </div>
+                <div class='form-group'>
+                     <label >Range:</label>
+                     <div >
+                         <!--Escogemos el rango de la consulta: 'mensual', 'trimestral', 'semestral', 'anual'-->
+                         <select name="Range">
+                             <option>monthly</option>
+                             <option>quarterly</option>
+                             <option>biannual</option>
+                             <option>annual</option>
+                         </select>
+                     </div>
+                </div>
+                <div class='form-group'>
+                     <label >Fecha Inicial:</label>
+                     <div >
+                         <!--El usuario indica la fecha de inicio del reporte, y así, dependiendo de que rango se escogío
+                                se calcula la fecha final (Ejemplo: si escogimos rango mensual y nuestra fecha inicial es hoy, el reporte
+                                se generará con fecha final de hoy en un mes-->
+                          <input type="date">
+                     </div>
+                </div>
+        </form>
+        
+        <div class="btn-group">
+		<button type="submit" class="btn btn-default">Generate </button>
+        </div>
+        
+        <div class="jumbotron text-center">
+            <h1>Resultado del reporte</h1>
+        </div>
 </div>
