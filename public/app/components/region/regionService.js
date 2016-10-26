@@ -13,7 +13,7 @@ angular.module('regionService', [])
 	// get a single region
 	regionFactory.get = function(id) {
 		return $http.get('/api/regions/'); // returns a solo object contaning the id and name of the region
-
+	};
 	// create a region
 	regionFactory.create = function(regionData) {
 		return $http.post('/api/regions/', regionData); // region data must be like {name: "islas"}
