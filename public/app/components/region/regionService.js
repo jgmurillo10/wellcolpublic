@@ -5,10 +5,14 @@ angular.module('regionService', [])
 	// create a new object
 	var regionFactory = {};
 
+	// get multiple regions
+	regionFactory.getAll = function() {
+		return $http.get('/api/regions/'); // returns an array of region objects, each of which contains id and name. You must save the id, otherwise when you want to update it you will need to change the backend
+	};
+
 	// get a single region
 	regionFactory.get = function(id) {
-		return $http.get('/api/regions/'); // returns an array of region objects, which contain id and name. You must save the id, otherwise when you want to update it you will need to change the backend
-	};
+		return $http.get('/api/regions/'); // returns a solo object contaning the id and name of the region
 
 	// create a region
 	regionFactory.create = function(regionData) {
