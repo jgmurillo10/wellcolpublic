@@ -41,9 +41,11 @@ angular.module('wellCtrl', ['wellService'])
 })
 
 // controller applied to well creation page
-.controller('wellCreateController', function($stateParams, Well) {
+.controller('wellCreateController', function($stateParams,$state,  Well) {
 	
 	var vm = this;
+	vm.field_id=$stateParams.field_id;
+	vm.region_id=$stateParams.region_id;
 
 	// variable to hide/show elements of the view
 	// differentiates between create or edit pages
@@ -60,6 +62,9 @@ angular.module('wellCtrl', ['wellService'])
 				vm.processing = false;
 				vm.wellData = {};
 				vm.message = data.message;
+
+				$state.go('wells', {region_id: $stateParams.region_id,
+					field_id: $stateParams.field_id});
 			});
 			
 	};	
@@ -67,10 +72,11 @@ angular.module('wellCtrl', ['wellService'])
 })
 
 // controller applied to Well edit page
-.controller('wellEditController', function($stateParams, Well) {
+.controller('wellEditController', function($stateParams,$state,  Well) {
 
 	var vm = this;
-
+	vm.field_id=$stateParams.field_id;
+	vm.region_id=$stateParams.region_id;
 	// variable to hide/show elements of the view
 	// differentiates between create or edit pages
 	vm.type = 'edit';
@@ -97,6 +103,9 @@ angular.module('wellCtrl', ['wellService'])
 
 				// bind the message from our API to vm.message
 				vm.message = data.message;
+
+				$state.go('wells', {region_id: $stateParams.region_id,
+					field_id: $stateParams.field_id});
 			});
 	};
 

@@ -43,10 +43,10 @@ angular.module('fieldCtrl', ['fieldService','regionService'])
 })
 
 // controller applied to field creation page
-.controller('fieldCreateController', function($stateParams, Field) {
+.controller('fieldCreateController', function($stateParams,$state, Field) {
 	
 	var vm = this;
-
+vm.region_id=$stateParams.region_id;
 	// variable to hide/show elements of the view
 	// differentiates between create or edit pages
 	vm.type = 'create';
@@ -63,6 +63,7 @@ angular.module('fieldCtrl', ['fieldService','regionService'])
 				vm.processing = false;
 				vm.fieldData = {};
 				vm.message = data.message;
+				$state.go('fields', {region_id: $stateParams.region_id});
 			});
 			
 	};	
@@ -70,10 +71,12 @@ angular.module('fieldCtrl', ['fieldService','regionService'])
 })
 
 // controller applied to field edit page
-.controller('fieldEditController', function($stateParams, Field) {
-
+.controller('fieldEditController', function($stateParams,$state, Field) {
+var vm=this;
+vm.region_id=$stateParams.region_id;
+   // vm.region_id=$stateParams.region_id;
 	console.log('enter edit field')
-	var vm = this;
+
 
 	// variable to hide/show elements of the view
 	// differentiates between create or edit pages
@@ -101,6 +104,7 @@ angular.module('fieldCtrl', ['fieldService','regionService'])
 
 				// bind the message from our API to vm.message
 				vm.message = data.message;
+				$state.go('fields', {region_id: $stateParams.region_id});
 			});
 	};
 

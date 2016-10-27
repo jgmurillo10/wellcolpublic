@@ -33,14 +33,14 @@
 		</button>
 		<button type="submit" class="btn btn-success btn-lg btn-block" ng-if="sensor.type == 'edit'">Update Sensor</button>
 		<br>
-		<a ng-href="/regions" ><button  class="btn btn-success btn-lg btn-block" >Cancel</button></button>
+		<a ng-href="/regions/{{sensor.region_id}}/fields/{{sensor.field_id}}/wells/{{sensor.well_id}}/sensors" ><button  class="btn btn-success btn-lg btn-block" >Cancel</button></button>
 	</div>
 
 	</div>
 
 </form>
 
-<div class="row show-hide-message" ng-show="region.message">
+<div class="row show-hide-message" ng-show="sensor.message">
 	<div class="col-sm-6 col-sm-offset-2">
 		
 		<div class="alert alert-info">

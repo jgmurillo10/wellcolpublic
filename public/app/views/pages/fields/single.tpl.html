@@ -23,14 +23,14 @@
 		</button>
 		<button type="submit" class="btn btn-success btn-lg btn-block" ng-if="field.type == 'edit'">Update Field</button>
 		<br>
-		<a ng-href="" ><button  class="btn btn-success btn-lg btn-block" >Cancel</button></button>
+		<a ng-href="/regions/{{field.region_id}}/fields"  class="btn btn-success btn-lg btn-block" >Cancel 	</a>
 	</div>
 
 	</div>
 
 </form>
 
-<div class="row show-hide-message" ng-show="region.message">
+<div class="row show-hide-message" ng-show="field.message">
 	<div class="col-sm-6 col-sm-offset-2">
 		
 		<div class="alert alert-info">

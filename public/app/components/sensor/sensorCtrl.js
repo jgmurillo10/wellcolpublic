@@ -47,7 +47,9 @@ angular.module('sensorCtrl', ['sensorService'])
 .controller('sensorCreateController', function($stateParams, Sensor) {
 	
 	var vm = this;
-
+vm.region_id=$stateParams.region_id;
+	vm.field_id=$stateParams.field_id;
+	vm.well_id=$stateParams.well_id;
 	// variable to hide/show elements of the view
 	// differentiates between create or edit pages
 	vm.type = 'create';
@@ -63,6 +65,9 @@ angular.module('sensorCtrl', ['sensorService'])
 				vm.processing = false;
 				vm.sensorData = {};
 				vm.message = data.message;
+				$state.go('wells', {region_id: $stateParams.region_id,
+					field_id: $stateParams.field_id,
+					well_id: $stateParams.well_id});
 			});
 			
 	};	
@@ -73,7 +78,9 @@ angular.module('sensorCtrl', ['sensorService'])
 .controller('sensorEditController', function($stateParams, Sensor) {
 
 	var vm = this;
-
+vm.region_id=$stateParams.region_id;
+	vm.field_id=$stateParams.field_id;
+	vm.well_id=$stateParams.well_id;
 	// variable to hide/show elements of the view
 	// differentiates between create or edit pages
 	vm.type = 'edit';
@@ -100,6 +107,9 @@ angular.module('sensorCtrl', ['sensorService'])
 
 				// bind the message from our API to vm.message
 				vm.message = data.message;
+				$state.go('wells', {region_id: $stateParams.region_id,
+					field_id: $stateParams.field_id,
+					well_id: $stateParams.well_id});
 			});
 	};
 

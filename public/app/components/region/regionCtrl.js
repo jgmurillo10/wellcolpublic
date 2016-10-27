@@ -40,7 +40,7 @@ angular.module('regionCtrl', ['regionService'])
 })
 
 // controller applied to region creation page
-.controller('regionCreateController', function($state, Region) {
+.controller('regionCreateController', function($state, Region, $stateParams) {
 	
 	var vm = this;
 
@@ -53,14 +53,13 @@ angular.module('regionCtrl', ['regionService'])
 		console.log('create');
 		vm.processing = true;
 		vm.message = '';
-
 		// use the create function in the RegionService
 		Region.create(vm.regionData)
 			.success(function(data) {
-				console.log('create');
 				vm.processing = false;
 				vm.regionData = {};
 				vm.message = data.message;
+				$state.go('regions');
 			});
 			
 	};	
@@ -96,9 +95,9 @@ angular.module('regionCtrl', ['regionService'])
 
 				// clear the form
 				vm.regionData = {};
-console.log('hola');
 				// bind the message from our API to vm.message
 				vm.message = data.message;
+				$state.go('regions');
 			});
 	};
 

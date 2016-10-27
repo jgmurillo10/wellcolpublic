@@ -51,14 +51,14 @@
 		</button>
 		<button type="submit" class="btn btn-success btn-lg btn-block" ng-if="well.type == 'edit'">Update Well</button>
 		<br>
-		<a ng-href="/regions" ><button  class="btn btn-success btn-lg btn-block" >Cancel</button></button>
+		<a ng-href="/regions/{{well.region_id}}/fields/{{well.field_id}}/wells" ><button  class="btn btn-success btn-lg btn-block" >Cancel</button></button>
 	</div>
 
 	</div>
 
 </form>
 
-<div class="row show-hide-message" ng-show="region.message">
+<div class="row show-hide-message" ng-show="well.message">
 	<div class="col-sm-6 col-sm-offset-2">
 		
 		<div class="alert alert-info">
