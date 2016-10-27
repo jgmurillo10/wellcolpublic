@@ -10,11 +10,6 @@ angular.module('mainCtrl', [])
   // check to see if a user is logged in on every request
   $rootScope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
     vm.loggedIn = Auth.isLoggedIn();  
-    // console.log;
-
-    console.log(toState);
-
-    console.log(!vm.loggedIn && toState.name !== 'login');
     
     if (toState.name == 'login' && vm.loggedIn) {
       event.preventDefault();

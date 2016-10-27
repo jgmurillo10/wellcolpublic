@@ -8,63 +8,73 @@
 		<!-- CSS -->
 		<!-- Load bootstrap and our stylesheet-->
 	
-		 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/paper/bootstrap.min.css">
-		 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css"> 
-		 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.css"> 
-		 <link rel="stylesheet" href="assets/css/style.css"> 
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/paper/bootstrap.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css"> 
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.css"> 
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/style.css"> 
 
-		<!--JS-->
-		<!--Load angular to our custom app-->
+	<!--JS-->
+	<!--Load angular to our custom app-->
 
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
-		
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+	
 
-		<!-- controllers --> 
-		<script src="app/components/mainCtrl.js"></script>
-		<script src="app/components/emergency/emergencyCtrl.js"></script> 
-		<script src="app/components/field/fieldCtrl.js"></script> 
-		<script src="app/components/record/recordCtrl.js"></script> 
-		<script src="app/components/region/regionCtrl.js"></script> 
-		<script src="app/components/report/reportCtrl.js"></script> 
-		<script src="app/components/sensor/sensorCtrl.js"></script> 
-		<script src="app/components/user/userCtrl.js"></script> 
-		<script src="app/components/well/wellCtrl.js"></script> 
+	<!-- controllers --> 
+	<script src="app/components/mainCtrl.js"></script>
+	<script src="app/components/emergency/emergencyCtrl.js"></script> 
+	<script src="app/components/field/fieldCtrl.js"></script> 
+	<script src="app/components/record/recordCtrl.js"></script> 
+	<script src="app/components/region/regionCtrl.js"></script> 
+	<script src="app/components/report/reportCtrl.js"></script> 
+	<script src="app/components/sensor/sensorCtrl.js"></script> 
+	<script src="app/components/user/userCtrl.js"></script> 
+	<script src="app/components/well/wellCtrl.js"></script> 
 
-		<!-- services -->
-		<script src="app/components/authService.js"></script> 
-		<script src="app/components/emergency/emergencyService.js"></script> 
-		<script src="app/components/field/fieldService.js"></script> 
-		<script src="app/components/record/recordService.js"></script> 
-		<script src="app/components/region/regionService.js"></script> 
-		<script src="app/components/report/reportService.js"></script> 
-		<script src="app/components/sensor/sensorService.js"></script> 
-		<script src="app/components/user/userService.js"></script> 
-		<script src="app/components/well/wellService.js"></script> 
+	<!-- services -->
+	<script src="app/components/authService.js"></script> 
+	<script src="app/components/emergency/emergencyService.js"></script> 
+	<script src="app/components/field/fieldService.js"></script> 
+	<script src="app/components/record/recordService.js"></script> 
+	<script src="app/components/region/regionService.js"></script> 
+	<script src="app/components/report/reportService.js"></script> 
+	<script src="app/components/sensor/sensorService.js"></script> 
+	<script src="app/components/user/userService.js"></script> 
+	<script src="app/components/well/wellService.js"></script> 
 
-		<!-- main Angular app files -->
-		<script src="app/app.js"></script>
-		<script src="app/app.routes.js"></script>
+	<!-- main Angular app files -->
+	<script src="app/app.js"></script>
+	<script src="app/app.routes.js"></script>
 </head>
 	<body class="container" ng-app="wellCol" ng-controller="mainController as main">
 		<!--header and navbar-->
 		<header>
 			<nav class="navbar navbar-inverse navbar-fixed-top" ng-if="main.loggedIn">
-				<div class="navbar-header">
-					<a href="/">Well Col</a>
+				
+
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a href="/" class="navbar-brand">Well Col</a>
+					</div>
+
+					<div class="navbar-form navbar-right">
+						<button ng-if="main.loggedIn" ng-click="main.doLogout()" class="btn btn-default">Logout</button>
+						<button ng-if="!main.loggedIn" ui-sref="login" class="btn btn-default">Login</button>
+					</div>
+
+					<ul class="nav navbar-nav navbar-right">
+							<li><a ui-sref="reports"> Reports </a></li>
+							<li><a ui-sref="home"> Home </a></li>
+							<li ng-if="!main.loggedIn"><a href="/login">Login</a></li>
+							<li ng-if="main.loggedIn" class="navbar-text">Logged in as {{ main.user.username }}!</li>
+							<li >
+							
+							</li>
+					</ul>
+
+					
 				</div>
-
-				<ul class="nav navbar-nav navbar-right">
-					<li ng-if="!main.loggedIn"><a href="/login">Login</a></li>
-					<li ng-if="main.loggedIn" class="navbar-text">   Hello {{ main.user.username }}!    </li>
-					<li ng-if="main.loggedIn"><a href="#" ng-click="main.doLogout()">   Logout   </a></li>
-				</ul>
-
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="/reports"> Reports </a></li>
-					<li><a href="/home"> Home </a></li>
-
-				</ul>
 
 
 				<!-- <ul class="nav navbar-nav navbar-right">
