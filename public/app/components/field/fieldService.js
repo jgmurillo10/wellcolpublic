@@ -11,7 +11,7 @@ angular.module('fieldService', [])
 		return $http.get('/api/fields/'); // returns an array of region objects, each of which contains id and name. You must save the id, otherwise when you want to update it you will need to change the backend
 	};
 
-        regionFactory.getByRegion = function(idRegion)
+        regionFactory.getByRegion = function(idRegion) {
                 return $http.get('/api/regions/' + idRegion + '/fields'); //returns an array of fields
         };
 
