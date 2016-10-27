@@ -12,7 +12,7 @@ angular.module('regionService', [])
 
 	// get a single region
 	regionFactory.get = function(id) {
-		return $http.get('/api/regions/'); // returns a solo object contaning the id and name of the region
+		return $http.get('/api/regions/'+id); // returns a solo object contaning the id and name of the region
 	};
 	// create a region
 	regionFactory.create = function(regionData) {
