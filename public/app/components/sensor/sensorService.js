@@ -13,13 +13,13 @@ angular.module('sensorService', [])
 		return $http.get('/api/sensors/' + id);
 	};
         
-        sensorFactory.getByRegionAndField = function(idRegion, idField) {
-            return $http.get('/api/regions/' + idRegion + '/fields/' + idField+'/sensors');
+        sensorFactory.getByWell = function(region_id,field_id,well_id) {
+            return $http.get('/api/regions/' + region_id + '/fields/' + field_id+'/wells/'+well_id+'/sensors');
         };
 
 	// create a sensor
-	sensorFactory.create = function(sensorData, field_id) {
-		sensorData.field_id=field_id;
+	sensorFactory.create = function(sensorData, well_id) {
+		sensorData.well_id=well_id;
 		return $http.post('/api/sensors/', sensorData);
 	};
 

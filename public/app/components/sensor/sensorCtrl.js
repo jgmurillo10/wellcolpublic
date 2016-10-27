@@ -9,9 +9,10 @@ angular.module('sensorCtrl', ['sensorService'])
 	vm.processing = true;
 	vm.region_id=$stateParams.region_id;
 	vm.field_id=$stateParams.field_id;
+	vm.well_id=$stateParams.well_id;
 	// grab all the sensors at page load
 	console.log('sensor');
-	Sensor.getByRegionAndField($stateParams.region_id,$stateParams.field_id)
+	Sensor.getByWell($stateParams.region_id,$stateParams.field_id, $stateParams.well_id)
 		.success(function(data) {
 
 			// when all the sensors come back, remove the processing variable
@@ -22,7 +23,7 @@ angular.module('sensorCtrl', ['sensorService'])
 		});
 
 	// function to delete a sensor
-	vm.deletesensor = function(id) {
+	vm.deleteSensor = function(id) {
 		vm.processing = true;
 
 		Sensor.delete(id)
@@ -31,7 +32,7 @@ angular.module('sensorCtrl', ['sensorService'])
 				// get all sensors to update the table
 				// you can also set up your api 
 				// to return the list of sensors with the delete call
-				Sensor.getByRegionAndField($stateParams.region_id,$stateParams.field_id)
+				Sensor.getByWell($stateParams.region_id,$stateParams.field_id, $stateParams.well_id)
 					.success(function(data) {
 						vm.processing = false;
 						vm.sensors = data;
@@ -52,12 +53,12 @@ angular.module('sensorCtrl', ['sensorService'])
 	vm.type = 'create';
 
 	// function to create a sensor
-	vm.savesensor = function() {
+	vm.saveSensor = function() {
 		vm.processing = true;
 		vm.message = '';
 
 		// use the create function in the sensorService
-		Sensor.create(vm.sensorData, $stateParams.field_id )
+		Sensor.create(vm.sensorData, $stateParams.well_id )
 			.success(function(data) {
 				vm.processing = false;
 				vm.sensorData = {};
@@ -85,7 +86,7 @@ angular.module('sensorCtrl', ['sensorService'])
 		});
 
 	// function to save the sensor
-	vm.savesensor = function() {
+	vm.saveSensor = function() {
 		vm.processing = true;
 		vm.message = '';
 
