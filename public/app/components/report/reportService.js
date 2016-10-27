@@ -22,18 +22,13 @@ angular.module('reportService', [])
 			return error; // how to throw and error?
 		}
 
-		uri += '/' + idArea;
-		uri += '/' + reportType;
+		uri += '/' + idArea + '/' + reportType;
 
 		// now we add the dates
 
 		uri += '?from=' + beginDate;
-		var parts = input.split('-');
-  		// new Date(year, month [, day [, hours[, minutes[, seconds[, ms]]]]])
-    	var date1 = new Date(parts[0], parts[1]-1, parts[2]); // Note: months are 0-based
-    	var date2;
-
-
+                var date1 = new Date(beginDate);
+                var date2= null;
 		if(reportPeriod=== 'monthly'){
 			date2 = new Date(new Date(date1).setMonth(date1.getMonth()+1));
 		}
@@ -47,11 +42,12 @@ angular.module('reportService', [])
 			date2 = new Date(new Date(date1).setMonth(date1.getMonth()+12));
 		}
 		else {
-			return error;
+			return "hola";
 		}
-
-		uri += date1 + '&to=' +date2;
-
+                console.log(date2.toISOString());
+		uri += '&to=' +date2.toISOString();
+                
+                console.log(uri);
      	return $http.get(uri);
 	};
 
