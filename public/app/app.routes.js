@@ -53,13 +53,13 @@ angular.module('app.routes', ['ui.router'])
       }
     })
      .state('regions.create', {
-        url: '/regions',
+        url: '/:id',
         templateUrl: 'app/views/pages/regions/create.html',
-        controller: 'regionController',
-        controllerAs: 'region'
+        controller: 'regionCreateController',
+        controllerAs: 'create'
     })
      .state('regions.stats', {
-        url: '/regions',
+        // url: '/',
         templateUrl: 'app/views/pages/regions/stats.html'
     })
     .state('fields', {

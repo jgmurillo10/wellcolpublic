@@ -26,7 +26,8 @@ angular.module('regionService', [])
 
 	// delete a region
 	regionFactory.delete = function(id) {
-		return $http.delete('/api/regions/' + id); 
+
+		return $http.delete('/api/regions/'+id);
 	};
 
 	// return our entire regionFactory object

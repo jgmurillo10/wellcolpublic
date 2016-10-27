@@ -1,14 +1,21 @@
-<div class="jumbotron text-center" ng-controller="regionController as region">
-	<h1>Maps page</h1>
-	<div class="table-responsive">
 
-		<table class="table">
-			<tbody ng-repeat="re in region.regions">
-				<tr>
-					<td><a>{{re.name}}</a></td>
-				</tr>
-			</tbody>
-		</table>
-		
-	</div>
-</div>
+<table class="table table-bordered table-striped" ng-show="region.regions">
+	<thead>
+		<tr>
+			<th>id</th>
+			<th>Name</th>
+			
+			<th class="col-sm-2"></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="reg in region.regions">
+			<td>{{ reg.id }}</td>
+			<td>{{ reg.name }}</td>
+			<td class="col-sm-2">
+				<a ng-href="/regions/{{ reg.id }}" class="btn btn-danger">Edit</a>
+				<a href="#" ng-click="region.deleteRegion(reg.id)" class="btn btn-primary">Delete</a>
+			</td>
+		</tr>
+	</tbody>
+</table>
