@@ -75,10 +75,14 @@ angular.module('regionCtrl', ['regionService'])
 		Region.delete(id)
 			.success(function(data) {
 
+        if(data.name === 'error') {
+          alert('ERROR: ' + data.detail);
+        }
+
 				// get all Regions to update the table
 				// you can also set up your api 
 				// to return the list of Regions with the delete call
-				Region.get()
+				Region.getAll()
 					.success(function(data) {
 						vm.processing = false;
 						vm.regions = data;
