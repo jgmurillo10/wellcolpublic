@@ -1,14 +1,21 @@
 angular.module('reportCtrl', ['reportService'])
 
-.controller('reportController', function(report) {
+.controller('reportController', function(Report) {
 
 	var vm = this;
 
 	// set a processing variable to show loading things
 	vm.processing = true;
 
-	// grab all the reports at page load
-	report.get()
+	// varibles for grabing  all the date for making a report
+	vm.reportArea;
+	vm.reportType;
+	vm.idArea;
+	vm.beginDate;
+	vm.reportPeriod;
+	vm.aux; // it is used for changing the views properly
+
+	Report.get(reportArea, reportType, idArea, beginDate, reportPeriod)
 		.success(function(data) {
 
 			// when all the reports come back, remove the processing variable
