@@ -1,6 +1,45 @@
 angular.module('regionCtrl', ['regionService'])
 
-.controller('regionController',function(Region) {
+  .directive('svgMap', ['$compile', function ($compile) {
+      return {
+          restrict: 'A',
+          templateUrl: 'assets/img/reg2.svg',
+          link: function (scope, element, attrs) {
+              var regions = element[0].querySelectorAll('.state');
+              angular.forEach(regions, function (path, key) {
+                  var regionElement = angular.element(path);
+                  regionElement.attr("region", "");
+                  regionElement.attr("map-data", "mapData");
+                  regionElement.attr("hover-region", "hoverRegion");
+                  $compile(regionElement)(scope);
+              })
+          }
+      }
+  }])
+
+  .directive('region', ['$compile', function ($compile) {
+      return {
+          restrict: 'A',
+          scope: {
+              mapData: "=",
+              hoverRegion: "="
+          },
+          link: function (scope, element, attrs) {
+              scope.elementId = element.attr("id");
+              scope.regionMouseOver = function () {
+                scope.hoverRegion = scope.elementId;
+                element[0].parentNode.appendChild(element[0]);
+              };    
+              // element.attr("ng-click", "regionClick()");
+              element.attr("ng-mouseover", "regionMouseOver()");
+              element.attr("ng-class", "{active:hoverRegion==elementId}");
+              element.removeAttr("region");
+              $compile(element)(scope);
+          }
+      }
+  }])
+
+.controller('regionController',function(Region, $scope) {
 
 	var vm = this;
 
@@ -16,6 +55,17 @@ angular.module('regionCtrl', ['regionService'])
 
 			// bind the Regions that come back to vm.Regions
 			vm.regions = data;
+
+      // bind the map data
+      var mapData = {};
+      angular.forEach(data, function(key, value) {
+        mapData[key.name] = key;
+      });
+      $scope.mapData = mapData;
+
+      $scope.changeHoverRegion = function (region) {
+        $scope.hoverRegion = region;
+      }; 
 		});
 
 	// function to delete a Region

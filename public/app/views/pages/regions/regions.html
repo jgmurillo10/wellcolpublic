@@ -3,64 +3,74 @@
 	<p>{{region.message}}</p>
 </div>
  -->
-<div class="row" ng-controller="regionController as region">
+<div ng-controller="regionController as region" class="fluid-container">
 
-
+		<div class="row">
+			<div class="col-sm-12">
+				<ol class="breadcrumb">
+				  <li><a ui-sref="home">Main</a></li>
+				  <li class="active">Regions</li>
+				</ol>
+			</div>
+		</div>
 		
     <!-- COLUMN ONE NAMED VIEW -->
-    <div class="col-sm-6">
-    <div>
-	<a href="/regions/create" class="btn btn-default">
-		<span class="glyphicon glyphicon-plus"></span> 
-		New Region
-	</a>
-	<div class="row">
-		<div class="col-sm-6 col-md-6" ng-repeat="reg in region.regions">
-			<div class="thumbnail">
-		      <div class="caption">
-		        <h3><strong>{{reg.name}}</strong></h3>
-		        <p>Id {{reg.id}}</p>
-		      		<div class="btn-group btn-group-justified">
-				<a ng-href="/regions/edit/{{ reg.id }}" class="btn btn-danger">Edit</a>
-				<a href="#" ng-click="region.deleteRegion(reg.id)" class="btn btn-primary">Delete</a>
-				<a ng-href="/regions/{{ reg.id }}/fields" class="btn btn-danger">View</a>
+    <div class="row">
+	    <div class="col-sm-6">
+		    <div class="row">
+		    	<div class="col-sm-12" style="margin-bottom: 20px;">
+						<a href="/regions/create" class="btn btn-primary">
+							<span class="glyphicon glyphicon-plus"></span> 
+							New Region
+						</a>
+					</div>
 				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-6" ng-repeat="reg in region.regions" ng-class="{active:hoverRegion==reg.name}" ng-mouseover="changeHoverRegion(reg.name)">
+						<div class="thumbnail">
+					      <div class="caption">
+					        <h3><strong>{{reg.name}}</strong></h3>
+					      
+					        <p>ID: {{reg.id}}</p>
+				      		<div class="btn-group ">
+										<a ng-href="/regions/{{ reg.id }}/fields" class="btn btn-default">View</a>
+										<a ng-href="/regions/edit/{{ reg.id }}" class="btn btn-primary">Edit</a>
+										<a href="#" ng-click="region.deleteRegion(reg.id)" class="btn btn-danger">Delete</a>
+									</div>
+					      </div>
+					    </div>
+					</div>
+				</div>
+	    </div>
+	    
+	    <!-- COLUMN TWO NAMED VIEW -->
+	    <div class="col-sm-6">
 
+	    <div svg-map></div>
 
-		      </div>
-		    </div>
-		</div>
-	</div>
+	    		<!-- <h1>Description</h1>
+		    	<table class="table table-striped">
+						<tbody>
+							<tr>
+								<td>Regions</td>
+								<td>6</td>
+							</tr>
+							<tr>
+								<td>Wells production</td>
+								<td>6</td>
+							</tr>
+							<tr>
+								<td>Wells damage</td>
+								<td>6</td>
+							</tr>
+							<tr>
+								<td>Wells _______</td>
+								<td>x</td>
+							</tr>
+						</tbody>
+					</table> -->
 
-
-
-</div>
-    </div>
-    
-    <!-- COLUMN TWO NAMED VIEW -->
-    <div class="col-sm-6">
-    		<h1>Description</h1>
-    	<table class="table table-striped">
-		<tbody>
-			<tr>
-				<td>Regions</td>
-				<td>6</td>
-			</tr>
-			<tr>
-				<td>Wells production</td>
-				<td>6</td>
-			</tr>
-			<tr>
-				<td>Wells damage</td>
-				<td>6</td>
-			</tr>
-			<tr>
-				<td>Wells _______</td>
-				<td>x</td>
-			</tr>
-		</tbody>
-	</table>
-
+	    </div>
     </div>
 
 
