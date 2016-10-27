@@ -18,7 +18,8 @@ angular.module('wellService', [])
         };
 
 	// create a well
-	wellFactory.create = function(wellData) {
+	wellFactory.create = function(wellData, field_id) {
+		wellData.field_id=field_id;
 		return $http.post('/api/wells/', wellData);
 	};
 

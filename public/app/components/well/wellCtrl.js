@@ -29,7 +29,7 @@ angular.module('wellCtrl', ['wellService'])
 				// get all Wells to update the table
 				// you can also set up your api 
 				// to return the list of Wells with the delete call
-				Well.get()
+				Well.getByRegionAndField($stateParams.region_id,$stateParams.field_id)
 					.success(function(data) {
 						vm.processing = false;
 						vm.wells = data;
@@ -41,7 +41,7 @@ angular.module('wellCtrl', ['wellService'])
 })
 
 // controller applied to well creation page
-.controller('wellCreateController', function( Well) {
+.controller('wellCreateController', function($stateParams, Well) {
 	
 	var vm = this;
 
@@ -55,7 +55,7 @@ angular.module('wellCtrl', ['wellService'])
 		vm.message = '';
 
 		// use the create function in the WellService
-		Well.create(vm.wellData )
+		Well.create(vm.wellData, $stateParams.field_id )
 			.success(function(data) {
 				vm.processing = false;
 				vm.wellData = {};
