@@ -1,7 +1,6 @@
 angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'regionService'])
 
 .controller('reportController', function(Report, Field, Well, Region) {
-
 	var vm = this;
 
 	// set a processing variable to show loading things
@@ -16,7 +15,7 @@ angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'r
 
 	vm.array = [];
 
-	vm.reports ={};
+	vm.report ={};
 
 	vm.listarObjetos = function(){
 		if(vm.reportArea === 'well')
@@ -29,7 +28,6 @@ angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'r
 		}
 		else if(vm.reportArea=== 'field')
 		{
-			
 			Field.getAll()
 			.success (function(data) {
 				vm.array = data;
@@ -52,14 +50,22 @@ angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'r
 	// it is used for changing the views properly
 
 	vm.generate=function(){
-		Report.get(reportArea, reportType, idArea, beginDate, reportPeriod)
+            console.log(vm.reportArea);
+            console.log(vm.reportType);
+            console.log(vm.idArea);
+            console.log(vm.beginDate);
+            console.log(vm.reportPeriod);
+            var date=new Date(vm.beginDate).toISOString();
+            console.log(date);
+		Report.get(vm.reportArea, vm.reportType, vm.idArea, date , vm.reportPeriod)
 		.success(function(data) {
 
 			// when all the reports come back, remove the processing variable
 			vm.processing = false;
 
 			// bind the reports that come back to vm.reports
-			vm.reports = data;
+			vm.report = data;
+                        console.log(data);
 		});
 	}
 	// function to delete a report
@@ -75,7 +81,7 @@ angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'r
 				report.get()
 					.success(function(data) {
 						vm.processing = false;
-						vm.reports = data;
+						vm.report = data;
 					});
 
 			});
@@ -141,5 +147,4 @@ angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'r
 				vm.message = data.message;
 			});
 	};
-
 });
