@@ -2,33 +2,33 @@
 	<h1>Reports</h1>
         <form class='form-horizontal'>
                 <div class='form-group'> 
-                         <label >Type:</label>
+                         <label>Type:</label>
                          <div>
                              <!--Seleccionamos tipo de consulta: 'por pozo', 'por campo', 'por región'-->
-                             <select name="Type">
+                             <select name="Type" ng-model="report.reportArea" ng-change='report.listarObjetos()'>
                                  <option>well</option>
                                  <option>field</option>
                                  <option>region</option>
                              </select>
                          </div>
                 </div>
-                <!--<div class="form-group">
-                    <label class="control-label col-sm-2">Well/Field/Region:</label>
+                <div class="form-group">
+                    <label>{{report.reportArea}}s:</label>
                     <div class="col-sm-8">
                         <!--Dependiendo del tipo de consulta, nos darán un listado del tipo de reporte escogido 
-                            (Si escogemos consulta por pozo, tendremos la lista de todos los pozos para escoger sólo uno)
+                            (Si escogemos consulta por pozo, tendremos la lista de todos los pozos para escoger sólo uno)-->
                             <td>
-                                <select name="">
-                                    <option></option>
+                                <select ng-model="report.idArea">
+                                    <option ng-repeat="object in report.array">{{object.id}}</option>
                                 </select>
                             </td>
                     </div>
-                </div>-->
+                </div>
                 <div class='form-group'>
                      <label >Metric:</label>
                      <div >
                          <!--El usuario podrá escoger que tipo de metrica quiere en su reporte: 'flujo', 'energía' o 'temperatura'-->
-                          <select name="Metric">
+                          <select name="Metric" ng-model="report.reportType">
                               <option>flow</option>
                               <option>energy</option>
                               <option>temperature</option>
@@ -39,7 +39,7 @@
                      <label >Range:</label>
                      <div >
                          <!--Escogemos el rango de la consulta: 'mensual', 'trimestral', 'semestral', 'anual'-->
-                         <select name="Range">
+                         <select name="Range" ng-model="report.reportPeriod">
                              <option>monthly</option>
                              <option>quarterly</option>
                              <option>biannual</option>
@@ -53,13 +53,13 @@
                          <!--El usuario indica la fecha de inicio del reporte, y así, dependiendo de que rango se escogío
                                 se calcula la fecha final (Ejemplo: si escogimos rango mensual y nuestra fecha inicial es hoy, el reporte
                                 se generará con fecha final de hoy en un mes-->
-                          <input type="date">
+                          <input type="Date" ng-model="report.beginDate">
                      </div>
                 </div>
         </form>
         
         <div class="btn-group">
-		<button type="submit" class="btn btn-default">Generate </button>
+		<button type="submit" class="btn btn-default" ng-submit='report.generate()'>Generate </button>
         </div>
         
         <div class="jumbotron text-center">

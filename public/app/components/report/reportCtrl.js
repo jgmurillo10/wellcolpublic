@@ -1,6 +1,6 @@
-angular.module('reportCtrl', ['reportService'])
+angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'regionService'])
 
-.controller('reportController', function(Report) {
+.controller('reportController', function(Report, Field, Well, Region) {
 
 	var vm = this;
 
@@ -13,9 +13,35 @@ angular.module('reportCtrl', ['reportService'])
 	vm.idArea;
 	vm.beginDate;
 	vm.reportPeriod;
-	vm.aux; // it is used for changing the views properly
 
-	Report.get(reportArea, reportType, idArea, beginDate, reportPeriod)
+	vm.array = [];
+
+
+	vm.listarObjetos = function(){
+		console.log('hola');
+		console.log(vm.reportArea);
+		if(vm.reportArea === 'well')
+		{
+			vm.array = Well.getAll();
+			console.log(vm.array);
+		}
+		else if(vm.reportArea=== 'field')
+		{
+			vm.array = Field.getAll();
+		}
+		else if(vm.reportArea === 'region')
+		{
+			vm.array = Region.getAll();		
+		}
+		else
+		{
+			return "hola";
+		}
+	};
+	// it is used for changing the views properly
+
+	vm.generate=function(){
+		Report.get(reportArea, reportType, idArea, beginDate, reportPeriod)
 		.success(function(data) {
 
 			// when all the reports come back, remove the processing variable
@@ -24,7 +50,7 @@ angular.module('reportCtrl', ['reportService'])
 			// bind the reports that come back to vm.reports
 			vm.reports = data;
 		});
-
+	}
 	// function to delete a report
 	vm.deleteReport = function(id) {
 		vm.processing = true;
@@ -45,7 +71,6 @@ angular.module('reportCtrl', ['reportService'])
 	};
 
 })
-
 // controller applied to report creation page
 .controller('reportCreateController', function(report) {
 	
