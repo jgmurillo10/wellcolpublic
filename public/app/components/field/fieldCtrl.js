@@ -31,7 +31,7 @@ angular.module('fieldCtrl', ['fieldService','regionService'])
 				// get all fields to update the table
 				// you can also set up your api 
 				// to return the list of fields with the delete call
-				Field.get()
+				Field.getByRegion($stateParams.region_id)
 					.success(function(data) {
 						vm.processing = false;
 						vm.fields = data;

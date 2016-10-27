@@ -1,14 +1,15 @@
 angular.module('wellCtrl', ['wellService'])
 
-.controller('wellController', function(Well) {
+.controller('wellController', function($stateParams, Well) {
 
 	var vm = this;
 
 	// set a processing variable to show loading things
 	vm.processing = true;
-
+	vm.region_id=$stateParams.region_id;
+	vm.field_id=$stateParams.field_id;
 	// grab all the wells at page load
-	Well.get()
+	Well.getByRegionAndField($stateParams.region_id,$stateParams.field_id)
 		.success(function(data) {
 
 			// when all the Wells come back, remove the processing variable
@@ -40,7 +41,7 @@ angular.module('wellCtrl', ['wellService'])
 })
 
 // controller applied to well creation page
-.controller('wellCreateController', function(Well) {
+.controller('wellCreateController', function( Well) {
 	
 	var vm = this;
 
@@ -54,7 +55,7 @@ angular.module('wellCtrl', ['wellService'])
 		vm.message = '';
 
 		// use the create function in the WellService
-		Well.create(vm.wellData)
+		Well.create(vm.wellData )
 			.success(function(data) {
 				vm.processing = false;
 				vm.wellData = {};
@@ -66,7 +67,7 @@ angular.module('wellCtrl', ['wellService'])
 })
 
 // controller applied to Well edit page
-.controller('wellEditController', function($routeParams, Well) {
+.controller('wellEditController', function($stateParams, Well) {
 
 	var vm = this;
 
@@ -76,7 +77,7 @@ angular.module('wellCtrl', ['wellService'])
 
 	// get the Well data for the Well you want to edit
 	// $routeParams is the way we grab data from the URL
-	Well.get($routeParams.well_id)
+	Well.get($stateParams.well_id)
 		.success(function(data) {
 			vm.wellData = data;
 		});
@@ -87,7 +88,7 @@ angular.module('wellCtrl', ['wellService'])
 		vm.message = '';
 
 		// call the WellService function to update 
-		Well.update($routeParams.well_id, vm.wellData)
+		Well.update($stateParams.well_id, vm.wellData)
 			.success(function(data) {
 				vm.processing = false;
 

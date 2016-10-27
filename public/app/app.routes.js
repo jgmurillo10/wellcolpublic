@@ -88,8 +88,19 @@ angular.module('app.routes', ['ui.router'])
       controllerAs: "field"
     })
     .state('wells', {
-      url         : "/regions/fields/wells",
+      url         : "/regions/:region_id/fields/:field_id/wells",
       templateUrl : "app/views/pages/wells/wells.html"
+    }) .state('createWell', {
+      url         : "/regions/:region_id/fields/:field_id/wells/create",
+      templateUrl : "app/views/pages/wells/single.tpl.html",
+      controller  : "wellCreateController",
+      controllerAs: "well"
+    })
+      .state('editWell', {
+      url         : "/regions/:region_id/fields/:field_id/wells/edit/:well_id",
+      templateUrl : "app/views/pages/wells/single.tpl.html",
+      controller  : "wellEditController",
+      controllerAs: "well"
     });
 
 });

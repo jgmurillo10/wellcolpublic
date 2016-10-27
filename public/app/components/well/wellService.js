@@ -14,7 +14,7 @@ angular.module('wellService', [])
 	};
         
         wellFactory.getByRegionAndField = function(idRegion, idField) {
-            return $http.get('/api/regions/' + idRegion + '/fields/' + idField);
+            return $http.get('/api/regions/' + idRegion + '/fields/' + idField+'/wells');
         };
 
 	// create a well
