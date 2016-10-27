@@ -1,3 +1,63 @@
-<div>
-	
+
+<div class="row" ng-controller="wellController as well">
+
+
+		
+    <!-- COLUMN ONE NAMED VIEW -->
+    <div class="col-sm-6">
+    <div>
+	<a href="/regions/{{field.region_id}}/fields/create" class="btn btn-default">
+		<span class="glyphicon glyphicon-plus"></span> 
+		New Well
+	</a>
+	<div class="row">
+		<div class="col-sm-6 col-md-6" ng-repeat="a in well.wells">
+			<div class="thumbnail">
+		      <div class="caption">
+		        <h3><strong>{{a.name}}</strong></h3>
+		        <p>Id {{a.id}}</p>
+		      		<div class="btn-group btn-group-justified">
+				<a ng-href="/regions/{{a.region}}/fields/edit/{{ a.id }}" class="btn btn-danger">Edit</a>
+				<a href="#" ng-click="field.deleteField(a.id)" class="btn btn-primary">Delete</a>
+				<a ng-href="/regions/{{a.region}}/fields/{{ reg.id }}/wells" class="btn btn-danger">View</a>
+				</div>
+
+
+		      </div>
+		    </div>
+		</div>
+	</div>
+
+
+
 </div>
+    </div>
+    
+    <!-- COLUMN TWO NAMED VIEW -->
+    <div class="col-sm-6">
+    		<h1>Description</h1>
+    	<table class="table table-striped">
+		<tbody>
+			<tr>
+				<td>Wells</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>Wells production</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>Wells damage</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>Wells _______</td>
+				<td>x</td>
+			</tr>
+		</tbody>
+	</table>
+
+    </div>
+
+
+</div>  
