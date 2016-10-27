@@ -8,9 +8,12 @@ angular.module('fieldService', [])
 
 	// get multiple regions
 	regionFactory.getAll = function() {
-		return $http.get('/api/field/'); // returns an array of region objects, each of which contains id and name. You must save the id, otherwise when you want to update it you will need to change the backend
+		return $http.get('/api/fields/'); // returns an array of region objects, each of which contains id and name. You must save the id, otherwise when you want to update it you will need to change the backend
 	};
 
+        regionFactory.getByRegion = function(idRegion)
+                return $http.get('/api/regions/' + idRegion + '/fields'); //returns an array of fields
+        };
 
 	// get a single field
 	fieldFactory.get = function(id) {
