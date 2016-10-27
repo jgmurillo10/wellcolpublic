@@ -122,9 +122,11 @@ router.route('/:region_id')
 
         if(results.length === 0){
           res.json('There are no fields in that region');
+        } else {
+          res.json(results);
         }
 
-        res.json(results);
+        
       }); 
   })
 
@@ -141,8 +143,10 @@ router.route('/:region_id')
 
         if(results.length === 0){
           res.json('There are no wells in that field');
+        } else {
+          res.json(results);
         }
-        res.json(results);
+        
       }); 
   })
 
