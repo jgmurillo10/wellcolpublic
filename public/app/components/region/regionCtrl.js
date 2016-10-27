@@ -50,12 +50,14 @@ angular.module('regionCtrl', ['regionService'])
 
 	// function to create a Region
 	vm.saveRegion = function() {
+		console.log('create');
 		vm.processing = true;
 		vm.message = '';
 
 		// use the create function in the RegionService
 		Region.create(vm.regionData)
 			.success(function(data) {
+				console.log('create');
 				vm.processing = false;
 				vm.regionData = {};
 				vm.message = data.message;
@@ -66,8 +68,8 @@ angular.module('regionCtrl', ['regionService'])
 })
 
 // controller applied to Region edit page
-.controller('regionEditController', function($routeParams, Region) {
-
+.controller('regionEditController', function($stateParams, Region) {
+	
 	var vm = this;
 
 	// variable to hide/show elements of the view
@@ -76,7 +78,7 @@ angular.module('regionCtrl', ['regionService'])
 
 	// get the Region data for the Region you want to edit
 	// $routeParams is the way we grab data from the URL
-	Region.get($routeParams.region_id)
+	Region.get($stateParams.region_id)
 		.success(function(data) {
 			vm.regionData = data;
 		});
@@ -87,13 +89,14 @@ angular.module('regionCtrl', ['regionService'])
 		vm.message = '';
 
 		// call the RegionService function to update 
-		Region.update($routeParams.region_id, vm.regionData)
+		Region.update($stateParams.region_id, vm.regionData)
 			.success(function(data) {
+				
 				vm.processing = false;
 
 				// clear the form
 				vm.regionData = {};
-
+console.log('hola');
 				// bind the message from our API to vm.message
 				vm.message = data.message;
 			});

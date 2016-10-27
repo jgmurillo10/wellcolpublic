@@ -54,16 +54,25 @@ angular.module('app.routes', ['ui.router'])
 
       }
     })
-     .state('regions.create', {
-        url: '/:id',
-        templateUrl: 'app/views/pages/regions/create.html',
-        controller: 'regionCreateController',
-        controllerAs: 'create'
+    .state('createRegion', {
+      url         : "/regions/create",
+      templateUrl : "app/views/pages/regions/single.tpl.html",
+      controller  : "regionCreateController",
+      controllerAs: "region"
     })
-     .state('regions.stats', {
-        // url: '/',
-        templateUrl: 'app/views/pages/regions/stats.html'
+    .state('editRegion', {
+      url         : "/regions/edit/:region_id",
+      templateUrl : "app/views/pages/regions/single.tpl.html",
+      controller  : "regionEditController",
+      controllerAs: "region"
     })
+    .state('viewRegion', {
+      url         : "/regions/:region_id",
+      templateUrl : "app/views/pages/regions/create.html",
+      controller  : "regionController",
+      controllerAs: "region"
+    })
+    
     .state('fields', {
       url         : "/regions/fields",
       templateUrl : "app/views/pages/fields/fields.html"
