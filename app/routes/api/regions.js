@@ -149,6 +149,26 @@ router.route('/:region_id')
         
       }); 
   })
+  router.route('/:region_id/fields/:field_id/wells/:well_id/sensors')
+
+  .get(function(req, res) {
+    var well_id = Number(req.params.well_id);
+      sql = 'SELECT *'; 
+      sql += 'FROM sensors WHERE sensors.well_id = $1';
+      console.log(sql)
+
+      query(sql,[well_id], function(err, results) {
+        if (err) return res.send(err);
+
+        if(results.length === 0){
+          res.json('There are no sensors in that well');
+        } else {
+          res.json(results);
+        }
+        
+      }); 
+  })
+
 
 
 

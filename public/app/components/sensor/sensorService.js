@@ -1,6 +1,6 @@
 angular.module('sensorService', [])
 
-.factory('sensor', function($http) {
+.factory('Sensor', function($http) {
 
 	// create a new object
 	var sensorFactory = {};
