@@ -64,16 +64,26 @@ angular.module('app.routes', ['ui.router'])
       controller  : "regionEditController",
       controllerAs: "region"
     })
-    .state('viewRegion', {
-      url         : "/regions/:region_id",
-      templateUrl : "app/views/pages/regions/create.html",
-      controller  : "regionController",
-      controllerAs: "region"
-    })
-    
+  
     .state('fields', {
-      url         : "/regions/fields",
-      templateUrl : "app/views/pages/fields/fields.html"
+      url         : "/regions/:region_id/fields",
+      views       : {
+        // the main template will be placed here (relatively named)
+            '': { templateUrl: 'app/views/pages/fields/fields.html' }
+
+      }
+    })
+     .state('createField', {
+      url         : "/regions/:region_id/fields/create",
+      templateUrl : "app/views/pages/fields/single.tpl.html",
+      controller  : "fieldCreateController",
+      controllerAs: "field"
+    })
+      .state('editField', {
+      url         : "/regions/:region_id/fields/edit/:field_id",
+      templateUrl : "app/views/pages/fields/single.tpl.html",
+      controller  : "fieldEditController",
+      controllerAs: "field"
     })
     .state('wells', {
       url         : "/regions/fields/wells",

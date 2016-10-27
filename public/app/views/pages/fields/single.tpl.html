@@ -1,0 +1,41 @@
+<div class="page-header">
+	<h1 ng-if="field.type == 'create'">Create Field</h1>
+	<h1 ng-if="field.type == 'edit'">Edit Field</h1>
+</div>
+
+<form class="form-horizontal" ng-submit="field.saveField()">
+	
+	
+
+	<div class="form-group">
+		<label class="col-sm-2 control-label">Name</label>
+		<div class="col-sm-6">
+			<input type="text" class="form-control" ng-model="field.fieldData.name">
+		</div>
+	</div>
+
+	
+	<div class="form-group">
+	<div class="col-sm-offset-2 col-sm-6">
+		<button type="submit" class="btn btn-success btn-lg btn-block" ng-if="field.type == 'create'">
+		
+			Create Field
+		</button>
+		<button type="submit" class="btn btn-success btn-lg btn-block" ng-if="field.type == 'edit'">Update Field</button>
+		<br>
+		<a ng-href="" ><button  class="btn btn-success btn-lg btn-block" >Cancel</button></button>
+	</div>
+
+	</div>
+
+</form>
+
+<div class="row show-hide-message" ng-show="region.message">
+	<div class="col-sm-6 col-sm-offset-2">
+		
+		<div class="alert alert-info">
+			{{ field.message }}
+		</div>
+
+	</div>
+</div>

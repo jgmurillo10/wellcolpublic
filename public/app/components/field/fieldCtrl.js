@@ -1,14 +1,16 @@
-angular.module('fieldCtrl', ['fieldService'])
+angular.module('fieldCtrl', ['fieldService','regionService'])
 
-.controller('fieldController', function(field) {
+.controller('fieldController', function($stateParams,Field, Region) {
 
 	var vm = this;
-
+	vm.region_id=$stateParams.region_id;
+	console.log(vm.region_id)
 	// set a processing variable to show loading things
 	vm.processing = true;
-
+	console.log('field.getbyregion')
 	// grab all the fields at page load
-	field.get()
+	
+		Field.getByRegion($stateParams.region_id)
 		.success(function(data) {
 
 			// when all the fields come back, remove the processing variable
@@ -17,18 +19,19 @@ angular.module('fieldCtrl', ['fieldService'])
 			// bind the fields that come back to vm.fields
 			vm.fields = data;
 		});
+	
 
 	// function to delete a field
 	vm.deleteField = function(id) {
 		vm.processing = true;
 
-		field.delete(id)
+		Field.delete(id)
 			.success(function(data) {
 
 				// get all fields to update the table
 				// you can also set up your api 
 				// to return the list of fields with the delete call
-				field.get()
+				Field.get()
 					.success(function(data) {
 						vm.processing = false;
 						vm.fields = data;
@@ -40,7 +43,7 @@ angular.module('fieldCtrl', ['fieldService'])
 })
 
 // controller applied to field creation page
-.controller('fieldCreateController', function(field) {
+.controller('fieldCreateController', function($stateParams, Field) {
 	
 	var vm = this;
 
@@ -52,9 +55,10 @@ angular.module('fieldCtrl', ['fieldService'])
 	vm.saveField = function() {
 		vm.processing = true;
 		vm.message = '';
+		// fieldData.region=$stateParams.region_id;
 
 		// use the create function in the fieldService
-		field.create(vm.fieldData)
+		Field.create(vm.fieldData, $stateParams.region_id)
 			.success(function(data) {
 				vm.processing = false;
 				vm.fieldData = {};
@@ -62,12 +66,13 @@ angular.module('fieldCtrl', ['fieldService'])
 			});
 			
 	};	
-
+	console.log('aaa');
 })
 
 // controller applied to field edit page
-.controller('fieldEditController', function($routeParams, field) {
+.controller('fieldEditController', function($stateParams, Field) {
 
+	console.log('enter edit field')
 	var vm = this;
 
 	// variable to hide/show elements of the view
@@ -76,7 +81,7 @@ angular.module('fieldCtrl', ['fieldService'])
 
 	// get the field data for the field you want to edit
 	// $routeParams is the way we grab data from the URL
-	field.get($routeParams.field_id)
+	Field.get($stateParams.field_id)
 		.success(function(data) {
 			vm.fieldData = data;
 		});
@@ -87,7 +92,7 @@ angular.module('fieldCtrl', ['fieldService'])
 		vm.message = '';
 
 		// call the fieldService function to update 
-		field.update($routeParams.field_id, vm.fieldData)
+		Field.update($stateParams.field_id, vm.fieldData)
 			.success(function(data) {
 				vm.processing = false;
 
