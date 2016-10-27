@@ -16,22 +16,33 @@ angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'r
 
 	vm.array = [];
 
+	vm.reports ={};
 
 	vm.listarObjetos = function(){
-		console.log('hola');
-		console.log(vm.reportArea);
 		if(vm.reportArea === 'well')
 		{
-			vm.array = Well.getAll();
-			console.log(vm.array);
+			Well.getAll()
+			.success (function(data) {
+
+				vm.array = data;
+			});
 		}
 		else if(vm.reportArea=== 'field')
 		{
-			vm.array = Field.getAll();
+			
+			Field.getAll()
+			.success (function(data) {
+				vm.array = data;
+
+			});
+			
 		}
 		else if(vm.reportArea === 'region')
 		{
-			vm.array = Region.getAll();		
+			Region.getAll()
+			.success (function (data) {
+				vm.array = data;
+			});		
 		}
 		else
 		{

@@ -6,9 +6,6 @@ angular.module('wellService', [])
 	var wellFactory = {};
         
         wellFactory.getAll = function() {
-        	console.log('--------------------');
-        	console.log($http.get('/api/wells/'));
-        		console.log('--------------------');
             return $http.get('/api/wells');
         };
 	// get a single well

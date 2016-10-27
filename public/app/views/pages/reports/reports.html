@@ -1,11 +1,11 @@
-<div class="jumbotron text-center">
+<div class="jumbotron">
 	<h1>Reports</h1>
-        <form class='form-horizontal'>
-                <div class='form-group'> 
-                         <label>Type:</label>
-                         <div>
+        <form class="form-horizontal">
+                <div class="form-group"> 
+                         <label class="control-label col-sm-2">Type:</label>
+                         <div class="col-sm-6">
                              <!--Seleccionamos tipo de consulta: 'por pozo', 'por campo', 'por región'-->
-                             <select name="Type" ng-model="report.reportArea" ng-change='report.listarObjetos()'>
+                             <select class="form-control" name="Type" ng-model="report.reportArea" ng-change='report.listarObjetos()'>
                                  <option>well</option>
                                  <option>field</option>
                                  <option>region</option>
@@ -13,22 +13,20 @@
                          </div>
                 </div>
                 <div class="form-group">
-                    <label>{{report.reportArea}}s:</label>
-                    <div class="col-sm-8">
+                    <label class="control-label col-sm-2">{{report.reportArea}}s:</label>
+                    <div class="col-sm-6">
                         <!--Dependiendo del tipo de consulta, nos darán un listado del tipo de reporte escogido 
                             (Si escogemos consulta por pozo, tendremos la lista de todos los pozos para escoger sólo uno)-->
-                            <td>
-                                <select ng-model="report.idArea">
+                                <select class="form-control" ng-model="report.idArea">
                                     <option ng-repeat="object in report.array">{{object.id}}</option>
                                 </select>
-                            </td>
                     </div>
                 </div>
                 <div class='form-group'>
-                     <label >Metric:</label>
-                     <div >
+                     <label class="control-label col-sm-2" >Metric:</label>
+                     <div  class="col-sm-6">
                          <!--El usuario podrá escoger que tipo de metrica quiere en su reporte: 'flujo', 'energía' o 'temperatura'-->
-                          <select name="Metric" ng-model="report.reportType">
+                          <select class="form-control" name="Metric" ng-model="report.reportType">
                               <option>flow</option>
                               <option>energy</option>
                               <option>temperature</option>
@@ -36,10 +34,10 @@
                      </div>
                 </div>
                 <div class='form-group'>
-                     <label >Range:</label>
-                     <div >
+                     <label class="control-label col-sm-2" >Range:</label>
+                     <div  class="col-sm-6">
                          <!--Escogemos el rango de la consulta: 'mensual', 'trimestral', 'semestral', 'anual'-->
-                         <select name="Range" ng-model="report.reportPeriod">
+                         <select class="form-control" name="Range" ng-model="report.reportPeriod">
                              <option>monthly</option>
                              <option>quarterly</option>
                              <option>biannual</option>
@@ -48,21 +46,23 @@
                      </div>
                 </div>
                 <div class='form-group'>
-                     <label >Fecha Inicial:</label>
-                     <div >
+                     <label class="control-label col-sm-2">Fecha Inicial:</label>
+                     <div  class="col-sm-6">
                          <!--El usuario indica la fecha de inicio del reporte, y así, dependiendo de que rango se escogío
                                 se calcula la fecha final (Ejemplo: si escogimos rango mensual y nuestra fecha inicial es hoy, el reporte
                                 se generará con fecha final de hoy en un mes-->
-                          <input type="Date" ng-model="report.beginDate">
+                          <input class="form-control" type="Date" ng-model="report.beginDate">
                      </div>
                 </div>
         </form>
         
-        <div class="btn-group">
+        <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-6">
 		<button type="submit" class="btn btn-default" ng-submit='report.generate()'>Generate </button>
+        </div>
         </div>
         
         <div class="jumbotron text-center">
-            <h1>Resultado del reporte</h1>
+            <h1>{{report.reports}}</h1>
         </div>
 </div>
