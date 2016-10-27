@@ -36,7 +36,9 @@ angular.module('app.routes', ['ui.router'])
     })
     .state('reports', {
       url         : "/reports",
-      templateUrl : "app/views/pages/reports/reports.html"
+      templateUrl : "app/views/pages/reports/reports.html",
+      controller: "reportController",
+      controllerAs: 'report'
     })
     .state('regions', {
       url         : "/regions",
