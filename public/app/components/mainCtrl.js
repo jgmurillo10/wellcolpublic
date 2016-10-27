@@ -8,8 +8,17 @@ angular.module('mainCtrl', [])
   vm.loggedIn = Auth.isLoggedIn();
 
   // check to see if a user is logged in on every request
-  $rootScope.$on('$routeChangeStart', function() {
+  $rootScope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
     vm.loggedIn = Auth.isLoggedIn();  
+    
+    if (toState.name == 'login' && vm.loggedIn) {
+      event.preventDefault();
+      $state.go('home');
+    }
+    else if (toState.name !== 'login' && !vm.loggedIn) {
+      event.preventDefault();
+      $state.go('login');
+    }
 
     // get user information on page load
     Auth.getUser()
@@ -37,7 +46,6 @@ angular.module('mainCtrl', [])
           
         else 
           vm.error = data.message;
-        
       });
   };
 

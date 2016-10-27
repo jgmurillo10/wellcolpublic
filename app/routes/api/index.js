@@ -58,11 +58,9 @@ var middleware = function(req, res, next) {
 };
 
 apiRouter.use('/users', require('./users'));
-apiRouter.use('/users', require('./users'));
-
 
 // set subroutes on the other files
-apiRouter.use('/me', require('./me'));
+apiRouter.use('/me', middleware, require('./me'));
 apiRouter.use('/fields', middleware, require('./fields'));
 apiRouter.use('/wells', middleware, require('./wells'));
 apiRouter.use('/sensors', middleware, require('./sensors'));
