@@ -50,7 +50,25 @@ router.route('/:well_id')
           res.send(response);
       })  
   })
+  .delete(function(req, res) {
+    var well_id = Number(req.params.well_id);
+      sql = 'DELETE FROM wells WHERE id=$1 returning *'
+      query(sql, [well_id], function(err, results) {
+        
+        if (err) return res.send(err);
 
+        var response = {};
+        if(results.length === 0) {
+          response.message = "There is no well with that id."
+        } else {
+          response.message = "Well deleted.";
+          response.user = results[0];
+        }
+
+        res.json(response);
+
+      });
+  })
   //update a well
   .put(function(req, res){
     var sql = 'SELECT * FROM wells WHERE id=$1';
