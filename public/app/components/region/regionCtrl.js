@@ -47,7 +47,7 @@ angular.module('regionCtrl', ['regionService'])
 	vm.processing = true;
 
 	// grab all the regions at page load
-	Region.get()
+	Region.getAll()
 		.success(function(data) {
 
 			// when all the Regions come back, remove the processing variable
