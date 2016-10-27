@@ -1,6 +1,6 @@
 angular.module('regionCtrl', ['regionService'])
 
-.controller('regionController', function(Region) {
+.controller('regionController',function(Region) {
 
 	var vm = this;
 
@@ -40,7 +40,7 @@ angular.module('regionCtrl', ['regionService'])
 })
 
 // controller applied to region creation page
-.controller('regionCreateController', function(Region) {
+.controller('regionCreateController', function($state, Region) {
 	
 	var vm = this;
 
