@@ -90,17 +90,34 @@ angular.module('app.routes', ['ui.router'])
     .state('wells', {
       url         : "/regions/:region_id/fields/:field_id/wells",
       templateUrl : "app/views/pages/wells/wells.html"
-    }) .state('createWell', {
+    }) 
+    .state('createWell', {
       url         : "/regions/:region_id/fields/:field_id/wells/create",
       templateUrl : "app/views/pages/wells/single.tpl.html",
       controller  : "wellCreateController",
       controllerAs: "well"
     })
-      .state('editWell', {
+    .state('editWell', {
       url         : "/regions/:region_id/fields/:field_id/wells/edit/:well_id",
       templateUrl : "app/views/pages/wells/single.tpl.html",
       controller  : "wellEditController",
       controllerAs: "well"
+    })
+    .state('sensors', {
+      url         : "/regions/:region_id/fields/:field_id/wells/:well_id/sensors",
+      templateUrl : "app/views/pages/sensors/sensors.html"
+    })
+    .state('createSensor', {
+      url         : "/regions/:region_id/fields/:field_id/wells/:well_id/sensors/create",
+      templateUrl : "app/views/pages/sensors/single.tpl.html",
+      controller  : "sensorCreateController",
+      controllerAs: "sensor"
+    })
+    .state('editSensor', {
+      url         : "/regions/:region_id/fields/:field_id/wells/:well_id/sensors/edit/:sensor_id",
+      templateUrl : "app/views/pages/sensors/single.tpl.html",
+      controller  : "sensorEditController",
+      controllerAs: "sensor"
     });
 
 });
