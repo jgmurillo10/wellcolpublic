@@ -14,6 +14,14 @@
 	<link rel="stylesheet" href="assets/css/animate.css">
 	<link rel="stylesheet" href="assets/css/style.css"> 
 
+	<!-- added by jg.murillo10 -->
+<!-- 	<link rel="stylesheet" href="libs/minicolors/jquery.minicolors.css"/>
+	<link rel="stylesheet" href="libs/slick.js/slick/slick.css"/>
+	<link rel="stylesheet" href="libs/slick.js/slick/slick-theme.css"/>
+	<link rel="stylesheet" href="libs/styles/style.css"/>
+	<link rel="stylesheet" href="libs/styles/style.min.css"/>
+	<link rel="stylesheet" href="theme-custom.css"/> -->
+
 	<!--JS-->
 	<!--Load angular to our custom app-->
 
@@ -46,11 +54,15 @@
 	<!-- main Angular app files -->
 	<script src="app/app.js"></script>
 	<script src="app/app.routes.js"></script>
+
+	<!-- added by jg.murillo10 -->
+<!-- 	<script src="libs/minicolors/jquery.minicolors.min.js"></script>
+	<script src="libs/slick.js/slick/slick.min.js"></script> -->
 </head>
 	<body class="container" ng-app="wellCol" ng-controller="mainController as main">
 		<!--header and navbar-->
 		<header>
-			<nav class="navbar navbar-inverse navbar-fixed-top" ng-if="main.loggedIn">
+			 <nav class="navbar navbar-inverse navbar-fixed-top" ng-if="main.loggedIn">
 				
 
 				<div class="container-fluid">
@@ -65,6 +77,7 @@
 
 					<ul class="nav navbar-nav navbar-right">
 							<li><a ui-sref="reports"> Reports </a></li>
+							<li><a ui-sref="regions"> Regions </a></li>
 							<li ng-if="!main.loggedIn"><a href="/login">Login</a></li>
 							<li ng-if="main.loggedIn" class="navbar-text">Logged in as {{ main.user.username }}!</li>
 							<li >
@@ -76,11 +89,13 @@
 				</div>
 
 
-				<!-- <ul class="nav navbar-nav navbar-right">
-					<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
-					<li><a href="/wells"><i class="fa fa-shields"></i>Wells</a></li>
-				</ul> -->
+					
 			</nav>
+		
+	
+
+
+
 		</header>
 		<!--main content and injected views-->
 		<main style="padding-top:100px">

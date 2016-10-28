@@ -1,5 +1,20 @@
 
-<div class="row" ng-controller="wellController as well">
+<div class="fluid-container" ng-controller="wellController as well">
+
+<div class="row">
+			<div class="col-sm-12">
+				<ol class="breadcrumb">
+				  <li><a ui-sref="home">Main</a></li>
+				  <li ><a href="/regions">Regions</a></li>
+				  <li ><a href="/regions/{{well.region_id}}/fields">Fields</a></li>
+				  <li class="active"> Wells</li>
+				</ol>
+			</div>
+		</div>
+
+
+
+<div class="row">
 
 
 		
@@ -64,3 +79,5 @@
 
 
 </div>  
+
+</div>
