@@ -25,10 +25,10 @@
 		        <h3><strong>{{a.name}}</strong></h3>
 		        <p>Id {{a.id}}</p>
 		      		<div class="btn-group btn-group-justified">
-				<a ng-href="/regions/{{a.region}}/fields/edit/{{ a.id }}" class="btn btn-danger">Edit</a>
-				<a href="#" ng-click="field.deleteField(a.id)" class="btn btn-primary">Delete</a>
-				<a ng-href="/regions/{{a.region}}/fields/{{ a.id }}/wells" class="btn btn-danger">View</a>
-				</div>
+						<a ng-href="/regions/{{a.region}}/fields/{{ a.id }}/wells" class="btn btn-default">View</a>
+						<a ng-href="/regions/{{a.region}}/fields/edit/{{ a.id }}" class="btn btn-primary">Edit</a>
+						<a href="#" ng-click="field.deleteField(a.id)" class="btn btn-danger">Delete</a>
+					</div>
 
 
 		      </div>
