@@ -41,7 +41,7 @@ angular.module('mainCtrl', [])
         // if a user successfully logs in, redirect to users page
         if (data.success){
           vm.loggedIn = Auth.isLoggedIn();
-          $state.go('dashboard');
+          $state.go('regions');
         }     
           
         else 
