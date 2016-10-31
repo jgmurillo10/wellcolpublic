@@ -13,6 +13,8 @@ var reporter = require('../../modules/Reporter');
 // on routes that end in /reports
 // ----------------------------------------------------
 
+// This code must be refactored to make use of the Factory Design Pattern 
+
 router.route('/regions/:region/:report_type/')
   
   // get report from a region in an specified interval
