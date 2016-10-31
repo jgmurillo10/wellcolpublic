@@ -1,12 +1,28 @@
 
-<div class="row" ng-controller="sensorController as sensor">
+<div class="fluid-container" ng-controller="sensorController as sensor">
+
+<div class="row">
+			<div class="col-sm-12">
+				<ol class="breadcrumb">
+				  <li><a ui-sref="home">Main</a></li>
+				  <li ><a href="/regions">Regions</a></li>
+				  <li ><a href="/regions/{{sensor.region_id}}/fields">Fields</a></li>
+				  <li ><a href="/regions/{{sensor.region_id}}/fields/{{sensor.field_id}}/wells"> Wells</a></li>
+				  <li class="active"> Sensors</li>
+				</ol>
+			</div>
+		</div>
+
+
+
+<div class="row" >
 
 
 		
     <!-- COLUMN ONE NAMED VIEW -->
     <div class="col-sm-6">
     <div>
-	<a href="/regions/{{sensor.region_id}}/fields/{{sensor.field_id}}/wells/{{sensor.well_id}}/sensors/create" class="btn btn-default">
+	<a href="/regions/{{sensor.region_id}}/fields/{{sensor.field_id}}/wells/{{sensor.well_id}}/sensors/create" class="btn btn-primary">
 		<span class="glyphicon glyphicon-plus"></span> 
 		New Sensor
 	</a>
@@ -18,10 +34,11 @@
 		        <p>Type: {{a.type}}</p>
 		        <p>Rate: {{a.rate}}</p>
 		      		<div class="btn-group btn-group-justified">
-				<a ng-href="/regions/{{sensor.region_id}}/fields/{{sensor.field_id}}/wells/{{a.well_id}}/sensors/edit/{{ a.id }}" class="btn btn-danger">Edit</a>
-				<a href="#" ng-click="sensor.deleteSensor(a.id)" class="btn btn-primary">Delete</a>
-				<a ng-href="/regions/{{sensor.region_id}}/fields/{{ sensor.field_id }}/wells/{{a.well_id}}/sensors/{{a.id}}" class="btn btn-danger">View</a>
-				</div>
+						<a ng-href="/regions/{{sensor.region_id}}/fields/{{ sensor.field_id }}/wells/{{a.well_id}}/sensors/{{a.id}}" class="btn btn-default">View</a>
+						<a ng-href="/regions/{{sensor.region_id}}/fields/{{sensor.field_id}}/wells/{{a.well_id}}/sensors/edit/{{ a.id }}" class="btn btn-primary">Edit</a>
+						<a href="#" ng-click="sensor.deleteSensor(a.id)" class="btn btn-danger">Delete</a>
+						
+					</div>
 
 
 		      </div>
@@ -62,3 +79,4 @@
 
 
 </div>  
+</div>

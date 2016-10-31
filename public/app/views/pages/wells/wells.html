@@ -1,5 +1,20 @@
 
-<div class="row" ng-controller="wellController as well">
+<div class="fluid-container" ng-controller="wellController as well">
+
+<div class="row">
+			<div class="col-sm-12">
+				<ol class="breadcrumb">
+				  <li><a ui-sref="home">Main</a></li>
+				  <li ><a href="/regions">Regions</a></li>
+				  <li ><a href="/regions/{{well.region_id}}/fields">Fields</a></li>
+				  <li class="active"> Wells</li>
+				</ol>
+			</div>
+		</div>
+
+
+
+<div class="row">
 
 
 		
@@ -20,9 +35,10 @@
 		        <p>Latitude: {{a.latitude}}</p>
 		        <p>Longitude: {{a.longitude}}</p>
 		      		<div class="btn-group btn-group-justified">
-				<a ng-href="/regions/{{well.region_id}}/fields/{{a.field_id}}/wells/edit/{{ a.id }}" class="btn btn-danger">Edit</a>
-				<a href="#" ng-click="well.deleteWell(a.id)" class="btn btn-primary">Delete</a>
-				<a ng-href="/regions/{{well.region_id}}/fields/{{ a.field_id }}/wells/{{a.id}}/sensors" class="btn btn-danger">View</a>
+				<a ng-href="/regions/{{well.region_id}}/fields/{{ a.field_id }}/wells/{{a.id}}/sensors" class="btn btn-default">View</a>
+				<a ng-href="/regions/{{well.region_id}}/fields/{{a.field_id}}/wells/edit/{{ a.id }}" class="btn btn-primary">Edit</a>
+				<a href="#" ng-click="well.deleteWell(a.id)" class="btn btn-danger">Delete</a>
+				
 				</div>
 
 
@@ -64,3 +80,5 @@
 
 
 </div>  
+
+</div>
