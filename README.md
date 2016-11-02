@@ -36,33 +36,52 @@ Some of the information required is entered using Node-red.
 | PUT  |   |   |
 | DELETE  |   |   |
 
+##Regions
+
+|HTTP Method   |  URI |  description |
+|---|---|---|
+| GET | /api/regions  |  Get all the regions |
+| GET | /api/regions/:region_id  | Get an specific Region by ID  |
+| POST  | /api/region  |  Add a Region |
+| PUT  | /api/region/:region_id  | Update a Region  |
+| DELETE  |  /api/regions/:region_id |  Delete a Region by ID |
+
+
 ##Fields
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
-| GET | /api/fields  |   |
-| GET | /api/fields/field_id  |   |
-| POST  | /api/fields  |   |
-| PUT  | /api/fields/field_id  |   |
-| DELETE  |  /api/fields/field_id |   |
+| GET | /api/fields  | Get all the Fields  |
+| GET | /api/fields/:field_id  | Get a Field by ID  |
+| POST  | /api/fields  |  Add a Field |
+| PUT  | /api/fields/:field_id  |  Update a Field |
+| DELETE  |  /api/fields/:field_id |  Delete a Field by ID |
+
+|HTTP Method   |  URI |  description |
+|---|---|---|
+
+| GET | /api/regions/:region_id/fields  | Get all the Fields of an specific Region |
+| GET | /api/regions/:region_id/fields/:field_id  | Get a Field by ID of an specific Region |
+| POST  | /api/regions/:region_id/fields  |  Add a Field of an specific Region |
+| PUT  | /api/regions/:region_id/fields/:field_id  |  Update a Field of an specific Region |
+| DELETE  |  /api/regions/:region_id/fields/:field_id |  Delete a Field by ID of an specific Region|
 
 ##Wells
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
-| GET |/api/wells  |   |
-| GET |/api/wells/:well_id   |   |
-| POST  |/api/wells   |   |
-| PUT  |/api/wells/:well_id   |   |
-| DELETE  |/api/wells/:well_id   |   |
+| GET |/api/wells  |  Get all the Wells |
+| GET |/api/wells/:well_id   | Get an specific Well  |
+| POST  |/api/wells   |  Add an specific Well |
+| PUT  |/api/wells/:well_id   |  Update an specific Well by ID|
+| DELETE  |/api/wells/:well_id   |  Delete an specific Well by ID |
 
-|HTTP Method   |  URI |  description |
-|---|---|---|
-| GET |api/fields/:field_id/wells/|   |
-| GET |api/fields/:field_id/wells/:well_id | |
-| POST  |api/fields/:field_id/wells/   |   |
-| PUT  |/api/fields/:field_id/wells/:well_id   |   |
-| DELETE  |api/fields/:field_id/wells/:well_id   |   |
+
+| GET |api/fields/:field_id/wells/|  Get all the wells of an specific Field |
+| GET |api/fields/:field_id/wells/:well_id | Get an specific Well by well_id of an specific Field |
+| POST  |api/fields/:field_id/wells/   |  Add an specific Well of an specific Field |
+| PUT  |/api/fields/:field_id/wells/:well_id   | Update an specific Well of an specific Field  |
+| DELETE  |api/fields/:field_id/wells/:well_id   |  Delete an specific Well of an specific Field |
 
 ##Sensors
 
@@ -80,11 +99,11 @@ This entity is very important and it should be managed differently from the othe
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
-| GET |  /api/emergencies |   |
-| GET |  /api/emergencies/:emergency_id |   |
-| POST  | /api/emergencies  |   |
-| PUT  |  /api/emergencies/:emergency_id |   |
-| DELETE  |  /api/emergencies/:emergency_id |   |
+| GET |  /api/emergencies |  Get all the emergencies |
+| GET |  /api/emergencies/:emergency_id |  Get an specific emergency |
+| POST  | /api/emergencies  |   Add an specific emergency|
+| PUT  |  /api/emergencies/:emergency_id |  Update an specific emergency |
+| DELETE  |  /api/emergencies/:emergency_id |  Delete an specific emergency |
 
 
 
