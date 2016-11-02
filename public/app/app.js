@@ -12,7 +12,9 @@ angular.module('wellCol',
 	'reportCtrl', 
 	'reportService', 
 	'sensorCtrl',
-	'sensorService'
+	'sensorService',
+	'recordCtrl',
+	'recordService'
 	])
 
 // application configuration to integrate token into requests
