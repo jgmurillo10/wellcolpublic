@@ -75,7 +75,8 @@ Some of the information required is entered using Node-red.
 | PUT  |/api/wells/:well_id   |  Update an specific Well by ID|
 | DELETE  |/api/wells/:well_id   |  Delete an specific Well by ID |
 
-
+|HTTP Method   |  URI |  description |
+|---|---|---|
 | GET |api/fields/:field_id/wells/|  Get all the wells of an specific Field |
 | GET |api/fields/:field_id/wells/:well_id | Get an specific Well by well_id of an specific Field |
 | POST  |api/fields/:field_id/wells/   |  Add an specific Well of an specific Field |
