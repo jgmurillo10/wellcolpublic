@@ -19,11 +19,11 @@ https://sistemasacademico.uniandes.edu.co/~isis2503/dokuwiki/doku.php?id=proyect
 
 What tools are used?
 ---------------------
-Javascript, NodeJS, Express.
+Javascript, NodeJS, Express for the front and service expousure. PosgreSQL for persistance and JWT for authentication.
 
 API
 ---------------------
-
+Some of the information required is entered using Node-red.
 
 
 ##Users
