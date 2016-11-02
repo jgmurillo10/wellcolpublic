@@ -59,7 +59,6 @@ Some of the information required is entered using Node-red.
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
-
 | GET | /api/regions/:region_id/fields  | Get all the Fields of an specific Region |
 | GET | /api/regions/:region_id/fields/:field_id  | Get a Field by ID of an specific Region |
 | POST  | /api/regions/:region_id/fields  |  Add a Field of an specific Region |
