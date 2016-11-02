@@ -118,6 +118,12 @@ angular.module('app.routes', ['ui.router'])
       templateUrl : "app/views/pages/sensors/single.tpl.html",
       controller  : "sensorEditController",
       controllerAs: "sensor"
+    })
+    .state('records', {
+      url         : "/regions/:region_id/fields/:field_id/wells/:well_id/sensors/:sensor_id/records",
+      templateUrl : "app/views/pages/records/records.html",
+      controller  : "recordController",
+      controllerAs: "record"
     });
 
 });
