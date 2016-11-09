@@ -11,7 +11,7 @@ router.route('/')
   // get the user with that id
   .get(function(req, res) {
 
-    var sql = 'SELECT name, username FROM users WHERE username = $1';
+    var sql = 'SELECT name, username, user_type FROM users WHERE username = $1';
 
     console.log(req.decoded.username);
     console.log(sql);
