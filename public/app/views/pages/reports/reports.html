@@ -25,8 +25,8 @@
                 <div class='form-group'>
                      <label class="control-label col-sm-2" >Metric:</label>
                      <div  class="col-sm-6">
-                         <!--El usuario podrá escoger que tipo de metrica quiere en su reporte: 'flujo', 'energía' o 'temperatura'-->
-                          <select class="form-control" name="Metric" ng-model="report.reportType">
+                         <!--El usuario podrá escoger que tipo de metrica quiere en su reporte: 'flujo', 'energía' o 'temperatura-->
+                          <select class="form-control" name="Metric" ng-model="report.reportType" ng-change='report.setUnit()'>
                               <option>flow</option>
                               <option>energy</option>
                               <option>temperature</option>
@@ -67,6 +67,6 @@
         
         <div class="jumbotron text-center">
             <h1>Result</h1>
-            <p>{{report.report.value}}</p>
+            <p>{{report.report.value + report.unit}}</p>
         </div>
 </div>

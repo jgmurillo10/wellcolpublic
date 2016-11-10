@@ -12,10 +12,27 @@ angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'r
 	vm.idArea;
 	vm.beginDate;
 	vm.reportPeriod;
+	vm.unit;
 
 	vm.array = [];
 
 	vm.report ={};
+
+
+	vm.setUnit = function() {
+		if(vm.reportType === 'flow')
+		{
+			vm.unit = 'Liters';
+		}
+		else if(vm.reportType === 'temperature')
+		{
+			vm.unit = 'Kelvins'
+		}
+		else if(vm.reportType === 'energy')
+		{
+			vm.unit = 'Joules'
+		}
+	}
 
 	vm.listarObjetos = function(){
 		if(vm.reportArea === 'well')

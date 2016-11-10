@@ -41,7 +41,8 @@ router.post('/auth', function(req, res) {
         // create a token
         var token = jwt.sign({
           name: user.name,
-          username: user.username
+          username: user.username,
+          type: user.user_type 
         }, superSecret, {
           expiresIn: "2 days" // expires in 2 days
                               // this is using a rauchg/ms time span
