@@ -37,6 +37,45 @@ router.route('/:sensor_id/records')
  // post a sensor's record
     .post(function(req, res) {	
 
+
+      //este es el json que envia node red y recibe este post
+      // { "data": "U2FsdGVkX188G+JEymal/1Una77R9UC+dTQvHynirmGacJWrwzu+sHMhtjQDXJddrA6CEPCzMK0f37TSrmcFeKWyBIYj+4+8lkJCUwv3mIkRyONzzFxmhPbGSD7OKDCIlYTe8HcbxRpe+qB03DRDDw==" }
+      //al hacer decode deberia quedar asi
+
+
+//       { 
+//   "protime": "2016-11-07T18:48:36.325Z", 
+//   "sensetime": "2016-11-07T18:48:06.125Z", 
+//   "temperature": 
+//   { 
+//     "dataTemp": 82, 
+//     "unitTemp": "C",
+//     "sensorID": 1
+
+//   }, 
+//   "energyFlow": 
+//   { 
+//     "dataPot1": 8, 
+//     "unitPot1": "V" ,
+//     "sensorID": 2
+//   }, 
+//   "oilFlow": 
+//   { 
+//     "dataPot2": 5, 
+//     "unitPot2": "B" ,
+//     "sensorID": 3
+//   }, 
+//   "emergency": 
+//   { 
+//     "dataPulser": 1 ,
+//     "sensorID": 4
+//   },
+//   "well":
+//   {
+//     id:1
+//   } 
+// }
+ // esta es la key que utiliza en node-red para hacer encode de el json
 //2B7E151628AED2A6ABF7158809CF4F3C
       var ciphertext = req.body.data;
       var password = '2B7E151628AED2A6ABF7158809CF4F3C';

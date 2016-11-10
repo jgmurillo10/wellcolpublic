@@ -1,0 +1,32 @@
+{ 
+	"protime": "2016-11-07T18:48:36.325Z", 
+	"sensetime": "2016-11-07T18:48:06.125Z", 
+	"temperature": 
+	{ 
+		"dataTemp": 82, 
+		"unitTemp": "C",
+		"sensorID": 1
+
+	}, 
+	"energyFlow": 
+	{ 
+		"dataPot1": 8, 
+		"unitPot1": "V" ,
+		"sensorID": 2
+	}, 
+	"oilFlow": 
+	{ 
+		"dataPot2": 5, 
+		"unitPot2": "B" ,
+		"sensorID": 3
+	}, 
+	"emergency": 
+	{ 
+		"dataPulser": 1 ,
+		"sensorID": 4
+	},
+	"well":
+	{
+		id:1
+	} 
+}
