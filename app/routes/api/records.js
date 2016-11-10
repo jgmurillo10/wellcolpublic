@@ -1,5 +1,7 @@
 var express = require('express');
 var router = express.Router();
+var CryptoJS = require("crypto-js");
+
 
 //funcions for existence validaton
 var tools = require('../../modules/Validator');
@@ -34,6 +36,14 @@ router.route('/:sensor_id/records')
   })
  // post a sensor's record
     .post(function(req, res) {	
+
+//2B7E151628AED2A6ABF7158809CF4F3C
+      var ciphertext = req.body.data;
+      var password = '2B7E151628AED2A6ABF7158809CF4F3C';
+      var bytes  = CryptoJS.AES.decrypt(ciphertext.toString(), password);
+      var decryptedData = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
+
+
     	var sensorid=Number(req.params.sensor_id);
 
 if(sensorid==3){
