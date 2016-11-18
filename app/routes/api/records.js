@@ -1,22 +1,19 @@
-var express = require('express');
-var router = express.Router();
-var CryptoJS = require("crypto-js");
+  var express = require('express');
+  var router = express.Router();
+  var CryptoJS = require("crypto-js");
 
 
-//funcions for existence validaton
-var tools = require('../../modules/Validator');
+  //funcions for existence validaton
+  var tools = require('../../modules/Validator');
 
-// postgres query helper 
-var query = require('pg-query');
+  // postgres query helper 
+  var query = require('pg-query');
 
 
 
-// on routes that end in /records
-// ----------------------------------------------------
-router.route('/')
-  .get(function(req,res){
-    res.json('respuesta')
-  })
+  // on routes that end in /records
+  // ----------------------------------------------------
+
 router.route('/:sensor_id/records')
  
   

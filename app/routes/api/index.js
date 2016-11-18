@@ -69,4 +69,5 @@ apiRouter.use('/emergencies', middleware, require('./emergencies'));
 apiRouter.use('/reports', middleware, require('./reports'));
 apiRouter.use('/regions', middleware, require('./regions'));
 apiRouter.use('/sensors', middleware, require('./records'));
+apiRouter.use('/recs', middleware, require('./recs'));
 module.exports = apiRouter;
