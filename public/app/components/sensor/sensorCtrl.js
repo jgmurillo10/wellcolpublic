@@ -2,7 +2,6 @@ angular.module('sensorCtrl', ['sensorService'])
 
 .controller('sensorController', function($stateParams, Sensor) {
 	var vm = this;
-
 	// set a processing variable to show loading things
 	vm.processing = true;
 	vm.region_id=$stateParams.region_id;
