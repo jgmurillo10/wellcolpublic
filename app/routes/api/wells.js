@@ -103,4 +103,25 @@ router.route('/:well_id')
       } 
     });
   })
+
+  // get wells by user id
+  router.route('/chiefs/:chief_id')
+  .get(function(req, res) {
+    var chief_id = Number(req.params.chief_id);
+      sql = 'SELECT wells.id,wells.status, wells.name, wells.latitude, wells.longitude, wells.field_id '; 
+      sql += 'FROM fields, wells WHERE wells.field_id = fields.id AND fields.chief_id =$1';
+
+      console.log(sql);
+      query(sql, [chief_id], function(err, results) {
+        if (err) return res.send(err);
+
+        if(results.length === 0){
+          res.json('There are no wells controlled by that chief');
+        } else {
+          res.json(results);
+        }
+        
+      }); 
+
+  })
 module.exports = router;
