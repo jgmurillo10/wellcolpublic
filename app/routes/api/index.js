@@ -1,6 +1,11 @@
 var express = require('express');
 var jwt     = require('jsonwebtoken');
 var config  = require('../../../config');
+var regexp = require('node-regexp')
+var re = regexp()
+  .must('wells')
+  .ignoreCase()
+  .toRegExp()
 
 var superSecret = config.secret;
 
@@ -41,8 +46,27 @@ var middleware = function(req, res, next) {
         // if everything is good, save to request for use in other routes
         req.decoded = decoded;
         console.log(decoded);
+        console.log(req.decoded.type)
+        if(req.decoded.type===1){
+          next();  
+        }
+        else if (req.decoded.type===2){
+          console.log('else')
+          if(re.test(req.baseUrl)){
             
-        next(); // make sure we go to the next routes and don't stop here
+            console.log('con wells');
+            next();
+          }
+          else if(!re.test(req.baseUrl)){
+            console.log(' sin wells');
+            res.send(err);
+            
+          }
+            
+          
+        }
+
+         // make sure we go to the next routes and don't stop here
       }
     });
 

@@ -7,6 +7,7 @@ import requests
 import math
 import random
 import json
+import time
 
 
 password = 'cuandosientaelboom'
@@ -79,8 +80,9 @@ def postRecord(date, ids, val):
 
 
 # postRecord('2005-11-05T08:15:30-05:00', '20','20')
-# while (1<0):
-postRecord('2006-11-05T08:15:30-05:00', random.randint(1, 100), random.randint(15, 25))
+while (1>0):
+	postRecord('2006-11-05T08:15:30-05:00', random.randint(1, 100), random.randint(15, 25))
+	time.sleep(60) 
 
 # postRecord('2006-11-05T08:15:30-05:00', 18,18)
 
