@@ -1,6 +1,6 @@
 angular.module('mainCtrl', [])
 
-.controller('mainController', function($rootScope, $state, Auth) {
+.controller('mainController', function($rootScope, $state, Auth, $window) {
 
   var vm = this;
 
@@ -24,6 +24,8 @@ angular.module('mainCtrl', [])
     Auth.getUser()
       .then(function(data) {
         vm.user = data.data;
+        vm.userType = vm.user.user_type;
+        $window.localStorage.setItem('user_type', vm.userType);      
       }); 
   }); 
 

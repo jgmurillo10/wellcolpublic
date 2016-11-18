@@ -10,6 +10,11 @@ var report_types = require('../../modules/constants').report_types;
 var tools = require('../../modules/Validator');
 var reporter = require('../../modules/Reporter');
 
+// MapReduce
+var mapReduceSensors = require('../../modules/MapReduce');
+//var mapreduce = require('mapred')(1); // Leave blank for max performance 
+
+
 // on routes that end in /reports
 // ----------------------------------------------------
 
@@ -179,6 +184,14 @@ router.route('/wells/:well_id/:report_type')
     } else {
       res.json({'message': 'There is no well with that id. You can only request a report frmo an existing well'});
       }
+  })
+
+router.route('/sensors/mapReduce')
+
+  .get(function(req, res){
+    var result = mapReduceSensors.getMostFrequentSensor();
+    res.json(result);
+    
   })
 
 module.exports = router;

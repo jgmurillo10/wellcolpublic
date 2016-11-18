@@ -10,6 +10,7 @@ angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'r
 	vm.reportArea;
 	vm.reportType;
 	vm.idArea;
+	vm.nameArea;
 	vm.beginDate;
 	vm.reportPeriod;
 	vm.unit;
@@ -18,19 +19,30 @@ angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'r
 
 	vm.report ={};
 
+	vm.findIdByName = function() {
+		var i = 0;
+		for(; i < vm.array.length; i++)
+		{
+			if (vm.array[i].name === vm.nameArea) 
+			{
+				vm.idArea = vm.array[i].id;
+				break;
+			}
+		}
+	}
 
 	vm.setUnit = function() {
 		if(vm.reportType === 'flow')
 		{
-			vm.unit = 'Liters';
+			vm.unit = 'Liters/Day';
 		}
 		else if(vm.reportType === 'temperature')
 		{
-			vm.unit = 'Kelvins'
+			vm.unit = '°C'
 		}
 		else if(vm.reportType === 'energy')
 		{
-			vm.unit = 'Joules'
+			vm.unit = 'kWh'
 		}
 	}
 
@@ -39,7 +51,6 @@ angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'r
 		{
 			Well.getAll()
 			.success (function(data) {
-
 				vm.array = data;
 			});
 		}
@@ -48,7 +59,6 @@ angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'r
 			Field.getAll()
 			.success (function(data) {
 				vm.array = data;
-
 			});
 			
 		}
@@ -61,19 +71,20 @@ angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'r
 		}
 		else
 		{
-			return "hola";
+			return "error";
 		}
 	};
 	// it is used for changing the views properly
 
 	vm.generate=function(){
-            console.log(vm.reportArea);
-            console.log(vm.reportType);
-            console.log(vm.idArea);
-            console.log(vm.beginDate);
-            console.log(vm.reportPeriod);
-            var date=new Date(vm.beginDate).toISOString();
-            console.log(date);
+		vm.findIdByName();
+        console.log(vm.reportArea);
+        console.log(vm.reportType);
+        console.log(vm.idArea);
+        console.log(vm.beginDate);
+        console.log(vm.reportPeriod);
+        var date=new Date(vm.beginDate).toISOString();
+        console.log(date);
 		Report.get(vm.reportArea, vm.reportType, vm.idArea, date , vm.reportPeriod)
 		.success(function(data) {
 
