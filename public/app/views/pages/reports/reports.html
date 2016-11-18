@@ -13,12 +13,12 @@
                          </div>
                 </div>
                 <div class="form-group">
-                    <label class="control-label col-sm-2">{{report.reportArea}}s:</label>
+                    <label class="control-label col-sm-2">{{report.reportArea + 's:'}}</label>
                     <div class="col-sm-6">
                         <!--Dependiendo del tipo de consulta, nos darán un listado del tipo de reporte escogido 
                             (Si escogemos consulta por pozo, tendremos la lista de todos los pozos para escoger sólo uno)-->
-                                <select class="form-control" ng-model="report.idArea">
-                                    <option ng-repeat="object in report.array">{{object.id}}</option>
+                                <select class="form-control" ng-model="report.nameArea">
+                                    <option ng-repeat="object in report.array">{{object.name}}</option>
                                 </select>
                     </div>
                 </div>
@@ -67,6 +67,6 @@
         
         <div class="jumbotron text-center">
             <h1>Result</h1>
-            <p>{{report.report.value + report.unit}}</p>
+            <p>{{report.report.value+ " "+ report.unit}}</p>
         </div>
 </div>
