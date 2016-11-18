@@ -13,6 +13,10 @@ var query = require('pg-query');
 
 // on routes that end in /records
 // ----------------------------------------------------
+router.route('/')
+  .get(function(req,res){
+    res.json('respuesta')
+  })
 router.route('/:sensor_id/records')
  
   
@@ -40,7 +44,7 @@ router.route('/:sensor_id/records')
 
       //este es el json que envia node red y recibe este post
       // { "data": "U2FsdGVkX188G+JEymal/1Una77R9UC+dTQvHynirmGacJWrwzu+sHMhtjQDXJddrA6CEPCzMK0f37TSrmcFeKWyBIYj+4+8lkJCUwv3mIkRyONzzFxmhPbGSD7OKDCIlYTe8HcbxRpe+qB03DRDDw==" }
-      //al hacer decode deberia quedar asi
+      //al hacer decode deberia quedar asi o mire el sample.json en docs
 
 
 //       { 
