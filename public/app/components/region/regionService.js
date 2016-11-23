@@ -21,8 +21,7 @@ angular.module('regionService', [])
 
 	// update region
 	regionFactory.update = function(id, regionData) {
-		console.log(regionData.name);
-		console.log('regionfactory');
+		
 		
 		return $http.put('/api/regions/' + id, regionData); // region data must be be like {name: "San Andrés es Islas"}
 	};

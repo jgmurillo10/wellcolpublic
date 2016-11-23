@@ -74,7 +74,7 @@ def postRecord(date, ids, val):
 	payload = {'data':crypt}
 	print payload
 	url='http://localhost:8080/api/recs'
-	headers = {'x-access-token':'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUGVwZHBwcCIsInVzZXJuYW1lIjoicHAxMCIsInR5cGUiOjIsImlhdCI6MTQ3OTQ0NTY4NiwiZXhwIjoxNDc5NjE4NDg2fQ.AMR0gm77hRDGPvZv9EMjQ4TFKpGKTOuJuFhktxxZc0U','Content-Type':'application/json'}
+	headers = {'x-access-token':'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUGVwZHBwcCIsInVzZXJuYW1lIjoicHAxMCIsInR5cGUiOjEsImlhdCI6MTQ3OTQ5NDIzMSwiZXhwIjoxNDc5NjY3MDMxfQ.U8PWSwPEUktjKi1HoGToxD2-7dw4JIj1n3Twrk_UV5A','Content-Type':'application/json'}
 	r=requests.post(url,data=json.dumps(payload), headers=headers)
 	print r.json()
 

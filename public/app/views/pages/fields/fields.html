@@ -3,12 +3,13 @@
 	<div class="row">
 			<div class="col-sm-12">
 				<ol class="breadcrumb">
-				  <li><a ui-sref="home">Main</a></li>
 				  <li ><a href="/regions">Regions</a></li>
 				  <li class="active">Fields</li>
 				</ol>
 			</div>
 		</div>
+
+		<h2 class="text-center">Region {{field.regionName}}</h2>
 
 <div class="row" >
     <!-- COLUMN ONE NAMED VIEW -->
@@ -34,6 +35,8 @@
 		      </div>
 		    </div>
 		</div>
+
+		<!-- <h2 ng-show="!field.fields.length">There are no Fields in this Region</h2> -->
 	</div>
 
 

@@ -1,12 +1,20 @@
-angular.module('wellCtrl', ['wellService'])
+angular.module('wellCtrl', ['wellService', 'fieldService'])
 
-.controller('wellController', function($stateParams, Well) {
+.controller('wellController', function($stateParams, Well, Field) {
 
 	var vm = this;
 
 	// set a processing variable to show loading things
 	vm.processing = true;
 	vm.region_id=$stateParams.region_id;
+	vm.getFieldName =function(id){
+		Field.get(id)
+			.success(function(data){
+				vm.fieldName=data.field.name;
+			})
+	}
+	vm.getFieldName($stateParams.field_id);
+
 	vm.field_id=$stateParams.field_id;
 	// grab all the wells at page load
 	Well.getByRegionAndField($stateParams.region_id,$stateParams.field_id)
@@ -16,7 +24,12 @@ angular.module('wellCtrl', ['wellService'])
 			vm.processing = false;
 
 			// bind the Wells that come back to vm.Wells
-			vm.wells = data;
+			if(data==='There are no wells in that field'){
+				vm.wells='';
+			}
+			else{
+				vm.wells = data;
+			}
 		});
 
 	// function to delete a Well

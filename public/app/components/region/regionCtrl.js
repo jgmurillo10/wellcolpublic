@@ -17,7 +17,7 @@ angular.module('regionCtrl', ['regionService'])
       }
   }])
 
-  .directive('region', ['$compile', function ($compile) {
+  .directive('egion', ['$compile', function ($compile) {
       return {
           restrict: 'A',
           scope: {
@@ -33,7 +33,7 @@ angular.module('regionCtrl', ['regionService'])
               // element.attr("ng-click", "regionClick()");
               element.attr("ng-mouseover", "regionMouseOver()");
               element.attr("ng-class", "{active:hoverRegion==elementId}");
-              element.removeAttr("region");
+              element.removeAttr("Region");
               $compile(element)(scope);
           }
       }

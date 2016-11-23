@@ -4,10 +4,17 @@ angular.module('fieldCtrl', ['fieldService','regionService'])
 
 	var vm = this;
 	vm.region_id=$stateParams.region_id;
-	console.log(vm.region_id)
+	
+	vm.getRegionName =function(id){
+		Region.get(id)
+			.success(function(data){
+				console.log(data.name);
+				vm.regionName=data.name;
+			})
+	}
+	vm.getRegionName($stateParams.region_id);
 	// set a processing variable to show loading things
 	vm.processing = true;
-	console.log('field.getbyregion')
 	// grab all the fields at page load
 	
 		Field.getByRegion($stateParams.region_id)

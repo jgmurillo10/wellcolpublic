@@ -57,11 +57,9 @@ var middleware = function(req, res, next) {
             console.log('con wells');
             next();
           }
-          else if(!re.test(req.baseUrl)){
             console.log(' sin wells');
             res.send(err);
-            
-          }
+           
             
           
         }
