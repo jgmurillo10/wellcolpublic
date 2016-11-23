@@ -45,7 +45,12 @@ angular.module('wellCtrl', ['wellService', 'fieldService','ui.bootstrap'])
 				Well.getByRegionAndField($stateParams.region_id,$stateParams.field_id)
 					.success(function(data) {
 						vm.processing = false;
-						vm.wells = data;
+						if(data==='There are no wells in that field'){
+							vm.wells='';
+						}
+						else{
+							vm.wells = data;
+						}
 					});
 
 			});

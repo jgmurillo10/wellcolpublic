@@ -8,7 +8,6 @@ angular.module('fieldCtrl', ['fieldService','regionService'])
 	vm.getRegionName =function(id){
 		Region.get(id)
 			.success(function(data){
-				console.log(data.name);
 				vm.regionName=data.name;
 			})
 	}

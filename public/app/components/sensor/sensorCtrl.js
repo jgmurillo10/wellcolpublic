@@ -16,7 +16,12 @@ angular.module('sensorCtrl', ['sensorService'])
 			vm.processing = false;
 
 			// bind the sensors that come back to vm.sensors
-			vm.sensors = data;
+			if(data==='There are no sensors in that well'){
+							vm.sensors='';
+						}
+						else{
+							vm.sensors = data;
+						}
 		});
 
 	// function to delete a sensor
@@ -32,7 +37,14 @@ angular.module('sensorCtrl', ['sensorService'])
 				Sensor.getByWell($stateParams.region_id,$stateParams.field_id, $stateParams.well_id)
 					.success(function(data) {
 						vm.processing = false;
-						vm.sensors = data;
+						// vm.sensors = data;
+
+						if(data==='There are no sensors in that well'){
+							vm.sensors='';
+						}
+						else{
+							vm.sensors = data;
+						}
 					});
 
 			});
