@@ -1,4 +1,4 @@
-angular.module('wellCtrl', ['wellService', 'fieldService'])
+angular.module('wellCtrl', ['wellService', 'fieldService','ui.bootstrap'])
 
 .controller('wellController', function($stateParams, Well, Field) {
 
@@ -76,8 +76,8 @@ angular.module('wellCtrl', ['wellService', 'fieldService'])
 				vm.wellData = {};
 				vm.message = data.message;
 
-				$state.go('wells', {region_id: $stateParams.region_id,
-					field_id: $stateParams.field_id});
+				// $state.go('wells', {region_id: $stateParams.region_id,
+				// 	field_id: $stateParams.field_id});
 			});
 			
 	};	
@@ -117,8 +117,8 @@ angular.module('wellCtrl', ['wellService', 'fieldService'])
 				// bind the message from our API to vm.message
 				vm.message = data.message;
 
-				$state.go('wells', {region_id: $stateParams.region_id,
-					field_id: $stateParams.field_id});
+				// $state.go('wells', {region_id: $stateParams.region_id,
+				// 	field_id: $stateParams.field_id});
 			});
 	};
 
