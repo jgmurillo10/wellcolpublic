@@ -93,6 +93,14 @@ Some of the information required is entered using Node-red.
 | PUT  |  /api/fields/:field_id/wells/:well_id/sensors/:sensor_id | Updates an specific sensor of an specific well in an specific field  |
 | DELETE  | /api/fields/:field_id/wells/:well_id/sensors/:sensor_id | Deletes a sensor of an specific well in an specific field  |
 
+##Records
+
+|HTTP Method   |  URI |  description |
+|---|---|---|
+| GET |  /api/sensors/:sesor_id/records | Gets all the records of an specific sensor   |
+| POST |  /api/sensors/:sesor_id/records  |Post a particular record of an specific sensor. (Microcontroller)   |
+
+
 ##Emergencies
 
 This entity is very important and it should be managed differently from the others, as we have to notify the chiefs.
