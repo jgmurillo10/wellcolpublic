@@ -12,21 +12,34 @@
                          <label class="control-label col-sm-2">Type:</label>
                          <div class="col-sm-6">
                              <!--Seleccionamos tipo de consulta: 'por pozo', 'por campo', 'por región'-->
-                             <select class="form-control" name="Type" ng-model="report.reportArea" ng-change='report.listarObjetos()' required>
-                                 <option>well</option>
-                                 <option>field</option>
-                                 <option>region</option>
-                             </select>
-                         </div>
+                             
+
+
+
+                                <label for="Well">Well</label> 
+                                <input type="radio" name="Type" id="Well" value="Well" ng-model="report.reportArea" ng-change='report.listarObjetos()' />
+
+                                <label for="Field">Field</label> 
+                                <input type="radio" name="Type" id="Field" value="Field" ng-model="report.reportArea" ng-change='report.listarObjetos()'/>
+
+                                <label for="Region">Region</label> 
+                                <input type="radio" name="Type" id="Region" value="Region" ng-model="report.reportArea" ng-change='report.listarObjetos()'/>
+                                    
+                        </div>
                 </div>
                 <div class="form-group">
-                    <label class="control-label col-sm-2">{{report.reportArea + 's:'}}</label>
+                    <label class="control-label col-sm-2">{{  report.reportArea +' Zone  ' }}</label>
                     <div class="col-sm-6">
                         <!--Dependiendo del tipo de consulta, nos darán un listado del tipo de reporte escogido 
                             (Si escogemos consulta por pozo, tendremos la lista de todos los pozos para escoger sólo uno)-->
+                                <!-- <input type="text" id="query" ng-model="query" onfocus="pxtrack.emit('counter', '1')"/> -->
+  
                                 <select name="Object" class="form-control" ng-model="report.nameArea">
-                                    <option ng-repeat="object in report.array">{{object.name}}</option>
+                                    <option ng-repeat="object in report.array | filter:query ">{{object.name}}</option>
                                 </select>
+
+
+
                     </div>
                 </div>
                 <div class='form-group'>
@@ -34,9 +47,9 @@
                      <div  class="col-sm-6">
                          <!--El usuario podrá escoger que tipo de metrica quiere en su reporte: 'flujo', 'energía' o 'temperatura-->
                           <select class="form-control" name="Metric" ng-model="report.reportType" ng-change='report.setUnit()'>
-                              <option>flow</option>
-                              <option>energy</option>
-                              <option>temperature</option>
+                              <option>Flow</option>
+                              <option>Energy</option>
+                              <option>Temperature</option>
                           </select>
                      </div>
                 </div>

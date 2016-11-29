@@ -32,29 +32,29 @@ angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'r
 	}
 
 	vm.setUnit = function() {
-		if(vm.reportType === 'flow')
+		if(vm.reportType === 'Flow')
 		{
 			vm.unit = 'Liters/Day';
 		}
-		else if(vm.reportType === 'temperature')
+		else if(vm.reportType === 'Temperature')
 		{
 			vm.unit = '°C'
 		}
-		else if(vm.reportType === 'energy')
+		else if(vm.reportType === 'Energy')
 		{
 			vm.unit = 'kWh'
 		}
 	}
 
 	vm.listarObjetos = function(){
-		if(vm.reportArea === 'well')
+		if(vm.reportArea === 'Well')
 		{
 			Well.getAll()
 			.success (function(data) {
 				vm.array = data;
 			});
 		}
-		else if(vm.reportArea=== 'field')
+		else if(vm.reportArea=== 'Field')
 		{
 			Field.getAll()
 			.success (function(data) {
@@ -62,7 +62,7 @@ angular.module('reportCtrl', ['reportService', 'fieldService', 'wellService', 'r
 			});
 			
 		}
-		else if(vm.reportArea === 'region')
+		else if(vm.reportArea === 'Region')
 		{
 			Region.getAll()
 			.success (function (data) {
