@@ -14,16 +14,33 @@
                              <!--Seleccionamos tipo de consulta: 'por pozo', 'por campo', 'por región'-->
                              
 
+                             <ul class="list-inline list-unstyled">
+                                 <li>
+                                    <div class="radio">
+                                    <label> <input type="radio" name="Type" id="Well" value="Well" ng-model="report.reportArea" ng-change='report.listarObjetos()' />Well</label> 
+                                    </div>
+                                 </li>
+                                 <li>
+                                 <div class="radio">
+                                    <label><input type="radio" name="Type" id="Field" value="Field" ng-model="report.reportArea" ng-change='report.listarObjetos()'/> Field</label> 
+                                </div>
+                                     
+                                 </li>
+                                 <li>
+                                     <div class="radio">
+                                    <label> <input type="radio" name="Type" id="Region" value="Region" ng-model="report.reportArea" ng-change='report.listarObjetos()'/>Region</label> 
+                                </div>
+                                
+                                 </li>
+                             </ul>
+                                
+                                
+                                
 
+                                
 
-                                <label for="Well">Well</label> 
-                                <input type="radio" name="Type" id="Well" value="Well" ng-model="report.reportArea" ng-change='report.listarObjetos()' />
+                                
 
-                                <label for="Field">Field</label> 
-                                <input type="radio" name="Type" id="Field" value="Field" ng-model="report.reportArea" ng-change='report.listarObjetos()'/>
-
-                                <label for="Region">Region</label> 
-                                <input type="radio" name="Type" id="Region" value="Region" ng-model="report.reportArea" ng-change='report.listarObjetos()'/>
                                     
                         </div>
                 </div>
@@ -58,15 +75,15 @@
                      <div  class="col-sm-6">
                          <!--Escogemos el rango de la consulta: 'mensual', 'trimestral', 'semestral', 'anual'-->
                          <select class="form-control" name="Range" ng-model="report.reportPeriod">
-                             <option>monthly</option>
-                             <option>quarterly</option>
-                             <option>biannual</option>
-                             <option>annual</option>
+                             <option>Monthly</option>
+                             <option>Quarterly</option>
+                             <option>Biannual</option>
+                             <option>Annual</option>
                          </select>
                      </div>
                 </div>
                 <div class='form-group'>
-                     <label class="control-label col-sm-2">Fecha Inicial:</label>
+                     <label class="control-label col-sm-2">Initial Date:</label>
                      <div  class="col-sm-6">
                          <!--El usuario indica la fecha de inicio del reporte, y así, dependiendo de que rango se escogío
                                 se calcula la fecha final (Ejemplo: si escogimos rango mensual y nuestra fecha inicial es hoy, el reporte

@@ -24,6 +24,7 @@ angular.module('sensorCtrl', ['sensorService'])
 						}
 		});
 
+
 	// function to delete a sensor
 	vm.deleteSensor = function(id) {
 		vm.processing = true;
@@ -53,18 +54,35 @@ angular.module('sensorCtrl', ['sensorService'])
 })
 
 // controller applied to sensor creation page
-.controller('sensorCreateController', function($stateParams, Sensor) {
+.controller('sensorCreateController', function($stateParams, Sensor, $state) {
 	
 	var vm = this;
-vm.region_id=$stateParams.region_id;
+	vm.bool=true;
+	vm.region_id=$stateParams.region_id;
 	vm.field_id=$stateParams.field_id;
 	vm.well_id=$stateParams.well_id;
 	// variable to hide/show elements of the view
 	// differentiates between create or edit pages
 	vm.type = 'create';
+		vm.setType = function(){
+
+		if(vm.sensorData.type==='1'){
+			vm.sensorData.string_type='Flow';
+		}else if(vm.sensorData.type==='2'){
+			vm.sensorData.string_type='Energy';	
+		}else if(vm.sensorData.type==='3'){
+			vm.sensorData.string_type='Temperature';	
+		}else {
+			vm.sensorData.string_type='Emergency';	
+			vm.bool=false;
+		}
+	}
+
+
 
 	// function to create a sensor
 	vm.saveSensor = function() {
+
 		vm.processing = true;
 		vm.message = '';
 
@@ -74,9 +92,11 @@ vm.region_id=$stateParams.region_id;
 				vm.processing = false;
 				vm.sensorData = {};
 				vm.message = data.message;
-				$state.go('wells', {region_id: $stateParams.region_id,
+				
+				$state.go('sensors', {region_id: $stateParams.region_id,
 					field_id: $stateParams.field_id,
-					well_id: $stateParams.well_id});
+					well_id: $stateParams.well_id,
+					sensor_id: $stateParams.sensor_id});
 			});
 			
 	};	
@@ -84,7 +104,7 @@ vm.region_id=$stateParams.region_id;
 })
 
 // controller applied to sensor edit page
-.controller('sensorEditController', function($stateParams, Sensor) {
+.controller('sensorEditController', function($stateParams, Sensor, $state) {
 
 	var vm = this;
 vm.region_id=$stateParams.region_id;
@@ -93,6 +113,23 @@ vm.region_id=$stateParams.region_id;
 	// variable to hide/show elements of the view
 	// differentiates between create or edit pages
 	vm.type = 'edit';
+		vm.setType = function(){
+		console.log('ss')
+		if(vm.sensorData.type==='1'){
+			vm.sensorData.string_type='Flow';
+			console.log('s')
+		}else if(vm.sensorData.type==='2'){
+			vm.sensorData.string_type='Energy';	
+			console.log('s')
+		}else if(vm.sensorData.type==='3'){
+			vm.sensorData.string_type='Temperature';	
+			console.log('s')
+		}else {
+			vm.sensorData.string_type='Emergency';	
+			console.log('s')
+		}
+	}
+
 
 	// get the sensor data for the sensor you want to edit
 	// $routeParams is the way we grab data from the URL
@@ -116,9 +153,12 @@ vm.region_id=$stateParams.region_id;
 
 				// bind the message from our API to vm.message
 				vm.message = data.message;
-				$state.go('wells', {region_id: $stateParams.region_id,
+				vm.sleep(500);
+				console.log('sleepmain')
+				$state.go('sensors', {region_id: $stateParams.region_id,
 					field_id: $stateParams.field_id,
-					well_id: $stateParams.well_id});
+					well_id: $stateParams.well_id,
+					sensor_id: $stateParams.sensor_id});
 			});
 	};
 
