@@ -113,6 +113,9 @@ angular.module('regionCtrl', ['regionService'])
 				vm.processing = false;
 				vm.regionData = {};
 				vm.message = data.message;
+				if(typeof data.message==='undefined' || !variable){
+					vm.message=data;
+				}
 				// $state.go('regions');
 			});
 			
@@ -151,6 +154,9 @@ angular.module('regionCtrl', ['regionService'])
 				vm.regionData = {};
 				// bind the message from our API to vm.message
 				vm.message = data.message;
+				if(typeof data.message==='undefined' || !variable){
+					vm.message=data.detail;
+				}
 				// $state.go('regions');
 			});
 	};

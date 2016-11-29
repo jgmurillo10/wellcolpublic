@@ -24,7 +24,13 @@ router.route('/')
     var sql = 'INSERT into regions (name) VALUES($1) returning id'
       query(sql, [name], function(err, results){
         if(err){
-          if(err.code === "23505" && (err.detail.search('already exists')   !== -1)) return res.json('A region with that name already exists');
+          if(err.code === "23505" && (err.detail.search('already exists')   !== -1)) 
+            { 
+              // var response;
+              // response.message='A region with that name already exists';
+              // res.send(response);
+              return res.json('A region with that name already exists');
+            }
           return res.send(err);
         }
         var response = results[0];
