@@ -1,6 +1,6 @@
-angular.module('sensorCtrl', ['sensorService'])
+angular.module('sensorCtrl', ['sensorService', 'wellService'])
 
-.controller('sensorController', function($stateParams, Sensor) {
+.controller('sensorController', function($stateParams, Sensor, Well) {
 	var vm = this;
 	// set a processing variable to show loading things
 	vm.processing = true;
@@ -8,6 +8,13 @@ angular.module('sensorCtrl', ['sensorService'])
 	vm.field_id=$stateParams.field_id;
 	vm.well_id=$stateParams.well_id;
 	
+	vm.getWellName =function(id){
+		Well.get(id)
+			.success(function(data){
+				vm.wellName=data.name;
+			})
+	}
+	vm.getWellName($stateParams.well_id);
 	// grab all the sensors at page load
 	
 	Sensor.getByWell($stateParams.region_id,$stateParams.field_id, $stateParams.well_id)

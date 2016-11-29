@@ -1,6 +1,6 @@
 angular.module('wellCtrl', ['wellService', 'fieldService','ui.bootstrap'])
 
-.controller('wellController', function($stateParams, Well, Field) {
+.controller('wellController', function($stateParams, Well, Field, $state) {
 
 	var vm = this;
 
@@ -16,6 +16,11 @@ angular.module('wellCtrl', ['wellService', 'fieldService','ui.bootstrap'])
 	vm.getFieldName($stateParams.field_id);
 
 	vm.field_id=$stateParams.field_id;
+	// vm.goWells= function(){
+	// 	$state.go('wells', {region_id: $stateParams.region_id,
+	// 		field_id: $stateParams.field_id});
+
+	// }
 	// grab all the wells at page load
 	Well.getByRegionAndField($stateParams.region_id,$stateParams.field_id)
 		.success(function(data) {

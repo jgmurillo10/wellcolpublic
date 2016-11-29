@@ -7,6 +7,9 @@ angular.module('recordCtrl', ['recordService'])
 	//set a processing var to show loading things
 	vm.processing = true;
 	vm.sensor_id=$stateParams.sensor_id;
+	vm.well_id=$stateParams.well_id;
+	vm.field_id=$stateParams.field_id;
+	vm.region_id=$stateParams.region_id;
 
 	Record.getBySensor($stateParams.sensor_id)
 		.success(function(data) {
