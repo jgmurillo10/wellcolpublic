@@ -7,8 +7,9 @@ angular.module('sensorCtrl', ['sensorService'])
 	vm.region_id=$stateParams.region_id;
 	vm.field_id=$stateParams.field_id;
 	vm.well_id=$stateParams.well_id;
+	
 	// grab all the sensors at page load
-	console.log('sensor');
+	
 	Sensor.getByWell($stateParams.region_id,$stateParams.field_id, $stateParams.well_id)
 		.success(function(data) {
 
@@ -21,6 +22,7 @@ angular.module('sensorCtrl', ['sensorService'])
 						}
 						else{
 							vm.sensors = data;
+
 						}
 		});
 
@@ -107,26 +109,24 @@ angular.module('sensorCtrl', ['sensorService'])
 .controller('sensorEditController', function($stateParams, Sensor, $state) {
 
 	var vm = this;
-vm.region_id=$stateParams.region_id;
+	vm.bool=true;
+	vm.region_id=$stateParams.region_id;
 	vm.field_id=$stateParams.field_id;
 	vm.well_id=$stateParams.well_id;
 	// variable to hide/show elements of the view
 	// differentiates between create or edit pages
 	vm.type = 'edit';
 		vm.setType = function(){
-		console.log('ss')
+
 		if(vm.sensorData.type==='1'){
 			vm.sensorData.string_type='Flow';
-			console.log('s')
 		}else if(vm.sensorData.type==='2'){
 			vm.sensorData.string_type='Energy';	
-			console.log('s')
 		}else if(vm.sensorData.type==='3'){
 			vm.sensorData.string_type='Temperature';	
-			console.log('s')
 		}else {
 			vm.sensorData.string_type='Emergency';	
-			console.log('s')
+			vm.bool=false;
 		}
 	}
 
@@ -153,8 +153,6 @@ vm.region_id=$stateParams.region_id;
 
 				// bind the message from our API to vm.message
 				vm.message = data.message;
-				vm.sleep(500);
-				console.log('sleepmain')
 				$state.go('sensors', {region_id: $stateParams.region_id,
 					field_id: $stateParams.field_id,
 					well_id: $stateParams.well_id,
