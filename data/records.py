@@ -74,15 +74,16 @@ def postRecord(date, ids, val):
 	payload = {'data':crypt}
 	print payload
 	url='http://localhost:8080/api/recs'
-	headers = {'x-access-token':'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUGVwZHBwcCIsInVzZXJuYW1lIjoicHAxMCIsInR5cGUiOjEsImlhdCI6MTQ3OTQ5NDIzMSwiZXhwIjoxNDc5NjY3MDMxfQ.U8PWSwPEUktjKi1HoGToxD2-7dw4JIj1n3Twrk_UV5A','Content-Type':'application/json'}
+	headers = {'x-access-token':'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUGVwZHBwcCIsInVzZXJuYW1lIjoicHAxMCIsInR5cGUiOjEsImlhdCI6MTQ4MDQ0MzQ5NiwiZXhwIjoxNDgwNjE2Mjk2fQ.MCd-xHx9wXPED8kB5MFhlAq6R_oewz5aTCDWP5Pdttg','Content-Type':'application/json'}
 	r=requests.post(url,data=json.dumps(payload), headers=headers)
 	print r.json()
 
 
 # postRecord('2005-11-05T08:15:30-05:00', '20','20')
 while (1>0):
-	postRecord('2006-11-05T08:15:30-05:00', random.randint(1, 100), random.randint(15, 25))
-	time.sleep(60) 
+    # date='2016-'+str(random.randint(1,12))+'-'+str(random.randint(1,30)+'T0'+str(random.randint(1,9))+':14:30-05:00'
+    postRecord( '2016-'+str(random.randint(1,12))+'-'+str(random.randint(1,30))+'T0'+str(random.randint(1,9))+':14:30-05:00', 24135, random.randint(15,25))
+    
 
 # postRecord('2006-11-05T08:15:30-05:00', 18,18)
 

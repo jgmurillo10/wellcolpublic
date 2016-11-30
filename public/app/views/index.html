@@ -97,8 +97,8 @@
 			          </ul>
 			          <ul class="nav navbar-nav navbar-right">
 				        <li ng-if="main.loggedIn" class="navbar-text">Logged in as {{ main.user.username }}!</li>
-			            <li><a ng-if="main.loggedIn" ng-click="main.doLogout()" class="btn btn-default">Logout</a></li>
-						<li><a ng-if="!main.loggedIn" ui-sref="login" class="btn btn-default">Login</a></li>
+			            <li><a ng-if="main.loggedIn" ng-click="main.doLogout()" class="btn btn-success">Logout</a></li>
+						<li><a ng-if="!main.loggedIn" ui-sref="login" class="btn btn-success">Login</a></li>
 						
 			          </ul>
 			        </div><!--/.nav-collapse -->
