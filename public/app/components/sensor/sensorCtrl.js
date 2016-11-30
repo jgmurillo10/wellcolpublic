@@ -94,13 +94,16 @@ angular.module('sensorCtrl', ['sensorService', 'wellService'])
 
 		vm.processing = true;
 		vm.message = '';
-
 		// use the create function in the sensorService
 		Sensor.create(vm.sensorData, $stateParams.well_id )
 			.success(function(data) {
+
+		console.log('save');
 				vm.processing = false;
 				vm.sensorData = {};
 				vm.message = data.message;
+
+		console.log('save');
 				
 				$state.go('sensors', {region_id: $stateParams.region_id,
 					field_id: $stateParams.field_id,
@@ -133,6 +136,7 @@ angular.module('sensorCtrl', ['sensorService', 'wellService'])
 			vm.sensorData.string_type='Temperature';	
 		}else {
 			vm.sensorData.string_type='Emergency';	
+
 			vm.bool=false;
 		}
 	}

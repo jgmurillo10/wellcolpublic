@@ -1,6 +1,6 @@
 angular.module('mainCtrl', ['ui.bootstrap'])
 
-.controller('mainController', function($rootScope, $state, Auth, $window) {
+.controller('mainController', function($rootScope, Auth, $state, $window) {//,Auth
 
   var vm = this;
 

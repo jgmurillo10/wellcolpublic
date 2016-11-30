@@ -20,6 +20,10 @@ angular.module('sensorService', [])
 	// create a sensor
 	sensorFactory.create = function(sensorData, well_id) {
 		sensorData.well_id=well_id;
+		if (typeof sensorData.rate=== undefined || !sensorData.rate)
+			{
+				sensorData.rate=0;
+			}
 		return $http.post('/api/sensors/', sensorData);
 	};
 

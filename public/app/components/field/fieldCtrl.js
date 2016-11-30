@@ -69,7 +69,7 @@ vm.region_id=$stateParams.region_id;
 				vm.processing = false;
 				vm.fieldData = {};
 				vm.message = data.message;
-				$state.go('fields', {region_id: $stateParams.region_id});
+				// $state.go('fields', {region_id: $stateParams.region_id});
 			});
 			
 	};	
@@ -110,7 +110,7 @@ vm.region_id=$stateParams.region_id;
 
 				// bind the message from our API to vm.message
 				vm.message = data.message;
-				$state.go('fields', {region_id: $stateParams.region_id});
+				// $state.go('fields', {region_id: $stateParams.region_id});
 			});
 	};
 
