@@ -19,8 +19,9 @@
 		<span class="glyphicon glyphicon-plus"></span> 
 		New Field
 	</a>
+	<input class="btn" type="text" ng-model="find" placeholder="Find Field">
 	<div class="row">
-		<div class="col-sm-6 col-md-6" ng-repeat="a in field.fields">
+		<div class="col-sm-6 col-md-6" ng-repeat="a in field.fields | filter : find">
 			<div class="thumbnail">
 		      <div class="caption">
 		        <h3><strong>{{a.name}}</strong></h3>
