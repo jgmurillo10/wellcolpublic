@@ -1,4 +1,4 @@
-well-col
+# well-col
 ========
 
 version: 1.0
@@ -26,17 +26,17 @@ API
 Some of the information required is entered using Node-red.
 
 
-##Users
+## Users
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
-| GET |  |   |
-| GET |   |   |
-| POST  |   |   |
-| PUT  |   |   |
-| DELETE  |   |   |
+| GET | /api/users |  Get all the users  |
+| GET |  /api/users/:user_id  | Get a user by ID |
+| POST  |  /api/users | Add an user  |
+| PUT  | /api/users/:user_id  |  Update an user |
+| DELETE  |  /api/users/:user_id |  Delete an user |
 
-##Regions
+## Regions
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
@@ -47,7 +47,7 @@ Some of the information required is entered using Node-red.
 | DELETE  |  /api/regions/:region_id |  Delete a Region by ID |
 
 
-##Fields
+## Fields
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
@@ -65,7 +65,7 @@ Some of the information required is entered using Node-red.
 | PUT  | /api/regions/:region_id/fields/:field_id  |  Update a Field of an specific Region |
 | DELETE  |  /api/regions/:region_id/fields/:field_id |  Delete a Field by ID of an specific Region|
 
-##Wells
+## Wells
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
@@ -83,7 +83,7 @@ Some of the information required is entered using Node-red.
 | PUT  |/api/fields/:field_id/wells/:well_id   | Update an specific Well of an specific Field  |
 | DELETE  |api/fields/:field_id/wells/:well_id   |  Delete an specific Well of an specific Field |
 
-##Sensors
+## Sensors
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
@@ -93,7 +93,7 @@ Some of the information required is entered using Node-red.
 | PUT  |  /api/fields/:field_id/wells/:well_id/sensors/:sensor_id | Updates an specific sensor of an specific well in an specific field  |
 | DELETE  | /api/fields/:field_id/wells/:well_id/sensors/:sensor_id | Deletes a sensor of an specific well in an specific field  |
 
-##Records
+## Records
 
 |HTTP Method   |  URI |  description |
 |---|---|---|
@@ -101,7 +101,7 @@ Some of the information required is entered using Node-red.
 | POST |  /api/sensors/:sesor_id/records  |Post a particular record of an specific sensor. (Microcontroller)   |
 
 
-##Emergencies
+## Emergencies
 
 This entity is very important and it should be managed differently from the others, as we have to notify the chiefs.
 
@@ -115,7 +115,7 @@ This entity is very important and it should be managed differently from the othe
 
 
 
-##Reports
+## Reports
 
 This API allows both mobile and desktop clients to ask for data to make reports from certain wells, fields or regions. (All the GET )
 It also allows sensors to report their data to our central system. (The POST)
